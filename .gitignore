@@ -19,11 +19,11 @@ model_cache/
 *.lock
 .models-rasa-LaBSE/
 models--rasa--LaBSE/
-
+!models/*.tar.gz
 
 # Logs & temp
 *.log
-*.tar.gz
+#*.tar.gz
 *.zip
 *.gz
 
