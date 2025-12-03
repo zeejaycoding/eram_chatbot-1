@@ -1,0 +1,382 @@
+version: "3.1"
+
+rules:
+- rule: greet
+  steps:
+  - intent: greet
+  - action: action_utter_greet
+
+- rule: goodbye
+  steps:
+  - intent: goodbye
+  - action: action_utter_goodbye
+
+- rule: thanks
+  steps:
+  - intent: thanks
+  - action: action_utter_thanks
+
+- rule: affirm
+  steps:
+  - intent: affirm
+  - action: action_handle_affirm
+
+- rule: deny
+  steps:
+  - intent: deny
+  - action: action_utter_deny
+
+- rule: definition
+  steps:
+  - intent: ask_definition
+  - action: action_utter_ask_definition
+
+- rule: prevalence
+  steps:
+  - intent: ask_prevalence
+  - action: action_utter_ask_prevalence
+
+- rule: gender_prevalence
+  steps:
+  - intent: ask_gender_prevalence
+  - action: action_utter_ask_gender_prevalence
+
+- rule: causes
+  steps:
+  - intent: ask_causes
+  - action: action_utter_ask_causes
+
+- rule: genetics
+  steps:
+  - intent: ask_genetics
+  - action: action_utter_ask_genetics
+
+- rule: diagnosis
+  steps:
+  - intent: ask_diagnosis
+  - action: action_utter_ask_diagnosis
+
+- rule: symptoms
+  steps:
+  - intent: ask_symptoms
+  - action: action_utter_ask_symptoms
+
+- rule: stimming
+  steps:
+  - intent: ask_stimming
+  - action: action_utter_ask_stimming
+
+- rule: why_stimming
+  steps:
+  - intent: ask_why_stimming
+  - action: action_utter_ask_why_stimming
+
+- rule: therapy
+  steps:
+  - intent: ask_therapy
+  - action: action_utter_ask_therapy
+
+- rule: aba_therapy
+  steps:
+  - intent: ask_aba_therapy
+  - action: action_utter_ask_aba_therapy
+
+- rule: visual_aids
+  steps:
+  - intent: ask_visual_aids
+  - action: action_utter_ask_visual_aids
+
+- rule: daily_tips
+  steps:
+  - intent: ask_daily_tips
+  - action: action_utter_ask_daily_tips
+
+- rule: support
+  steps:
+  - intent: ask_support
+  - action: action_utter_ask_support
+
+- rule: adult_autism
+  steps:
+  - intent: ask_adult_autism
+  - action: action_utter_ask_adult_autism
+
+- rule: resources
+  steps:
+  - intent: ask_resources
+  - action: action_utter_ask_resources
+
+- rule: myths
+  steps:
+  - intent: ask_myths
+  - action: action_utter_ask_myths
+
+- rule: cure
+  steps:
+  - intent: ask_cure
+  - action: action_utter_ask_cure
+
+- rule: eye_tracking
+  steps:
+  - intent: ask_eye_tracking
+  - action: action_utter_ask_eye_tracking
+
+- rule: personal_diagnosis
+  steps:
+  - intent: ask_personal_diagnosis
+  - action: action_utter_no_diagnosis
+
+- rule: language_support
+  steps:
+  - intent: ask_language_support
+  - action: action_utter_language_support
+
+- rule: triggers
+  steps:
+  - intent: ask_triggers
+  - action: action_utter_ask_triggers
+
+- rule: trigger_types
+  steps:
+  - intent: ask_trigger_types
+  - action: action_utter_ask_trigger_types
+
+- rule: why_triggers
+  steps:
+  - intent: ask_why_triggers
+  - action: action_utter_ask_why_triggers
+
+- rule: managing_triggers
+  steps:
+  - intent: ask_managing_triggers
+  - action: action_utter_ask_managing_triggers
+
+- rule: app_features
+  steps:
+  - intent: ask_app_features
+  - action: action_utter_ask_app_features
+
+- rule: if_contagious
+  steps:
+  - intent: ask_if_contagious
+  - action: action_utter_ask_if_contagious
+
+- rule: if_child_can_have
+  steps:
+  - intent: ask_if_child_can_have
+  - action: action_utter_ask_if_child_can_have
+
+- rule: if_autism_adhd_same
+  steps:
+  - intent: ask_if_autism_adhd_same
+  - action: action_utter_ask_if_autism_adhd_same
+
+- rule: diagnosis_age
+  steps:
+  - intent: ask_diagnosis_age
+  - action: action_utter_ask_diagnosis_age
+
+- rule: late_speech
+  steps:
+  - intent: ask_late_speech
+  - action: action_utter_ask_late_speech
+
+- rule: test_available
+  steps:
+  - intent: ask_test_available
+  - action: action_utter_ask_test_available
+
+- rule: if_normal_or_dangerous
+  steps:
+  - intent: ask_if_normal_or_dangerous
+  - action: action_utter_ask_if_normal_or_dangerous
+
+- rule: eye_contact_sign
+  steps:
+  - intent: ask_eye_contact_sign
+  - action: action_utter_ask_eye_contact_sign
+
+- rule: repeating_words
+  steps:
+  - intent: ask_repeating_words
+  - action: action_utter_ask_repeating_words
+
+- rule: not_playing_with_others
+  steps:
+  - intent: ask_not_playing_with_others
+  - action: action_utter_ask_not_playing_with_others
+
+- rule: which_doctor
+  steps:
+  - intent: ask_which_doctor
+  - action: action_utter_ask_which_doctor
+
+- rule: school_adjustment
+  steps:
+  - intent: ask_school_adjustment
+  - action: action_utter_ask_school_adjustment
+
+- rule: normal_school
+  steps:
+  - intent: ask_normal_school
+  - action: action_utter_ask_normal_school
+
+- rule: explain_to_relatives
+  steps:
+  - intent: ask_explain_to_relatives
+  - action: action_utter_ask_explain_to_relatives
+
+- rule: parent_guilt
+  steps:
+  - intent: ask_parent_guilt
+  - action: action_utter_ask_parent_guilt
+
+- rule: normal_life
+  steps:
+  - intent: ask_normal_life
+  - action: action_utter_ask_normal_life
+
+- rule: tantrums
+  steps:
+  - intent: ask_tantrums
+  - action: action_utter_ask_tantrums
+
+- rule: if_will_speak
+  steps:
+  - intent: ask_if_will_speak
+  - action: action_utter_ask_if_will_speak
+
+- rule: therapy_impact
+  steps:
+  - intent: ask_therapy_impact
+  - action: action_utter_ask_therapy_impact
+
+- rule: how_to_communicate
+  steps:
+  - intent: ask_how_to_communicate
+  - action: action_utter_ask_how_to_communicate
+
+- rule: independence
+  steps:
+  - intent: ask_independence
+  - action: action_utter_ask_independence
+
+- rule: best_therapy
+  steps:
+  - intent: ask_best_therapy
+  - action: action_utter_ask_best_therapy
+
+- rule: aba_details
+  steps:
+  - intent: ask_aba_details
+  - action: action_utter_ask_aba_details
+
+- rule: home_exercises
+  steps:
+  - intent: ask_home_exercises
+  - action: action_utter_ask_home_exercises
+
+- rule: online_programs
+  steps:
+  - intent: ask_online_programs
+  - action: action_utter_ask_online_programs
+
+- rule: speech_therapy_time
+  steps:
+  - intent: ask_speech_therapy_time
+  - action: action_utter_ask_speech_therapy_time
+
+- rule: anxiety_sleep
+  steps:
+  - intent: ask_anxiety_sleep
+  - action: action_utter_ask_anxiety_sleep
+
+- rule: bilingual_therapy
+  steps:
+  - intent: ask_bilingual_therapy
+  - action: action_utter_ask_bilingual_therapy
+
+- rule: spectrum_meaning
+  steps:
+  - intent: ask_spectrum_meaning
+  - action: action_utter_ask_spectrum_meaning
+
+- rule: high_low_functioning
+  steps:
+  - intent: ask_high_low_functioning
+  - action: action_utter_ask_high_low_functioning
+
+- rule: autism_spd_difference
+  steps:
+  - intent: ask_autism_spd_difference
+  - action: action_utter_ask_autism_spd_difference
+
+- rule: loud_sounds
+  steps:
+  - intent: ask_loud_sounds
+  - action: action_utter_ask_loud_sounds
+
+- rule: special_vs_inclusive
+  steps:
+  - intent: ask_special_vs_inclusive
+  - action: action_utter_ask_special_vs_inclusive
+
+- rule: adult_life
+  steps:
+  - intent: ask_adult_life
+  - action: action_utter_ask_adult_life
+
+- rule: ai_tech_role
+  steps:
+  - intent: ask_ai_tech_role
+  - action: action_utter_ask_ai_tech_role
+
+- rule: long_term_plan
+  steps:
+  - intent: ask_long_term_plan
+  - action: action_utter_ask_long_term_plan
+
+- rule: awareness_pakistan
+  steps:
+  - intent: ask_awareness_pakistan
+  - action: action_utter_ask_awareness_pakistan
+
+- rule: acceptance
+  steps:
+  - intent: ask_acceptance
+  - action: action_utter_ask_acceptance
+
+- rule: vaccines
+  steps:
+  - intent: ask_vaccines
+  - action: action_utter_ask_vaccines
+
+- rule: autism_employment
+  steps:
+  - intent: ask_autism_employment
+  - action: action_utter_ask_autism_employment
+
+- rule: autism_marriage
+  steps:
+  - intent: ask_autism_marriage
+  - action: action_utter_ask_autism_marriage
+
+- rule: speech delay
+  steps:
+  - intent: ask_late_speech
+  - action: action_utter_ask_late_speech
+
+- rule: eye contact issue
+  steps:
+  - intent: ask_eye_contact_sign
+  - action: action_utter_ask_eye_contact_sign
+
+- rule: repetitive behavior
+  steps:
+  - intent: ask_repetitive_behaviors
+  - action: action_utter_ask_repetitive_behaviors
+
+- rule: fallback
+  steps:
+  - intent: nlu_fallback
+  - action: action_custom_fallback

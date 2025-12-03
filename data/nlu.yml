@@ -1,0 +1,1424 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hi
+    - hello
+    - Assalamualaikum
+    - salaam
+    - hey there
+    - good morning
+    - namaste
+    - hey
+    - hi there
+    - what's up
+    - greetings
+    - salam
+    - asalam o alaikum
+    - morning
+    - afternoon
+    - evening
+    - yo
+    - sup
+    - howdy
+    - bonjour (just kidding, hi!)
+    - hey bot
+    - hello there
+    - hi friend
+    - good day
+    - asalam alaikum
+    - hi ERAM
+    - hello assistant
+    - hey how's it going
+    - greetings and salutations
+    - what's happening
+    - assalam o alaikum bot
+    - hi kese ho
+    - hello ji
+    - salam alaikum
+    - good afternoon ERAM
+    - hey what's new
+    - namaskar
+    - hi there friend
+    - salaam walaikum
+    - hey kya haal hai
+    - hello autism bot
+    - hi, madad chahiye
+    - assalamualaikum ERAM
+    - hey, start chat
+    - good evening ji
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - Khuda hafiz
+    - alvida
+    - see you later
+    - phir milenge
+    - take care
+    - farewell
+    - so long
+    - bye bye
+    - tata
+    - later
+    - catch you later
+    - peace out
+    - adios
+    - ciao
+    - khuda hafiz again
+    - talk soon
+    - signing off
+    - end chat
+    - see ya
+    - bye for now
+    - take it easy
+    - farewell friend
+    - until next time
+    - goodbye ERAM
+    - alvida dost
+    - khuda hafiz ERAM
+    - see you soon
+    - that's all for now
+    - bye bye ERAM
+    - alwida
+    - khuda haafiz
+    - phir milte hain
+    - take care ji
+    - farewell for now
+    - see you ERAM
+    - end conversation
+    - bye, shukriya
+    - alvida ab
+    - khuda hafiz dost
+    - talk later
+    - signing out
+    - that's it bye
+    - see ya later alligator
+
+- intent: thanks
+  examples: |
+    - Thanks
+    - Thank you
+    - Shukriya
+    - bohat shukriya
+    - thank u
+    - thanks a lot
+    - appreciate it
+    - many thanks
+    - thnx
+    - dhanyavaad
+    - merci
+    - shukran
+    - great thanks
+    - you're awesome
+    - thanks buddy
+    - much appreciated
+    - obliged
+    - cheers
+    - ta
+    - ty
+    - thanks so much
+    - appreciate your help
+    - shukriya bohat
+    - thanks heaps
+    - thank you kindly
+    - really appreciate it
+    - thanks mate
+    - thank you very much
+    - shukria
+    - thanks again
+
+- intent: affirm
+  examples: |
+    - yes
+    - jee
+    - haan
+    - okay
+    - sure
+    - thik hai
+    - hanji
+    - absolutely
+    - yep
+    - yeah
+    - correct
+    - right
+    - affirmative
+    - go ahead
+    - sounds good
+    - of course
+    - indeed
+    - fine
+    - alright
+    - yes please
+    - definitely
+    - yes sure
+    - haan bilkul
+    - ok fine
+    - that's right
+    - agreed
+    - yes I think so
+    - haan jee
+    - sure thing
+    - positively
+
+- intent: deny
+  examples: |
+    - no
+    - nahi
+    - nahin
+    - bilkul nahi
+    - nah
+    - nope
+    - not at all
+    - no way
+    - negative
+    - decline
+    - sorry no
+    - can't
+    - won't
+    - never
+    - nah thanks
+    - pass
+    - forget it
+    - no thanks
+    - absolutely not
+    - nah man
+    - no sorry
+    - not really
+    - nahi jee
+    - bilkul nahin
+    - no can do
+    - I don't think so
+    - not interested
+    - no thanks anyway
+    - perhaps not
+    - nahin bilkul
+
+- intent: ask_definition
+  examples: |
+    - What is autism?
+    - Define ASD?
+    - Autism kya hai?
+    - asd kia haa?
+    - autism spectrum disorder meaning?
+    - explain autism simply?
+    - autism ka matlab kya hai?
+    - tell me about autism
+    - what does autism mean?
+    - autism ki definition?
+    - asd full form and meaning
+    - autism explained
+    - basic info on autism
+    - autism in simple words
+    - kya hota hai autism?
+    - autism ke bare mein batao
+    - define autism spectrum
+    - autism kise kehte hain?
+    - autism ki tafseel
+    - what is ASD exactly?
+    - is autism a disease
+    - is autism an illness
+    - autism bimari hai ya nahi
+    - autism ki asan definition batao
+    - what is the meaning of autism spectrum
+    - autism kya cheez hai
+    - explain ASD in detail
+    - autism ka basic knowledge
+    - kya autism ek disorder hai
+    - autism spectrum disorder kya hota hai
+    - autism ki complete definition
+    - autisum kya hai
+    - asd ka matlab batao
+    - autism ki meaning kya hai
+    - explain autism in urdu
+    - autism spectrum kia hota ha
+    - what iz autism
+    - autism defination
+    - kya hai ye autism
+    - autism bare me bataiye
+    - asd fullform and explain
+    - simple words mein autism
+    - autism kyun kehte hain
+    - tafseel batao autism ki
+    - ASD exactly kia hai
+    - is autism desease?
+    - autism illness hai kya
+    - bimari ya nahi autism
+    - asan tarike se samjhao autism
+    - spectrum meaning in autism
+
+- intent: ask_bot
+  examples: |
+    - Who are you?
+    - Ap kon ho?
+    - apka kia name ha?
+    - what is your name
+
+- intent: ask_prevalence
+  examples: |
+    - How common is autism?
+    - Autism prevalence?
+    - kitne bachon ko autism hota hai?
+    - autism kitna aam hai?
+    - autism rates worldwide?
+    - how many people have autism?
+    - prevalence of ASD
+    - autism in pakistan stats
+    - how frequent is autism?
+    - autism kitne percent bachon mein?
+    - global autism numbers
+    - is autism increasing?
+    - autism epidemiology
+    - kitne logon ko autism hota hai?
+    - autism ki dar kitni hai?
+    - stats on autism
+    - autism common ya rare?
+    - prevalence in kids
+    - autism in adults prevalence
+    - current autism rates
+    - prevelence of autism
+    - autism ki global prevalence kya hai
+    - how many children are affected by autism
+    - autism kitna common hai pakistan mein
+    - is autism becoming more common
+    - autism ke statistics batao
+    - worldwide autism kitna hai
+    - autism ki rate barh rahi hai kyun
+    - autism prevalence in asia
+    - how prevalent is ASD
+
+- intent: ask_gender_prevalence
+  examples: |
+    - Why is autism more common in boys?
+    - Why common in boys?
+    - Autism kyun ladkon mein zyada hota hai?
+    - Kiyun ladkon mein autism zyada hai?
+    - gender difference in autism
+    - why boys more autistic?
+    - autism in girls vs boys
+    - ladkiyon mein kam kyun?
+    - male female autism ratio
+    - why autism higher in males
+    - gender prevalence ASD
+    - boys autism reasons
+    - kyun ladkon ko zyada hota hai
+    - autism sex differences
+    - female autism less common?
+    - ratio of autism in genders
+    - why more boys diagnosed
+    - gender bias in autism?
+    - ladkon ladkiyon mein farq
+    - autism gender stats
+    - kia ladkon mei zyada hota ha
+    - gender prevelence
+    - Autism boys mein zyada hota hai ya girls mein?
+    - why autism more in males than females
+    - autism gender ratio kya hai
+    - kyun boys mein zyada autism
+    - girls mein autism kam kyun diagnose hota
+    - autism ka gender difference explain karo
+    - male to female autism ratio
+    - autism ladkon mein zyada kyun
+    
+- intent: ask_causes
+  examples: |
+    - What causes autism?
+    - Why does asd happen?
+    - Autism ki wajah?
+    - kiyo hota ha asd?
+    - causes of asd?
+    - autism ka sabab kya hai?
+    - why does autism happen?
+    - autism kyun hota hai?
+    - autism ke causes
+    - environmental causes autism
+    - what triggers autism
+    - autism from birth?
+    - causes and risk factors
+    - wajahen autism ki
+    - autism ki mukhtalif wajohaat
+    - is it from genes or environment
+    - autism ka root cause
+    - why my child has autism
+    - possible causes of ASD
+    - autism hone ki wajah
+    - what causes autism
+    - Mere family mein pehle kisi ko autism nahi tha, phir ye kaise hua?
+    - autism ke possible causes batao
+    - kya autism ki wajah genetic hai
+    - environmental factors causing autism
+    - autism hone ke sabab
+    - why do children get autism
+    - autism ka main cause kya hai
+    - risk factors for autism
+    - autism ki wajahen detail mein
+    - Is autism caused by too much screen time? 
+    - autism kis wajah se hota hai
+    - autism ka reason kya hai
+    - cause of autism
+    - is autism caused by screen time
+    - autism kyu hota hai
+
+
+- intent: ask_genetics
+  examples: |
+    - Is autism genetic?
+    - Is asd genetic?
+    - Kya autism warasati hai?
+    - genetic causes of autism?
+    - autism heredity
+    - genes role in autism
+    - is it inherited
+    - family history autism
+    - genetic factors ASD
+    - autism jiniyati hai?
+    - how genetics cause autism
+    - autism from parents genes
+    - genetic testing for autism
+    - warasat mein autism
+    - siblings autism risk
+    - genetic mutations autism
+    - is autism always genetic
+    - genetics vs environment autism
+    - kya ye baap dada se aata hai
+    - autism ki genetic wajah
+    - is autism genetic
+    - if a parent is autistic, can a child develop autism?
+    - autism inheritance from parents
+    - Kya autism genetic hota hai?
+    - genetic link in autism
+    - is autism passed through genes
+    - family mein autism hone ka chance
+    - genetic testing for ASD
+    - how much is autism genetic
+    - autism ke genetic factors
+
+- intent: ask_diagnosis
+  examples: |
+    - How is autism diagnosed?
+    - who is asd diagnosed?
+    - Autism ka test kaise hota hai?
+    - diagnosis kaise karen?
+    - autism diagnosis age?
+    - diagnostic process autism
+    - tests for ASD
+    - how to get diagnosed
+    - autism screening
+    - diagnosis criteria
+    - kaise pata chalega autism hai
+    - doctors for autism diagnosis
+    - age for diagnosing autism
+    - early diagnosis methods
+    - autism test online?
+    - professional diagnosis ASD
+    - symptoms for diagnosis
+    - DSM criteria autism
+    - diagnosis steps
+    - autism ki tashkhees
+    - Autism kis age mein detect hota hai usually?
+    - Autism ka koi test hota hai kya?
+    - autism diagnosis process explain
+    - how do doctors diagnose autism
+    - autism ka diagnosis kaun karta hai
+    - early signs for diagnosis
+    - autism screening tools
+    - diagnosis criteria for ASD
+    - how to diagnose autism in children
+    - autism tashkhees ke steps
+
+- intent: ask_symptoms
+  examples: |
+    - What are the signs of autism?
+    - Symptoms of autism?
+    - autism ki alamaat kya hain?
+    - early signs of ASD?
+    - kya mere bache mein autism hai?
+    - autism indicators
+    - common symptoms ASD
+    - red flags for autism
+    - behavioral signs
+    - social symptoms autism
+    - alamaat bachon mein
+    - toddler autism signs
+    - adult autism symptoms
+    - how to spot autism
+    - physical symptoms?
+    - communication issues autism
+    - repetitive behaviors signs
+    - sensory symptoms
+    - autism ki pehchaan
+    - check if my child has autism
+    - autism ky early signs ya symptoms kia ha?
+    - does autism affect memory
+    - autism sy memory par farq parta ha?
+    - autism and memory
+    - Autism ke early symptoms kya hote hain?
+    - Mera bachha words ya phrases yaad rakhta hai lekin samajhta nahi — iska kya matlab hai?
+    - Autism ke early symptoms kya hote hain?
+    - autism symptoms in toddlers
+    - signs of autism in babies
+    - autism ki common alamaat
+    - how to identify autism symptoms
+    - behavioral symptoms of ASD
+    - social interaction symptoms
+    - repetitive behavior in autism
+    - sensory issues as symptoms
+    - autism symptoms checklist
+    - early warning signs of autism
+    - haan mujhe symptoms chahye
+    - symptoms btao
+    - autism ki nishaniyan kya hain
+    - mujhe nishaniyan chahyen
+    - ye nishaniya kia ha?        
+
+
+- intent: ask_stimming
+  examples: |
+    - What is stimming?
+    - Stimming kya hai?
+    - What types of stimming are there?
+    - Stimming ke types kya hain?
+    - stimming explained
+    - examples of stimming
+    - common stims in autism
+    - hand flapping stimming?
+    - rocking as stim
+    - stimming behaviors
+    - types like visual auditory
+    - stimming ki misalen
+    - what does stimming look like
+    - stimming in kids
+    - harmful stimming?
+    - stimming ke tarike
+    - define stimming
+    - stimming autism connection
+    - why stimming called that
+    - stimming activities
+    - stimming ka matlab kya hai
+    - examples of stimming behaviors
+    - types of stimming in ASD
+    - common stimming actions
+    - stimming hand flapping kya hai
+    - rocking stimming explain
+    - visual stimming kya hota hai
+    - auditory stimming examples
+    - stimming bachon mein
+    - is stimming harmful
+    - flapping hands
+    - hand flapping
+    - he flaps his hands
+    - stimming kya hota hai
+    - runs and flaps
+
+
+- intent: ask_why_stimming
+  examples: |
+    - Why do kids stim?
+    - Bachay stim kyun karte hain?
+    - Why do autistic kids stim?
+    - Stimming ka maqsad kya hai?
+    - Reasons for stimming?
+    - purpose of stimming
+    - why stimming helps
+    - stimming for regulation
+    - emotional reasons stim
+    - sensory overload stimming
+    - kyun bachay hath hilate hain
+    - stimming ke faide
+    - why repeat actions
+    - stimming in anxiety
+    - benefits of stimming
+    - stimming ka sabab
+    - when do kids stim
+    - stimming for comfort
+    - psychological reasons stim
+    - stimming self soothe
+    - stimming kyun hota hai autism mein
+    - reasons autistic children stim
+    - stimming sensory regulation ke liye
+    - why stimming calms them
+    - emotional benefits of stimming
+    - stimming overload se bachne ke liye
+    - faide stimming ke
+    - anxiety mein stimming
+    - comfort ke liye stimming
+    - self soothing stimming
+
+- intent: ask_therapy
+  examples: |
+    - What therapy helps autism?
+    - therapies for asd
+    - therapy for asd
+    - autism ka ilaj kya hai?
+    - kya speech therapy help karegi?
+    - best therapies for autism
+    - types of autism therapy
+    - occupational therapy autism
+    - behavioral therapy
+    - play therapy ASD
+    - ilaj ke tarike
+    - therapy options
+    - home therapies autism
+    - therapy effectiveness
+    - which therapy first
+    - therapy for communication
+    - sensory therapy
+    - autism treatment methods
+    - koi therapy suggest karo
+    - therapies in pakistan
+    - autism ka ilaaj
+    - Autism ke liye best therapy konsi hoti hai?
+    - Speech therapy kitne months mein result deti hai?
+    - Therapy se kitna farq parta hai?
+    - autism therapies list
+    - best therapy for ASD
+    - speech therapy for autism
+    - occupational therapy ka kya faida
+    - behavioral therapy explain
+    - play therapy autism mein
+    - home based therapies
+    - therapy ki effectiveness
+    - communication therapy for kids
+
+- intent: ask_eye_tracking
+  examples: |
+    - What is eye tracking in autism?
+    - Eye tracking autism?
+    - Autism mein eye tracking kya hai?
+    - how to detect autism from eye movement?
+    - Eye tracking for autism detection?
+    - autism ka pata aankhon se?
+    - how eye gaze helps in autism diagnosis
+    - eye tracking techniques for ASD
+    - kya eye movement se autism detect kar sakte hain?
+    - autism and eye contact issues diagnosis
+    - how eye gaze helps in autism diagnosis
+    - eye tracking technology for autism
+    - autism diagnosis through eye tracking
+    - eye movement and autism
+    - how does eye tracking work for ASD
+    - benefits of eye tracking in autism
+    - eye gaze patterns in autistic children
+    - detecting autism via eyes
+    - eye tracking research in autism
+    - aankhon se autism detect karna
+    - eye contact and tracking in ASD
+
+- intent: ask_personal_diagnosis
+  examples: |
+    - Am I autistic?
+    - Is my child autistic?
+    - Do I have autism?
+    - Does my kid have ASD?
+    - Kya mujhe autism hai?
+    - Kya mera bacha autistic hai?
+    - Am I on the spectrum?
+    - Is my son/daughter autistic?
+    - Do I show signs of autism?
+    - Kya main autistic hoon?
+    - Mere bache mein autism ki nishaniyan?
+    - My kid doesnt talk much, could it be autism?
+    - i cannot talk to people easily, does it mean i have autism?
+    - i cannot talk to people easily, does it mean i am autistic?
+    - Mera bacha bolta nahi, kya autism hai
+    - My child doesnt make eye contact. Could it be autism
+    - Bacha aankhon mein nahi dekhta, kya ye autism hai
+    - if my child stims, is he autistic
+    - How can I know if my child is autistic?
+    - Meray bachay ko autism ho sakta hai?
+    - do I have ASD
+    - is my baby autistic
+    - kya mera beta autistic hai
+    - signs in me for autism
+    - my child repeats words, is it autism
+    - does not responding to name mean autism
+    - personal autism check
+    - diagnose me for autism
+    - my kid has symptoms, is it ASD
+    - kya mujhe spectrum par hun
+    - Can you tell if my baby has autism?
+
+- intent: ask_language_support
+  examples: |
+    - Do you support Urdu?
+    - Can I speak in Roman Urdu?
+    - Urdu supported?
+    - Roman Urdu mein baat kar sakte hain?
+    - Do you speak Urdu?
+    - Kya aap Urdu samajhte hain?
+    - Can I use Urdu?
+    - is urdu supported?
+    - Urdu mein poochna hai
+    - kya roman urdu allowed hai
+    - urdu language support
+    - can we chat in urdu
+    - roman urdu mein sawal
+    - do you understand urdu
+    - urdu bol sakte hain
+    - language options urdu
+    - support for roman urdu
+    - kya aap roman urdu samajhte ho
+    - urdu mein baat karo
+    - roman urdu supported hai kya
+
+- intent: ask_triggers
+  examples: |
+    - What are triggers in autism?
+    - Autism triggers kya hain?
+    - Explain triggers for autistic children
+    - Triggers ka matlab kya hai autism mein?
+    - What causes meltdowns in autism?
+    - Autism ke triggers ke bare mein batao
+    - Common triggers for ASD?
+    - Kya cheezen autistic bachon ko pareshan karti hain?
+    - Triggers and autism
+    - How to identify triggers?
+    - autism triggers list
+    - triggers in ASD explain
+    - meltdowns causing triggers
+    - common autism triggers
+    - triggers ke bare mein
+    - identify autism triggers
+    - what are sensory triggers
+    - emotional triggers in autism
+    - autism mein triggers kya karte hain
+    - triggers hone se kya hota hai
+
+- intent: ask_trigger_types
+  examples: |
+    - What types of triggers are there in autism?
+    - Autism triggers ke types kya hain?
+    - Sensory triggers in ASD?
+    - Emotional triggers for autism?
+    - Types of autism triggers
+    - Kya tarah ke triggers hote hain?
+    - Environmental triggers autism
+    - Social triggers in autism
+    - Routine change triggers
+    - Physical triggers ASD
+    - types of triggers in ASD
+    - sensory type triggers
+    - emotional triggers types
+    - environmental autism triggers
+    - social type triggers
+    - routine triggers explain
+    - physical triggers in autism
+    - different kinds of triggers
+    - triggers ke mukhtalif types
+    - classify autism triggers
+
+- intent: ask_why_triggers
+  examples: |
+    - Why do triggers happen in autism?
+    - Autism triggers kyun hote hain?
+    - Reasons for triggers in ASD
+    - Why autistic kids get triggered?
+    - Triggers hone ki wajah kya hai?
+    - How triggers affect autistic people
+    - Why sensory overload leads to triggers?
+    - Triggers ka sabab autism mein
+    - Neurological reasons for triggers
+    - Why some things trigger meltdowns?
+    - triggers kyun affect karte hain
+    - reasons behind autism triggers
+    - why kids get triggered
+    - sensory overload and triggers
+    - neurological basis of triggers
+    - meltdowns from triggers why
+    - triggers hone ka sabab
+    - affect of triggers on autistic
+    - why certain things trigger
+    - triggers ki wajah explain
+
+- intent: ask_managing_triggers
+  examples: |
+    - How to manage triggers in autism?
+    - Triggers ko kaise handle karen?
+    - Tips for avoiding autism triggers
+    - Managing meltdowns from triggers
+    - Strategies for trigger management ASD
+    - Kaise triggers se bachayein bachon ko?
+    - Trigger reduction techniques
+    - How to monitor and manage triggers?
+    - Using data to track triggers
+    - Parent tips for trigger handling
+    - manage autism triggers
+    - avoiding triggers tips
+    - meltdown management
+    - trigger strategies ASD
+    - bachon ko triggers se bachao
+    - reduction techniques for triggers
+    - monitor triggers how
+    - data tracking for triggers
+    - parents guide to triggers
+    - handling triggers effectively
+
+- intent: ask_app_features
+  examples: |
+    - what does your app offer
+    - app features
+    - what can I do in your app
+    - tell me about the app
+    - community forum
+    - educational hub
+    - screening options
+    - data visualization
+    - what does your app/web offers?
+    - app ki features kya hain?
+    - app mein kya kya hai?
+    - app ke features batao
+    - what features in ERAM app
+    - community in app
+    - educational resources in app
+    - screening tools app
+    - visualize data in app
+    - app ki complete features
+    - what can app do for autism
+    - app mein forum hai kya
+
+- intent: ask_if_contagious
+  examples: |
+    - Is autism contagious?
+    - kya autism chhootne wala hai
+    - does autism spread
+    - autism contagious hai kya
+    - can autism be caught
+    - is ASD infectious
+    - autism kis se phailta hai
+    - contagious disease hai autism
+    - can I catch autism
+    - autism spread kar sakta hai
+
+- intent: ask_if_child_can_have
+  examples: |
+    - Meray bachay ko autism ho sakta hai?
+    - can my child have autism
+    - is it possible my kid has ASD
+    - kya mera beta autism ka shikar ho sakta
+    - possibility of autism in child
+    - my baby can have autism?
+    - bachay ko autism hone ka chance
+    - is autism possible in my kid
+    - mera bacha autistic ho sakta
+    - chances for child to have autism
+
+- intent: ask_if_autism_adhd_same
+  examples: |
+    - Autism aur ADHD ek hi cheez hain?
+    - is autism and ADHD same
+    - autism ADHD same hai kya
+    - difference between autism and ADHD
+    - are ASD and ADHD identical
+    - autism or ADHD ek hi
+    - kya autism ADHD jaisa hai
+    - autism and ADHD comparison
+    - same thing autism ADHD
+    - autism ADHD alag ya same
+
+- intent: ask_diagnosis_age
+  examples: |
+    - Autism kis age mein detect hota hai usually?
+    - usual age for autism diagnosis
+    - autism detect age
+    - when is autism usually diagnosed
+    - typical diagnosis age ASD
+    - bachon mein autism kis umar detect
+    - autism diagnosis at what age
+    - early age for detecting autism
+    - usual autism detection age
+    - age range for ASD diagnosis
+
+- intent: ask_late_speech
+  examples: |
+    - Mera beta thoda late bolta hai, is that autism?
+    - late speech means autism?
+    - child late talking autism
+    - beta late bolta hai autism kya
+    - is delayed speech sign of autism
+    - late speech in kids autism
+    - my son speaks late is it ASD
+    - late bolne se autism
+    - delayed language autism
+    - speech delay and autism link
+
+- intent: ask_test_available
+  examples: |
+    - Autism ka koi test hota hai kya?
+    - Mujhe online screening test mil sakta hai?
+    - autism test available
+    - online test for autism
+    - ASD screening test
+    - test for autism kya hai
+    - online autism test
+    - screening test mil sakta
+    - autism ka test kaun sa
+    - available tests for ASD
+
+- intent: ask_if_normal_or_dangerous
+  examples: |
+    - Autism normal hota hai ya dangerous?
+    - is autism normal or dangerous
+    - autism khatarnak hai kya
+    - normal ya dangerous autism
+    - is ASD harmful
+    - autism safe hai ya nahi
+    - dangerous aspect of autism
+    - autism normal condition hai
+    - khatra autism se
+    - is autism a danger
+
+- intent: ask_eye_contact_sign
+  examples: |
+    - Mera bachha eye contact nahi karta, kya ye autism ki sign hai?
+    - no eye contact sign of autism
+    - bachha eye contact nahi autism
+    - eye contact avoidance autism
+    - is lack of eye contact autism sign
+    - child no eye contact ASD
+    - autism ki sign eye contact
+    - no eye contact meaning autism
+    - eye contact nahi karna autism
+    - sign hai eye contact na karna
+
+- intent: ask_repeating_words
+  examples: |
+    - He repeats everything I say — ye normal hai?
+    - repeating words normal?
+    - bachha repeat karta hai normal
+    - echolalia normal hai kya
+    - repeating everything said normal
+    - is repeating words autism
+    - ye normal hai repeat karna
+    - child repeats phrases normal
+    - repeating I say is normal
+    - normal behavior repeating
+
+- intent: ask_not_playing_with_others
+  examples: |
+    - Mera beta khelta nahi dusre bachon ke saath, should I be worried?
+    - not playing with others worry
+    - beta dusron se nahi khelta
+    - should worry no play with kids
+    - child doesn't play with peers
+    - worried about not playing others
+    - khelta nahi dusron ke saath
+    - is it worrying no social play
+    - beta alone khelta hai worry
+    - no interaction with other kids
+
+- intent: ask_which_doctor
+  examples: |
+    - Mujhe kis doctor se milna chahiye agar mujhe doubt hai?
+    - which doctor for autism doubt
+    - doctor for autism check
+    - kis doctor se milen doubt mein
+    - specialist for autism
+    - doubt hai kis se milun
+    - doctor recommend for ASD
+    - which doc if suspect autism
+    - autism doubt doctor kaun
+    - consult which doctor
+
+- intent: ask_school_adjustment
+  examples: |
+    - Mera bachha school mein adjust nahi kar pa raha, teachers complain karte hain — kya karun?
+    - school adjustment issue what to do
+    - bachha school adjust nahi
+    - teachers complain school
+    - what to do school adjustment
+    - child not adjusting school
+    - kya karun school mein adjust na ho
+    - school problems teachers complain
+    - adjustment in school issue
+    - bachha school mein pareshan
+
+- intent: ask_normal_school
+  examples: |
+    - Autism wale bachon ko normal school mein bhejna chahiye?
+    - normal school for autistic kids
+    - autism bachon ke liye normal school
+    - should send to regular school
+    - normal school bhejna chahiye
+    - autistic child normal school
+    - bhejna normal school mein
+    - is normal school good for autism
+    - normal ya special school
+    - autism kids in regular school
+
+- intent: ask_explain_to_relatives
+  examples: |
+    - Mere relatives kehte hain "ye bas ziddi hai", main kaise samjhaun unko?
+    - explain to relatives autism
+    - relatives say stubborn how explain
+    - kaise samjhaun relatives ko
+    - relatives ziddi kehte explain
+    - how to tell family about autism
+    - samjhana relatives ko autism
+    - relatives misunderstand how explain
+    - ziddi nahi autism explain
+    - family ko kaise bataun
+
+- intent: ask_parent_guilt
+  examples: |
+    - Main kabhi kabhi guilt feel karti hoon, kya maine kuch galat kiya?
+    - parent guilt in autism
+    - guilt feel karna parent
+    - kya maine galat kiya
+    - do I feel guilty as parent
+    - parent guilt autism
+    - guilt about child's autism
+    - main guilty feel karti
+    - is it my fault autism
+    - parent guilt how to handle
+    - mujhy lagta ha mei bht buri maa ho, mera bacha thek q nahi
+
+- intent: ask_normal_life
+  examples: |
+    - Autism wale bachay normal zindagi jee sakte hain kya?
+    - can autistic kids live normal life
+    - normal life for autism children
+    - autism bachay normal jee sakte
+    - is normal life possible with autism
+    - zindagi normal autism ke saath
+    - autistic people normal life
+    - normal jeena autism mein
+    - can they have normal lives
+    - autism and normal living
+
+- intent: ask_tantrums
+  examples: |
+    - Mera bachha tantrums karta hai bina wajah, ye autism ka part hai kya?
+    - tantrums without reason autism
+    - bachha tantrums autism part
+    - is tantrums part of autism
+    - tantrums bina wajah
+    - child tantrums autism
+    - autism mein tantrums
+    - tantrums reasonless autism
+    - ye part hai autism ka tantrums
+    - handling tantrums in autism
+
+- intent: ask_if_will_speak
+  examples: |
+    - Autism ka matlab kya wo kabhi baat nahi karega?
+    - will autistic child ever speak
+    - autism mean no speaking
+    - wo baat karega kabhi
+    - does autism mean no talk
+    - speaking in autism
+    - autism bachay bolte nahi
+    - will they speak ever
+    - matlab baat nahi karega autism
+    - non verbal autism always
+
+- intent: ask_therapy_impact
+  examples: |
+    - Therapy se kitna farq parta hai?
+    - impact of therapy in autism
+    - therapy farq parta kitna
+    - how much difference therapy makes
+    - therapy effect on ASD
+    - farq therapy se
+    - does therapy help a lot
+    - impact kitna therapy ka
+    - therapy changes how much
+    - autism mein therapy ka asar
+
+- intent: ask_how_to_communicate
+  examples: |
+    - Mujhe apne bachay se kaise baat karni chahiye?
+    - how to communicate with autistic child
+    - baat karne ka tarika bachay se
+    - communication with autism kid
+    - kaise baat karen autistic se
+    - tips to talk to child
+    - communicate kaise bachay se
+    - how should I talk to my kid
+    - baat karna autistic child se
+    - communication strategies autism
+
+- intent: ask_independence
+  examples: |
+    - Main apne bachay ko independent banana chahti hoon — possible hai?
+    - independence for autistic child possible
+    - bachay ko independent banana
+    - is independence possible in autism
+    - make child independent
+    - possible hai independent
+    - autism mein independence
+    - how to make autistic independent
+    - independent banana chahti
+    - independence training autism
+
+- intent: ask_best_therapy
+  examples: |
+    - Autism ke liye best therapy konsi hoti hai?
+    - best therapy for autism
+    - konsi best therapy ASD
+    - top therapy for autism
+    - best ilaj autism ke liye
+    - which therapy is best
+    - autism best treatment
+    - best therapy konsi
+    - recommend best therapy
+    - autism ke liye sabse behtar therapy
+
+- intent: ask_aba_details
+  examples: |
+    - ABA therapy kya hoti hai?
+    - what is ABA therapy
+    - ABA details
+    - explain ABA therapy
+    - ABA kya hai
+    - ABA therapy in autism
+    - details of ABA
+    - ABA ka matlab
+    - how ABA works
+    - ABA therapy description
+    -  I heard about ABA. Is it safe or harmful?
+    - is aba therapy safe
+    - aba harmful?
+    - aba good or bad?
+    - aba pros cons
+    - aba therapy review
+
+
+- intent: ask_home_exercises
+  examples: |
+    - Mujhe ghar pe kya exercises karni chahiye?
+    - home exercises for autism
+    - ghar pe exercises
+    - what exercises at home
+    - home based activities autism
+    - exercises karni chahiye ghar
+    - autism home exercises
+    - daily home exercises
+    - ghar mein kya karun
+    - exercises for autistic child home
+
+- intent: ask_online_programs
+  examples: |
+    - Kya autism ke liye koi app ya online program available hai?
+    - online programs for autism
+    - autism app available
+    - online program kya hai
+    - apps for autism
+    - available online programs ASD
+    - autism ke liye app
+    - online therapy programs
+    - koi online program
+    - autism online resources programs
+
+- intent: ask_speech_therapy_time
+  examples: |
+    - Speech therapy kitne months mein result deti hai?
+    - speech therapy results time
+    - kitne months speech therapy
+    - how long for speech therapy results
+    - speech therapy time frame
+    - results deti kitne time mein
+    - speech therapy duration
+    - months for speech results
+    - speech therapy kitna time
+    - time for speech improvement
+
+- intent: ask_anxiety_sleep
+  examples: |
+    - Autism ke saath anxiety ya sleep problems bhi hoti hain?
+    - anxiety and sleep in autism
+    - autism with anxiety sleep
+    - sleep problems in ASD
+    - anxiety hoti autism ke saath
+    - autism anxiety issues
+    - sleep disturbances autism
+    - anxiety sleep problems
+    - hoti hain anxiety sleep autism
+    - common anxiety sleep in autism
+
+- intent: ask_bilingual_therapy
+  examples: |
+    - Mera bachha English samajhta hai par bolta Urdu mein — kya therapy bilingual ho sakti hai?
+    - bilingual therapy possible
+    - bachha bilingual therapy
+    - therapy bilingual ho sakti
+    - english urdu therapy
+    - bilingual for autism therapy
+    - therapy in two languages
+    - urdu english therapy
+    - can therapy be bilingual
+    - bilingual speech therapy
+
+- intent: ask_spectrum_meaning
+  examples: |
+    - Autism spectrum ka matlab kya hota hai exactly?
+    - what does autism spectrum mean
+    - spectrum meaning in autism
+    - autism spectrum ka matlab
+    - explain autism spectrum
+    - spectrum exactly kya hai
+    - meaning of ASD spectrum
+    - autism spectrum definition
+    - spectrum ka exact matlab
+    - what is spectrum in ASD
+
+- intent: ask_high_low_functioning
+  examples: |
+    - High-functioning aur low-functioning autism mein difference kya hai?
+    - difference high low functioning autism
+    - high functioning vs low
+    - functioning levels difference
+    - high low autism farq
+    - what is high functioning autism
+    - low functioning autism explain
+    - difference in functioning autism
+    - high aur low mein farq
+    - functioning types autism
+
+- intent: ask_autism_spd_difference
+  examples: |
+    - Autism aur sensory processing disorder alag cheezein hain?
+    - difference autism and SPD
+    - autism SPD alag
+    - sensory processing disorder vs autism
+    - alag cheezein autism SPD
+    - is SPD different from autism
+    - autism and SPD comparison
+    - SPD aur autism farq
+    - are autism and SPD same
+    - difference between ASD and SPD
+
+- intent: ask_loud_sounds
+  examples: |
+    - Mera bachha loud sounds se darte hain — ye sensory issue hai?
+    - loud sounds fear sensory issue
+    - bachha loud sounds darta
+    - is it sensory issue loud sounds
+    - loud noises and autism
+    - sensory problem loud sounds
+    - darta hai loud se sensory
+    - child scared of loud sounds
+    - ye issue hai sensory
+    - loud sounds sensitivity autism
+
+- intent: ask_special_vs_inclusive
+  examples: |
+    - Kya autistic bachon ke liye special schools better hain ya inclusive schools?
+    - special vs inclusive schools autism
+    - better special or inclusive
+    - autistic kids schools which better
+    - special schools ya inclusive
+    - inclusive better for autism
+    - special school advantages
+    - inclusive education autism
+    - which school for autistic
+    - special aur inclusive farq
+
+- intent: ask_adult_life
+  examples: |
+    - Autism wale adults ka life kaisa hota hai?
+    - adult life with autism
+    - autism adults life
+    - kaisa hota life adults ka
+    - life of autistic adults
+    - adults with autism living
+    - autism adult zindagi
+    - how do autistic adults live
+    - adult autism life style
+    - zindagi autism adults ki
+
+- intent: ask_ai_tech_role
+  examples: |
+    - Autism ke saath AI ya technology ka kya role hai (therapy, communication tools etc.)?
+    - AI role in autism
+    - technology in autism therapy
+    - AI tech role ASD
+    - communication tools AI autism
+    - role of AI in autism
+    - technology ka kya role
+    - AI for autism therapy
+    - tech tools for communication autism
+    - AI autism mein
+
+- intent: ask_long_term_plan
+  examples: |
+    - Mujhe apne bachay ke liye long-term plan banana chahiye — kaha se start karun?
+    - long term plan for child autism
+    - plan banana long term
+    - where to start long term plan
+    - long term planning autism
+    - bachay ke liye plan
+    - start karun kaha se plan
+    - long term strategy for ASD
+    - planning for autistic child future
+    - future plan start
+
+- intent: ask_awareness_pakistan
+  examples: |
+    - Autism awareness Pakistan mein kaisi hai?
+    - awareness in Pakistan autism
+    - Pakistan mein autism awareness
+    - kaisi hai awareness Pakistan
+    - autism awareness level Pakistan
+    - Pakistan autism jaagrookta
+    - how is awareness in Pakistan
+    - autism Pakistan awareness status
+    - awareness kaisi Pakistan mein
+    - Pakistan mein autism ke bare mein awareness
+
+- intent: ask_acceptance
+  examples: |
+    - when to accept child different
+    - acceptance of different child
+    - bachha different accept karna
+    - accept karna kab different
+    - child is different not less
+    - acceptance in autism
+    - different na ke kam
+    - how to accept autism
+    - acceptance time for parent
+
+- intent: ask_doctors
+  examples: |
+    - Autism doctors in Pakistan
+    - Doctors for ASD
+    - autism specialist
+    - kahan doctor milega autism ke liye
+    - best doctors autism
+    - pediatrician for autism
+    - autism doctor Lahore
+    - doctors list ASD
+    - which doctor see for autism
+    - autism ke doctor
+    - specialist in Karachi
+
+- intent: ask_games
+  examples: |
+    - Games for autistic children
+    - Autism ke liye games
+    - educational games ASD
+    - games to help autism
+    - khel autism bachon ke
+    - sensory games autism
+    - best games for ASD
+    - online games autism
+    - games for social skills
+    - autism friendly games
+
+- intent: ask_vaccines
+  examples: |
+    - Do vaccines cause autism?
+    - Vaccines se autism hota hai kya
+    - autism vaccine link
+    - vaccines and ASD
+    - myth vaccines autism
+    - teekay aur autism
+    - is vaccine responsible for autism
+    - autism vaccine truth
+    - vaccines cause ASD
+    - kya teeka autism deta hai
+
+- intent: ask_autism_employment
+  examples: |
+    - Employment for autistic people
+    - Autism wale logon ke liye nokri
+    - jobs for ASD
+    - autism employment tips
+    - nokri autism adults
+    - career in autism
+    - autism job
+    - work life autism
+
+
+- intent: ask_autism_marriage
+  examples: |
+    - Can autistic people marry?
+    - Shaadi autism wale kar sakte hain
+    - marriage in ASD
+    - autism marriage life
+    - rishte autism ke saath
+    - shaadi possible ASD
+    - marriage par kya asar hota
+    - autism marriage
+
+
+
+- intent: nlu_fallback
+  examples: |
+    - ajsjddge
+    - kia apky toothpaste mei namak haa?
+    - bharr mei jaooo
+    - pGLOOOTTTT
+    - random question
+    - what is the weather?
+    - tell a joke
+    - who won the world cup?
+    - irrelevant stuff
+    - asdfghjkl
+    - buy me a car
+    - sing a song
+    - what's 2+2?
+    - nonsense input
+    - blah blah
+    - random text here
+    - off topic query
+    - not about autism
+    - hello world code
+    - gibberish
+    - cididfiefeo
+    - lwdjiwdheidu wusvwisvwwuvwidwi wdvwdbi
+    - lsdjflsdjf
+    - randomstring
+    - jfiejfiejf
+    - nonsensical text
+    - how are you so intelligent??
+    - marry meee???
+    - what is your name?
+    - who created you?
+    - tell me about yourself
+    - what's the time?
+    - play music
+    - open calculator
+    - how's the stock market?
+    - book a flight
+    - set alarm
+    - Am i smart?
+    - What's 5+5?
+    - Tell me a story
+    - What's your favorite color?
+    - Do you like pizza?
+    - Pizza order kar do
+    - Tell me a joke
+    - fjrofroofepd pdn
+    - Hey, what do you do?
+    - who are you
+    - what is weight of men's shotput?
+    - kaisy ha ap?
+    - i love you
+    - random nonsense
+    - tell me the news
+    - what's your age
+    - do you have friends
+    - calculate 10*20
+    - open google
+    - search something
+    - irrelevant query
+    - bot what is life
+    - philosophical question
+    - what's the date today
+    - play a song
+    - order food
+    - book ticket
+    - how old are you
+    - are you real
+    - tell joke in urdu
+    - what is AI
+    - open youtube
+    - search google for cats
+    - calculate pi
+    - who is president
+    - weather in lahore
+    - stock price apple
+    - random math problem
+    - autism ka whatsapp group send karo

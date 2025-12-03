@@ -1,0 +1,780 @@
+# Updated domain.yml with more detailed responses (expanded short ones)
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - thanks
+  - ask_symptoms
+  - ask_therapy
+  - ask_doctors  # Now added to NLU
+  - ask_games
+  - ask_language
+  - ask_definition
+  - ask_causes
+  - ask_diagnosis
+  - ask_treatments
+  - ask_early_intervention
+  - ask_sensory_issues
+  - ask_behavior_management
+  - ask_education
+  - ask_diet
+  - ask_myths
+  - ask_resources
+  - ask_adult_autism
+  - ask_genetics
+  - ask_vaccines
+  - ask_daily_tips
+  - ask_support_parents
+  - ask_mitochondrial
+  - ask_regression
+  - ask_eye_contact
+  - ask_speech_delay
+  - ask_aggression
+  - ask_repetitive_behaviors
+  - ask_medical_visits
+  - ask_nonverbal_pain
+  - ask_support_groups
+  - ask_trusted_sources
+  - ask_care_team
+  - ask_siblings
+  - ask_aba_therapy
+  - ask_outgrow_autism
+  - ask_aspergers
+  - ask_rett_syndrome
+  - ask_prevalence
+  - ask_name_response
+  - ask_eating_issues
+  - ask_solitary_play
+  - ask_repetitive_speech
+  - ask_repetitive_media
+  - ask_who_benefits_aba
+  - ask_why_aba
+  - ask_enrollment_aba
+  - ask_after_enrollment
+  - ask_kids_questions
+  - ask_gender_prevalence
+  - ask_why_stimming
+  - ask_support
+  - nlu_fallback
+  - ask_stimming
+  - ask_visual_aids
+  - ask_cure
+  - ask_eye_tracking
+  - ask_personal_diagnosis
+  - ask_language_support
+  - ask_triggers
+  - ask_trigger_types
+  - ask_why_triggers
+  - ask_managing_triggers
+  - ask_app_features
+  - ask_autism_employment
+  - ask_autism_marriage
+  - ask_if_contagious
+  - ask_if_child_can_have
+  - ask_if_autism_adhd_same
+  - ask_diagnosis_age
+  - ask_late_speech
+  - ask_test_available
+  - ask_if_normal_or_dangerous
+  - ask_eye_contact_sign
+  - ask_repeating_words
+  - ask_not_playing_with_others
+  - ask_which_doctor
+  - ask_school_adjustment
+  - ask_normal_school
+  - ask_explain_to_relatives
+  - ask_parent_guilt
+  - ask_normal_life
+  - ask_tantrums
+  - ask_if_will_speak
+  - ask_therapy_impact
+  - ask_how_to_communicate
+  - ask_independence
+  - ask_best_therapy
+  - ask_aba_details
+  - ask_home_exercises
+  - ask_online_programs
+  - ask_speech_therapy_time
+  - ask_anxiety_sleep
+  - ask_bilingual_therapy
+  - ask_spectrum_meaning
+  - ask_high_low_functioning
+  - ask_autism_spd_difference
+  - ask_loud_sounds
+  - ask_special_vs_inclusive
+  - ask_adult_life
+  - ask_ai_tech_role
+  - ask_long_term_plan
+  - ask_awareness_pakistan
+  - ask_acceptance
+  - ask_bot
+
+entities:
+  - city
+  - specialty
+
+slots:
+  last_intent:
+    type: text
+    mappings:
+      - type: from_intent
+        intent: ask_therapy
+        value: ask_therapy
+      - type: from_intent
+        intent: ask_stimming
+        value: ask_stimming
+      - type: from_intent
+        intent: ask_support
+        value: ask_support
+      - type: from_intent
+        intent: ask_symptoms
+        value: ask_symptoms
+      - type: from_intent
+        intent: ask_daily_tips
+        value: ask_daily_tips
+      - type: from_intent
+        intent: ask_visual_aids
+        value: ask_visual_aids
+      - type: from_intent
+        intent: ask_causes
+        value: ask_causes
+      - type: from_intent
+        intent: ask_triggers
+        value: ask_triggers
+
+responses:
+  utter_greet_en:
+    - text: "Hello 👋, I am ERAM assistant. How can I help you about autism today? Feel free to ask anything, and I'll guide you step by step! Just like chatting with a friend."
+    - text: "Hey there! I'm ERAM, your go-to buddy for autism info. What's on your mind? I'll break it down easy-peasy."
+
+  utter_greet_ur:
+    - text: "Hello! Main ERAM hoon, autism ke bare mein aapki madad karne ke liye taiyar hoon. Kya poochna chahte hain? Main aapko har cheez samjhane ki koshish karunga!."
+    - text: "Hi! Main ERAM hoon, autism ke maslon par aapka sathi. Kya baat hai? Main asaan alfaz mein bataunga."
+
+  utter_goodbye_en:
+    - text: "Goodbye — reach out anytime. If you have serious concerns, please consult a professional. Take care! Chat soon?"
+    - text: "See ya! Always here if you need me. Remember, pros for the heavy stuff. Stay awesome!"
+
+  utter_goodbye_ur:
+    - text: "Goodbye, kabhi bhi rabta karsakty hai. Serious masail ke liye doctor se mashwara karein. Khayal rakhiye!"
+    - text: "Alvida! Hamesha available hoon agar zarurat pade. Baray maslon ke liye doctor se milen. Apna khayal rakhna!"
+
+  utter_thanks_en:
+    - text: "You’re most welcome 🌸. I'm glad I could help—keep asking! What's next?"
+    - text: "No prob! Happy to assist. Fire away with more questions."
+
+  utter_thanks_ur:
+    - text: "Shukriya! Madad karke khushi hui—aur poochiye agar zarurat ho!"
+    - text: "Koi baat nahi! Khush hoon madad kar ke. Aur sawal poochiye."
+
+  utter_affirm_en:
+    - text: "Awesome! Let's keep going."
+    - text: "Got it! Onward."
+
+  utter_affirm_ur:
+    - text: "Bohat acha! Chalien aage badhte hain."
+    - text: "Samajh gaya! Aage chalte hain."
+
+  utter_deny_en:
+    - text: "No worries! What else can I help with?"
+    - text: "Alright, let's try something else."
+
+  utter_deny_ur:
+    - text: "Koi masla nahi! Aur kya madad chahiye?"
+    - text: "Theek hai, kuch aur try karen."
+
+  utter_ask_definition_en:
+    - text: "Autism Spectrum Disorder (ASD) is a developmental condition affecting communication, behavior, and social interaction. It's a spectrum, meaning symptoms vary widely. No two people with autism are the same. Think of it like a unique wiring in the brain. Autism is not a disease or illness, but a neurodevelopmental difference. For more awareness, check our Educational Hub in the app!"
+    - text: "ASD, or Autism, impacts how someone communicates and interacts. It's different for everyone—like colors on a rainbow. Want more details? Our Educational Hub has in-depth info."
+
+  utter_ask_doctors_en:
+    - text: "Consult developmental pediatricians or child psychologists. In Pakistan, try AKUH (Karachi), Shifa (Islamabad), or local autism centers like Rising Sun."
+
+  utter_ask_doctors_ur:
+    - text: "Developmental pediatrician ya child psychologist se milein. Pakistan mein AKUH (Karachi), Shifa (Islamabad), ya Rising Sun jaise centers."
+
+  utter_ask_games_en:
+    - text: "Sensory games like puzzles, bubble wrap popping, or apps like Otsimo help. Board games for social skills."
+
+  utter_ask_games_ur:
+    - text: "Puzzle, bubble wrap, Otsimo app jaise khel madad karte hain. Social ke liye board games."
+
+  utter_ask_definition_ur:
+    - text: "Autism Spectrum Disorder (ASD) ek dimaghi farq he jo baat cheet, rawaiya aur milne-julne ko asar andaz krta he. Yeh spectrum he yani har bache ke alamaat alag hote hain – koi do same nahi! Jaise dimagh ki alag wiring. Bimari nahi he yee, balkay zindagi bhar ka neurodevelopmental farq he. Zyada detail ke liye app ka Educational Hub zaroor dekhy!"   
+  
+  utter_ask_prevalence_en:
+    - text: "As of 2025, globally around 1% of kids have autism. Rates are increasing due to better awareness and diagnosis. In some places, it's higher due to better detection. It's more recognized now than before. For country-specific stats, including Pakistan, check reliable sources like WHO or local health departments."
+    - text: "Globally, around 1% of kids have autism. Numbers are rising because of awareness, not actual increase. Cool fact, huh? If you want more data, our app's Educational Hub has visualizations."
+
+  utter_ask_prevalence_ur:
+    - text: "2025 tak duniya bhar mein har 100 bachon mein se 1 ko autism hota he (1%). Ye number barh raha he behtar pehchaan aur awareness ki wajah se, asal mein izafa nahi hoa. Pakistan mein bhi ab zyada diagnose ho raha he. Stats ke liye WHO ya app ka Hub check kary."
+    - text: "Global taur par 1% bachon ko autism diagnose hota ha. Numbers barh rahe hain agaahi ki wajah se, na ke asal izafay ki wajah sy nahi. Mazeed maloomat ky liye app ke Educational Hub visit kary."
+
+  utter_ask_gender_prevalence_en:
+    - text: "Autism is diagnosed about 4 times more in boys than girls, possibly due to biological differences (like genetic factors), diagnostic biases, or girls masking symptoms better. Girls may present differently, leading to underdiagnosis. Research is ongoing to understand this better, and it's important to recognize symptoms in all genders for accurate diagnosis."
+    - text: "Boys get diagnosed more—ratio 4:1. Maybe genes or how symptoms show differently. Interesting topic! If you'd like resources on gender differences, check our app."
+
+  utter_ask_gender_prevalence_ur:
+    - text: "Autism ladkon mein 4 guna zyada diagnose hota hai ladkiyon se, shayad biological farq (jaise jiniyati amal), tashkheesi biases, ya ladkiyan behtar alamaat chhupati hain. Ladkiyan alag tarike se zahir karti hain, jiski wajah sy wo underdiagnose reh jati ha. Tehqeeq jaari hai, sab genders mein alamaat pehchaana zaroori ha."
+    - text: "Larkon mein 4 guna zyada diagnose hota hai larkiyon se. Baat yeh hai ke larkiyon mein symptoms thore chhupay hue aur different tareeke se dikhte hain – woh aksar “mask” kar leti hain (apne aap ko normal dikhane ki koshish). Isliye bohat si larkiyan bari ho kar hi pata chalti hain. Ab research chal rahi hai ke larkiyon ko bhi jaldi pehchaana ja sake."
+
+  utter_ask_vaccines_en:
+    - text: "No link between vaccines and autism – debunked by science. Vaccines are safe and essential."
+
+  utter_ask_vaccines_ur:
+    - text: "Vaccines se autism nahi hota – science ne galat sabit kiya. Teekay zaruri aur safe hain."
+  
+  utter_ask_causes_en:
+    - text: "We still don’t know the exact cause, but research points to a combination of genetics + some pregnancy/birth factors (like parents’ age or certain infections). The good news? It’s definitely NOT caused by parenting style, vaccines, fridge, mobile phones, or “nazar”. Science has ruled all of that out completely. No one is to blame."    
+    - text: "Mix of genes and environment. No blame on parents—science says so. Dive into details? For example, genetic mutations or maternal infections during pregnancy are researched areas."
+
+  utter_ask_causes_ur:
+    - text: "Autism ki wajohaat mukammal tor par maaloom nahi, lekin jiniyati aur maholiati amal shaamil hain jaise umar daraz walidain, paidaish se pehle exposures. Walidain ki parwarish ya vaccines se nahi hota ye ik myth haa! Jiniyat ke bare mein bataun? Early madad farq dalti hai."
+    - text: "100% ek wajah nahi hai. Genes ka bara role hai, aur pregnancy mein kuch cheezen (maa ki umar, infections, ya complications) bhi asar daal sakti hain. Lekin yeh baat pakki hai: vaccines se nahi hota, maa baap ki parenting se nahi hota, aur fridge ya mobile se bhi nahi. Yeh kisi ka qasoor nahi ❤️"
+ 
+  utter_ask_genetics_en:
+    - text: "Yes, genetics play a major role in autism, with over 100 genes linked. It's often inherited, but not always—mutations can occur spontaneously. Family history increases risk, especially for siblings (up to 20% chance if one has autism). Genetic testing can help identify risks, but it's not definitive for diagnosis."
+    - text: "Autism has strong genetic components, but environment interacts too. If a parent has autism, the child has higher odds, but it's not 100%."
+
+  utter_ask_genetics_ur:
+    - text: "Haan, genes ka bara haath hai – 100 se zyada genes autism se linked hain. Agar ghar mein kisi ko hai to doosre bhai-behen ko chance 10–20% tak ho sakta hai (normal logon se zyada). Lekin yeh zaruri nahi ke har bache ko ho – bohat se cases mein naye mutations khud paida ho jate hain."
+    - text: "Autism mein mazboot jiniyati amal hoty ha, mahol bhi asar karta ha. Agar walidain ko ho tw bachay ko hony ka zyada chance hota ha, lekin 100% nahi."
+
+  utter_ask_diagnosis_en:
+    - text: "Autism is diagnosed through behavioral observations, developmental history, and standardized tools like ADOS or M-CHAT for early screening. Usually by developmental pediatricians or psychologists. Early diagnosis (as young as 18 months) is key for intervention. No blood test, but comprehensive evaluation is needed."
+    - text: "Diagnosis involves assessing communication, social skills, and behaviors. Professionals use criteria from DSM-5. If you suspect, consult a specialist—our app has screening tools to start."
+
+  utter_ask_diagnosis_ur:
+    - text: "Doctor bache ko khelte, baat karte, aur behave karte dekhte hain. Standardized tools hote hain jaise ADOS ya M-CHAT. Sab se best hai developmental pediatrician ya child psychologist. 18–24 mahine mein bhi reliable diagnosis ho sakti hai. Jitni jaldi, utni behtar madad milti hai."
+    - text: "Diagnosis mei baat cheet, samaji hunar, rawaiye dekna shamil ha. DSM-5 criteria. Shak ho to specialist ko dekhaye ya hamari app mein screening tools ka istemal kary."
+
+  utter_ask_symptoms_en:
+    - text: "Symptoms include challenges with social interaction (e.g., eye contact, understanding emotions), communication (delayed speech, echolalia), repetitive behaviors (stimming, routines), and sensory sensitivities. Early signs: no babbling by 12 months, no pointing by 18 months. Varies widely—check our eductional hub for more details."
+    - text: "Common signs: repetitive actions, difficulty with changes, intense interests. In adults: social fatigue, masking. Remember, it's a spectrum—professional assessment needed."
+
+  utter_ask_symptoms_ur:
+    - text: "Choti umar mein common nishaniyan:\n• 12 mahine tak smile ya babbling na karna\n• 18 mahine tak ishara na karna ya naam sun kar na dekhna\n• Eye contact kam ya bilkul nahi\n• Akelay khelna pasand\n• Ek hi cheez ko baar baar karna (jaise wheels ghumana)\n• Awaazon ya textures se pareshan hona\nLekin har bacha different hota hai – yeh sirf red flags hain, final nahi.- mazeed maloomat k liye educational hub visit kary."
+    - text: "Aam alamaat: dohrana, tabdeelio mei mushkil, shiddat wale shoq. Baron mein: samaji thakan, chhupana. Spectrum hai—professional jaanch."
+
+  utter_ask_stimming_en:
+    - text: "Stimming (self-stimulatory behavior) is repetitive actions like hand-flapping, rocking, or spinning to regulate emotions or sensory input. Types: visual (staring at lights), auditory (humming), tactile (rubbing textures), vestibular (spinning). Common in autism for self-soothing— not always harmful, but monitor if injurious."
+
+  utter_ask_stimming_ur:
+    - text: "Stimming matlab apne aap ko calm karne ke chhote chhote movements – hath hilana, jhulna, ungliyan chakkar dena, ya kisi cheez ko baar baar chhuna. Yeh bache ka tareeqa hai tension ya excitement handle karne ka. Agar nuqsan nahi de raha to rokna nahi chahiye – yeh unka natural coping hai. Types: visual (lights dekhna), auditory (gunganana), tactile (textures ragarna), vestibular (ghumna), autism mein aam ha."
+
+  utter_ask_why_stimming_en:
+    - text: "Kids stim to self-regulate, manage sensory overload, express excitement, or reduce anxiety. It's a natural coping mechanism in autism due to different sensory processing. Benefits: calms the nervous system, improves focus. Not to 'fix' unless harmful—channel positively with fidget toys."
+    - text: "Stimming provides comfort in overwhelming situations. Understanding why helps support— you're doing great by learning!"
+
+  utter_ask_why_stimming_ur:
+    - text: "Stimming se bacha apne nervous system ko balance karta hai. Sensory overload ho, excitement ho, ya anxiety – stimming se unko sukoon milta hai. Jaise hum chai peete hain tension mein, waise hi woh hath hilate hain. Yeh unka tareeqa-e-taskeen hai."
+
+  utter_ask_therapy_en:
+    - text: "Therapies include ABA (behavior skills), speech therapy (communication), occupational therapy (daily skills/sensory), play therapy (social). Best is individualized—start with assessment. In Pakistan, centers like Autism Resource Centre. Effectiveness high with consistency—our app connects to resources."
+
+  utter_ask_therapy_ur:
+    - text: "Therapies mein ABA (hunar), speech therapy (baat cheet), occupational therapy (rozana hunar/sensory), play therapy (samaji). Behtareen individual—assessment se shuru karna ha."
+    - text: "Sab se common aur effective:\n1. Speech Therapy – bolna aur samajhna\n2. Occupational Therapy – sensory issues aur daily skills\n3. ABA – behaviors aur learning\n4. Play/Social Skills Therapy – dost banana\nPakistan mein Karachi, Lahore, Islamabad mein achhe centers hain. App mein bhi resources list hai."
+
+  utter_ask_aba_therapy_en:
+    - text: "ABA (Applied Behavior Analysis) uses positive reinforcement to teach skills like communication, social interaction, and self-care. Sessions are structured, data-driven. Benefits: reduces challenging behaviors, builds independence. Who benefits: kids with various needs. Enrollment: find certified therapists via our app."
+    - text: "Why ABA? Evidence-based, customizable. After enrollment: consistent practice at home amplifies results—you're committed!"
+
+  utter_ask_aba_therapy_ur:
+    - text: "ABA ek scientific tareeqa hai jo chhoti chhoti steps mein naye hunar sikhata hai – tareeef aur inaam se. Sab se zyada research wali therapy hai autism ke liye. Agar pyar aur izzat ke saath ki jaye to zindagi badal deti hai – baat cheet, roz ka kaam, mushkil rawaiye sab mein farq parta hai."
+    - text: "Why ABA? Evidence-based, customizable. After enrollment: consistent practice at home amplifies results—you're committed!"
+
+  utter_ask_visual_aids_en:
+    - text: "Visual aids like picture cards, schedules, social stories help with communication and routines. They reduce anxiety by making expectations clear. Examples: PECS for non-verbal, visual timers."
+    - text: "Benefits: improves understanding, independence. Start simple—great tool!"
+
+  utter_ask_visual_aids_ur:
+    - text: "Tasveeri cards, roz ka schedule, timer, samaji kahaniyan – yeh sab duniya ko predictable banate hain. Bache ko pata chalta hai “ab kya hoga”, to pareshani ghat jati hai. Non-verbal bachon ke liye PECS aur transition ke liye visual timer bohat kaam ke hain."
+
+  utter_ask_daily_tips_en:
+    - text: "Daily tips: establish routines, use visual supports, encourage communication (even non-verbal), sensory breaks. Play games for social skills, praise efforts. Track progress in our app—small wins add up! You're building a supportive environment."
+
+  utter_ask_daily_tips_ur:
+    - text: "Roz ka jadoo: ek hi routine, tasveeri timetable, bohat sari tareef, chhote sensory breaks, baari lene ke khel, aur chhoti se chhoti koshish ko celebrate karei. App sy progress track kary! Aap madadgar mahol bana rahe."
+
+  utter_ask_support_en:
+    - text: "Support: join parent groups (online/offline), therapy centers, government aids in Pakistan (e.g., special education). Our app has forums for sharing. Emotional support: self-care, counseling. You're not alone—community helps!"
+    - text: "Resources: books like 'The Autism Book', apps for tracking. Reach out—you're strong!"
+
+  utter_ask_support_ur:
+    - text: "Madad: parent groups join kary (online/offline), therapy centers, Pakistan sarkar madad (special education) faraham karti ha. App forums sy madad ley. Jazbati: self-care, counseling. Tanha nahi ha aap!"
+    - text: "Aap akely nahi hain! Local parent groups join kar lein, app ke forum mein baat karein, therapy centres dhoondhein. Aur apna bhi khayal rakhein – khush maa/baap = khush bacha ❤️"
+
+  utter_ask_adult_autism_en:
+    - text: "Adults with autism can lead fulfilling lives with support—jobs, relationships, independence. Challenges: social, sensory, but strengths in focus, detail. Diagnosis later common. Resources: employment programs, therapy. Hopeful—you're planning ahead!"
+    - text: "Many autistic adults are working in IT, art, research, even running their own companies! With the right support they marry, have kids, and live super fulfilling lives. Famous examples: Temple Grandin, Satoshi Tajiri (creator of Pokémon)."
+
+  utter_ask_adult_autism_ur:
+    - text: "Autism wale bohat mufeed zindagi madad se guzar sakty ha—nokriyan, rishte, azadi sab hasil karsakty ha. Mushkilaat: samaji, sensory, lekin quwwat tawajjoh, tafseel mein. Baad tashkhees aam. Resources: nokri programs, therapy. Umeed—aap agay plan!"
+    - text: "Bohat se autistic adults IT, art, research mein kaam kar rahe hain – kuch apni companies bhi chala rahe hain! Sahi madad se shaadiyan karte hain, bache paida karte hain, aur bohat khushi se jeete hain. Mashhoor misaal: Temple Grandin aur Pokémon banane wale Satoshi Tajiri."
+
+  utter_ask_resources_en:
+    - text: "Start with our app’s Educational Hub & forums. Books: “Thinking in Pictures” (Temple Grandin), “Unmasking Autism” (Devon Price). Local: Pakistan Autism Society, Rising Sun, AKUH clinics"
+
+  utter_ask_resources_ur:
+    - text: "App ka Educational Hub aur forums se shuru karein. Kitabein: “Thinking in Pictures” (Temple Grandin). Pakistan mein: Pakistan Autism Society, Rising Sun, AKUH, Child Development Centre."
+
+  utter_ask_myths_en:
+    - text: "Myths: vaccines cause autism (false, debunked), bad parenting (no), outgrow it (no, but manage). Autism not contagious, not from screens. Truth: neurodiversity, strengths. Educate others—you're advocating!"
+
+  utter_ask_myths_ur:
+    - text: "Afsaney: vaccines se autism hota ha (galat), buri parwarish sy autism hota ha (nahi), baray ho kar khatam hojata ha (nahi, sambhal sakta ha, control hosakta ha). Chhootne wala nahi ha, screens se nahi hota ye. Haqeeqat: neurodiversity, quwwatain. Doosron ko sikhayein"
+
+  utter_ask_cure_en:
+    - text: "There is no “cure” because autism isn’t a disease – it’s a different operating system of the brain. But with therapies and love, life becomes beautiful and independent."
+
+  utter_ask_cure_ur:
+    - text: "Autism ka koi ilaj nahi ha. Therapies zindagi behtar karsakti ha, hunar barha sakti ha. Skills, qubooliyaat par focus kary. Jaldi madad ahem."
+
+  utter_ask_eye_tracking_en:
+    - text: "New technology watches where a baby looks on a screen. Autistic babies often look at objects more than faces. This helps catch autism as early as 6-12 months – amazing for early therapy!"
+
+  utter_ask_eye_tracking_ur:
+    - text: "Nayi technology se dekhte hain bacha screen par kahan kahan dekhta hai. Autistic bachay chehron se zyada cheezon ko dekhte hain. Is se 6-12 mahine mein hi autism pakra ja sakta hai – jaldi therapy ke liye bohat zabardast! ha."
+
+  utter_no_diagnosis_en:
+    - text: "I'm not a doctor—can't diagnose. If symptoms match, see a professional for evaluation. Our app has screening quizzes to guide, but not substitute. Prioritize health—you're cautious!"
+    - text: "Describe symptoms? I can suggest next steps."
+
+  utter_no_diagnosis_ur:
+    - text: "Main doctor nahi hoon, isliye diagnosis nahi de sakti. Lekin agar aapko bohat si nishaniyan match kar rahi hain to please jaldi se developmental pediatrician se mil lein. App mein screening quiz hai – shuru karne ke liye acha hai, lekin final nahi."
+
+  utter_language_support_en:
+    - text: "Yes, I support English and Roman Urdu! Switch anytime—ask in your preferred language. Makes info accessible—you're inclusive!"
+
+  utter_language_support_ur:
+    - text: "Haan, English aur Roman Urdu! Kabhi bhi badlein—pasandeeda zuban mein poochiyein."
+
+  utter_ask_triggers_en:
+    - text: "Triggers = anything that suddenly overwhelms them: loud noise, bright lights, change in routine, new people, strong smells. When too many hit at once → meltdown (not tantrum)."
+
+  utter_ask_triggers_ur:
+    - text: "Trigger woh cheez hai jo ek dum se overload kar de – zor ki awaz, tez roshni, routine badalna, naye log, tez boo. Jab sab ek saath ho jaye to meltdown hota hai (tantrum nahi)."
+
+  utter_ask_trigger_types_en:
+    - text: "Main types: sensory (sound/light/smell), routine changes, social pressure, hunger/tiredness, emotional stress. Every child has their own unique set."
+
+  utter_ask_trigger_types_ur:
+    - text: "Types: awaz/roshni/boo, routine badalna, logon ka dabao, bhook/thakan, jazbati pareshani. Har bache ke alag triggers hote hain."
+
+  utter_ask_why_triggers_en:
+    - text: "Their brain processes sensory information differently – what’s normal volume for us feels like a jet engine to them. Meltdown is their body’s emergency “shutdown” button."
+
+  utter_ask_why_triggers_ur:
+    - text: "Unka dimagh sensory cheezon ko alag tareeke se process karta hai – humare liye normal awaz unke liye jet engine jaisi lagti hai. Meltdown unka emergency shutdown hai."
+
+  utter_ask_managing_triggers_en:
+    - text: "Keep a small diary → spot patterns → avoid or prepare (noise-cancelling headphones, visual warnings, calm corner, deep pressure hugs). Prevention is easier than recovery!"
+
+  utter_ask_managing_triggers_ur:
+    - text: "Chhota sa diary rakhein → pattern samajh ayein → ya to avoid karein ya pehle se tayyar (headphones, tasveeri warning, calm corner, zor se hug). Bachana asaan hai baad mein sambhalne se!"
+
+  utter_ask_app_features_en:
+    - text: "Inside the app: Educational Hub (hundreds of videos/articles), parent forum, assessing screening quiz, trigger & progress tracker, visual charts – everything in English + Urdu!"
+
+  utter_ask_app_features_ur:
+    - text: "App mein hai: Educational Hub (bohat sari videos/articles), parent forum, screening quiz, triggers aur progress tracker – sab Roman Urdu + English mein!"
+
+  utter_ask_autism_employment_en:
+    - text: "Many with autism excel in jobs matching strengths (detail-oriented roles like IT, art). Challenges: social, sensory—accommodations help (flexible hours, quiet spaces). Programs like Specialisterne support."
+
+  utter_ask_autism_employment_ur:
+    - text: "Kai autism wale apny hunar ky mutabiq nokriyan karty ha (detail-oriented roles jaisy IT, art). Mushkilaat: samaji, sensory—accommodations madad karti ha (flexible hours, sakoon). Programs jaise Specialisterne."
+
+  utter_ask_autism_marriage_en:
+    - text: "People with autism can have successful marriages with understanding partners. Challenges: sensory, routines—but strengths in loyalty, honesty. Support groups help—you're thoughtful!"
+
+  utter_ask_autism_marriage_ur:
+    - text: "Autism walo ki samajhdar sathi ky sath kamyab shaadi hosakti ha. Mushkilaat: sensory, routines, sachai."
+
+  utter_ask_if_contagious_en:
+    - text: "No, autism is not contagious—it's a neurodevelopmental condition, not an infection. Can't 'catch' it from others. Spread awareness to debunk myths—you're informed!"
+
+  utter_ask_if_contagious_ur:
+    - text: "Nahi, autism chony sy nahi hoti ye ik neurodevelopmental haalat ha, koi infection nahi. Doosron se nahi transfer hosakta. Awareness phailayein"
+    - text: "Bilkuuuul nahi! Yeh chhota muh bari baat wali cheez nahi. 😅 Kisi se touch karne ya saath khelne se nahi lagta. Yeh dimagh ki alag wiring hai jo paida hote waqt ya pregnancy mein banta hai."
+
+  utter_ask_if_child_can_have_en:
+    - text: "Any child can have autism—risk factors like genetics, but not predictable. If concerned, screen early. Our app helps assess—consult pro. You're vigilant!"
+
+  utter_ask_if_child_can_have_ur:
+    - text: "Kisi bhi bache ko autism ho sakta hai – ameer/ghareeb, ladka/ladki, koi farq nahi. Genetics sab se bara factor hai, lekin 100% predictable nahi. Agar shak hai to jaldi screening karwa lein – jitni jaldi utna behtar!"
+
+  utter_ask_if_autism_adhd_same_en:
+    - text: "No, autism and ADHD are different—autism affects social/communication, ADHD focus/impulsivity. Can co-occur (comorbid). Different diagnoses, treatments. Clarify with doc—you're distinguishing! Overlaps exist, but separate conditions."
+
+  utter_ask_if_autism_adhd_same_ur:
+    - text: "Nahi, autism aur ADHD dono alag hai—autism samaji/baat ko mutasir karta ha jabky, ADHD tawajjoh/tabdeeli ko. Dono saath zaroor ho sakty ha (comorbid). Dono ky alag diagnosis aur ilaj ha. "
+
+  utter_ask_diagnosis_age_en:
+    - text: "Usually diagnosed around 2-3 years, but signs from 12-18 months. Adults later. Early better for intervention. If suspect, act now—you're timely!"
+
+  utter_ask_diagnosis_age_ur:
+    - text: "Aksar 2-3 saal mei tashkhees hojati ha, lekin alamaat 12-18 mah mei zahir hony lag jatay ha. Jaldi tashkhees mufeed hoti ha."
+
+  utter_ask_late_speech_en:
+    - text: "Late speech can be a sign, but not always autism—could be hearing, development. Consult speech therapist/pediatrician. Early therapy helps!"
+
+  utter_ask_late_speech_ur:
+    - text: "Der sy bolna nishani zaroor ha autism ki, lekin hamesha autism ki pehcan nahi. Speech therapist/pediatrician sy consult kary."
+
+  utter_ask_test_available_en:
+    - text: "No single test, but screening tools like M-CHAT, full eval by pros. Online quizzes in our app for initial check—not diagnostic. Seek expert—you're proactive! Genetic tests for risks."
+
+  utter_ask_test_available_ur:
+    - text: "Koi ek test nahi hotaa, tools jaise M-CHAT, mukammal evaluatio by professionals. App mei online quizzes mojood ha."
+
+  utter_ask_if_normal_or_dangerous_en:
+    - text: "Autism is a natural variation, not dangerous— but unmanaged challenges can affect well-being. With support, thriving possible. Not illness—you're normalizing!"
+
+  utter_ask_if_normal_or_dangerous_ur:
+    - text: "Autism natural ha, khatarnak nahi— magar imdaad aur ilaj zaroori ha."
+
+  utter_ask_eye_contact_sign_en:
+    - text: "Avoiding eye contact can be a sign, due to sensory/social overwhelm. Not always autism—cultural too. Observe other symptoms, consult. You're noticing early! Tips: don't force, use side glances."
+
+  utter_ask_eye_contact_sign_ur:
+    - text: "Eye contact na karna autism ki bohat common nishani hai, lekin sirf yeh akeli nahi decide karti. Kuch bachon ko eye contact se sensory overload hota hai – jaise humein bohat tez light lagti hai. Force mat keejiye ga, side se baat karein. Doosri alamaat bhi observe kary, mashwara kary."
+
+  utter_ask_repeating_words_en:
+    - text: "Repeating (echolalia) common in autism for processing/comfort. Can be normal in toddlers, but persistent may indicate. Speech therapy helps—you're aware!"
+
+  utter_ask_repeating_words_ur:
+    - text: "Isay echolalia kehte hain – bohat normal hai autistic bachon mein. Woh aise language practice kar rahe hote hain ya calm feel kar rahe hote hain. Chhoti umar mein typical bachay bhi karte hain, lekin agar 3–4 saal ke baad bhi zyada ho to speech therapist se mil lein."
+
+  utter_ask_not_playing_with_others_en:
+    - text: "Preferring solitary play can be a sign of social challenges in autism. Encourage parallel play first. If with other signs, evaluate. You're concerned—good!"
+
+  utter_ask_not_playing_with_others_ur:
+    - text: "Akela khelna samaji mushkil ki nishani ha autism mein. Pahle parallel khel barhaye. Doosri alamaat ko bhi jaanchy."
+
+  utter_ask_which_doctor_en:
+    - text: "See developmental pediatrician, child psychologist, or neurologist for doubt. In Pakistan, centers like AKUH. Start with pediatrician referral!"
+
+  utter_ask_which_doctor_ur:
+    - text: "Shak ha to developmental pediatrician ko, child psychologist, neurologist ko dekhaye. Pakistan mei AKUH jaise centers hai. Pediatrician ky referral sy shuru kary!"
+
+  utter_ask_school_adjustment_en:
+    - text: "If not adjusting, communicate with teachers, request accommodations (quiet areas, visuals). Therapy for skills. Inclusive with support—you're advocating!"
+
+  utter_ask_school_adjustment_ur:
+    - text: "Adjust na ho paye to teachers sy baat kary, accommodations requst kary (sakoon, visuals). Hunar ky liye therapy."
+
+  utter_ask_normal_school_en:
+    - text: "Depends on needs— inclusive schools with support foster social skills, special for intensive help. Assess child's level. Both good—you're deciding wisely!"
+
+  utter_ask_normal_school_ur:
+    - text: "Zaruriyat par depend karta ha—madad wale inclusive schools mojood ha jo samaji hunar sekhaty haa."
+
+  utter_ask_explain_to_relatives_en:
+    - text: "Explain: 'It's a neurodifference, not stubbornness—brain processes differently.' Share facts, resources. Patience key—you're educating!"
+
+  utter_ask_explain_to_relatives_ur:
+    - text: "Aap yun keh sakti hain:\n“Amma/Abbu, yeh ziddi pan nahi hai. Bache ka dimagh thoda different tareeqe se kaam karta hai. Jaise kuch log left-handed hote hain, waise hi yeh different-wired hai. Is mein hamari koi galti nahi, aur yeh theek ho bhi sakta hai therapy se.”\nPhir unko ek chhota video ya article dikha dein."
+
+  utter_ask_parent_guilt_en:
+    - text: "Guilt common but unfounded—autism not from actions. Focus on now, support. Self-compassion—you're loving parent!"
+
+  utter_ask_parent_guilt_ur:
+    - text: "Yeh guilt har parent ko hota hai, lekin sach yeh hai ke aap ne kuch galat nahi kiya. Yeh kisi ki galti se nahi hota. Aap jo ab kar rahy hain – seekhna, madad dhoondhna – woh sab se bada pyar hai jo aap apne bache ko de sakty hain. Aap amazing parent hain 💪❤️"
+
+  utter_ask_normal_life_en:
+    - text: "Yes, with support many lead independent, happy lives—jobs, friends, hobbies. Varies by spectrum. Early help key—you're optimistic!"
+
+  utter_ask_normal_life_ur:
+    - text: "Haan bilkul! Bohat se autistic log apni marzi se ghar, shaadi, nokri – sab karte hain. Level 1 (mild) wale to aksar logon ko pata bhi nahi chalta. Level 2–3 walon ko thodi zyada support chahiye, lekin khushi aur kamyabi dono ke haqdaar hain ❤️"
+
+  utter_ask_tantrums_en:
+    - text: "Tantrums can be part of autism due to communication frustration or overload. Not willful—help identify triggers, teach coping. ABA useful—you're patient!"
+
+  utter_ask_tantrums_ur:
+    - text: "Autistic bachon ke tantrums aksar “bila wajah” nahi hote – unke liye woh meltdown hota hai jab sensory ya emotional overload ho jata hai. Unko words nahi milte apni pareshani batane ke, to woh rone ya chillane lagte hain. Sabr se triggers pehchaaniye aur calm-down corner banayein."
+
+  utter_ask_if_will_speak_en:
+    - text: "Many non-verbal autistic people never speak with mouth, but they communicate beautifully using pictures, tablets (AAC), or sign language. Some do start speaking later with therapy. Focus on communication, not just speech."
+
+  utter_ask_if_will_speak_ur:
+    - text: "Bohat se non-verbal bachay zubaan se nahi bolte, lekin tasveeron, tablet (AAC), ya isharo se bohat achhe se baat karte hain. Kuch therapy se baad mein bolna shuru kar dete hain. Baat bolwana nahi, communication zaroori hai ❤️"
+
+  utter_ask_therapy_impact_en:
+    - text: "Therapy can completely transform life – many kids go from non-verbal to chatting, from meltdowns every day to calm and happy. Early + consistent = biggest gains."
+
+  utter_ask_therapy_impact_ur:
+    - text: "Therapy zindagi badal sakti hai – bohat se bachay non-verbal se baat karne lagte hain, roz ke meltdowns khatam ho jate hain. Jaldi shuru aur lagataar karne se sab se zyada farq parta hai."
+
+  utter_ask_how_to_communicate_en:
+    - text: "Speak slowly, use short sentences, add pictures, wait 10-15 seconds for processing, get down to their level, repeat and rephrase if needed. Most important: listen with your heart."
+
+  utter_ask_how_to_communicate_ur:
+    - text: "Dheere bolo, chhote jumle, tasveer dikhao, 10-15 second wait karo, unki aankhon ke level par aao, zarurat par dohrao. Sab se zaroori: dil se suno ❤️"
+
+  utter_ask_independence_en:
+    - text: "Absolutely yes! Teach one tiny step at a time – putting on socks, brushing teeth, making roti. Use picture cards or video modelling, repeat every day with lots of claps and “shabash!”. Many autistic teens and adults live alone and cook full meals because parents started this early."
+
+  utter_ask_independence_ur:
+    - text: "Bilkul haan! Ek ek chhota step sikhayein – moze pehnana, daant saaf karna, roti banana. Tasveeri cards ya video dikha kar, roz thodi der, bohat sari wah-wah ke saath. Bohat se autistic bache baray ho kar akelay rehte hain aur poora khana banate hain kyunke maa-baap ne chhoti umar se shuru kiya tha ❤️"
+
+  utter_ask_best_therapy_en:
+    - text: "There’s no single “best” – the golden combo for most kids is ABA + Speech Therapy + Occupational Therapy. Early, intense, and play-based works wonders. Every child is different, so a good therapist will make a custom mix just for your little one."
+
+  utter_ask_best_therapy_ur:
+    - text: "Koi ek “sab se best” nahi – aksar bachon ke liye teeno therapies saath kaamil hoti hain: ABA + Speech + Occupational Therapy. Jaldi shuru, zyada ghante, aur khel-khel mein – yeh teesri aanay wala formula hai!"
+
+  utter_ask_aba_details_en:
+    - text: "ABA breaks everything into tiny steps and rewards every success (high-five, favourite song, sticker). Intensive programs are 20–40 hours/week, but even 10–15 hours with proper home practice give amazing results. Always choose a kind, playful therapist!"
+
+  utter_ask_aba_details_ur:
+    - text: "ABA har cheez ko chhota chhota step mein torti hai aur har sahi kaam par inaam deti hai (clap, pasand ka gaana, sticker). Full program 20-40 ghante/semana hota hai, lekin 10-15 ghante bhi ghar mein practice ke saath bohat farq daalte hain. Hamesha pyar se samjhane wala therapist chunein!"
+
+  utter_ask_home_exercises_en:
+    - text: "15–30 minutes daily: rice/dal bin for sensory play, reading social stories together, turn-taking board games, blowing bubbles, jumping on trampoline. Consistency > intensity!"
+
+  utter_ask_home_exercises_ur:
+    - text: "Roz sirf 15-30 minute: chawal/daal ka sensory tub, saath mil kar samaji kahaniyan parhna, baari lene wale khel, bubbles phoonkna, trampoline par kudna. Roz thodi der karna > ek din mein ghanton karna!"
+
+  utter_ask_online_programs_en:
+    - text: "Yes! Our app has guided content. Other great ones: Proloquo2Go (AAC app), Otsimo, Khan Academy Kids (with visual supports), and Ghotit for writing help."
+
+  utter_ask_online_programs_ur:
+    - text: "Haan jee! Hamara app mein video exercises hain. Doosre achhe apps: Proloquo2Go (baat karne ka), Otsimo, Khan Academy Kids (visuals ke saath), aur Ghotit writing ke liye."
+
+  utter_ask_speech_therapy_time_en:
+    - text: "Some kids start saying new words in 3–6 months, others take 1–2 years. The ones who practice at home every single day progress fastest!"
+
+  utter_ask_speech_therapy_time_ur:
+    - text: "Kuch bache 3-6 mahine mein naye lafz bolna shuru kar dete hain, kuch ko 1-2 saal lagte hain. Jo ghar mein roz practice karte hain, woh sab se tez aage badhte hain!"
+
+  utter_ask_anxiety_sleep_en:
+    - text: "Yes, very common. Anxiety comes from sensory overload, sleep issues from irregular melatonin. Fixed bedtime routine, weighted blanket, white noise, and sometimes melatonin drops (doctor’s advice) work like magic."
+
+  utter_ask_anxiety_sleep_ur:
+    - text: "Haan bohat aam hai. Anxiety sensory overload se, neend melatonin ki kami se. Ek dam fixed sone ka routine, weighted blanket, white noise machine, aur doctor ki salah se melatonin drops – yeh sab jadoo karte hain!"
+
+  utter_ask_bilingual_therapy_en:
+    - text: "Bilingual therapy is fantastic! Kids learn faster when therapists use both Urdu and English because they hear language at home and school. It feels natural and respectful."
+
+  utter_ask_bilingual_therapy_ur:
+    - text: "Do zubanon mein therapy bohat zabardast hoti hai! Jab therapist Urdu aur English dono bolta hai to bacha ghar aur school ki zuban dono samajhta hai – bilkul natural lagta hai."
+
+  utter_ask_spectrum_meaning_en:
+    - text: "Spectrum = every autistic person is unique. Some speak fluently and go to university, some need help all their life. No two are the same – like flowers in one garden, all different, all beautiful."
+
+  utter_ask_spectrum_meaning_ur:
+    - text: "Spectrum ka matlab – har autistic insan alag hota hai. Koi full sentences bolta hai aur university jata hai, koi zindagi bhar madad mangta hai. Ek jaise do nahi hote – jaise ek hi bagheecha ke alag alag phool ❤️"
+
+  utter_ask_high_low_functioning_en:
+    - text: "We’re slowly moving away from “high/low functioning” labels because they’re misleading. Better to say “higher support needs” or “lower support needs” – focuses on what the person actually needs instead of boxing them."
+
+  utter_ask_high_low_functioning_ur:
+    - text: "High/low functioning labels ab kam use hote hain kyunke yeh confuse karte hain. Behtar hai kehna “zyada madad chahiye” ya “kam madad chahiye” – yeh asal zaroorat batata hai."
+
+  utter_ask_autism_spd_difference_en:
+    - text: "SPD = only sensory issues. Autism = sensory + social + communication + routines. Most autistic kids have SPD too, but not everyone with SPD is autistic."
+
+  utter_ask_autism_spd_difference_ur:
+    - text: "SPD mein sirf sensory masle hote hain. Autism mein sensory ke saath saath baat cheet, logon se milna, routine bhi hota hai. Aksar autistic bachon ko SPD bhi hota hai, lekin SPD wala har bacha autistic nahi hota."
+
+  utter_ask_loud_sounds_en:
+    - text: "Very common! Loud noises feel painful to them. Noise-cancelling headphones or ear defenders are a lifesaver. Warn before flushing toilet or mixer – small things make big difference."
+
+  utter_ask_loud_sounds_ur:
+    - text: "Bohat common hai! Zor ki awaz unke kaanon mein dard karti hai. Noise-cancelling headphones ya ear defenders zindagi asaan kar dete hain. Toilet flush ya mixer chalane se pehle bata den – chhoti si baat, bara farq!"
+
+  utter_ask_special_vs_inclusive_en:
+    - text: "Inclusive school with a good shadow teacher = best for social skills. Special school = best for intense therapy. Many families do both (morning special, afternoon inclusive). Choose what suits your child right now."
+
+  utter_ask_special_vs_inclusive_ur:
+    - text: "Inclusive school + achha shadow teacher = samaji hunar ke liye best. Special school = therapy ke liye best. Bohat se gharane dono karte hain (subah special, dopahar inclusive). Abhi jo bache ko suit kare woh chunein."
+
+  utter_ask_adult_life_en:
+    - text: "Many autistic adults work in tech, art, accounting, research. Some marry, some live independently, some stay with family – all happy paths possible with early support!"
+
+  utter_ask_adult_life_ur:
+    - text: "Bohat se autistic baray IT, art, hisab-kitab, research mein kaam karte hain. Koi shaadi karte hain, koi akelay rehte hain, koi ghar par – jaldi madad mile to har tareeke ki khushi mumkin hai!"
+
+  utter_ask_ai_tech_role_en:
+    - text: "AI is changing everything: apps that speak for non-verbal kids, VR games for social practice, smart watches that predict meltdowns, robots that teach turn-taking. The future looks bright!"
+
+  utter_ask_ai_tech_role_ur:
+    - text: "AI sab badal raha hai: apps jo bol dete hain jab bacha nahi bol sakta, VR khel samaji practice ke liye, smart watch jo meltdown pehle se bata de – mustaqbil bohat roshan hai!"
+
+  utter_ask_long_term_plan_en:
+    - text: "Long-term: keep therapies going, teach life skills every year, open a special-needs trust, meet a lawyer for guardianship papers when they turn 18, build a support circle. Plan like you’re raising a CEO – slow and steady!"
+
+  utter_ask_long_term_plan_ur:
+    - text: "Lamba plan: therapy jaari rakhein, har saal zindagi ke naye hunar sikhayein, special-needs trust khol lein, 18 saal hone se pehle lawyer se guardianship papers karwa lein, support circle banayein. Jaise CEO tayyar kar rahe ho – dheere dheere, mustaqil!"
+
+  utter_ask_awareness_pakistan_en:
+    - text: "Awareness is growing fast – Pakistan Autism Meetup, Karachi & Lahore events, more schools opening. But villages still lag. Every time you explain calmly to a relative, you’re changing Pakistan!"
+
+  utter_ask_awareness_pakistan_ur:
+    - text: "Awareness tezi se barh rahi hai – Pakistan Autism Meetup, Karachi-Lahore events, naye schools khul rahe hain. Lekin gaon abhi peeche hain. Jab bhi aap kisi relative ko pyar se samjhate hain, aap Pakistan badal rahe hote hain ❤️"
+
+  utter_ask_acceptance_en:
+    - text: "Accept when ready—view as different strengths, not deficits. Grieve if needed, then celebrate uniqueness. Support groups help process. Beautiful journey ahead—you're embracing with love! Acceptance empowers advocacy"
+
+  utter_ask_acceptance_ur:
+    - text: "Jab dil tayyar ho, tab qubool kar lein ke aapka bacha “different” hai, “kam” nahi. Har bache mein kuch khaas quwwatein hoti hain – aap bas unko polish kar rahi hain. Rona aa jaye to ro lein, phir muskurayein – aapka bacha aap se zyada kisi aur ko nahi chahta 🌟"
+
+  utter_cheer_up_en:
+    - text: "Here is something to cheer you up: a cute image to brighten your day!"
+      image: "https://i.imgur.com/nGF1K8f.jpg"
+    - text: "Feeling down? Here's a fun pic to lift spirits!"
+
+  utter_cheer_up_ur:
+    - text: "Yeh dekhein, shayad aapka mood behtar ho jaye!"
+      image: "https://i.imgur.com/nGF1K8f.jpg"
+    - text: "Udaas? Yeh maze ki tasveer mood theek karegi!"
+
+  utter_did_that_help_en:
+    - text: "Did that help you? If not, let's try something else!"
+    - text: "Useful? Or shall we pivot?"
+
+  utter_did_that_help_ur:
+    - text: "Kya yeh madadgar tha? Agar nahi, to kuch aur poochiye!"
+    - text: "Mufeed? Ya badlen?"
+
+  utter_happy_en:
+    - text: "Great, carry on! What's next on your mind?"
+    - text: "Sweet! Keep the questions coming."
+
+  utter_happy_ur:
+    - text: "Bohat acha, jaari rakhein! Aur kya janna hai?"
+    - text: "Zabardast! Sawalat jaari rakhein."
+
+  utter_iamabot_en:
+    - text: "I am ERAM, your friendly autism support assistant 🤖. I'm here to make things easier for you!"
+    - text: "ERAM here, like a smart friend for autism chats."
+
+  utter_iamabot_ur:
+    - text: "Main ERAM hoon, aapka autism support assistant 🤖. Main aapki madad karne ke liye bana hoon!"
+    - text: "ERAM yahan, autism baaton ke liye  dost jaise."
+
+actions:
+  - action_custom_fallback
+  - action_utter_greet
+  - action_utter_goodbye
+  - action_utter_thanks
+  - action_handle_affirm
+  - action_utter_deny
+  - action_utter_ask_definition
+  - action_utter_ask_prevalence
+  - action_utter_ask_gender_prevalence
+  - action_utter_ask_causes
+  - action_utter_ask_genetics
+  - action_utter_ask_diagnosis
+  - action_utter_ask_symptoms
+  - action_utter_ask_stimming
+  - action_utter_ask_why_stimming
+  - action_utter_ask_therapy
+  - action_utter_ask_aba_therapy
+  - action_utter_ask_visual_aids
+  - action_utter_ask_daily_tips
+  - action_utter_ask_support
+  - action_utter_ask_adult_autism
+  - action_utter_ask_resources
+  - action_utter_ask_myths
+  - action_utter_ask_cure
+  - action_utter_ask_eye_tracking
+  - action_utter_no_diagnosis
+  - action_utter_language_support
+  - action_utter_ask_triggers
+  - action_utter_ask_trigger_types
+  - action_utter_ask_why_triggers
+  - action_utter_ask_managing_triggers
+  - action_utter_ask_app_features
+  - action_utter_ask_autism_employment
+  - action_utter_ask_autism_marriage
+  - action_utter_ask_if_contagious
+  - action_utter_ask_if_child_can_have
+  - action_utter_ask_if_autism_adhd_same
+  - action_utter_ask_diagnosis_age
+  - action_utter_ask_late_speech
+  - action_utter_ask_test_available
+  - action_utter_ask_if_normal_or_dangerous
+  - action_utter_ask_eye_contact_sign
+  - action_utter_ask_repeating_words
+  - action_utter_ask_not_playing_with_others
+  - action_utter_ask_which_doctor
+  - action_utter_ask_school_adjustment
+  - action_utter_ask_normal_school
+  - action_utter_ask_explain_to_relatives
+  - action_utter_ask_parent_guilt
+  - action_utter_ask_normal_life
+  - action_utter_ask_tantrums
+  - action_utter_ask_if_will_speak
+  - action_utter_ask_therapy_impact
+  - action_utter_ask_how_to_communicate
+  - action_utter_ask_independence
+  - action_utter_ask_best_therapy
+  - action_utter_ask_aba_details
+  - action_utter_ask_home_exercises
+  - action_utter_ask_online_programs
+  - action_utter_ask_speech_therapy_time
+  - action_utter_ask_anxiety_sleep
+  - action_utter_ask_bilingual_therapy
+  - action_utter_ask_spectrum_meaning
+  - action_utter_ask_high_low_functioning
+  - action_utter_ask_autism_spd_difference
+  - action_utter_ask_loud_sounds
+  - action_utter_ask_special_vs_inclusive
+  - action_utter_ask_adult_life
+  - action_utter_ask_ai_tech_role
+  - action_utter_ask_long_term_plan
+  - action_utter_ask_awareness_pakistan
+  - action_utter_ask_acceptance
+  - action_utter_cheer_up
+  - action_utter_happy
+  - action_utter_iamabot
+  - action_utter_ask_doctors
+  - action_utter_ask_games
+  - action_utter_ask_language
+  - action_utter_ask_treatments
+  - action_utter_ask_early_intervention
+  - action_utter_ask_sensory_issues
+  - action_utter_ask_behavior_management
+  - action_utter_ask_education
+  - action_utter_ask_diet
+  - action_utter_ask_vaccines
+  - action_utter_ask_support_parents
+  - action_utter_ask_mitochondrial
+  - action_utter_ask_regression
+  - action_utter_ask_eye_contact
+  - action_utter_ask_speech_delay
+  - action_utter_ask_aggression
+  - action_utter_ask_repetitive_behaviors
+  - action_utter_ask_medical_visits
+  - action_utter_ask_nonverbal_pain
+  - action_utter_ask_support_groups
+  - action_utter_ask_trusted_sources
+  - action_utter_ask_care_team
+  - action_utter_ask_siblings
+  - action_utter_ask_outgrow_autism
+  - action_utter_ask_aspergers
+  - action_utter_ask_rett_syndrome
+  - action_utter_ask_name_response
+  - action_utter_ask_eating_issues
+  - action_utter_ask_solitary_play
+  - action_utter_ask_repetitive_speech
+  - action_utter_ask_repetitive_media
+  - action_utter_ask_who_benefits_aba
+  - action_utter_ask_why_aba
+  - action_utter_ask_enrollment_aba
+  - action_utter_ask_after_enrollment
+  - action_utter_ask_kids_questions
+  - action_ask_bot
+  
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
