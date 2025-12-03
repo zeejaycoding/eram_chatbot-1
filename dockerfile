@@ -1,19 +1,21 @@
-FROM rasa/rasa:3.6.20-full
-
-COPY . /app
+FROM rasa/rasa:3.6.20
 
 USER root
 
-RUN apt-get update && apt-get install -y supervisor && \
-    pip install --no-cache-dir -r requirements.txt && \
-    python -m spacy download en_core_web_sm
+# minimal Linux deps
+RUN apt-get update && apt-get install -y gcc
 
-RUN rasa train
+# copy project
+COPY . /app
 
-COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
+# install python deps
+RUN pip install --no-cache-dir -r requirements.txt
 
-EXPOSE 5005 5055
+# validate spaCy model
+RUN python -m spacy validate || true
+
+EXPOSE 8080
 
 USER 1001
 
-CMD ["supervisord", "-c", "/etc/supervisor/conf.d/supervisord.conf"]
+CMD ["rasa", "run", "--enable-api", "--port", "8080"]

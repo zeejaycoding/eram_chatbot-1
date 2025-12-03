@@ -1,4 +1,4 @@
 rasa==3.6.20
-sentence-transformers
-torch
-spacy
+spacy==3.4.4
+en-core-web-sm==3.4.1
+onnxruntime==1.17.0
