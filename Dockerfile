@@ -1,4 +1,4 @@
-FROM rasa/rasa:3.6.20
+FROM rasa/rasa:3.4.0
 
 # Switch to root to install system dependencies
 USER root
