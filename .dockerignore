@@ -7,5 +7,8 @@ model_cache/
 .locks/
 
 # Keep only the ONE trained model
+# Ignore everything in models
 models/*
-!models/*.tar.gz          # allows your single model
+
+# BUT keep real Rasa models
+!models/*.tar.gz

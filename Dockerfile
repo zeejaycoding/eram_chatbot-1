@@ -1,14 +1,18 @@
-FROM rasa/rasa:3.4.0-full
+FROM rasa/rasa:3.4.0-spacy-en
 
 USER root
 RUN apt-get update && apt-get install -y --no-install-recommends supervisor \
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
-COPY . /app
 
-# Install only what's missing (your model already has most deps)
-RUN pip install --no-cache-dir rasa-sdk==3.6.2 onnxruntime==1.17.0
+# Copy ONLY the model first
+COPY models/*.tar.gz ./models/
+
+# Then the full project
+COPY . .
+
+RUN pip install --no-cache-dir rasa-sdk==3.4.0 onnxruntime==1.17.0
 
 COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 
