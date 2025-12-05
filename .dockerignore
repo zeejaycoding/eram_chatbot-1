@@ -1,0 +1,11 @@
+# Ignore everything huge
+__pycache__/
+*.pyc
+*.log
+.rasa/
+model_cache/
+.locks/
+
+# Keep only the ONE trained model
+models/*
+!models/*.tar.gz          # allows your single model
