@@ -12,13 +12,13 @@ pipeline:
     min_ngram: 1
     max_ngram: 4
   - name: DIETClassifier
-    epochs: 200  # Increased for better accuracy on expanded data
+    epochs: 100  
   - name: EntitySynonymMapper
   - name: ResponseSelector
     epochs: 200
   - name: FallbackClassifier
-    threshold: 0.3  # Slightly higher to reduce false fallbacks
-    ambiguity_threshold: 0.15  # Adjusted for multilingual ambiguity
+    threshold: 0.3  
+    ambiguity_threshold: 0.15  
 
 policies:
   - name: MemoizationPolicy

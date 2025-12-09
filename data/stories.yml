@@ -1,247 +1,96 @@
 version: "3.1"
 
 stories:
-- story: autism overview flow
-  steps:
-  - intent: ask_definition
-  - action: action_utter_ask_definition
-  - intent: affirm
-  - action: action_handle_affirm
-  - intent: ask_causes
-  - action: action_utter_ask_causes
-  - intent: deny
-  - action: action_utter_deny
-  - intent: ask_prevalence
-  - action: action_utter_ask_prevalence
-  - intent: affirm
-  - action: action_handle_affirm
-  - intent: ask_gender_prevalence
-  - action: action_utter_ask_gender_prevalence
-  - intent: ask_resources
-  - action: action_utter_ask_resources
 
-- story: symptoms and stimming flow
+- story: Greeting and ask definition
+  steps:
+  - intent: greet
+  - action: action_detect_language
+  - action: utter_greet
+  - intent: ask_definition
+  - action: action_detect_language  # Handles switch if user changes language
+  - action: utter_ask_definition
+
+- story: Ask symptoms and follow up with affirm
   steps:
   - intent: ask_symptoms
-  - action: action_utter_ask_symptoms
-  - intent: affirm
-  - action: action_handle_affirm
-  - intent: ask_stimming
-  - action: action_utter_ask_stimming
-  - intent: ask_why_stimming
-  - action: action_utter_ask_why_stimming
-  - intent: deny
-  - action: action_utter_deny
-  - intent: ask_therapy
-  - action: action_utter_ask_therapy
+  - action: action_detect_language
+  - action: utter_ask_symptoms
+  - intent: affirm  # User confirms understanding
+  - action: action_detect_language
+  - action: utter_affirm
+  - intent: ask_therapy  # Follow-up to symptoms
+  - action: action_detect_language
+  - action: utter_ask_therapy
 
-- story: therapy and support flow
+- story: Ask therapy and deny follow-up
   steps:
   - intent: ask_therapy
-  - action: action_utter_ask_therapy
-  - intent: affirm
-  - action: action_handle_affirm
-  - intent: ask_aba_therapy
-  - action: action_utter_ask_aba_therapy
-  - intent: deny
-  - action: action_utter_deny
-  - intent: ask_support
-  - action: action_utter_ask_support
-  - intent: ask_visual_aids
-  - action: action_utter_ask_visual_aids
+  - action: action_detect_language
+  - action: utter_ask_therapy
+  - intent: deny  # User denies needing more details
+  - action: action_detect_language
+  - action: utter_deny
+  - intent: thanks
+  - action: action_detect_language
+  - action: utter_thanks
 
-- story: daily life flow
+- story: Ask stimming and why stimming follow-up
+  steps:
+  - intent: ask_stimming
+  - action: action_detect_language
+  - action: utter_ask_stimming
+  - intent: ask_why_stimming
+  - action: action_detect_language
+  - action: utter_ask_why_stimming
+
+- story: Ask daily tips and affirm
   steps:
   - intent: ask_daily_tips
-  - action: action_utter_ask_daily_tips
+  - action: action_detect_language
+  - action: utter_ask_daily_tips
   - intent: affirm
-  - action: action_handle_affirm
-  - intent: ask_support
-  - action: action_utter_ask_support
-  - intent: ask_visual_aids
-  - action: action_utter_ask_visual_aids
-  - intent: ask_managing_triggers
-  - action: action_utter_ask_managing_triggers
+  - action: action_detect_language
+  - action: utter_affirm
 
-- story: adult autism flow
+- story: Language switch mid-conversation
   steps:
-  - intent: ask_adult_autism
-  - action: action_utter_ask_adult_autism
-  - intent: affirm
-  - action: action_handle_affirm
-  - intent: ask_support
-  - action: action_utter_ask_support
-  - intent: ask_resources
-  - action: action_utter_ask_resources
+  - intent: greet  # English start
+  - action: action_detect_language  # Sets to english
+  - action: utter_greet  # English response
+  - intent: ask_symptoms  # User switches to Roman Urdu input
+  - action: action_detect_language  # Detects and sets to roman_urdu
+  - action: utter_ask_symptoms  # Roman Urdu response
+  - intent: thanks  # Back to English
+  - action: action_detect_language  # Switches back
+  - action: utter_thanks
 
-- story: greet to definition branch
+- story: Fallback and recover
   steps:
-  - intent: greet
-  - action: action_utter_greet
-  - intent: ask_definition
-  - action: action_utter_ask_definition
-  - checkpoint: basic_info_end
+  - intent: nlu_fallback
+  - action: action_detect_language
+  - action: utter_nlu_fallback
+  - intent: ask_definition  # User recovers with valid intent
+  - action: action_detect_language
+  - action: utter_ask_definition
 
-- story: greet to symptoms branch
+- story: Therapy sequence 
   steps:
-  - intent: greet
-  - action: action_utter_greet
-  - intent: ask_symptoms
-  - action: action_utter_ask_symptoms
-  - checkpoint: basic_info_end
-
-- story: greet to causes branch
-  steps:
-  - intent: greet
-  - action: action_utter_greet
-  - intent: ask_causes
-  - action: action_utter_ask_causes
-  - checkpoint: basic_info_end
-
-- story: follow up after basic info to therapy
-  steps:
-  - checkpoint: basic_info_end
   - intent: ask_therapy
-  - action: action_utter_ask_therapy
+  - action: action_detect_language
+  - action: utter_ask_therapy
+  - intent: ask_aba_details  # Assuming follow-up intent from domain
+  - action: action_detect_language
+  - action: utter_ask_aba_details  # Add to domain if needed
 
-- story: follow up after basic info to doctors
+- story: Causes and genetics follow-up
   steps:
-  - checkpoint: basic_info_end
-  - intent: ask_doctors
-  - action: action_utter_ask_doctors
-
-- story: emotional support flow
-  steps:
-  - intent: mood_unhappy
-  - action: action_utter_cheer_up
-  - intent: ask_parent_guilt
-  - action: action_utter_ask_parent_guilt
-  - intent: ask_acceptance
-  - action: action_utter_ask_acceptance
-  - intent: ask_support_groups
-  - action: action_utter_ask_support_groups
-
-- story: myths and vaccines flow
-  steps:
-  - intent: ask_myths
-  - action: action_utter_ask_myths
-  - intent: ask_vaccines
-  - action: action_utter_ask_vaccines
-  - intent: affirm
-  - action: action_handle_affirm
-  - intent: ask_cure
-  - action: action_utter_ask_cure
-
-- story: diagnosis flow to age branch
-  steps:
-  - intent: ask_diagnosis
-  - action: action_utter_ask_diagnosis
-  - intent: ask_diagnosis_age
-  - action: action_utter_ask_diagnosis_age
-  - checkpoint: diagnosis_end
-
-- story: diagnosis flow to test branch
-  steps:
-  - intent: ask_diagnosis
-  - action: action_utter_ask_diagnosis
-  - intent: ask_test_available
-  - action: action_utter_ask_test_available
-  - checkpoint: diagnosis_end
-
-- story: diagnosis flow to personal branch
-  steps:
-  - intent: ask_diagnosis
-  - action: action_utter_ask_diagnosis
-  - intent: ask_personal_diagnosis
-  - action: action_utter_no_diagnosis
-  - checkpoint: diagnosis_end
-
-- story: follow up after diagnosis
-  steps:
-  - checkpoint: diagnosis_end
-  - intent: ask_which_doctor
-  - action: action_utter_ask_which_doctor
-
-- story: advanced therapies flow
-  steps:
-  - intent: ask_treatments
-  - action: action_utter_ask_treatments
-  - intent: ask_aba_therapy
-  - action: action_utter_ask_aba_therapy
-  - intent: ask_early_intervention
-  - action: action_utter_ask_early_intervention
-  - intent: ask_sensory_issues
-  - action: action_utter_ask_sensory_issues
-
-- story: adult and family flow
-  steps:
-  - intent: ask_adult_autism
-  - action: action_utter_ask_adult_autism
-  - intent: ask_autism_employment
-  - action: action_utter_ask_autism_employment
-  - intent: ask_autism_marriage
-  - action: action_utter_ask_autism_marriage
-  - intent: ask_siblings
-  - action: action_utter_ask_siblings
-
-- story: special conditions flow
-  steps:
-  - intent: ask_aspergers
-  - action: action_utter_ask_aspergers
-  - intent: ask_rett_syndrome
-  - action: action_utter_ask_rett_syndrome
-  - intent: ask_outgrow_autism
-  - action: action_utter_ask_outgrow_autism
-  - intent: ask_mitochondrial
-  - action: action_utter_ask_mitochondrial
-
-- story: parent support flow
-  steps:
-  - intent: ask_support_parents
-  - action: action_utter_ask_support_parents
-  - intent: ask_explain_to_relatives
-  - action: action_utter_ask_explain_to_relatives
-  - intent: ask_parent_guilt
-  - action: action_utter_ask_parent_guilt
-  - intent: ask_support_groups
-  - action: action_utter_ask_support_groups
-
-- story: deep understanding flow
-  steps:
-  - intent: ask_best_therapy
-  - action: action_utter_ask_best_therapy
-  - intent: ask_aba_details
-  - action: action_utter_ask_aba_details
-  - intent: ask_home_exercises
-  - action: action_utter_ask_home_exercises
-  - intent: ask_online_programs
-  - action: action_utter_ask_online_programs
-  - intent: ask_speech_therapy_time
-  - action: action_utter_ask_speech_therapy_time
-  - intent: ask_anxiety_sleep
-  - action: action_utter_ask_anxiety_sleep
-  - intent: ask_bilingual_therapy
-  - action: action_utter_ask_bilingual_therapy
-
-- story: advanced technical flow
-  steps:
-  - intent: ask_spectrum_meaning
-  - action: action_utter_ask_spectrum_meaning
-  - intent: ask_high_low_functioning
-  - action: action_utter_ask_high_low_functioning
-  - intent: ask_autism_spd_difference
-  - action: action_utter_ask_autism_spd_difference
-  - intent: ask_loud_sounds
-  - action: action_utter_ask_loud_sounds
-  - intent: ask_special_vs_inclusive
-  - action: action_utter_ask_special_vs_inclusive
-  - intent: ask_adult_life
-  - action: action_utter_ask_adult_life
-  - intent: ask_ai_tech_role
-  - action: action_utter_ask_ai_tech_role
-  - intent: ask_long_term_plan
-  - action: action_utter_ask_long_term_plan
-  - intent: ask_awareness_pakistan
-  - action: action_utter_ask_awareness_pakistan
-  - intent: ask_acceptance
-  - action: action_utter_ask_acceptance
+  - intent: ask_causes
+  - action: action_detect_language
+  - action: utter_ask_causes
+  - intent: ask_genetics
+  - action: action_detect_language
+  - action: utter_ask_genetics
+  - intent: goodbye
+  - action: action_detect_language
+  - action: utter_goodbye
