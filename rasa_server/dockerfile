@@ -3,8 +3,11 @@ FROM rasa/rasa:3.6.20-spacy-en
 WORKDIR /app
 COPY . .
 
-# Train model during build
+# Switch to root to allow training
+USER root
 RUN rasa train
+# Switch back to default non-root user
+USER 1001
 
 EXPOSE 5005
 
