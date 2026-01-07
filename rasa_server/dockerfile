@@ -1,7 +1,6 @@
 FROM rasa/rasa:latest-spacy-en
 
 WORKDIR /app
-
 COPY . .
 
 EXPOSE 5005
