@@ -5,11 +5,10 @@ WORKDIR /app
 COPY . .
 
 # Make all files writable
-RUN chmod -R 777 /app
+COPY models/20251209-223435-ivory-ayu.tar.gz /models/
 
-# Train the Rasa model
-RUN rasa train
-
+# Expose Rasa port
 EXPOSE 5005
 
-CMD ["rasa", "run", "--enable-api", "--cors", "*", "--port", "5005"]
+# Default command
+CMD ["rasa", "run", "--enable-api", "--cors", "*"]
