@@ -1,11 +1,11 @@
-FROM rasa/rasa:latest-spacy-en
+FROM rasa/rasa:3.6.20-spacy-en
 
 WORKDIR /app
 COPY . .
 
-ENV RASA_TELEMETRY_ENABLED=false
+# Train model during build
+RUN rasa train
 
 EXPOSE 5005
 
-ENTRYPOINT ["rasa"]
-CMD ["run", "--enable-api", "--cors", "*", "--port", "5005"]
+CMD ["rasa", "run", "--enable-api", "--cors", "*", "--port", "5005"]
