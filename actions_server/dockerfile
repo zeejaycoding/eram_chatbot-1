@@ -11,4 +11,4 @@ COPY actions/ ./actions/
 EXPOSE 5055
 
 # Default command to run actions server
-CMD ["rasa", "run", "actions", "--port", "5055", "--cors", "*"]
+CMD ["rasa", "run", "actions", "--port", "${PORT}"]
