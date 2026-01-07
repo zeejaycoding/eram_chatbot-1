@@ -10,4 +10,5 @@ COPY models/20251209-223435-ivory-ayu.tar.gz models/latest.tar.gz
 
 EXPOSE 5005
 
-CMD ["rasa", "run", "--model", "models/latest.tar.gz", "--enable-api", "--cors", "*"]
+# Start Rasa server
+CMD ["rasa", "run", "--model", "models/latest.tar.gz", "--enable-api", "--port", "5005", "--cors", "*"]
