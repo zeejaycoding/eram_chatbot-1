@@ -1,5 +1,5 @@
 # rasa_server/Dockerfile
-FROM rasa/rasa:3.6.11-spacy-en
+FROM rasa/rasa:latest-spacy-en
 
 WORKDIR /app
 
