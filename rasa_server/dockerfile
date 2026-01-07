@@ -5,9 +5,7 @@ WORKDIR /app
 # Copy all project files
 COPY . .
 
-# Copy your pre-trained model into /app/models in container
-# (Optional if you already copied everything above)
-# COPY models/20251209-223435-ivory-ayu.tar.gz models/
+COPY models/20251209-223435-ivory-ayu.tar.gz /app/models/
 
 # Expose Rasa port
 EXPOSE 5005
