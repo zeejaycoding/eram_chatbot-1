@@ -1,11 +1,13 @@
 FROM rasa/rasa:3.6.20-spacy-en
 
 WORKDIR /app
-# Copy files
+
+# Copy all project files
 COPY . .
 
-# Make all files writable
-COPY models/20251209-223435-ivory-ayu.tar.gz /models/
+# Copy your pre-trained model into /app/models in container
+# (Optional if you already copied everything above)
+# COPY models/20251209-223435-ivory-ayu.tar.gz models/
 
 # Expose Rasa port
 EXPOSE 5005
