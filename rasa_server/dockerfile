@@ -4,7 +4,7 @@ FROM rasa/rasa:latest-spacy-en
 WORKDIR /app
 
 # Copy your trained model
-COPY models/*.tar.gz ./models/
+COPY ./models/*.tar.gz ./models/
 
 # Copy rest of the project (if needed)
 COPY . .
