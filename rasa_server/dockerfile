@@ -1,15 +1,14 @@
 FROM rasa/rasa:3.6.20-spacy-en
 
+# Inside rasa_server/Dockerfile
 WORKDIR /app
 
-# Copy all project files
 COPY . .
 
-COPY models/20251209-223435-ivory-ayu.tar.gz /app/models/
+# Rename your model to latest.tar.gz
+RUN mv models/20251209-223435-ivory-ayu.tar.gz models/latest.tar.gz
 
-# Expose Rasa port
 EXPOSE 5005
 
-# Default command
 ENTRYPOINT ["rasa"]
 CMD ["run", "--enable-api", "--cors", "*"]
