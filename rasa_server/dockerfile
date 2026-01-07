@@ -3,10 +3,13 @@ FROM rasa/rasa:latest-spacy-en
 
 WORKDIR /app
 
-# Copy your trained model
-COPY ./models/*.tar.gz ./models/
+# Ensure the models folder exists
+RUN mkdir -p ./models
 
-# Copy rest of the project (if needed)
+# Copy trained model(s) (all tar.gz files)
+COPY models/*.tar.gz ./models/
+
+# Copy rest of the project
 COPY . .
 
 # Expose Rasa server port
