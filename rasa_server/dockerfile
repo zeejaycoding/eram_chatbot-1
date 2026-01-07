@@ -5,10 +5,10 @@ WORKDIR /app
 # Copy project files
 COPY . .
 
-# Copy model as latest.tar.gz
+# Copy the pre-trained model as latest.tar.gz (overwriting if needed)
 COPY models/20251209-223435-ivory-ayu.tar.gz models/latest.tar.gz
 
 EXPOSE 5005
 
-# Start Rasa server
-CMD ["rasa", "run", "--model", "models/latest.tar.gz", "--enable-api", "--port", "5005", "--cors", "*"]
+# Correct CMD: starts with "run" (the subcommand), not "rasa run"
+CMD ["run", "--model", "models/latest.tar.gz", "--enable-api", "--cors", "*", "--port", "5005"]
