@@ -1,14 +1,15 @@
 FROM rasa/rasa:3.6.20-spacy-en
 
-# Inside rasa_server/Dockerfile
 WORKDIR /app
 
 COPY . .
 
-# Rename your model to latest.tar.gz
-RUN mv models/20251209-223435-ivory-ayu.tar.gz models/latest.tar.gz
+# Train a fresh model every build (uses your config.yml, data/, etc.)
+RUN rasa train
+
+# Optional: Rename the new model for consistency
+RUN mv models/*.tar.gz models/latest.tar.gz
 
 EXPOSE 5005
 
-ENTRYPOINT ["rasa"]
-CMD ["run", "--enable-api", "--cors", "*"]
+CMD ["run", "--enable-api", "--cors", "*", "-m", "models/latest.tar.gz", "--endpoints", "endpoints.yml"]
