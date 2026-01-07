@@ -3,11 +3,9 @@ FROM rasa/rasa-sdk:latest
 
 WORKDIR /app
 
-# Copy actions folder
 COPY actions/ ./actions/
 
-# Expose Actions server port
 EXPOSE 5055
 
-# Start Actions server
-CMD ["rasa", "run", "actions", "--actions", "actions", "--port", "5055"]
+# Explicitly tell the container how to start
+ENTRYPOINT ["rasa", "run", "actions", "--actions", "actions", "--port", "5055"]
