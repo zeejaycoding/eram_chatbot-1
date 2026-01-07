@@ -6,4 +6,4 @@ COPY . .
 
 EXPOSE 5005
 
-CMD ["rasa", "run", "--models", "models", "--enable-api", "--cors", "*", "--port", "5005"]
+CMD ["run", "--enable-api", "--cors", "*", "--port", "${PORT}"]
