@@ -1,5 +1,5 @@
 # actions_server/Dockerfile
-FROM rasa/rasa-sdk:3.6.20
+FROM rasa/rasa-sdk:3.6.11
 
 WORKDIR /app
 
