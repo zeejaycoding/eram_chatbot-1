@@ -3,6 +3,9 @@ FROM rasa/rasa:latest-spacy-en
 WORKDIR /app
 COPY . .
 
+ENV RASA_TELEMETRY_ENABLED=false
+
 EXPOSE 5005
 
-CMD rasa run --enable-api --cors "*" --port $PORT
+ENTRYPOINT ["rasa"]
+CMD ["run", "--enable-api", "--cors", "*", "--port", "5005"]
