@@ -1,5 +1,0 @@
-[build]
-builder = "DOCKERFILE"
-
-[deploy]
-startCommand = "supervisord -c /etc/supervisor/conf.d/supervisord.conf"

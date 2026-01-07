@@ -1,0 +1,16 @@
+# rasa_server/Dockerfile
+FROM rasa/rasa:3.6.20-spacy-en
+
+WORKDIR /app
+
+# Copy your trained model
+COPY models/*.tar.gz ./models/
+
+# Copy rest of the project (if needed)
+COPY . .
+
+# Expose Rasa server port
+EXPOSE 5005
+
+# Start Rasa server
+CMD ["rasa", "run", "--enable-api", "--cors", "*", "--port", "5005"]
