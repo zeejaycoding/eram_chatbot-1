@@ -1,13 +1,14 @@
 FROM rasa/rasa:3.6.20-spacy-en
 
 WORKDIR /app
+# Copy files
 COPY . .
 
-# Switch to root to allow training
-USER root
+# Make all files writable
+RUN chmod -R 777 /app
+
+# Train the Rasa model
 RUN rasa train
-# Switch back to default non-root user
-USER 1001
 
 EXPOSE 5005
 
