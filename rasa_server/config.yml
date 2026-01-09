@@ -2,26 +2,19 @@ recipe: default.v1
 
 language: en
 
+# Ultra-lightweight config for Render (512MB limit)
 pipeline:
   - name: WhitespaceTokenizer
   - name: RegexFeaturizer
   - name: CountVectorsFeaturizer
-  - name: CountVectorsFeaturizer
-    analyzer: char_wb
-    min_ngram: 1
-    max_ngram: 4
+    max_features: 1000
   - name: DIETClassifier
-    epochs: 50
+    epochs: 20
   - name: EntitySynonymMapper
-  - name: ResponseSelector
-    epochs: 50
   - name: FallbackClassifier
-    threshold: 0.3
-    ambiguity_threshold: 0.15
+    threshold: 0.4
+    ambiguity_threshold: 0.1
 
 policies:
   - name: MemoizationPolicy
   - name: RulePolicy
-  - name: TEDPolicy
-    max_history: 3
-    epochs: 100

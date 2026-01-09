@@ -4,9 +4,9 @@ services:
     env: docker
     dockerfilePath: ./rasa_server/dockerfile
     port: 5005
-    memoryMB: 512
+    memoryMB: 1024
     cpus: 0.5
-    plan: free
+    plan: starter
     region: oregon
     
     envVars:
