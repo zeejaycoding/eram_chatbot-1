@@ -1,0 +1,28 @@
+services:
+  - type: web
+    name: autism-chatbot-rasa
+    env: docker
+    dockerfilePath: ./rasa_server/dockerfile
+    port: 5005
+    memoryMB: 512
+    cpus: 0.5
+    plan: free
+    region: oregon
+    
+    envVars:
+      - key: PYTHONUNBUFFERED
+        value: "1"
+      - key: RASA_LOG_LEVEL
+        value: "WARNING"
+      - key: RASA_TELEMETRY_ENABLED
+        value: "false"
+    
+    # Health check - Render's free tier needs reliable health check
+    healthCheckPath: /
+    healthCheckInterval: 30
+    
+    # Auto-deploy from Git (if using Git)
+    # autoDeploy: true
+    
+    # Keep alive to prevent auto-sleep (limited on free tier)
+    preDeployCommand: "echo 'Building model for Render deployment...'"

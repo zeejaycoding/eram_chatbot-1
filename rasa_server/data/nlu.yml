@@ -492,7 +492,6 @@ nlu:
   examples: |
     - What is stimming?
     - Stimming kya hai?
-    - What types of stimming are there?
     - Stimming ke types kya hain?
     - stimming explained
     - examples of stimming
@@ -1427,16 +1426,6 @@ nlu:
     - marriage par kya asar hota
     - autism marriage
 
-- intent: ask_treatments
-  examples: |
-    - What are the treatments for autism?
-    - Autism ka ilaj kya hai?
-    - Kya therapies available hain?
-    - Autism ke liye kya kya treatment hota hai?
-    - Best treatment konsa hai autism ka?
-    - Treatments batao please
-    - Koi medicine hai autism ki?
-
 - intent: ask_early_intervention
   examples: |
     - Why is early intervention important?
@@ -2087,6 +2076,2235 @@ nlu:
     - Visual aides for routines
     - Pictorial schedules for kids
 
+- intent: ask_early_signs
+  examples: |
+    - What are the early signs of autism?
+    - Early signs of autism in babies
+    - Red flags for autism
+    - Autism ke early symptoms kya hain?
+    - Bachy mein autism ke shuruwati nishaniyan
+    - Pehli alamaaten autism ki
+    - How to spot autism early?
+    - Early detection of autism
+    - Warning signs of autism
+    - First signs parents notice
+    - Autism detection in infants
+    - Shuruwati alamaat samjhne ke tarike
+    - Early warning signs
+    - 12 months mein autism ke signs
+    - 2 years mein autism symptoms
+    - Jaldi pata chalane wali alamaaten
+    - Bachy ke behavior mein farq kaise dekhen
+    - Pehle mehine mein autism signs
+
+- intent: ask_school_support
+  examples: |
+    - What school support does an autistic child need?
+    - Educational accommodations for autism
+    - Inclusive school support
+    - School mein autistic bachon ke liye support
+    - School accommodations autism
+    - Teachers ko kya training chahiye
+    - School plan for autistic kids
+    - IEP process
+    - Special education support
+    - Classroom modifications for autism
+    - School-based interventions
+    - Ye help chahiye school mein
+    - Teacher training for autism
+    - School mein kya cheezain badalni chahiye
+    - Autistic bachy ke liye school arrangements
+    - Inclusive education support
+    - School ki zimmedariyan
+
+- intent: ask_parenting_tips
+  examples: |
+    - Tips for parenting an autistic child
+    - How to parent an autistic child?
+    - Parenting strategies for autism
+    - Autism parenting tips
+    - Parents guide for autistic kids
+    - Parenting se autism manage kaise karey
+    - Kya kardna chahiye parents ke liye
+    - Maa baap ke liye tips
+    - Parenting mein kya tactics use karey
+    - Roozana zindagi mein help ke tarike
+    - Tips maa baap ke liye autism mein
+    - Apne bachy ko handle kaise karey
+    - Parenting hacks for special needs
+    - Communication tips parents
+    - Discipline strategies for autism
+    - Parent tips aur tricks
+
+- intent: ask_high_functioning_autism
+  examples: |
+    - What is high functioning autism?
+    - High functioning autism symptoms
+    - Is high functioning autism real?
+    - High functioning autism vs low functioning
+    - High functioning autism kya hai?
+    - HFA ki definition
+    - High functioning spectrum
+    - Wo autism jo dikhta nahi
+    - Autism ki ye category kya hai
+    - High functioning aur low functioning mein farq
+    - HFA children characteristics
+    - High functioning autistic people
+    - Kya ye autism ka halka form hai
+
+- intent: ask_treatments
+  examples: |
+    - What are treatment options for autism?
+    - Autism treatment methods
+    - How to treat autism?
+    - Autism ke ilaj ke tarike
+    - Treatment options available
+    - Therapies that help autism
+    - Evidence-based treatments
+    - Best treatment approaches
+    - Kya ilaj ho sakta hai autism ka
+    - Autism theek karne ke tarike
+    - Treatment modalities
+    - Autism ke cure methods
+    - Madad ke tarike
+
+- intent: greet_ask_definition
+  examples: |
+    - Hey, what is autism?
+    - Hi, define autism
+    - Hello, explain autism to me
+    - Assalamualaikum, autism kya hai?
+    - Salam, autism ki definition batao
+    - Hi there, tell me about autism
+    - Hey, autism ka matlab kya hai?
+    - Good morning, explain ASD
+    - Hello friend, what is autism spectrum disorder?
+    - Namaste, autism kya cheez hai?
+    - Hey bot, autism kya hota hai?
+    - Salam alaikum, autism ke bare mein batao
+    - Hi, autism explain karo simply
+    - Good day, define autism for me
+    - Hello, is autism a disease?
+    - Hey, autism bimari hai ya nahi?
+
+- intent: greet_ask_symptoms
+  examples: |
+    - Hi, what are symptoms of autism?
+    - Hello, tell me the signs of autism
+    - Salam, autism ke alamaat kya hain?
+    - Hey, autism ka kya pehchan hai?
+    - Good morning, what does autism look like?
+    - Assalamualaikum, autism ke symptoms batao
+    - Hi friend, how can I spot autism?
+    - Hey there, autism ki nishaniyan kya hain?
+    - Hello, early signs of autism?
+    - Namaste, autism ki pehli alamaaten
+    - Hi, kya mera bacha autistic hai?
+    - Salam, autism ke lakshan
+    - Good afternoon, red flags for autism
+    - Hey, autism ko kaise pehchanen?
+    - Hello, behavioral signs of autism
+    - Morning, autism symptoms in children?
+
+- intent: greet_ask_causes
+  examples: |
+    - Hi, what causes autism?
+    - Hello, why does autism happen?
+    - Salam, autism ki wajah kya hai?
+    - Hey, autism kyun hota hai?
+    - Good morning, causes of autism?
+    - Assalamualaikum, autism ka sabab?
+    - Hi, kya ye genetic hai?
+    - Hey, autism ke causes batao
+    - Hello, what triggers autism?
+    - Namaste, autism kyu develop hota hai?
+    - Hi friend, environmental causes?
+    - Salam, autism hone ki wajahen
+    - Good day, is it genetic or environmental?
+    - Hey, autism ka root cause kya hai?
+    - Hello, why my child has autism?
+    - Afternoon, risk factors for autism?
+
+- intent: greet_ask_diagnosis
+  examples: |
+    - Hi, how is autism diagnosed?
+    - Hello, how do doctors diagnose autism?
+    - Salam, autism ka diagnosis kaise hota hai?
+    - Hey, autism test kya hai?
+    - Good morning, diagnostic process?
+    - Assalamualaikum, autism ki tashkhees
+    - Hi, kaise pata chalega?
+    - Hey, screening tests available?
+    - Hello, what age is autism diagnosed?
+    - Namaste, diagnosis ke steps kya hain?
+    - Hi friend, professional assessment?
+    - Salam, doctor se kaise samjhaye?
+    - Good day, diagnostic criteria?
+    - Hey, testing methods for autism?
+    - Hello, DSM criteria?
+    - Morning, how to get diagnosed?
+
+- intent: greet_ask_therapy
+  examples: |
+    - Hi, what therapies help autism?
+    - Hello, tell me about autism therapy
+    - Salam, autism ke therapy kaun se hain?
+    - Hey, therapy options available?
+    - Good morning, does therapy work?
+    - Assalamualaikum, therapy benefits
+    - Hi, speech therapy madad karti hai?
+    - Hey, behavioral therapy kya hai?
+    - Hello, which therapy is best?
+    - Namaste, autism treatment methods?
+    - Hi friend, ABA therapy explain
+    - Salam, therapy se kya nata hai?
+    - Good day, early intervention therapies
+    - Hey, occupational therapy?
+    - Hello, physical therapy benefits?
+    - Morning, therapy success rates?
+
+- intent: greet_ask_treatments
+  examples: |
+    - Hi, what are treatment options?
+    - Hello, how to treat autism?
+    - Salam, autism ke ilaj kya hain?
+    - Hey, treatment methods available?
+    - Good morning, evidence-based treatments?
+    - Assalamualaikum, autism ka ilaj ho sakta hai?
+    - Hi, medicines help karenge?
+    - Hey, treatment approaches?
+    - Hello, best treatment for autism?
+    - Namaste, therapy vs medicine?
+    - Hi friend, integrated treatment?
+    - Salam, multi-modal treatment?
+    - Good day, treatment effectiveness?
+    - Hey, how to start treatment?
+    - Hello, treatment timeline?
+    - Morning, custom treatment plans?
+
+- intent: greet_ask_cure
+  examples: |
+    - Hi, is there a cure for autism?
+    - Hello, can autism be cured?
+    - Salam, autism ka koi cure hai?
+    - Hey, kya autism theek ho sakta hai?
+    - Good morning, is autism treatable?
+    - Assalamualaikum, autism theek karne wali cheez?
+    - Hi, vaccines cure autism?
+    - Hey, medicines se theek hota hai?
+    - Hello, cure for autism available?
+    - Namaste, autism ka permanent solution?
+    - Hi friend, autism theek ho sakte hain?
+    - Salam, recovery from autism?
+    - Good day, healing autism?
+    - Hey, remission possible?
+    - Hello, is autism lifelong?
+    - Morning, autism management solutions?
+
+- intent: greet_ask_prevalence
+  examples: |
+    - Hi, how common is autism?
+    - Hello, autism prevalence statistics
+    - Salam, autism kitna common hai?
+    - Hey, how many people have autism?
+    - Good morning, autism rates worldwide?
+    - Assalamualaikum, autism prevalence?
+    - Hi, autism statistics?
+    - Hey, is autism increasing?
+    - Hello, how many children affected?
+    - Namaste, autism ki frequency?
+    - Hi friend, global autism numbers?
+    - Salam, autism Pakistan mein kitna?
+    - Good day, prevalence stats?
+    - Hey, rising autism rates?
+    - Hello, autism epidemiology?
+    - Morning, current autism statistics?
+
+- intent: greet_ask_early_signs
+  examples: |
+    - Hi, what are early signs of autism?
+    - Hello, early detection of autism
+    - Salam, autism ke early symptoms?
+    - Hey, first signs of autism?
+    - Good morning, red flags?
+    - Assalamualaikum, autism ke shuruwati nishaniyan?
+    - Hi, bachy mein kya dekha jaye?
+    - Hey, babies with autism signs?
+    - Hello, toddler autism indicators?
+    - Namaste, pehli alamaaten?
+    - Hi friend, warning signs?
+    - Salam, what to look for?
+    - Good day, autism in infants?
+    - Hey, 12 month old signs?
+    - Hello, early detection importance?
+    - Morning, catching autism early?
+
+- intent: greet_ask_daily_tips
+  examples: |
+    - Hi, any daily tips for autism?
+    - Hello, daily routine tips
+    - Salam, rozana ki tips?
+    - Hey, day-to-day strategies?
+    - Good morning, parenting tips?
+    - Assalamualaikum, roozana kya karni chahiye?
+    - Hi, management tips?
+    - Hey, coping strategies?
+    - Hello, daily life management?
+    - Namaste, practical tips?
+    - Hi friend, tips for families?
+    - Salam, daily tips matrabul?
+    - Good day, routine building?
+    - Hey, behavioral management tips?
+    - Hello, parent strategies?
+    - Morning, self-care tips for parents?
+
+- intent: greet_ask_sensory_issues
+  examples: |
+    - Hi, tell me about sensory issues
+    - Hello, sensory sensitivities in autism
+    - Salam, sensory problems kya hain?
+    - Hey, sound sensitivity?
+    - Good morning, sensory processing?
+    - Assalamualaikum, sensory issues explain
+    - Hi, sound/light sensitivity?
+    - Hey, sensory overload kya hai?
+    - Hello, tactile sensitivity?
+    - Namaste, sensory symptoms?
+    - Hi friend, sensory breaks?
+    - Salam, sensory sensitivities?
+    - Good day, managing sensory issues?
+    - Hey, sensory accommodations?
+    - Hello, sensory-friendly strategies?
+    - Morning, addressing sensory problems?
+
+- intent: greet_ask_school_support
+  examples: |
+    - Hi, what school support is needed?
+    - Hello, school accommodations
+    - Salam, school mein kya support chahiye?
+    - Hey, educational needs?
+    - Good morning, inclusive education?
+    - Assalamualaikum, school support options?
+    - Hi, teacher training needed?
+    - Hey, classroom modifications?
+    - Hello, special education services?
+    - Namaste, school planning?
+    - Hi friend, IEP process?
+    - Salam, school arrangements?
+    - Good day, educational support?
+    - Hey, school resources?
+    - Hello, teacher collaboration?
+    - Morning, school success strategies?
+
+- intent: greet_ask_parenting_tips
+  examples: |
+    - Hi, any parenting tips?
+    - Hello, how to parent autistic child?
+    - Salam, maa baap ke liye tips?
+    - Hey, parenting strategies?
+    - Good morning, parent guidance?
+    - Assalamualaikum, parenting advice?
+    - Hi, parenting ke tarike?
+    - Hey, handling challenging behaviors?
+    - Hello, communication tips?
+    - Namaste, parenting skills?
+    - Hi friend, parent support?
+    - Salam, apne bachy ko handle kaise karen?
+    - Good day, behavioral strategies?
+    - Hey, discipline approaches?
+    - Hello, positive parenting?
+    - Morning, parenting confidence?
+
+- intent: greet_ask_adult_autism
+  examples: |
+    - Hi, tell me about adult autism
+    - Hello, autism in adults
+    - Salam, adult autism kya hota hai?
+    - Hey, grown up autism?
+    - Good morning, adults with autism?
+    - Assalamualaikum, adult autism symptoms?
+    - Hi, late diagnosis in adults?
+    - Hey, autism diagnosed later?
+    - Hello, adult autism challenges?
+    - Namaste, aging with autism?
+    - Hi friend, adult support?
+    - Salam, adults mein autism?
+    - Good day, adult life with autism?
+    - Hey, employment for autistic adults?
+    - Hello, adult relationships?
+    - Morning, adult autism acceptance?
+
+- intent: greet_ask_high_functioning_autism
+  examples: |
+    - Hi, what is high functioning autism?
+    - Hello, high functioning autism explained
+    - Salam, high functioning autism kya?
+    - Hey, high functioning definition?
+    - Good morning, HFA characteristics?
+    - Assalamualaikum, high functioning autism?
+    - Hi, how does it differ?
+    - Hey, high vs low functioning?
+    - Hello, functioning labels?
+    - Namaste, mild autism?
+    - Hi friend, high functioning traits?
+    - Salam, ye category kya hai?
+    - Good day, high functioning profile?
+    - Hey, capabilities of HFA?
+    - Hello, high functioning adults?
+    - Morning, high functioning challenges?
+
+- intent: greet_ask_support_groups
+  examples: |
+    - Hi, are there support groups?
+    - Hello, autism support communities
+    - Salam, support groups kahan hain?
+    - Hey, parent support groups?
+    - Good morning, autism communities?
+    - Assalamualaikum, groups available?
+    - Hi, online communities?
+    - Hey, local support?
+    - Hello, connecting with parents?
+    - Namaste, community support?
+    - Hi friend, parent networks?
+    - Salam, support group details?
+    - Good day, finding support?
+    - Hey, group resources?
+    - Hello, family support?
+    - Morning, peer support options?
+
+- intent: ask_types
+  examples: |
+    - What are the different types of autism?
+    - Types of autism spectrum disorder
+    - Autism types kya hain?
+    - Different categories of autism
+    - Autism mein kitne types hote hain?
+    - Autism ke types
+    - Classical autism vs atypical
+    - Autism types explain karo
+    - Are there different forms of autism?
+    - Spectrum types
+    - Autism variations
+    - Different kinds of autism
+    - Autism classifications
+    - Types of ASD
+
+- intent: ask_levels
+  examples: |
+    - What are autism support levels?
+    - Levels of autism severity
+    - Autism support level 1 2 3
+    - Autism ke levels kya hain?
+    - How are autism levels classified?
+    - Support needs levels
+    - Mild moderate severe autism
+    - Autism spectrum levels
+    - Functioning levels in autism
+    - Level 1 level 2 level 3 autism
+    - Autism severity levels
+    - Support requirement levels
+    - Different support levels
+
+- intent: ask_difference_from_down_syndrome
+  examples: |
+    - What is the difference between autism and Down syndrome?
+    - Autism vs Down syndrome
+    - Down syndrome aur autism mein kya farq?
+    - How do I distinguish autism from Down syndrome?
+    - Are autism and Down syndrome the same?
+    - Down syndrome se autism alag kaise?
+    - Difference between ASD and Down syndrome
+    - Down syndrome ya autism?
+    - Can someone have both autism and Down syndrome?
+    - Down syndrome ka fahar autism se
+    - Autism ke lakshan vs Down syndrome
+    - Down syndrome autism combination
+
+- intent: ask_facts
+  examples: |
+    - What are important facts about autism?
+    - Autism facts everyone should know
+    - Interesting autism facts
+    - Autism ke barey mein important facts
+    - Key facts about autism
+    - Must-know autism facts
+    - Autism statistics and facts
+    - True facts about autism
+    - Surprising facts about autism
+    - Autism misconceptions vs facts
+    - Fact-based information about autism
+    - Scientific facts about autism
+    - Basic facts about autism
+
+- intent: ask_definition_ask_symptoms
+  examples: |
+    - Define autism and tell me symptoms
+    - What is autism with its symptoms?
+    - Autism definition aur symptoms batao
+    - Explain autism and signs
+    - Autism kya hai aur nishaniyan?
+    - Definition of autism and symptoms
+    - Autism meaning with symptoms
+
+- intent: ask_definition_ask_causes
+  examples: |
+    - Define autism and what causes it?
+    - What is autism and why it happens
+    - Autism kya hai aur kyun hota hai?
+    - Autism definition and causation
+    - Explain autism and its causes
+    - Autism meaning with reasons
+    - What is autism and why does it occur?
+
+- intent: ask_definition_ask_types
+  examples: |
+    - Define autism and its types
+    - What is autism and types?
+    - Autism kya hai aur types kya hain?
+    - Autism definition and categories
+    - Explain autism and its forms
+    - Autism with different types
+    - What are autism types?
+
+- intent: ask_definition_ask_levels
+  examples: |
+    - Define autism and support levels
+    - What is autism and levels?
+    - Autism kya hai aur levels kya hain?
+    - Autism definition and severity
+    - Explain autism and support needs
+    - Autism with support levels
+    - What are the different support levels?
+
+- intent: ask_definition_ask_spectrum
+  examples: |
+    - Define autism spectrum
+    - What is the autism spectrum?
+    - Autism spectrum kya hai?
+    - Explain the spectrum
+    - Autism spectrum meaning
+    - What does spectrum mean?
+    - Autism spectrum definition
+
+- intent: ask_definition_ask_if_autism_adhd_same
+  examples: |
+    - Define autism and how it differs from ADHD
+    - What is autism and ADHD difference?
+    - Autism kya hai aur ADHD se farq?
+    - Autism and ADHD - are they same?
+    - Autism vs ADHD definition
+    - Explain autism and ADHD differences
+    - Autism definition and ADHD comparison
+
+- intent: ask_definition_ask_difference_from_down_syndrome
+  examples: |
+    - Define autism and how it differs from Down syndrome
+    - What is autism vs Down syndrome?
+    - Autism kya hai aur Down syndrome se farq?
+    - Autism and Down syndrome - difference
+    - Autism vs Down definition
+    - Explain autism and Down differences
+    - Autism definition and Down comparison
+
+- intent: ask_definition_ask_myths
+  examples: |
+    - Define autism and its myths
+    - What is autism and myths?
+    - Autism kya hai aur myths kya hain?
+    - Autism definition with myths
+    - Explain autism and misconceptions
+    - Autism with common myths
+    - What are autism myths?
+
+- intent: ask_definition_ask_facts
+  examples: |
+    - Define autism and important facts
+    - What is autism with facts?
+    - Autism kya hai aur facts kya hain?
+    - Autism definition with facts
+    - Explain autism and key facts
+    - Autism with important information
+    - What are autism facts?
+
+- intent: greet_ask_definition_ask_symptoms
+  examples: |
+    - Hi, what is autism and what are its symptoms?
+    - Hello, explain autism and its signs
+    - Assalamualaikum, autism kya hai aur symptoms?
+    - Hey, define autism and tell me symptoms
+    - Good morning, autism definition and signs
+    - Hi friend, what is autism and how to spot it?
+    - Salam, autism kya hai aur nishaniyan kya hain?
+    - Hey, autism meaning and symptoms
+    - Hello, autism basics and symptoms
+    - Namaste, autism definition aur symptoms batao
+    - Hi, autism explain karke symptoms batao
+    - Good day, what is autism with symptoms?
+
+- intent: greet_ask_definition_ask_causes
+  examples: |
+    - Hi, what is autism and what causes it?
+    - Hello, define autism and its causes
+    - Salam, autism kya hai aur kyun hota hai?
+    - Hey, autism meaning and why it happens
+    - Good morning, what causes autism?
+    - Hi friend, autism definition and reasons
+    - Assalamualaikum, autism kya aur sabab kya?
+    - Hey, explain autism and its causation
+    - Hello, autism basics and causation
+    - Namaste, autism aur uske reasons
+    - Hi, autism definition with causes
+    - Good day, autism kya aur why occurs?
+
+- intent: greet_ask_definition_ask_types
+  examples: |
+    - Hi, what is autism and what types exist?
+    - Hello, define autism and its types
+    - Salam, autism kya hai aur types kya hain?
+    - Hey, autism meaning and categories
+    - Good morning, types of autism?
+    - Hi friend, autism and its classifications
+    - Assalamualaikum, autism ke types batao
+    - Hey, what is autism with its forms
+    - Hello, autism basics and varieties
+    - Namaste, autism ke types
+    - Hi, autism definition and types
+    - Good day, autism categories?
+
+- intent: greet_ask_definition_ask_levels
+  examples: |
+    - Hi, what is autism and support levels?
+    - Hello, define autism and its levels
+    - Salam, autism kya hai aur levels kya hain?
+    - Hey, autism meaning and severity levels
+    - Good morning, autism support levels?
+    - Hi friend, autism and functioning levels
+    - Assalamualaikum, autism levels explain
+    - Hey, what is autism with levels
+    - Hello, autism and support needs
+    - Namaste, autism ke levels
+    - Hi, autism definition and levels
+    - Good day, autism severity?
+
+- intent: greet_ask_definition_ask_spectrum
+  examples: |
+    - Hi, what is autism spectrum?
+    - Hello, explain the autism spectrum
+    - Salam, autism spectrum kya hai?
+    - Hey, what does spectrum mean in autism?
+    - Good morning, autism spectrum meaning?
+    - Hi friend, autism spectrum explanation
+    - Assalamualaikum, spectrum ka matlab
+    - Hey, define autism spectrum clearly
+    - Hello, autism spectrum details
+    - Namaste, autism spectrum samjhao
+    - Hi, autism spectrum kya hota hai?
+    - Good day, what is the spectrum?
+
+- intent: greet_ask_definition_ask_if_autism_adhd_same
+  examples: |
+    - Hi, how is autism different from ADHD?
+    - Hello, autism vs ADHD differences
+    - Salam, autism aur ADHD mein farq?
+    - Hey, what's the difference between autism and ADHD?
+    - Good morning, autism vs ADHD comparison
+    - Hi friend, how to differentiate autism from ADHD
+    - Assalamualaikum, ADHD se autism alag?
+    - Hey, autism and ADHD differences explain
+    - Hello, distinguish autism from ADHD
+    - Namaste, ADHD aur autism mein difference
+    - Hi, autism ADHD different kaise?
+    - Good day, ADHD vs autism?
+
+- intent: greet_ask_definition_ask_difference_from_down_syndrome
+  examples: |
+    - Hi, how is autism different from Down syndrome?
+    - Hello, autism vs Down syndrome differences
+    - Salam, autism aur Down syndrome mein farq?
+    - Hey, what's the difference between autism and Down?
+    - Good morning, autism vs Down comparison
+    - Hi friend, how to tell autism from Down syndrome
+    - Assalamualaikum, Down syndrome se autism alag?
+    - Hey, autism and Down differences explain
+    - Hello, distinguish autism from Down syndrome
+    - Namaste, Down syndrome aur autism mein difference
+    - Hi, autism Down syndrome different kaise?
+    - Good day, Down vs autism?
+
+- intent: greet_ask_definition_ask_myths
+  examples: |
+    - Hi, what are myths about autism?
+    - Hello, common autism myths explained
+    - Salam, autism ke myths kya hain?
+    - Hey, what are misconceptions about autism?
+    - Good morning, autism myths vs facts
+    - Hi friend, common myths about autism
+    - Assalamualaikum, autism ke afsane?
+    - Hey, busting autism myths
+    - Hello, false beliefs about autism
+    - Namaste, autism myths samjhao
+    - Hi, autism ke myths kya hain?
+    - Good day, myths aur facts?
+
+- intent: greet_ask_definition_ask_facts
+  examples: |
+    - Hi, what are important facts about autism?
+    - Hello, key facts about autism
+    - Salam, autism ke bare mein important facts?
+    - Hey, what should I know about autism?
+    - Good morning, autism facts and figures
+    - Hi friend, important autism facts
+    - Assalamualaikum, autism facts batao
+    - Hey, must-know autism facts
+    - Hello, autism reality and facts
+    - Namaste, autism ke facts
+    - Hi, autism facts kya hain?
+    - Good day, factual information about autism?
+
+- intent: ask_age
+  examples: |
+    - When can autism be diagnosed?
+    - Autism diagnosis age
+    - Kis age mein autism diagnose hota hai?
+    - Early diagnosis age
+    - Age for autism screening
+    - Autism detection age
+
+- intent: ask_process
+  examples: |
+    - What is the diagnosis process?
+    - Autism diagnosis process
+    - Steps in autism diagnosis
+    - Diagnosis procedure
+    - How does screening work?
+    - Diagnostic assessment process
+
+- intent: ask_tests
+  examples: |
+    - What tests are used for diagnosis?
+    - Autism diagnostic tests
+    - Screening tools for autism
+    - Tests available for autism
+    - Autism assessment tools
+    - Diagnostic tests kya hain?
+    - Kaunsi tests ho sakti hain?
+
+- intent: ask_cost
+  examples: |
+    - How much does autism diagnosis cost?
+    - Cost of autism assessment
+    - Diagnosis expenses
+    - Price of autism testing
+    - Affordability of diagnosis
+    - Cost kya hota hai?
+    - Kharch kitna aayega?
+
+- intent: ask_accuracy
+  examples: |
+    - How accurate is autism diagnosis?
+    - Accuracy of diagnostic tests
+    - Reliability of diagnosis
+    - Can diagnosis be wrong?
+    - Accuracy rate
+    - Diagnosis kitna sahi hai?
+    - Test reliability
+
+- intent: ask_misdiagnosis
+  examples: |
+    - What is misdiagnosis?
+    - Can autism be misdiagnosed?
+    - Misdiagnosis examples
+    - False diagnosis
+    - Incorrect diagnosis
+    - Kya galat diagnosis ho sakta hai?
+    - Misdiagnosis se kaise bacho?
+
+- intent: ask_reassessment
+  examples: |
+    - Can autism diagnosis be reassessed?
+    - Second opinion
+    - Repeat diagnosis
+    - Follow-up assessment
+    - Doosra assessment
+    - Diagnosis dubara ho sakta hai?
+
+- intent: ask_pakistan
+  examples: |
+    - How is autism diagnosed in Pakistan?
+    - Autism diagnosis in Pakistan
+    - Diagnostic services Pakistan
+    - Where to get diagnosed in Pakistan?
+    - Pakistan mein diagnosis kaise hota hai?
+    - Pakistan mein doctors kaun hain?
+    - Diagnosis ke centers Pakistan mein
+
+- intent: ask_school_assessment
+  examples: |
+    - School assessment for autism
+    - Educational assessment
+    - School-based diagnosis
+    - Teacher assessment
+    - Classroom observation
+    - School se assessment kaun karega?
+    - School evaluation process
+
+- intent: ask_diagnosis_ask_symptoms
+  examples: |
+    - What symptoms lead to diagnosis?
+    - Diagnosis and symptoms
+    - Symptoms that get diagnosed
+    - Kaunsi alamaaten diagnosis mein matter karti hain?
+    - Symptoms for diagnosis
+    - Diagnostic symptoms
+    - Which symptoms are evaluated?
+
+- intent: ask_diagnosis_ask_age
+  examples: |
+    - What is the age for diagnosis?
+    - At what age is autism diagnosed?
+    - Autism diagnosis age group
+    - Age requirements for diagnosis
+    - Diagnosis age kya hai?
+    - Kaunsi age mein pata chalta hai?
+    - Age for assessment
+
+- intent: ask_diagnosis_ask_process
+  examples: |
+    - How is the diagnosis process?
+    - Diagnosis procedure explanation
+    - Step-by-step diagnosis
+    - What happens during diagnosis?
+    - Diagnosis ke steps kya hain?
+    - Diagnostic process details
+    - How does assessment work?
+
+- intent: ask_diagnosis_ask_tests
+  examples: |
+    - What tests are used in diagnosis?
+    - Diagnostic tests explained
+    - Which tests confirm autism?
+    - Tests available for assessment
+    - Diagnosis mein kaun si tests hoti hain?
+    - Screening and diagnostic tools
+    - Assessment tests details
+
+- intent: ask_diagnosis_ask_doctor
+  examples: |
+    - Which doctors diagnose autism?
+    - Who can diagnose autism?
+    - Types of doctors for diagnosis
+    - Diagnosis se milne wale doctors
+    - Specialists for autism
+    - Doctor qualifications
+    - Where to find a diagnostician?
+
+- intent: ask_diagnosis_ask_cost
+  examples: |
+    - What is the cost of diagnosis?
+    - Diagnosis affordability
+    - Price of assessments
+    - Budget for diagnosis
+    - Diagnosis cost details
+    - Kharch ke barey mein
+    - Paid or free diagnosis
+
+- intent: ask_diagnosis_ask_accuracy
+  examples: |
+    - How accurate is diagnosis?
+    - Reliability of tests
+    - Diagnosis accuracy rate
+    - Can tests be wrong?
+    - Test accuracy explained
+    - Diagnosis kitna reliable hai?
+    - Accuracy percentage
+
+- intent: ask_diagnosis_ask_misdiagnosis
+  examples: |
+    - Can diagnosis be incorrect?
+    - Misdiagnosis prevention
+    - False positive diagnosis
+    - Getting wrong diagnosis
+    - Galat diagnosis kaise hota hai?
+    - Prevention of misdiagnosis
+    - Diagnosis error examples
+
+- intent: ask_diagnosis_ask_reassessment
+  examples: |
+    - Can we get reassessed?
+    - Multiple assessments possible?
+    - Reassessment benefits
+    - Second opinion value
+    - Reassessment process
+    - Dubara assessment kaun karega?
+    - When to get reassessed?
+
+- intent: ask_diagnosis_ask_pakistan
+  examples: |
+    - How to get diagnosed in Pakistan?
+    - Diagnosis centers in Pakistan
+    - Doctors for diagnosis Pakistan
+    - Pakistani diagnosis process
+    - Pakistan mein kaun sa center?
+    - Local diagnosis options
+    - Pakistan ki facilities
+
+- intent: ask_diagnosis_ask_school_assessment
+  examples: |
+    - School assessment importance
+    - Role of school in diagnosis
+    - School-based evaluation
+    - Teacher observations
+    - School assessment process
+    - School se assessment kaise hota hai?
+    - Educational evaluation role
+
+- intent: ask_speech_therapy
+  examples: |
+    - What is speech therapy?
+    - How does speech therapy help?
+    - Speech therapy benefits
+    - Can speech therapy improve speech?
+    - What does a speech therapist do?
+    - Speech language pathology
+    - Communication therapy
+    - Speech therapy for autism
+    - Bolna therapy kya hai?
+    - Bolne mein madad kaunse therapy se milti hai?
+    - Speech therapy ke faaye?
+    - Bolna seekhne therapy
+
+- intent: ask_physical_therapy
+  examples: |
+    - What is physical therapy?
+    - How does physical therapy help?
+    - Physical therapy for autism
+    - PT for developmental delay
+    - Gross motor skill development
+    - Walking, running, coordination
+    - Physical rehabilitation
+    - Motor skills therapy
+    - Jismani therapy kya hai?
+    - Harkat ki therapy kaun karti hai?
+    - Chalna dorna ukdna sikhane wali therapy?
+    - Motor development therapy
+
+- intent: ask_play_therapy
+  examples: |
+    - What is play therapy?
+    - How does play therapy work?
+    - Benefits of play-based learning
+    - Play therapy for autism
+    - Creative play therapy
+    - Learning through play
+    - Play-based intervention
+    - Emotional expression through play
+    - Khel ke zariye therapy kya hoti hai?
+    - Khel-kud se bachhe ko kaise madad milti hai?
+    - Imaginative play autism
+    - Play-based development
+
+- intent: ask_behavior_therapy
+  examples: |
+    - What is behavior therapy?
+    - How does ABA work?
+    - Behavioral intervention
+    - Positive reinforcement
+    - Behavioral strategies
+    - Behavior management
+    - ABA therapy benefits
+    - Behavior modification
+    - Behavior therapy kya hai?
+    - ABA kya hoti hai?
+    - Reways badalne wali therapy?
+    - Positive aam se bachche ko sikhana
+
+- intent: ask_social_skills_therapy
+  examples: |
+    - What is social skills training?
+    - How to improve social interaction?
+    - Social skills development
+    - Peer interaction therapy
+    - Teaching friendship skills
+    - Understanding social cues
+    - Social communication intervention
+    - Reducing social anxiety
+    - Samaji hunit sikhane wali therapy?
+    - Dosron ke saath kaise baat kare seekhna?
+    - Dostee ke tareeqe sikhana
+    - Social interaction therapy
+
+- intent: ask_feeding_therapy
+  examples: |
+    - What is feeding therapy?
+    - How to help with picky eating?
+    - Swallowing disorders treatment
+    - Feeding difficulties
+    - Oral motor skills
+    - Eating therapy
+    - Speech therapist feeding
+    - Sensory feeding issues
+    - Khane mein madad wali therapy?
+    - Khana khane mein dikkat ho to kya kare?
+    - Picky eater se nibatne ke tareeqe
+    - Nibalne mein dikkat
+
+- intent: ask_aba_details_ask_therapy
+  examples: |
+    - What are the details of ABA?
+    - How is ABA applied for autism?
+    - ABA methodology
+    - ABA sessions and structure
+    - How long is ABA therapy?
+    - ABA cost and effectiveness
+    - Tell me more about ABA
+    - ABA detailed explanation
+    - ABA se autism ke treatment ka braah?
+    - ABA kaun treat karti hai?
+    - Kya ABA se achha result aata hai?
+    - ABA ke mutalay aur therapy
+
+- intent: ask_speech_therapy_ask_therapy
+  examples: |
+    - What speech therapy options are available?
+    - How does speech therapy relate to autism?
+    - Speech and language therapy
+    - Speech therapy methods
+    - When to start speech therapy?
+    - Speech therapy combined with other therapies
+    - Speech improvement techniques
+    - Speech therapy duration
+    - Speech therapy ke tareeqe kaunse hain?
+    - Bolna therapy se autism ke liye kya milta hai?
+    - Kaunse speech exercises behter hain?
+    - Bolna therapy aur dusri therapies
+
+- intent: ask_speech_therapy_time_ask_therapy
+  examples: |
+    - How long does speech therapy take?
+    - Duration of speech therapy
+    - When to see speech therapy results?
+    - Speech therapy timeline
+    - Frequency of speech therapy sessions
+    - Progress timeline in speech therapy
+    - How many sessions needed?
+    - Speech therapy schedule
+    - Speech therapy kitne time tak chalti hai?
+    - Bolna therapy ke nateeja kitne din mein aate hain?
+    - Hafte mein kitni baar session ho?
+    - Bolna therapy ka samay aur schedule
+
+- intent: ask_occupational_therapy_ask_therapy
+  examples: |
+    - What does occupational therapy do for autism?
+    - OT sensory processing
+    - Occupational therapy goals
+    - How OT helps daily living skills
+    - Fine motor development
+    - Sensory integration therapy
+    - OT combined with other therapies
+    - Occupational therapy methods
+    - Occupational therapy autism ke liye kya karta hai?
+    - OT se rozana kaam kaise seekhte hain?
+    - Hath ki halki harkat kaun sikhati hai?
+    - OT aur dusri therapies
+
+- intent: ask_physical_therapy_ask_therapy
+  examples: |
+    - How does physical therapy help with movement?
+    - PT for gross motor skills
+    - Physical therapy techniques
+    - Balance and coordination therapy
+    - PT exercises for autism
+    - How long is PT therapy?
+    - PT combined with other interventions
+    - Developmental physical therapy
+    - Physical therapy kaise body develop karti hai?
+    - PT se movement achha hota hai?
+    - Chalne-fhirne mein PT se kya fayda?
+    - PT aur dusri therapies
+
+- intent: ask_play_therapy_ask_therapy
+  examples: |
+    - How does play therapy develop skills?
+    - Play-based learning for autism
+    - Play therapy techniques
+    - Creative development through play
+    - Imagination building activities
+    - Play therapy combined with other therapies
+    - Emotional development through play
+    - Play therapy session structure
+    - Khel se kaunse hunit develop hoti hain?
+    - Khel-kud se emotion kaun develop hota hai?
+    - Khel-kud therapy ke tareeqe?
+    - Khel therapy aur dusri therapies
+
+- intent: ask_behavior_therapy_ask_therapy
+  examples: |
+    - How does ABA reduce problem behaviors?
+    - Behavior modification techniques
+    - Positive reinforcement strategies
+    - Behavioral goals and targets
+    - How to implement behavior plans?
+    - Behavior therapy at home and school
+    - Behavior change progress
+    - Behavior therapy combined with therapies
+    - Reways badalne ke tareeqe kaunse hain?
+    - Mushkil reways se kaise nibta rahe?
+    - ABA se behavior mein kya badlao aata hai?
+    - Reways therapy aur dusri therapies
+
+- intent: ask_social_skills_therapy_ask_therapy
+  examples: |
+    - What social skills are taught?
+    - How to teach friendship building?
+    - Social cue recognition training
+    - Conversation skills development
+    - Social skills practice methods
+    - Social skills at school and community
+    - Peer interaction coaching
+    - Samaji hunit kaun kaun se sikhaye jate hain?
+    - Dostee ke niyam kaise seekhte hain?
+    - Dosron se baat karte samay kya yaad rakhe?
+    - Samaji anxiety kam karne ke tareeqe
+
+- intent: ask_feeding_therapy_ask_therapy
+  examples: |
+    - What feeding techniques are used?
+    - How to expand food preferences?
+    - Swallowing therapy methods
+    - Oral motor exercises
+    - Sensory feeding strategies
+    - Picky eating solutions
+    - Feeding therapy progress
+    - Feeding therapy combined approach
+    - Khane mein acceptance kaun se tareeqe se badhti hai?
+    - Picky eater ko naay khana kaun se tareeqe se seekhate hain?
+    - Khane mein sensory dikkat se kaise nibata rahe?
+    - Feeding ko dusri therapies ke saath kaun combine karte hain?
+
+- intent: ask_medicine
+  examples: |
+    - What medicines are used for autism?
+    - Are there medications for autism?
+    - Medicine for autism
+    - Autism medication options
+    - Do autistic people need medication?
+    - Medications for autism behavior
+    - When is medication needed?
+    - Davayi se autism mein madad mil sakti hai?
+    - Autism ke liye konsi davaiyaan hoti hain?
+    - Kya davayi zaroor hoti hai?
+    - Medication aur therapy
+
+- intent: ask_side_effects
+  examples: |
+    - What are medication side effects?
+    - Side effects of autism medication
+    - Are there risks with medication?
+    - How to manage side effects?
+    - Common side effects
+    - Medication safety
+    - Side effects of stimulants
+    - Davayi ke side effects kaunse hote hain?
+    - Medication se nuksaan?
+    - Side effects se kaise bacha rahe?
+    - Davayi suraksha
+
+- intent: ask_future_research
+  examples: |
+    - What's the future of autism research?
+    - New research in autism
+    - What are scientists researching?
+    - Future therapies for autism
+    - Gene therapy and autism
+    - Brain research and autism
+    - Advances in autism research
+    - Autism research kya direction mein ja raha hai?
+    - Aaene din kya breakthrough hoga?
+    - Gene therapy aur autism
+    - Research mein kya naaye tareeqe?
+
+- intent: ask_recovery
+  examples: |
+    - Can autism be recovered from?
+    - Is recovery from autism possible?
+    - Do autistic people recover?
+    - What does recovery mean?
+    - Autism and recovery
+    - Can autism go away?
+    - Acceptance vs recovery
+    - Kya autism se theek ho sakta hai?
+    - Recovery ka matlab?
+    - Autism zindagi bhar rahe ga?
+    - Treatment se theek ho ja ga?
+
+- intent: ask_medicine_ask_side_effects
+  examples: |
+    - What medicines are used and what are the side effects?
+    - Medication options and their risks
+    - Autism medicines and side effects
+    - Which medicine has fewer side effects?
+    - Safe medication for autism
+    - Comparing medicine effectiveness and safety
+    - Medicine aur uske side effects?
+    - Konsi davayi kaunse side effects deti hai?
+    - Safe davayi kaun si hai?
+    - Davayi risks aur faaye
+
+- intent: ask_medicine_ask_behavior
+  examples: |
+    - Does medication help with behavior?
+    - Can medicine improve autism behavior?
+    - Medication for aggressive behavior
+    - How does medicine affect behavior?
+    - Behavior management with medication
+    - Medicine and behavioral improvement
+    - Davayi se behavior mein behteri hoti hai?
+    - Jhagre ke liye davayi?
+    - Medication behavior change?
+    - Behavior aur davayi ka rishta
+
+- intent: ask_autism_medicine_vaccine_cure_ask_cure
+  examples: |
+    - What about medicine, vaccines, and cure?
+    - Is there a cure through medication?
+    - Vaccines, medicine, and autism cure
+    - Will future medicine cure autism?
+    - Combined approach to treatment
+    - Medicine, vaccines, and therapy
+    - Kya davayi, vaccine, ya kuch aur se ilaj mil sakta hai?
+    - Davayi se kya ilaj hota hai?
+    - Autism ka ilaj kab hoga?
+    - Medicine, vaccine, aur cure
+
+- intent: ask_cure_ask_future_research
+  examples: |
+    - Is there a cure and what's the research?
+    - Future cure research for autism
+    - Will research find a cure?
+    - Treatment advances and cure potential
+    - Research into autism cure
+    - Cure prospects based on research
+    - Kya research se ilaj mill sakta hai?
+    - Aaene din cure hoga?
+    - Research se kya naami?
+    - Ilaj aur research ka future
+
+- intent: ask_cure_ask_recovery
+  examples: |
+    - Can you recover from autism, is there a cure?
+    - Cure and recovery from autism
+    - Recovery prospects and cure potential
+    - Autism cure and recovery possibilities
+    - Will recovery happen with treatment?
+    - Treatment and recovery outlook
+    - Kya recovery sambhav hai ya cure?
+    - Theek hone ka koi tareeka?
+    - Cure aur recovery mein farq?
+    - Kya zindagi normal hogi?
+
+- intent: ask_cure_ask_myths
+  examples: |
+    - What's the cure and what are myths?
+    - Is there a cure? Common false beliefs
+    - Cure myths and misconceptions
+    - Why people think there's a cure
+    - Debunking cure myths
+    - Cure possibilities vs false beliefs
+    - Kya cure hai ya sirf myths hain?
+    - Log kya galat samjhte hain cure ke baare mein?
+    - Ilaj sambhav hai ya nahi?
+    - Cure aur galat khayal
+
+- intent: ask_examples
+  examples: |
+    - What are examples of sensory sensitivity?
+    - Give me sensory examples
+    - Sensory sensitivity examples
+    - What types of sensory issues?
+    - Sensory sensitivities like what?
+    - Common sensory problems
+    - Examples of sensory overload
+    - Sensory examples kya hote hain?
+    - Sound aur light sensitivity ke examples?
+    - Tactile sensory kya hota hai?
+
+- intent: ask_management
+  examples: |
+    - How to manage sensory needs?
+    - Sensory management strategies
+    - Managing sensory issues
+    - Ways to help with sensory
+    - How to reduce sensory overload?
+    - Sensory accommodation ideas
+    - Coping with sensory sensitivity
+    - Sensory management tips
+    - Sensory ko kaun manage kare?
+    - Sensory overload se bacha rahe ke tareeqe?
+    - Accommodation examples?
+
+- intent: ask_school
+  examples: |
+    - How to manage sensory at school?
+    - Sensory needs at school
+    - Helping at school with sensory
+    - School sensory strategies
+    - Classroom accommodations
+    - School environment sensory
+    - School mein sensory kaise handle kare?
+    - Classroom mein sensory adjustment?
+    - School se sensory accommodation?
+
+- intent: ask_home
+  examples: |
+    - How to manage sensory at home?
+    - Home environment sensory friendly
+    - Sensory accommodations at home
+    - Making home sensory comfortable
+    - Home sensory strategies
+    - Home setup for sensory needs
+    - Creating sensory safe space
+    - Ghar mein sensory kaun manage kare?
+    - Home ko sensory friendly banane ke tareeqe?
+    - Home environment adjustment?
+
+- intent: ask_reduce_stimming
+  examples: |
+    - How to reduce stimming?
+    - Should I reduce stimming?
+    - How to stop stimming?
+    - Reducing self-stimulating behaviors
+    - Is stimming bad?
+    - Stimming management
+    - Should stimming be stopped?
+    - Stimming ko kaun kam kare?
+    - Kya stimming bad hai?
+    - Stimming ko reduce karna chahiye?
+
+- intent: ask_how
+  examples: |
+    - How to manage this?
+    - What's the method?
+    - How should I approach this?
+    - What are the steps?
+    - How do I help?
+    - Provide guidance
+    - How to handle this situation
+    - Kaise manage kare?
+    - Tareeqa kya hai?
+    - Steps kaunse hain?
+
+- intent: ask_when_to_stop
+  examples: |
+    - When should stimming stop?
+    - Is it time to stop stimming?
+    - How long does stimming last?
+    - Should we stop stimming?
+    - Red flags for stimming
+    - Kub tak stimming normal hai?
+
+- intent: ask_sensory_issues_ask_examples
+  examples: |
+    - What are sensory issues and examples?
+    - Sensory sensitivity types and examples
+    - Tell me about sensory issues with examples
+    - Sensory problems and specific types
+    - What does sensory sensitivity look like?
+    - Sensory issues kaunse hote hain?
+    - Sensory issues aur examples?
+    - Sensory sensitivity ke example batao?
+    - Types of sensory issues?
+
+- intent: ask_sensory_issues_ask_management
+  examples: |
+    - What are sensory issues and how to manage?
+    - Sensory sensitivity management
+    - Understanding and managing sensory needs
+    - Sensory issues and solutions
+    - How to handle sensory sensitivity?
+    - Sensory issues aur management?
+    - Sensory problems ko kaun solve kare?
+    - Sensory issues aur solutions?
+    - Understanding sensory aur helping?
+
+- intent: ask_sensory_issues_ask_school
+  examples: |
+    - Sensory issues at school
+    - How sensory affects school?
+    - School accommodations for sensory
+    - Sensory issues school environment
+    - School strategies for sensory
+    - Sensory issues aur school?
+    - School mein sensory problems?
+    - Sensory needs school adjustment?
+    - School se sensory help?
+
+- intent: ask_sensory_issues_ask_home
+  examples: |
+    - Sensory issues at home
+    - Home accommodations for sensory
+    - Managing sensory at home
+    - Home environment for sensory
+    - Sensory issues home strategies
+    - Sensory issues aur ghar?
+    - Ghar mein sensory problems?
+    - Home sensory adjustment?
+    - Ghar ko sensory friendly?
+
+- intent: ask_stimming_ask_why_stimming
+  examples: |
+    - What is stimming and why do they do it?
+    - Stimming behavior and reasons
+    - Why do autistic people stim?
+    - Stimming purpose and function
+    - Understanding stimming
+    - What stimming does for them
+    - Stimming explanation and reasons
+    - Stimming kya hai aur kyon karte hain?
+    - Stimming ke kya fayda?
+    - Kyon stimming zaroor hota hai?
+
+- intent: ask_stimming_ask_types
+  examples: |
+    - Different stims and behaviors
+    - Stimming examples and types
+    - Common stimming behaviors
+    - What are different stims?
+    - Stimming types kaunse hote hain?
+    - Alag alag stimming examples?
+    - Kaunse stim normal hain?
+    - Stimming ke different types?
+
+- intent: ask_harmful_stimming_ask_stimming
+  examples: |
+    - What is harmful stimming?
+    - Is harmful stimming normal?
+    - How to handle harmful stimming?
+    - When is stimming harmful?
+    - Self-injurious stimming
+    - Harmful stim behaviors
+    - Harmful stimming aur management?
+    - Harmful stims kaunse hote hain?
+    - Self-harm stimming kab hota hai?
+    - Harmful stimming se kaise bacha rahe?
+
+- intent: ask_reduce_stimming_ask_how
+  examples: |
+    - How to reduce harmful stimming?
+    - Reducing stimming strategies
+    - Steps to reduce stimming
+    - Methods for reducing stims
+    - How to manage excessive stimming?
+    - Stimming reduction techniques
+    - Stimming ko reduce karne ke tareeqe?
+    - Harmful stim ko kaun manage kare?
+    - Stimming reduction methods?
+    - Excessive stimming handle karne ke tareeqe?
+
+- intent: ask_stimming_ask_when_to_stop
+  examples: |
+    - When should stimming be stopped?
+    - When is stimming a problem?
+    - Stopping stimming appropriately
+    - When to intervene with stimming
+    - Is stimming harmful?
+    - Should parents stop stimming?
+    - When does stimming need intervention?
+    - Stimming kub problem banti hai?
+    - Stimming kub band karna chahiye?
+    - Kab stimming intervention zaror hai?
+
+- intent: ask_routine
+  examples: |
+    - How to create a routine?
+    - Establishing routines for autism
+    - Daily routine structure
+    - Visual schedules
+    - Routine benefits
+    - How to help with transitions?
+    - Routine organization
+    - Scheduled activities
+    - Routine create kaise kare?
+    - Daily routine setup?
+    - Transitions mein madad?
+
+- intent: ask_communication
+  examples: |
+    - How to improve communication?
+    - Communication methods for autism
+    - Speech and language support
+    - AAC devices explanation
+    - Non-verbal communication
+    - Helping with speech
+    - Communication strategies
+    - Teaching communication skills
+    - Communication improve kaise kare?
+    - AAC devices kya hain?
+    - Non-verbal communication methods?
+
+- intent: ask_sleep
+  examples: |
+    - How to help with sleep?
+    - Sleep problems in autism
+    - Bedtime routine
+    - Sleep strategies
+    - Helping child sleep
+    - Sleep hygiene
+    - Sleep issues solutions
+    - Better sleep for autism
+    - Neend mein madad kaise kare?
+    - Bedtime routine kaun banaye?
+    - Sleep problem solutions?
+
+- intent: ask_toilet_training
+  examples: |
+    - How to toilet train?
+    - Toilet training autism
+    - Potty training strategies
+    - Bathroom training
+    - When to start toilet training?
+    - Toilet training tips
+    - Potty training approaches
+    - Toilet training support
+    - Toilet training kaise kare?
+    - Potty training kaun start kare?
+    - Bathroom training methods?
+
+- intent: ask_screen_time
+  examples: |
+    - How much screen time is okay?
+    - Managing screen time
+    - Screen time guidelines
+    - Reducing screen dependency
+    - Healthy screen time limits
+    - Apps for autism
+    - Technology for learning
+    - Screen time balance
+    - Screen time kaun manage kare?
+    - Kitna screen time ok hai?
+    - Technology benefit?
+
+- intent: ask_meltdowns
+  examples: |
+    - What are meltdowns?
+    - How to handle meltdowns?
+    - Meltdown strategies
+    - Preventing meltdowns
+    - What causes meltdowns?
+    - During a meltdown what to do?
+    - Meltdown triggers
+    - Managing meltdowns
+    - Meltdown kya hote hain?
+    - Meltdown kaun handle kare?
+    - Meltdown se bachna?
+
+- intent: ask_daily_tips_ask_home_exercises
+  examples: |
+    - Daily tips with home exercises
+    - Tips and home activities
+    - Daily routine with exercises
+    - Home therapy exercises daily
+    - What daily activities include exercises?
+    - Tips aur home exercises?
+    - Daily activities physical practice ke saath?
+    - Home exercises aur routine?
+
+- intent: ask_daily_tips_ask_routine
+  examples: |
+    - Tips for establishing routines
+    - Daily routine guidance
+    - How to structure daily tips with routines?
+    - Tips that involve routines
+    - Routine structure daily advice
+    - Tips aur routine structure?
+    - Daily guidance routine ke saath?
+    - Routine establish karne ke tips?
+
+- intent: ask_daily_tips_ask_visual_aids
+  examples: |
+    - Daily tips using visual aids
+    - Visual supports for daily life
+    - Pictures and schedules for tips
+    - Visual aid implementation daily
+    - Tips with visual tools
+    - Tips aur visual supports?
+    - Daily visual schedules?
+    - Visual aids daily use?
+
+- intent: ask_daily_tips_ask_communication
+  examples: |
+    - Daily tips for communication
+    - Daily communication support
+    - Communication tips for autism
+    - How to improve daily communication?
+    - Tips involving communication
+    - Communication tips daily?
+    - Tips aur communication?
+    - Daily communication improvement?
+
+- intent: ask_daily_tips_ask_sleep
+  examples: |
+    - Daily tips for better sleep
+    - Sleep tips and routine
+    - How to improve sleep daily?
+    - Daily sleep support
+    - Tips for bedtime
+    - Sleep tips daily?
+    - Tips aur neend improvement?
+    - Bedtime tips daily?
+
+- intent: ask_daily_tips_ask_eating
+  examples: |
+    - Daily tips for eating issues
+    - Eating and food tips
+    - Managing feeding problems daily
+    - Tips for picky eating
+    - Meal time strategies
+    - Eating tips daily?
+    - Food problems tips?
+    - Meal time daily tips?
+
+- intent: ask_daily_tips_ask_toilet_training
+  examples: |
+    - Daily tips for toilet training
+    - Toilet training in daily routine
+    - Tips for potty training
+    - Daily toilet training strategies
+    - Bathroom training tips
+    - Toilet training tips daily?
+    - Tips aur potty training?
+    - Daily bathroom training?
+
+- intent: ask_daily_tips_ask_screen_time
+  examples: |
+    - Daily tips for managing screen time
+    - Screen time limits daily
+    - How to manage technology daily?
+    - Daily tips reducing screen use
+    - Tips for balanced screen time
+    - Screen time tips daily?
+    - Tips aur screen management?
+    - Daily screen limits?
+
+- intent: ask_daily_tips_ask_meltdowns
+  examples: |
+    - Daily tips for meltdown prevention
+    - Tips for handling daily meltdowns
+    - How to prevent meltdowns daily?
+    - Meltdown strategies in daily routine
+    - Daily meltdown management
+    - Meltdown tips daily?
+    - Tips aur meltdown prevention?
+    - Daily meltdown handling?
+
+- intent: ask_daily_tips_ask_triggers
+  examples: |
+    - Daily tips and identifying triggers
+    - Tips for managing trigger situations
+    - How to avoid daily triggers?
+    - Tips for trigger awareness
+    - Understanding triggers daily
+    - Trigger tips daily?
+    - Tips aur triggers?
+    - Daily trigger management?
+
+- intent: ask_parents
+  examples: |
+    - How can I support my autistic child?
+    - What do parents of autistic kids need?
+    - Parent challenges with autism
+    - Parenting an autistic child
+    - How to be a good parent of an autistic child?
+    - What support do parents need?
+    - Parental stress and autism
+    - Tips for parents
+    - Parents ko kya support chahiye?
+    - Autistic bachche ke parents ke liye tips?
+    - Parenting challenges autism mein?
+    - Parents ke stress ko handle karna?
+    - Apne autistic bachche ko support kaise doon?
+    - Parents ke concerns?
+
+- intent: ask_coping
+  examples: |
+    - How to cope with autism diagnosis?
+    - Coping strategies for autism
+    - How do families cope with autism?
+    - Stress management for autism
+    - Dealing with emotional challenges
+    - How to handle autism stress?
+    - Healthy coping mechanisms
+    - Managing grief about diagnosis
+    - Coping ke strategies kya hain?
+    - Autism diagnosis se cope kaise kare?
+    - Emotional support aur coping?
+    - Family ke stress handle karne ke ways?
+    - Healthy ways to cope?
+    - Diagnosis ke baad cope kaise karte?
+
+- intent: ask_family
+  examples: |
+    - How does autism affect the family?
+    - Family impact of autism
+    - Sibling relationships with autism
+    - How to support the whole family?
+    - Family dynamics and autism
+    - Autism's effect on siblings
+    - Family support strategies
+    - How to include family in autism care?
+    - Family relationships aur autism?
+    - Autism se pura family kaise affect hota hai?
+    - Siblings ke liye autism ka impact?
+    - Family support kaise den?
+    - Pura family involved kaise kare?
+    - Family members ko educate kaise kare?
+
+- intent: ask_stress_management
+  examples: |
+    - How to manage stress with autism?
+    - Stress management techniques
+    - How to reduce parental stress?
+    - Managing anxiety and stress
+    - Self-care for caregivers
+    - Stress relief methods
+    - Burnout prevention
+    - Coping with daily stress
+    - Stress manage kaise kare?
+    - Anxiety reduction techniques?
+    - Caregiver ke liye stress relief?
+    - Burnout se kaise bacho?
+    - Daily stress handle karne ke ways?
+    - Self-care tips for parents?
+
+- intent: ask_siblings_ask_autism_chances
+  examples: |
+    - What are the chances of autism in siblings?
+    - Will my other children be autistic?
+    - Genetic risk in siblings
+    - Autism inheritance in families
+    - Do siblings of autistic children get autism?
+    - Sibling autism risk
+    - Hereditary autism in family
+    - Autism chances for other children?
+    - Kya mere dusre bachche bhi autistic honge?
+    - Siblings mein autism ke chances?
+    - Genetic risk kya hai?
+    - Parivar mein autism hereditary hai?
+    - Autism inherit hoti hai?
+    - Dusre bachche ko autism ho sakti hai?
+
+- intent: ask_siblings_ask_support
+  examples: |
+    - How can I support my siblings?
+    - Supporting siblings of autistic children
+    - Sibling support and involvement
+    - How to help brothers and sisters?
+    - Supporting the whole sibling group
+    - Resources for siblings
+    - What do siblings need?
+    - Addressing sibling needs
+    - Sibling ko kaise support doon?
+    - Siblings ke liye support programs?
+    - Bhai behen ko involve kaise kare?
+    - Siblings' needs kya hain?
+    - Supporting the whole family together?
+    - Sibling jealousy aur resentment handle?
+
+- intent: ask_parents_ask_coping
+  examples: |
+    - How should parents cope with autism?
+    - Parent coping strategies for autism
+    - How to manage emotions as a parent?
+    - Helping parents handle stress
+    - Managing parental stress
+    - Parent grief and acceptance
+    - Healthy ways for parents to cope
+    - Parent mental health and autism
+    - Parents kaise cope kare autism se?
+    - Parent ko emotional support kaise?
+    - Grief aur acceptance parents ke liye?
+    - Parent stress management strategies?
+    - Mental health support for parents?
+    - Parents ke emotions handle kaise kare?
+
+- intent: ask_family_ask_acceptance
+  examples: |
+    - How can families accept autism?
+    - Family acceptance of autism
+    - Building family acceptance
+    - Helping family members accept autism
+    - Overcoming denial in families
+    - Family attitudes toward autism
+    - Creating an accepting family
+    - Acceptance strategies for families
+    - Family members ko autism accept kaise karao?
+    - Family acceptance strategies?
+    - Denial se kaise bacho?
+    - Family attitudes kaise change hoti hain?
+    - Pura family kaise accept kare?
+    - Understanding aur acceptance family mein?
+
+- intent: ask_family_ask_stress_management
+  examples: |
+    - How should families manage stress?
+    - Family stress management strategies
+    - Stress reduction for the whole family
+    - Managing family anxiety with autism
+    - Family coping and resilience
+    - Stress management for all family members
+    - Building family resilience
+    - Supporting family mental health
+    - Family ke stress ko manage kaise kare?
+    - Pura family stress management?
+    - Family anxiety reduction strategies?
+    - Family resilience kaise build kare?
+    - Sabke stress handle kaise kare?
+    - Family mental health support kaise den?
+
+- intent: ask_adult_autism_ask_diagnosis
+  examples: |
+    - How to get diagnosed as an adult with autism?
+    - Adult autism diagnosis process
+    - Getting diagnosed later in life
+    - Autism diagnosis for adults
+    - Where to get assessed for adult autism?
+    - Adult diagnosis of autism
+    - Late diagnosis of autism
+    - Seeking autism diagnosis as an adult
+    - Adult mein autism diagnosis kaise hoti hai?
+    - Late diagnosis autism ke liye?
+    - Adult assessment kahan se?
+    - Autism diagnosis adult age mein?
+    - Kya adult ko diagnosis mil sakta hai?
+    - Late diagnosis aur challenges?
+
+- intent: ask_adult_autism_ask_autism_employment
+  examples: |
+    - What job opportunities are there for autistic adults?
+    - Employment challenges for autistic adults
+    - Supporting autistic adults in the workplace
+    - Career paths for autistic people
+    - Autistic adult employment strategies
+    - Workplace success for autistic adults
+    - Job retention for autism
+    - Building careers with autism
+    - Autistic adults ke liye job opportunities?
+    - Adult autism employment challenges?
+    - Workplace support autistic adults ke liye?
+    - Career paths autism mein?
+    - Job success autistic adults ke liye?
+    - Employment support strategies?
+
+- intent: ask_adult_autism_ask_autism_marriage
+  examples: |
+    - Can autistic people get married?
+    - Marriage and autism in adulthood
+    - Autistic adult marriage considerations
+    - Relationships and marriage for autistic adults
+    - Making marriage work with autism
+    - Partner support for autistic marriage
+    - Long-term commitment and autism
+    - Autistic adults and partnerships
+    - Kya autistic log shaadi kar sakte hain?
+    - Marriage aur adult autism?
+    - Married life autism mein kaise hoti hai?
+    - Long-term relationships autism ke liye?
+    - Partner support kaise hoti hai?
+    - Shaadi aur autism challenges?
+
+- intent: ask_adult_autism_ask_independence
+  examples: |
+    - How can autistic adults live independently?
+    - Independent living with autism
+    - Life skills for independent autistic adults
+    - Financial independence for autistic people
+    - Support for autistic adult independence
+    - Living alone with autism
+    - Self-sufficiency and autism
+    - Managing daily life independently with autism
+    - Adult autism aur independence kaise achieve karte?
+    - Independent living autism mein?
+    - Life skills autistic adults ke liye?
+    - Financial independence autism?
+    - Living alone autism ke saath?
+    - Self-sufficiency aur autism?
+
+- intent: ask_friendship
+  examples: |
+    - How to make friends as an autistic person?
+    - Friendship and autism
+    - Building friendships with autism
+    - Social isolation in autism
+    - How do autistic people make friends?
+    - Autism and peer relationships
+    - Making meaningful connections
+    - Overcoming loneliness in autism
+    - Autism mein friendships kaise banate?
+    - Friendship challenges autism mein?
+    - Peers relationship autism ke saath?
+    - Isolation aur autism?
+    - Social connections kaise banate?
+
+- intent: ask_social_skills
+  examples: |
+    - How to improve social skills in autism?
+    - Social skills training for autism
+    - Teaching social skills to autistic people
+    - Communication and social interaction
+    - Improving social understanding
+    - Social skills deficits in autism
+    - Eye contact and conversation skills
+    - Social cues and autism
+    - Social skills autism ke liye kaise improve?
+    - Autism mein social skills training?
+    - Communication skills kaise develop kare?
+    - Eye contact aur conversation?
+    - Social understanding improve kaise kare?
+
+- intent: ask_emotions
+  examples: |
+    - How do autistic people experience emotions?
+    - Emotional regulation in autism
+    - Managing feelings with autism
+    - Understanding emotions in autism
+    - Emotional expression and autism
+    - Emotional overwhelm in autism
+    - How to control emotions
+    - Feelings identification for autism
+    - Autistic log emotions kaise feel karte?
+    - Emotional regulation autism mein?
+    - Feelings manage kaise kare?
+    - Emotions identify autism mein?
+    - Emotional overwhelm handle kaise?
+
+- intent: ask_empathy
+  examples: |
+    - Do autistic people have empathy?
+    - Understanding empathy in autism
+    - Empathy and autism spectrum
+    - Teaching empathy to autistic children
+    - Why autistic people seem cold
+    - Empathy challenges in autism
+    - Emotional understanding
+    - Perspective-taking in autism
+    - Kya autistic log empathetic hote?
+    - Empathy understanding autism mein?
+    - Perspective-taking autism ke liye?
+    - Emotional understanding autism mein?
+    - Empathy challenges kya hain?
+
+- intent: ask_anxiety
+  examples: |
+    - How to manage anxiety in autism?
+    - Anxiety and autism
+    - Anxiety disorders in autistic people
+    - Dealing with anxiety
+    - Coping with anxiety
+    - Anxiety triggers and autism
+    - Anxiety management strategies
+    - Panic attacks and autism
+    - Anxiety manage kaise kare autism mein?
+    - Autism aur anxiety together?
+    - Anxiety coping strategies?
+    - Triggers anxiety ke autism mein?
+    - Anxiety control kaise kare?
+
+- intent: ask_depression
+  examples: |
+    - Depression in autism
+    - How to deal with depression as an autistic person
+    - Signs of depression in autism
+    - Mental health in autism
+    - Depression and suicidal thoughts
+    - Getting help for depression
+    - Treating depression in autistic people
+    - Sadness and emptiness in autism
+    - Autism mein depression kya hota?
+    - Depression handle kaise kare?
+    - Mental health aur autism?
+    - Suicidal thoughts aur help?
+    - Depression signs kya hain?
+
+- intent: ask_self_harm
+  examples: |
+    - Why do autistic people self-harm?
+    - Self-injurious behavior in autism
+    - Stopping self-harm in autism
+    - Self-harm and autism
+    - Coping with self-harm urges
+    - Understanding self-harm
+    - Self-harm alternatives
+    - Getting help for self-harm
+    - Self-harm autism mein kyon?
+    - Self-injurious behavior handle?
+    - Help kaise loon self-harm ke liye?
+    - Alternatives self-harm ke?
+    - Self-harm stop kaise kare?
+
+- intent: ask_friendship_ask_social_skills
+  examples: |
+    - How do I make friends and improve my social skills?
+    - Building friendships and learning social interaction
+    - Friendship challenges and social skills training
+    - Making connections with better social understanding
+    - Overcoming isolation through social development
+    - Friendship and communication skills
+    - Making friends with social skills learning
+    - Kaise dost banate aur social skills improve?
+    - Friendships aur social interaction kaise?
+    - Isolation se nikalne social skills se?
+    - Communication skills dost banate samay?
+    - Friendship aur social understanding together?
+
+- intent: ask_emotions_ask_empathy
+  examples: |
+    - Understanding emotions and empathy
+    - How to manage emotions and understand others
+    - Emotional regulation and perspective-taking
+    - Feelings and empathy connection
+    - Emotion and social understanding
+    - Managing emotions while understanding others
+    - Emotional intelligence and autism
+    - Kaise emotions samjho aur empathy develop?
+    - Emotional understanding aur perspective?
+    - Feelings manage karte hue empathy?
+    - Emotions aur social understanding?
+    - Perspective-taking emotional awareness se?
+
+- intent: ask_anxiety_ask_definition
+  examples: |
+    - What is anxiety and how does it relate to autism?
+    - Understanding what autism is and anxiety
+    - Autism basics and anxiety management
+    - How does anxiety affect autism?
+    - Anxiety in the context of autism
+    - What you need to know about autism and anxiety
+    - Defining autism and dealing with anxiety
+    - Anxiety kya hai aur autism mein kaise relate?
+    - Autism kya hai aur anxiety kaise develop?
+    - Autism samjho aur anxiety handle?
+    - What is autism aur anxiety together?
+    - Anxiety explanation in autism context?
+
+- intent: ask_depression_ask_definition
+  examples: |
+    - What is depression and how it relates to autism?
+    - Understanding autism and depression
+    - How autism and depression connect
+    - Depression in the context of autism
+    - What is autism and why depression happens
+    - Basics of autism and managing depression
+    - Depression meaning and autism connection
+    - Depression kya hai aur autism se relate?
+    - Autism kya hai aur depression kyon?
+    - Depression samjho autism context mein?
+    - Autism aur depression connection?
+    - Depression explain kare autism ke saath?
+
+- intent: ask_self_harm_ask_support_groups
+  examples: |
+    - Self-harm and support group help
+    - Where to get support for self-harm
+    - Support groups for autistic self-harm
+    - Getting support and help for self-harm
+    - Finding support while dealing with self-harm
+    - Self-harm support resources
+    - Help for self-harm through community
+    - Self-harm ke liye support kahan se?
+    - Support groups self-harm mein?
+    - Help find kaise kare self-harm ko?
+    - Community support self-harm ke liye?
+    - Self-harm aur support groups together?
+
+- intent: ask_autism_awareness_pakistan
+  examples: |
+    - What is autism awareness in Pakistan?
+    - How can we raise autism awareness?
+    - Autism organizations in Pakistan
+    - Misconceptions about autism in Pakistan
+    - Reducing stigma around autism
+    - Pakistan Autism Society information
+    - Autism awareness campaigns
+    - How to spread autism awareness
+    - Common myths about autism in Pakistan
+    - Autism acceptance in Pakistan
+    - Pakistan mein autism awareness kya hai?
+    - Autism awareness campaign Pakistan mein?
+    - Stigma kam kaise kare autism ke liye?
+    - Pakistan Autism Society ke baare mein?
+    - Misconceptions autism Pakistan mein?
+    - ACRO aur autism organizations?
+    - Autism acceptance promote kaise?
+    - Awareness kaise faila sakte autism ke baare?
+
+- intent: ask_resources_pakistan
+  examples: |
+    - What resources are available for autism in Pakistan?
+    - Where to find autism support in Pakistan?
+    - Autism therapy centers in Pakistan
+    - Pakistan autism organizations list
+    - Funding for autism therapy in Pakistan
+    - Government resources for autism
+    - Free autism services in Pakistan
+    - How to access autism help in Pakistan
+    - Autism support groups in Pakistan
+    - Pakistani autism resources
+    - Pakistan mein autism resources kya hain?
+    - Therapy centers Pakistan mein kahan hain?
+    - Autism organizations list Pakistan?
+    - Free services kahan se mil sakte?
+    - Government support kaise access?
+    - Zakat aur charity autism ke liye?
+    - Autism center se kaise connect?
+    - Resources kaise milain autism ka?
+
+- intent: ask_therapy_centers_pakistan
+  examples: |
+    - Major therapy centers for autism in Pakistan
+    - Best autism centers in Karachi Lahore Islamabad
+    - Autism assessment centers Pakistan
+    - Speech therapy for autism in Pakistan
+    - Occupational therapy centers Pakistan
+    - How to choose autism therapy center
+    - Therapy center costs in Pakistan
+    - Waiting lists at autism centers
+    - Quality of therapy centers
+    - Finding qualified therapists
+    - Pakistan mein major therapy centers kaunse hain?
+    - Karachi mein autism center best kaunsa?
+    - Lahore mein therapy services?
+    - Assessment center kaise choose?
+    - Therapist qualification check kaise?
+    - Cost aur payment options?
+    - Early intervention centers?
+    - Sensory therapy available?
+
+- intent: ask_government_support_pakistan
+  examples: |
+    - What government support is available for autism in Pakistan?
+    - Disability allowance for autism in Pakistan
+    - Government schemes for autistic children
+    - Special education in government schools Pakistan
+    - Free assessment at government hospitals
+    - Education support from government
+    - Pension programs for disabled
+    - Zakat programs for autism
+    - Government initiatives autism Pakistan
+    - Provincial autism support programs
+    - Pakistan mein government support kya hai?
+    - Disability allowance kaise milti?
+    - Government schemes autism ke liye?
+    - Free education kahan available?
+    - Government hospital se assessment?
+    - Zakat committees se help?
+    - Pension program kaise apply?
+    - Special education department contact?
+
+- intent: ask_disability_card
+  examples: |
+    - How to get a disability card in Pakistan
+    - Disability certificate process
+    - Benefits of disability card
+    - Disability allowance how to apply
+    - Disability card validity period
+    - Documents needed for disability card
+    - Where to apply for disability card
+    - Government benefits from disability card
+    - Transportation discounts with disability card
+    - Renewing disability card
+    - Pakistan mein disability card kaise milta?
+    - Disability certificate kya faaide hain?
+    - Application process disability card?
+    - Documents zaroori kaunse hain?
+    - NADRA ya government office?
+    - Allowance kitna milega?
+    - Card valid kitne time ke liye?
+    - Benefits access kaise?
+
+- intent: ask_autism_awareness_pakistan_ask_support_groups
+  examples: |
+    - Autism awareness and support groups Pakistan
+    - How can organizations and support groups raise awareness
+    - Support groups for autism awareness campaigns
+    - Community support for autism awareness
+    - Finding autism support through awareness initiatives
+    - Organizations spreading autism awareness and supporting
+    - Support and awareness together
+    - Autism awareness through community groups
+    - Help and awareness resources Pakistan
+    - Awareness campaigns and support networks
+    - Pakistan mein autism awareness aur support groups?
+    - Organizations awareness chalanay aur support dain?
+    - Support groups autism awareness ke liye?
+    - Community awareness aur support together?
+    - Awareness initiatives support dain kaise?
+    - Organizations awareness campaigns aur help?
+    - Support groups awareness spread?
+    - Community awareness aur family support?
+
+- intent: ask_resources_pakistan_ask_centers
+  examples: |
+    - What autism resources and therapy centers are in Pakistan?
+    - Finding resources and centers for autism support
+    - Therapy centers and resource availability
+    - Where are autism resources and centers located
+    - Pakistan autism support centers and resources
+    - Accessing resources through therapy centers
+    - Centers offering comprehensive resources
+    - Resources available at major centers Pakistan
+    - How to find centers with all resources
+    - Resources at autism organizations
+    - Pakistan mein resources aur centers kahan hain?
+    - Therapy centers ke paas kya resources hain?
+    - Centers jahan sab services available hain?
+    - Resource centers location Pakistan?
+    - Comprehensive centers resources ke saath?
+    - Organizations offering resources aur services?
+    - Major centers aur unke resources?
+    - Centers kaise contact kare resources ke liye?
+
+- intent: ask_therapy_centers_pakistan_ask_cost
+  examples: |
+    - What are therapy center costs in Pakistan?
+    - How much do therapy sessions cost?
+    - Affordable therapy centers in Pakistan
+    - Cost of autism assessment centers
+    - Payment options and discounts at centers
+    - Therapy costs by center comparison
+    - Financial aid for therapy
+    - Therapy affordability in Pakistan
+    - Package deals at centers
+    - Scholarship for therapy programs
+    - Pakistan mein therapy center cost kitna?
+    - Ek session ka cost kitna hai?
+    - Discounts available kya hain?
+    - Assessment cost kitna?
+    - Payment options flexible hain?
+    - Monthly package cost?
+    - Poor families ke liye aid?
+    - Scholarship milti kya?
+
+- intent: ask_government_support_pakistan_ask_disability_card
+  examples: |
+    - Government support and disability card in Pakistan
+    - How to get disability card for government benefits
+    - Disability card for accessing government support
+    - Government schemes through disability card
+    - Disability allowance and card application
+    - Government benefits with disability certificate
+    - Getting disability card for school accommodations
+    - Government support process through disability card
+    - Disability card requirements for government services
+    - Complete guide to government support and disability card
+    - Pakistan mein government support aur disability card?
+    - Disability card se government benefits?
+    - Allowance aur disability card together?
+    - Card se kya kya benefits milty?
+    - Government schemes accessibility?
+    - School accommodations disability card se?
+    - Application process complete guide?
+    - All government services kaise access?
+
 - intent: nlu_fallback
   examples: |
     - ajsjddge
@@ -2165,3 +4383,259 @@ nlu:
     - stock price apple
     - random math problem
     - autism ka whatsapp group send karo
+
+- intent: ask_causes_ask_genetics
+  examples: |
+    - What genes cause autism?
+    - Genetics and causes of autism
+    - Genetic factors in autism development
+    - Which genes are responsible?
+    - Autism ke genes kaun se hain?
+    - Genetic cause of autism
+    - Gene mutation autism
+
+- intent: ask_causes_ask_environment
+  examples: |
+    - What environmental causes of autism?
+    - Environment and autism causes
+    - Environmental risk factors
+    - How environment causes autism
+    - Environment se kya autism hota hai?
+    - Environmental contribution autism
+    - Lifestyle causing autism
+
+- intent: ask_causes_ask_pregnancy
+  examples: |
+    - What pregnancy factors cause autism?
+    - Pregnancy complications causing autism
+    - How pregnancy leads to autism
+    - Pregnancy risk factors
+    - Pregnancy mein kya se autism?
+    - Maternal factors in autism
+    - During pregnancy autism cause
+
+- intent: ask_causes_ask_birth_complications
+  examples: |
+    - Birth complications as cause of autism
+    - How birth problems cause autism
+    - Delivery complications and autism
+    - Birth trauma causing autism
+    - Birth se kya autism ho sakti hai?
+    - Complications during birth
+    - Labor difficulties autism
+
+- intent: ask_causes_ask_vaccines
+  examples: |
+    - Vaccine autism connection
+    - Are vaccines responsible?
+    - Vaccines and autism link
+    - Kya vaccines se autism hota hai?
+    - Vaccine causing autism
+    - MMR vaccine autism
+
+- intent: ask_causes_ask_cousin_marriage
+  examples: |
+    - Does cousin marriage cause autism?
+    - Cousin marriage and autism risk
+    - Consanguinity autism
+    - Marriage within family autism
+    - Cousin shaadi se autism hota hai?
+    - Close relatives marriage autism
+    - Relative marriage genetic risk
+
+- intent: ask_causes_ask_parent_age
+  examples: |
+    - Does parent age cause autism?
+    - Older parents causing autism
+    - Parental age as cause
+    - Father age autism risk
+    - Parent ki umar se kya hota hai?
+    - Advanced age causing autism
+    - Age of conception autism cause
+
+- intent: ask_causes_ask_inheritance
+  examples: |
+    - How is autism inherited as cause?
+    - Inheritance pattern of autism
+    - Genetic inheritance causing autism
+    - Family genetics causing autism
+    - Autism inheritance se kya hota hai?
+    - Hereditary autism cause
+    - Family genes causing autism
+
+- intent: ask_causes_ask_prevention
+  examples: |
+    - Can we prevent causes of autism?
+    - Prevention through cause understanding
+    - Preventing genetic factors
+    - How to prevent autism causes
+    - Autism ke causes se bachne ke tareeke?
+    - Prevention from genetic causes
+    - Avoiding causative factors
+- intent: ask_global
+  examples: |
+    - Global autism prevalence
+    - Autism worldwide statistics
+    - How many autistic people globally?
+    - Autism in different countries
+    - Duniya mein kitne autistic log hain?
+    - Global autism cases
+    - Autism prevalence by country
+
+- intent: ask_increase
+  examples: |
+    - Why is autism diagnosis increasing?
+    - Has autism increased?
+    - Autism rates going up
+    - More autism cases now
+    - Kya autism increase ho rahi hai?
+    - Diagnosis rate barh rahi hai?
+    - Why more autism diagnosed?
+
+- intent: ask_reason_increase
+  examples: |
+    - Why have autism diagnoses increased?
+    - Reasons for increase in autism diagnosis
+    - Why more people diagnosed
+    - Cause of rising autism rates
+    - Autism ke diagnosis mein increase ke reasons?
+    - Kyon zyada log diagnose ho rahe hain?
+    - Explanation for autism rate increase
+
+- intent: ask_prevalence_ask_global
+  examples: |
+    - Prevalence and global statistics
+    - Global prevalence of autism
+    - Worldwide autism rates and statistics
+    - How common is autism globally?
+    - Global mein autism ka prevalence?
+    - Duniya ke statistics
+    - Global autism numbers
+
+- intent: ask_prevalence_ask_gender
+  examples: |
+    - Gender differences in autism prevalence
+    - Autism in boys vs girls
+    - Male female autism ratio
+    - Why more boys diagnosed
+    - Girls aur boys mein difference?
+    - Gender prevalence autism
+    - Boys girls autism numbers
+
+- intent: ask_prevalence_ask_pakistan
+  examples: |
+    - Autism prevalence in Pakistan
+    - How many autistic people in Pakistan?
+    - Pakistan autism statistics
+    - Autism cases in Pakistan
+    - Pakistan mein autism ke cases?
+    - Pakistan ka prevalence
+    - Autistic children Pakistan statistics
+
+- intent: ask_prevalence_ask_increase
+  examples: |
+    - Autism prevalence increasing over time
+    - Has prevalence of autism increased?
+    - Rising prevalence rates
+    - Autism diagnosis rates increasing
+    - Prevalence mein increase?
+    - Time ke saath autism cases?
+
+- intent: ask_prevalence_ask_reason_increase
+  examples: |
+    - Why has autism prevalence increased?
+    - Reasons for increasing autism rates
+    - Why are more autism cases diagnosed?
+    - Explanation for prevalence increase
+    - Prevalence increase ke reasons?
+    - Kyon zyada cases mil rahe hain?
+    - Prevalence barh ne ke reasons?
+
+- intent: ask_options
+  examples: |
+    - What therapy options are available?
+    - Types of therapy for autism
+    - Which therapies help autism?
+    - Therapy choices available
+    - Kaunse therapy options hain?
+    - Therapy types?
+    - Available treatment options
+
+- intent: ask_duration
+  examples: |
+    - How long does therapy take?
+    - Duration of autism therapy
+    - How many years of therapy needed?
+    - Therapy treatment length
+    - Therapy kitne samay tak chalti hai?
+    - Therapy ki duration?
+    - How long therapy needed?
+
+- intent: ask_therapy_ask_options
+  examples: |
+    - Therapy and available options
+    - What therapy options exist?
+    - Therapy choices and types
+    - Types of therapy available
+    - Therapy mein kaunse options?
+    - Available therapy types
+    - Which therapies to choose?
+
+- intent: ask_therapy_ask_best
+  examples: |
+    - Which therapy is best?
+    - Best therapy for autism
+    - Therapy and best options
+    - Most effective therapy
+    - Sabse best therapy kaun si hai?
+    - Therapy mein best kaun?
+    - Best treatment approach
+
+- intent: ask_therapy_ask_early_intervention
+  examples: |
+    - Therapy and early intervention
+    - Early intervention importance
+    - Starting therapy early
+    - Benefits of early therapy
+    - Early intervention therapy
+    - Jaldi therapy ke fayde?
+    - Early intervention kyun zaroori?
+
+- intent: ask_therapy_ask_duration
+  examples: |
+    - How long should therapy last?
+    - Therapy duration timeline
+    - How many years of therapy?
+    - Duration of treatment
+    - Therapy kitne din chalti hai?
+    - Therapy ki duration kya hoti hai?
+    - How long does therapy continue?
+
+- intent: ask_therapy_ask_cost
+  examples: |
+    - How much does therapy cost?
+    - Therapy cost and affordability
+    - Expense of therapy
+    - Therapy pricing
+    - Therapy ka kharcha?
+    - Therapy mahina kitna kharcha?
+    - Cost of treatment?
+
+- intent: ask_therapy_ask_effectiveness
+  examples: |
+    - How effective is therapy?
+    - Does therapy work?
+    - Therapy effectiveness and results
+    - Can therapy help?
+    - Therapy se kya faida hota hai?
+    - Therapy results aur benefits?
+
+- intent: ask_therapy_ask_home_therapy
+  examples: |
+    - Can therapy be done at home?
+    - Home-based therapy
+    - Therapy at home vs center
+    - Home exercises and therapy
+    - Ghar par therapy ho sakti hai?
+    - Home therapy benefits?
+    - Therapy ghar mein ho sakti hai?

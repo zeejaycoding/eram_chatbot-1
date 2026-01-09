@@ -98,6 +98,68 @@ intents:
   - ask_ai_tech_role
   - ask_long_term_plan
   - ask_awareness_pakistan
+  - ask_early_signs
+  - ask_school_support
+  - ask_parenting_tips
+  - ask_high_functioning_autism
+  - ask_types
+  - ask_levels
+  - ask_difference_from_down_syndrome
+  - ask_facts
+  - ask_age
+  - ask_process
+  - ask_tests
+  - ask_cost
+  - ask_accuracy
+  - ask_misdiagnosis
+  - ask_reassessment
+  - ask_pakistan
+  - ask_school_assessment
+  - ask_diagnosis_ask_symptoms
+  - ask_diagnosis_ask_age
+  - ask_diagnosis_ask_process
+  - ask_diagnosis_ask_tests
+  - ask_diagnosis_ask_doctor
+  - ask_diagnosis_ask_cost
+  - ask_diagnosis_ask_accuracy
+  - ask_diagnosis_ask_misdiagnosis
+  - ask_diagnosis_ask_reassessment
+  - ask_diagnosis_ask_pakistan
+  - ask_diagnosis_ask_school_assessment
+  - greet_ask_definition
+  - greet_ask_symptoms
+  - greet_ask_causes
+  - greet_ask_diagnosis
+  - greet_ask_therapy
+  - greet_ask_treatments
+  - greet_ask_cure
+  - greet_ask_prevalence
+  - greet_ask_early_signs
+  - greet_ask_daily_tips
+  - greet_ask_sensory_issues
+  - greet_ask_school_support
+  - greet_ask_parenting_tips
+  - greet_ask_adult_autism
+  - greet_ask_high_functioning_autism
+  - greet_ask_support_groups
+  - ask_definition_ask_symptoms
+  - ask_definition_ask_causes
+  - ask_definition_ask_types
+  - ask_definition_ask_levels
+  - ask_definition_ask_spectrum
+  - ask_definition_ask_if_autism_adhd_same
+  - ask_definition_ask_difference_from_down_syndrome
+  - ask_definition_ask_myths
+  - ask_definition_ask_facts
+  - greet_ask_definition_ask_symptoms
+  - greet_ask_definition_ask_causes
+  - greet_ask_definition_ask_types
+  - greet_ask_definition_ask_levels
+  - greet_ask_definition_ask_spectrum
+  - greet_ask_definition_ask_if_autism_adhd_same
+  - greet_ask_definition_ask_difference_from_down_syndrome
+  - greet_ask_definition_ask_myths
+  - greet_ask_definition_ask_facts
   - ask_acceptance
   - ask_bot
   - ask_girls_masking_autism
@@ -122,6 +184,123 @@ intents:
   - ask_autism_prevalence_pakistan
   - ask_cousin_marriage_autism_risk
   - ask_siblings_autism_chances
+  - ask_causes_ask_genetics
+  - ask_causes_ask_environment
+  - ask_causes_ask_pregnancy
+  - ask_causes_ask_birth_complications
+  - ask_causes_ask_vaccines
+  - ask_causes_ask_cousin_marriage
+  - ask_causes_ask_parent_age
+  - ask_causes_ask_inheritance
+  - ask_causes_ask_prevention
+  - ask_global
+  - ask_increase
+  - ask_reason_increase
+  - ask_prevalence_ask_global
+  - ask_prevalence_ask_gender
+  - ask_prevalence_ask_pakistan
+  - ask_prevalence_ask_increase
+  - ask_prevalence_ask_reason_increase
+  - ask_options
+  - ask_duration
+  - ask_therapy_ask_options
+  - ask_therapy_ask_best
+  - ask_therapy_ask_early_intervention
+  - ask_therapy_ask_duration
+  - ask_therapy_ask_cost
+  - ask_therapy_ask_effectiveness
+  - ask_therapy_ask_home_therapy
+  - ask_speech_therapy
+  - ask_physical_therapy
+  - ask_play_therapy
+  - ask_behavior_therapy
+  - ask_social_skills_therapy
+  - ask_feeding_therapy
+  - ask_aba_details_ask_therapy
+  - ask_speech_therapy_ask_therapy
+  - ask_speech_therapy_time_ask_therapy
+  - ask_occupational_therapy_ask_therapy
+  - ask_physical_therapy_ask_therapy
+  - ask_play_therapy_ask_therapy
+  - ask_behavior_therapy_ask_therapy
+  - ask_social_skills_therapy_ask_therapy
+  - ask_feeding_therapy_ask_therapy
+  - ask_medicine
+  - ask_side_effects
+  - ask_future_research
+  - ask_recovery
+  - ask_medicine_ask_side_effects
+  - ask_medicine_ask_behavior
+  - ask_autism_medicine_vaccine_cure_ask_cure
+  - ask_cure_ask_future_research
+  - ask_cure_ask_recovery
+  - ask_cure_ask_myths
+  - ask_examples
+  - ask_management
+  - ask_school
+  - ask_home
+  - ask_reduce_stimming
+  - ask_how
+  - ask_when_to_stop
+  - ask_sensory_issues_ask_examples
+  - ask_sensory_issues_ask_management
+  - ask_sensory_issues_ask_school
+  - ask_sensory_issues_ask_home
+  - ask_stimming_ask_why_stimming
+  - ask_stimming_ask_types
+  - ask_harmful_stimming_ask_stimming
+  - ask_reduce_stimming_ask_how
+  - ask_stimming_ask_when_to_stop
+  - ask_routine
+  - ask_communication
+  - ask_sleep
+  - ask_toilet_training
+  - ask_screen_time
+  - ask_meltdowns
+  - ask_daily_tips_ask_home_exercises
+  - ask_daily_tips_ask_routine
+  - ask_daily_tips_ask_visual_aids
+  - ask_daily_tips_ask_communication
+  - ask_daily_tips_ask_sleep
+  - ask_daily_tips_ask_eating
+  - ask_daily_tips_ask_toilet_training
+  - ask_daily_tips_ask_screen_time
+  - ask_daily_tips_ask_meltdowns
+  - ask_daily_tips_ask_triggers
+  - ask_parents
+  - ask_coping
+  - ask_family
+  - ask_stress_management
+  - ask_siblings_ask_autism_chances
+  - ask_siblings_ask_support
+  - ask_parents_ask_coping
+  - ask_family_ask_acceptance
+  - ask_family_ask_stress_management
+  - ask_adult_autism_ask_diagnosis
+  - ask_adult_autism_ask_autism_employment
+  - ask_adult_autism_ask_autism_marriage
+  - ask_adult_autism_ask_independence
+  - ask_friendship
+  - ask_social_skills
+  - ask_emotions
+  - ask_empathy
+  - ask_anxiety
+  - ask_depression
+  - ask_self_harm
+  - ask_friendship_ask_social_skills
+  - ask_emotions_ask_empathy
+  - ask_anxiety_ask_definition
+  - ask_depression_ask_definition
+  - ask_self_harm_ask_support_groups
+  - ask_autism_awareness_pakistan
+  - ask_resources_pakistan
+  - ask_therapy_centers_pakistan
+  - ask_government_support_pakistan
+  - ask_disability_card
+  - ask_autism_awareness_pakistan_ask_support_groups
+  - ask_resources_pakistan_ask_centers
+  - ask_therapy_centers_pakistan_ask_cost
+  - ask_government_support_pakistan_ask_disability_card
 
 entities:
   - city
@@ -534,6 +713,42 @@ responses:
           name: language
           value: roman_urdu
 
+  utter_ask_global:
+    - text: "Autism is found all over the world in every country, culture, and social class. Currently, about 1 in 100 children are diagnosed with autism globally. However, the actual number is likely higher because many people, especially adults and girls, remain undiagnosed. In developed countries with better screening and awareness, rates appear higher. In countries with fewer diagnostic services, many autistic people go unrecognized.\n\n**Global Rates by Region** (approximate):\n- Developed countries (USA, UK, Canada): 1-2%\n- Asian countries: Varies widely (lower diagnosis rate, likely due to awareness gaps, not lower actual prevalence)\n- African countries: Limited data, but likely similar prevalence\n- Middle East including Pakistan: Growing awareness, diagnosis increasing\n\nAutism is NOT more common in some cultures or less common in others — it's a neurodevelopmental difference that exists universally. What changes is how much we recognize and diagnose it."
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "Autism poori duniya mein har desh, culture aur class mein hota hai. Abhi lagbhag 1 mein 100 bacha diagnose hota hai. Lekin asal sankhya zyada hai kyunki bohat log, khaskur bade aur larkiyan, undiagnose rehte hain. Jahan awareness aur screening ziada hai, rates zyada dikhte hain. Jahan diagnostic services kam hain, bohat se autistic log pehchan nahi paate.\n\n**Global Rates**:\n- Developed countries: 1-2%\n- Asian countries: Varies (awareness kam)\n- African countries: Limited data\n- Middle East including Pakistan: Growing awareness\n\nAutism kisi culture mein kam ya zyada nahi — ye neurodevelopmental farq hai jo har jagah hai. Sirf awareness aur diagnosis badti hai."
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_increase:
+    - text: "Autism diagnosis rates have increased significantly over the past 20-30 years, but this does NOT mean autism is actually increasing in the population. Instead, there are several reasons why we're diagnosing more cases:\n\n**Why Diagnosis Rates Have Increased:**\n1. **Better Awareness** — Parents, teachers, and doctors now know what autism looks like\n2. **Clearer Diagnostic Criteria** — DSM-5 (2013) broadened the definition to include more presentations\n3. **Improved Screening Tools** — Better, faster ways to identify autism\n4. **Expanded Services** — More availability of evaluations and support\n5. **Less Stigma** — Families are now more willing to seek diagnosis\n6. **Girls and Adults Are Now Recognized** — Many women and adults now getting diagnosed who were missed as children\n7. **Recognition of Asperger's** — Removed as separate diagnosis, now included in autism spectrum\n\n**The Truth:**\n- Autism itself is NOT increasing in occurrence\n- We are simply recognizing cases that always existed\n- A child born in 1990 who would have been \"weird,\" \"shy,\" or \"eccentric\" today gets properly diagnosed\n- Adults are getting diagnosed for the first time in their 30s, 40s, 50s+\n\nThink of it like this: Cell phones didn't increase in number when we invented better cameras — we just took better pictures of the phones that were always there."
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "Autism ke diagnosis ka rate 20-30 salon mein bohat barh gaya hai, lekin ye nahi matlab autism increase ho rahi hai. Sirf recognition barh rahi hai:\n\n**Kyon Diagnosis Barhi**:\n1. **Better Awareness** — Ab log jaante hain autism kaise hoti hai\n2. **DSM-5** — Zyada presentations include\n3. **Better Screening** — Jaldi pata chalna\n4. **More Services** — Evaluation access\n5. **Less Stigma** — Log diagnosis le rahe hain\n6. **Girls aur Adults Recognized** — Jab miss the jati the, ab pata chal rahi hai\n7. **Asperger's Included** — Ab spectrum mein\n\n**Haqeeqat**:\n- Autism actual mein increase nahi\n- Sirf recognition barhi\n- 1990 ka bacha jo \"ajeeb\" samjha jata tha, ab properly diagnose\n- 30-50+ saal ke bade ab diagnose\n\nYun samajho: Mobile ka number nahi barha jab camera better bana — sirf pictures better ayen."
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_reason_increase:
+    - text: "The reasons why autism diagnosis rates have increased are all about better recognition, not more autism:\n\n**Key Reasons for Increase in Diagnosis:**\n\n1. **Expanded Understanding of Autism**\n   - Old view: Only nonverbal, severely disabled children\n   - New view: Includes quiet kids, high-functioning individuals, girls, adults\n   - Many people who would have been labeled \"shy,\" \"introverted,\" \"socially awkward\" are now recognized\n\n2. **DSM-5 Changes (2013)**\n   - Combined \"Asperger's Syndrome\" and \"PDD-NOS\" into single Autism Spectrum Disorder\n   - This made diagnosis criteria broader, catching more cases\n   - Removed the need for language delay (Asperger's didn't have this)\n\n3. **Girls and Women Now Recognized**\n   - Girls \"mask\" or \"camouflage\" autism better than boys\n   - They were overlooked, misdiagnosed as anxious or shy\n   - Now: Increased awareness means girls diagnosed sooner\n   - Many adult women diagnosed when their children are diagnosed\n\n4. **Better Screening and Diagnostic Tools**\n   - Tools like M-CHAT (for toddlers), ADOS-2, ADI-R are standardized and reliable\n   - Earlier screening means earlier detection (as young as 18 months)\n\n5. **Increased Awareness in Schools and Healthcare**\n   - Teachers trained to recognize signs\n   - Pediatricians know what questions to ask\n   - Parents aware of red flags\n\n6. **Access to Services**\n   - Special education laws mandate evaluation\n   - Insurance now covers more diagnostic services\n   - More specialists available\n\n7. **Reduced Stigma**\n   - Families less afraid to seek diagnosis\n   - Celebrities and public figures openly autistic\n   - Acceptance of neurodiversity\n\n**The Bottom Line:**\n- Autism has always been at roughly 1% of population (consistent across decades)\n- We're not discovering new cases because autism is \"spreading\"\n- We're finding cases that were always there but went unrecognized\n- This is actually GOOD — earlier diagnosis means earlier support and better outcomes"
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "Autism diagnosis mein increase ke reasons ye hain — autism khud increase nahi, recognition barhi:\n\n**Kyon Diagnosis Barhi**:\n\n1. **Samajh Expand Hui**\n   - Pehle: Sirf nonverbal, severe\n   - Ab: Quiet kids, high-functioning, girls, adults\n   - Jo \"shy\" ya \"ajeeb\" the ab diagnose\n\n2. **DSM-5 (2013)**\n   - Asperger's + PDD-NOS = Spectrum\n   - Broader criteria\n   - Language delay zaruri nahi\n\n3. **Girls Recognized**\n   - Girls mask karte hain\n   - Pehle anxious/shy samjha jata the\n   - Ab jaldi pata\n   - Adult women ab diagnose\n\n4. **Better Tools**\n   - M-CHAT, ADOS-2, ADI-R\n   - 18 mahine se screen ho sakta\n\n5. **Awareness Barhi**\n   - Teachers jaante hain\n   - Doctors jaante hain\n   - Parents aware\n\n6. **Services Available**\n   - Special education laws\n   - Insurance coverage\n   - More specialists\n\n7. **Less Stigma**\n   - Log diagnosis le rahe\n   - Celebrities openly autistic\n   - Neurodiversity accept\n\n**Saaf Baat**:\n- Autism hamesha 1% tha\n- Ye \"spread\" nahi — pehchan barhi\n- Jaldi diagnosis se jaldi support aur better future"
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
   utter_ask_gender_prevalence:
     - text: "Autism is diagnosed around 4 times more often in boys than in girls. This is partly because girls often ‘mask’ their traits or show them differently, so many are missed until later in life. Researchers are working hard to make sure girls get recognised earlier too."
       condition:
@@ -631,12 +846,6 @@ responses:
           value: english
 
     - text: "Autism ky hony ki koi ik wajah nahi he, lekin sabse bara role genes ka he (100 se zyada genes linked hain) aur thori si pregnancy ya birth factors (maa-baap ki umar zyada hona, infection, time se pehle paidaish). Sabse zaroori baat — ye maa-baap ki galti se bilkul nahi hota, na vaccines se, na mobile se, na nazar se. Kisi ka qasoor nahi ha."
-      condition:
-        - type: slot
-          name: language
-          value: roman_urdu
-
-    - text: "Autism hamal ke shuru shuru dino mein dimagh ke banne ke tareeke se hota he — zyadatar genes ki wajah se. Apny jo khaya, jo feel kiya, jo kiya ya nahi kiya — usse kuch nahi hua. Aap bohot achhy maa/baap hai aur apka bacha bilkul perfect he."
       condition:
         - type: slot
           name: language
@@ -1792,6 +2001,30 @@ responses:
           name: language
           value: roman_urdu
 
+  utter_ask_options:
+    - text: "There are many types of therapy available for autism. The main ones are:\n\n**Communication-Based:**\n- Speech and Language Therapy (address speech and communication)\n- AAC (Augmentative and Alternative Communication) devices and methods\n\n**Behavioral Therapy:**\n- Applied Behavior Analysis (ABA) — structured, evidence-based\n- Positive Behavior Support (PBS)\n\n**Developmental/Play-Based:**\n- Play therapy\n- Developmental Individual Difference Relationship-based model (DIR/Floortime)\n- Early intervention programs\n\n**Occupational & Sensory:**\n- Occupational Therapy (OT) — daily living skills, fine motor\n- Sensory Integration Therapy\n\n**Educational Support:**\n- Special education programs\n- Inclusion with support in mainstream schools\n\n**Other Approaches:**\n- Social skills training\n- Parent coaching and family therapy\n- Medication (if needed for co-occurring conditions)\n\n**Important:** No single therapy works for every child. Most benefit from a combination tailored to their specific needs."
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "Autism ke liye bohat sare therapy hain:\n\n**Communication:**\n- Speech therapy (bolna aur samajhna)\n- AAC devices (jab bolna na ho)\n\n**Behavior:**\n- ABA (structured, sabit)\n- PBS (positive behavior)\n\n**Play-Based:**\n- Play therapy\n- DIR/Floortime\n- Early intervention\n\n**Motor & Sensory:**\n- Occupational Therapy\n- Sensory Integration\n\n**School:**\n- Special education\n- Mainstream school with support\n\n**Social:**\n- Social skills training\n- Family therapy\n- Medicine (agar zaroori)\n\n**Yaad rakho:** Har bacha alag hota hai. Aksar combination madad karti hai."
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_duration:
+    - text: "Therapy is not a quick fix — it's a marathon, not a sprint. Duration depends on many factors:\n\n**Typical Timeline:**\n- Early intervention (0-3 years): Intensive, often 1-3+ years\n- Pre-school to school age: Usually 2-5+ years\n- School-age child: Can continue throughout school years\n- Teenagers and adults: Lifelong learning and adjustment\n\n**How Long Depends On:**\n- Starting age (earlier often means shorter intensive period)\n- Severity and support needs\n- Type of therapy (some show results in months, others take years)\n- Child's response to therapy\n- Consistency and family involvement\n- Access to services\n\n**Reality Check:**\n- Some children need therapy for many years\n- Some children reach a point where they need less frequent therapy\n- Some skills take months to develop; others take years\n- Progress isn't linear — plateaus and regressions are normal\n\n**The Goal:**\n- Not to \"cure\" autism or make it \"go away\"\n- To build skills, confidence, and independence\n- To help your child thrive at their own pace\n\nFocus on progress, not perfection. Celebrate small wins. Some children graduate from intensive therapy; others need lifelong support. Both are okay."
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "Therapy jaldi solution nahi — marathon hai, sprint nahi. Duration har bacho par depend karti hai:\n\n**Typical Timeline:**\n- Early intervention (0-3): Intensive, often 1-3+ saal\n- Pre-school to school: Usually 2-5+ saal\n- School age: School tak chalti hai\n- Teenagers/Adults: Zindagi bhar seekhna\n\n**Duration Depend Karti Hai**:\n- Kab start kiya (jaldi ho to kam intensive)\n- Severity aur support\n- Therapy type (kuch months, kuch years)\n- Bacha ki response\n- Consistency aur family\n- Services ki availability\n\n**Haqeeqat**:\n- Kuch bacho ko bohot saal\n- Kuch ko less frequent\n- Kuch skills mahine mein, kuch saal mein\n- Progress linear nahi — plateaus normal hain\n\n**Goal**:\n- Cure nahi — skills seekhna\n- Confidence aur independence\n- Apne pace par thrive\n\nProgress dekho, perfection nahi. Choti khushi celebrate karo. Kuch intensive se aage aate hain, kuch lifetime support chahiye. Dono theek hain."
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
   utter_ask_sensory_issues :
     - text: "Many autistic children feel sounds, lights, textures much stronger. That’s why they cover ears or avoid certain clothes. It’s not naughtiness — their brain processes senses differently. We can help with sensory diet and tools."
       condition:
@@ -2223,13 +2456,685 @@ responses:
           name: language
           value: roman_urdu
 
-  utter_ask_cousin_marriage_autism_risk:
-    - text: "Cousin marriages don't 'cause' autism directly, but they raise genetic risks for recessive disorders (including some ASD forms) by 2–3 times (OR 3.22 in Indian/Pakistani studies). With 60–70% of Pakistani marriages being cousins, inherited mutations increase — but autism is mostly polygenic/environmental (80–90% heritability overall). It's one factor, not the only; vaccines/parenting myths are false. Pre-marriage genetic counseling is wise — knowledge empowers choices."
+  utter_ask_early_signs:
+    - text: "Early signs of autism usually appear between birth and 3 years of age.\nCommon ones include:\n- Limited or no eye contact\n- Not responding to name by 9–12 months\n- No pointing or babbling by 12 months\n- No single words by 16–18 months\n- Repetitive movements (hand-flapping, rocking)\n- Unusual reactions to sounds/textures/lights\n- Preferring to play alone\n- Lining up toys instead of pretend play\n- Difficulty with changes in routine\n\nEvery child develops differently — some may show many signs, others only a few. If you're concerned, the best next step is to speak with a pediatrician or developmental specialist. They can guide you toward appropriate screening (like M-CHAT at 18+ months or ADOS). You're doing the right thing by paying attention early."
       condition:
         - type: slot
           name: language
           value: english
-    - text: "Cousin marriage autism ka 'sabab' nahi, lekin recessive genetic maslan (kuch ASD forms) ka risk 2–3 guna barhati hain (India/Pakistan studies mein 3.22). Pakistan mein 60–70% shadiyan cousin se hoti ha, isliye warasi tabdeeliyan zyada hoti ha — lekin autism zyadatar polygenic/maholi (80–90% verasat). Ye ik wajah hai, akeli nahi; vaccines/parenting afsane galat hain. Shadi se pehle genetic counseling bohot madadgar hoti ha."
+    - text: "Autism ki shuruwati nishaniyan aksar birth se 3 saal tak dikhai deti hain.\nAam nishaniyan ye hain:\n- Nazar kam milana ya bilkul na milana\n- Naam sun kar 9–12 mahine tak na respond karna\n- 12 mahine tak ishara ya babbling na karna\n- 16–18 mahine tak ek bhi lafz na bolna\n- Hath hilana, jhulna ya dohrao harkatein\n- Awaz, texture ya roshni par ajeeb reaction dena\n- Akela khelna pasand karna\n- Khilonono ko line mein lagana\n- Routine mein tabdeeli se pareshani\n\nHar bacha alag tarah se barhta hai — kuch mein bohat si nishaniyan hoti hain, kuch mein sirf chand. Agar fikar ho to pediatrician ya developmental specialist se baat karna sabse behtar qadam hai. Woh aapko sahi screening (jaise 18+ mahine mein M-CHAT ya ADOS) ki taraf rahnumai kar sakte hain. Aap waqt par tawajjoh de kar bilkul sahi kar rahe hain."
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_school_support:
+    - text: "A good school for an autistic child should ideally offer:\n1. An Individualized Education Plan (IEP) made according to your child's strengths and needs\n2. A shadow teacher/aide for help during transitions and difficult moments\n3. A quiet corner or sensory break area when the child feels overwhelmed\n4. Visual schedules and communication tools (pictures, PECS)\n5. Trained teachers who understand autism\n6. Regular parent-teacher meetings (at least weekly updates)\n7. Flexible assignments (less writing, more hands-on activities)\n8. A buddy system or structured peer play\n\nMany schools in Pakistan are improving in this area, especially in bigger cities. If the school isn't meeting these needs, you can request an IEP meeting or explore a 504 Plan (for accommodations). You always have the right to choose what's best for your child — inclusive with support or a specialized setting."
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "Acha school autistic bachn ke liye ye cheezein faraham kare:\n1. Individualized Education Plan-IEP jo bache ki taqaton aur zaruriyat ke mutabiq ho\n2. Shadow teacher ya aide jo transition aur mushkil waqt mein madad de\n3. Chhoti quiet jagah ya sensory break ke liye area\n4. Tasveeron wala schedule aur baat-cheet ke tools (PECS waghera)\n5. Autism samajhne wale trained teachers\n6. Har hafte ya regular parent-teacher update\n7. Flexible kaam (kam likhai, zyada practical)\n8. Buddy system ya structured peer play\n\nPakistan mein bohat se schools, khas tor par bade shehron mein, is taraf behtar ho rahe hain. Agar school ye madad na de raha to IEP meeting ya 504 Plan mang sakte hain. Aapko hamesha haq hai ke apne bache ke liye behtar chunen — madad ke saath inclusive ya specialized school."
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_parenting_tips:
+    - text: "Some practical tips that help many families:\n1. Keep routines very consistent — same timings, same words\n2. Show more than you say — use pictures, gestures, modeling\n3. Celebrate every small step (even sitting calmly for 2 minutes)\n4. Use visual timers for transitions so changes are predictable\n5. Build in short sensory breaks every 1–2 hours\n6. Give choices instead of commands to avoid power struggles\n7. Take care of yourself too — your calm helps your child stay calm\n8. Join in their interests instead of forcing eye contact\n9. Connect with other parents — it reduces isolation\n\nProgress isn't always straight — some days are harder, but your steady love and effort are making a real difference every single day."
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "Kuch asaan aur mufeed tips jo bohat se gharanon ke kaam aate hain:\n1. Routine bilkul ek jaisa rakhein — waqt aur lafz same\n2. Zyada dikhay, kam boly — tasveerein, ishare, misaal se sikhayein\n3. Har chhoti jeet manayein (2 minute calmly baithna bhi bara kaam hai)\n4. Visual timer se badlao pehle se bata dein\n5. Har 1–2 ghante mein chhota sensory break dein\n6. Hukum ki jagah choice dein taake larai na ho\n7. Apna bhi khayal rakhein — aap calm rahen ge to bacha bhi behtar rahega\n8. Unke pasandida khel mein shamil hon, aankh milane pe zor na dein\n9. Doosre parents se rabta rakhein — akelapan kam hota hai\n\nTaraqqi hamesha seedhi nahi hoti — kuch din mushkil hote hain, lekin aapka pyar aur mehnat har roz asar kar rahi hai."
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_high_functioning_autism:
+    - text: "High-functioning autism (today often called 'autism without intellectual disability') means the person has clear autism traits but also average or above-average intelligence and usually good spoken language by school age.\n\nThey might appear 'less autistic' because they work hard to copy others, make eye contact, or hide stimming — but this masking is exhausting for them.\nThey often do well in academics but may struggle with:\n- Understanding social rules\n- Sensory sensitivities\n- Managing emotions/anxiety\n- Making and keeping friends\n\nIt's not 'mild' autism — the challenges can be just as real, just less visible. Many children in this group benefit greatly from:\n- Social skills coaching\n- Sensory accommodations\n- Acceptance of their differences\n\nWith the right support, most lead independent and successful lives. You're already helping by learning more."
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "High-functioning autism (aaj kal aksar 'autism without intellectual disability' kehte hain) ka matlab hai ke bache mein autism ki wazeh nishaniyan hain lekin intelligence average ya us se behtar hai aur school age tak bolna acha hojata hai.\n\nWoh 'less autistic' lag sakte hain kyun ke doosron ki nakal karte hain, nazar milate hain, stimming chhupate hain — lekin ye masking unke liye bohat thakane wala hota hai.\nParhai mein aksar ache hote hain lekin mushkil hoti hai:\n- Samaji qawaid samajhne mein\n- Sensory sensitivities mein\n- Jazbaat ya fikar control karne mein\n- Dost banana aur nibhana\n\nYe 'mild' autism nahi — mushkilat utni hi haqeeqi hoti hain, bas dikhai kam deti hain.\nMadad se bohat farq parta hai:\n- Social skills training\n- Sensory asaanian\n- Unke farq ko qubool karna\n\nSahi madad se zyadatar azad aur kamyab zindagi jeete hain. Aap zyada seekh kar pehle hi madad kar rahe hain."
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_types:
+    - text: "Autism is officially one diagnosis: Autism Spectrum Disorder (ASD). There are no separate 'types' in the current medical system (since DSM-5 in 2013).\n\nHowever, people sometimes describe autism in these practical ways:\n\n1. Classic (more obvious early signs like repetitive movements and social withdrawal) vs. Atypical (subtler signs that may appear later).\n2. Verbal (good spoken language) vs. Non-verbal or minimally verbal.\n3. With or without intellectual disability (some have average or above-average intelligence).\n4. By main profile: Some children are more sensory-sensitive, others more focused on routines/repetitive behaviors, and some struggle mostly with social understanding.\n\nOlder labels like Asperger's Syndrome, PDD-NOS, or Childhood Disintegrative Disorder are no longer used — everything now falls under ASD.\n\nThe most useful way to think about it is in terms of **support needs** (Level 1, 2, or 3), which can change over time with the right help. Every autistic person is truly unique."
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "Autism ka official naam sirf ek hai: Autism Spectrum Disorder (ASD). Ab alag-alag 'types' nahi kehte (DSM-5, 2013 se).\n\nLekin log aksar aise samjhaate hain:\n\n1. Classic (jaldi wazeh nishaniyan jaise dohrao harkatein aur samaji doori) vs. Atypical (nishaniyan halki aur baad mein zahir).\n2. Bolne wala (achi zuban) vs. Kam bolne wala ya bilkul na bolne wala.\n3. Intellectual disability ke saath ya bina (kai bachon ki intelligence average ya us se behtar hoti hai).\n4. Main profile ke hisaab se: Kuch bachon mein sensory zyada asar karti hai, kuch mein routine/repetitive behavior, kuch mein samaji samajh mein mushkil.\n\nPurane naam jaise Asperger's, PDD-NOS ab nahi istemaal hote — sab ASD ke andar aate hain.\n\nSabse behtar tareeqa hai **support needs** (Level 1, 2, ya 3) ke hisaab se sochna — ye waqt ke saath badal bhi sakta hai. Har autistic shakhs bilkul alag hota hai."
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_levels:
+    - text: "The three support levels in autism describe how much daily help someone needs — they are **not** about how 'severe' the autism is.\n\n**Level 1 — Requiring Support**:\nNeeds some help with social communication, organization, and flexible thinking. Can usually manage school or work with extra support, but may find transitions, social rules, or unexpected changes difficult.\n\n**Level 2 — Requiring Substantial Support**:\nNeeds regular, ongoing help for many daily activities. Communication may be limited, repetitive behaviors are more noticeable, and changes in routine often cause significant distress. Special classes or extra aides are common.\n\n**Level 3 — Requiring Very Substantial Support**:\nNeeds intensive, constant support in almost all areas — communication, self-care, safety, daily routines. Often non-verbal or with very limited speech. Close supervision is usually required.\n\nImportant: These levels are **not fixed forever**. With early therapy, skill-building, and the right environment, many children move to a lower support level over time. Focus on strengths and what actually helps your child."
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "Autism ke teen support levels batate hain ke rozana kitni madad chahiye — ye 'kitna severe hai' ka paimana nahi hain.\n\n**Level 1 — Madad Chahiye**:\nSocial baat-cheet, planning, aur flexible soch mein thodi madad. School ya kaam manage kar sakte hain agar support ho, lekin badlao, samaji rules ya transitions mushkil lagte hain.\n\n**Level 2 — Kaafi Madad Chahiye**:\nRozana ke bohat se kaamon mein regular madad zaroori. Bolna limited ho sakta hai, repetitive behavior zyada dikhta hai, routine badalne se bohat pareshani. Aksar special class ya extra aide hoti hai.\n\n**Level 3 — Bohat Zyada Madad Chahiye**:\nAlmost har cheez mein poori madad — bolna, khud ka khayal, safety, routine. Aksar non-verbal ya bohat kam bolna. Hamesha nazar rakhna zaroori.\n\nYaad rakhein: Ye levels **hamesha ke liye nahi**. Jaldi therapy, hunar sikhaane aur sahi mahol se bohat se bachon ke level kam ho jate hain. Bachay ki taqaton aur jo madad asal mein kaam aati hai us par tawajjoh dein."
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_difference_from_down_syndrome:
+    - text: "Autism (ASD) and Down syndrome are two completely different conditions.\n\n**Autism (ASD)**:\n- A neurodevelopmental difference (variations in many genes)\n- No consistent physical appearance — looks like any other child\n- Intellectual ability varies widely (some average or above-average)\n- Main challenges: Social communication, sensory processing, repetitive behaviors\n- Diagnosed through behavior observation and developmental history\n\n**Down Syndrome (Trisomy 21)**:\n- A genetic condition caused by an extra copy of chromosome 21\n- Always has recognizable physical features (distinct facial features, low muscle tone, possible heart/kidney issues)\n- Intellectual disability is always present (usually mild to moderate)\n- Main challenges: Developmental delays, physical health concerns, some learning/social difficulties\n- Diagnosed through genetic testing (blood test or prenatal screening)\n\n**Key Differences**:\n- Cause: Autism → many genes; Down → extra chromosome 21\n- Physical appearance: Autism → usually none; Down → always visible\n- Intellectual disability: Autism → sometimes; Down → always\n- Diagnosis: Autism → behavior-based; Down → genetic test\n\n**Can both occur together?** Yes, but it's uncommon. A child can have Down syndrome and also meet criteria for autism, needing support for both conditions."
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "Autism (ASD) aur Down syndrome bilkul alag conditions hain.\n\n**Autism (ASD)**:\n- Neurodevelopmental farq (kai genes mein tabdeeliyan)\n- Koi khas physical shakl nahi — baqi bachon jaisa dikhta hai\n- Intelligence bohat mukhtalif ho sakti hai (average ya us se behtar bhi)\n- Main mushkil: Social baat-cheet, sensory processing, dohrao behavior\n- Behavior aur development se diagnose hota hai\n\n**Down Syndrome (Trisomy 21)**:\n- Genetic haalat — chromosome 21 ki ek zyada copy\n- Hamesha pehchanne wali physical nishaniyan (chehre ke khas features, muscle tone kam, dil/kidney issues ho sakte)\n- Intellectual disability hamesha hoti hai (aksar mild se moderate)\n- Main mushkil: Development delay, sehat ke masail, kuch learning/social mushkil\n- Genetic test (blood ya prenatal) se diagnose\n\n**Bara Farq**:\n- Wajah: Autism → kai genes; Down → extra chromosome\n- Physical shakl: Autism → aksar nahi; Down → hamesha\n- Intellectual disability: Autism → kabhi kabhi; Down → hamesha\n- Tashkhees: Autism → behavior; Down → genetic test\n\n**Dono saath ho sakte hain?** Haan, lekin kam. Aisa bacha dono ke liye madad chahiye."
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_facts:
+    - text: "Here are some clear, important facts about autism:\n\n1. Autism is a natural difference in brain development from birth — not a disease, not contagious, and not caused by parenting.\n2. It affects about 1 in 100 children worldwide — numbers appear higher now mainly due to better awareness and diagnosis.\n3. It is strongly genetic (80–90% heritable) — vaccines have been proven **not** to cause autism in hundreds of studies.\n4. It occurs in every race, culture, and social class — girls are often under-diagnosed because they mask symptoms better.\n5. Not all autistic people have intellectual disability — many have average or above-average intelligence.\n6. Many autistic individuals have real strengths: deep focus, honesty, pattern recognition, creativity, attention to detail.\n7. There is no cure, but early intervention (speech therapy, OT, ABA, etc.) can make a huge difference in communication, independence, and quality of life.\n8. Autism is lifelong, but with understanding, support, and accommodations, most people learn, grow, and live meaningful lives.\n\nThe most powerful thing is acceptance and support — not trying to 'fix' someone, but helping them thrive as they are."
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "Autism ke kuch saaf aur ahem facts:\n\n1. Autism dimagh ke birth se hone wale farq hai — bimari nahi, na chhunta hai, na parenting se hota hai.\n2. Duniya bhar mein lagbhag 100 mein 1 bacha — zyada dar ab behtar jaanch aur awareness ki wajah se dikhti hai.\n3. Bohat zyada genetic (80–90% verasat) — vaccines se nahi hota, yeh 100+ studies mein sabit ho chuka hai.\n4. Har race, culture, aur class mein hota hai — larkiyan aksar chhupati hain isliye diagnosis late hota hai.\n5. Har autistic bache mein intellectual disability nahi hoti — bohat se average ya us se behtar hote hain.\n6. Bohat si taqatein: gehra focus, sachchai, pattern samajhna, creativity, detail par dhyan.\n7. Koi theek nahi, lekin jaldi madad (speech, OT, ABA waghera) se baat-cheet, azadi aur zindagi mein bohat farq padta hai.\n8. Autism zindagi bhar rehta hai, lekin samajh, madad aur asaanian se aksar log seekhte, barhte aur mufeed zindagi jeete hain.\n\nSabse taqatwar cheez hai qubool karna aur madad karna — 'theek' karne ki koshish nahi, balki unki tarah phoolne mein madad."
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_age:
+    - text: "Autism can be diagnosed as early as 18 months, and most children are identified by age 3–4 years when developmental differences become more obvious.\n\nHowever:\n- Earlier diagnosis (12–18 months) is possible if red flags are noticed: no pointing, limited eye contact, no response to name, unusual sounds, hand flapping\n- Some children, especially girls and those with 'mild' autism, may not be diagnosed until school age or even later\n- Even adults can be diagnosed for the first time — understanding yourself at any age is valuable\n\nThe key is early intervention. The younger the diagnosis, the sooner support starts, which significantly improves language, social skills, and independence."
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "Autism 18 months ki age se hi diagnose ho sakta hai, aur aksar 3–4 saal tak pahchan ja jati hai jab development mein farq zyada saaf ho jati hai.\n\nMagar:\n- 12–18 mahine mein bhi diagnose ho sakta hai agar nishaniyan dikhen: pointing na karna, nigah na milana, naam pe response na dena, ajeeb awazein, haath hila-hilana\n- Kuch bachon, khaskur larkiyon aur 'halka' autism walonoon ko school age ya us se baad diagnose hota hai\n- Bade log bhi pehli baar diagnose ho sakte hain — apne ko samjhna kisi bhi age mein faaida karti hai\n\nJaldi tashkhees aur jaldi madad sab se zarori hai. Jitna chhota bacha tab alag support shuru to language, samaji hunar aur azadi mein bohat farq padta hai."
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_process:
+    - text: "The autism diagnosis process usually involves several steps:\n\n1. **Initial Observation**: Pediatrician, teacher, or parent notices developmental differences or behavioral patterns\n\n2. **Screening Tools**: Questionnaires like M-CHAT (18–30 months) or CAST (school age) help identify if further assessment is needed\n\n3. **Comprehensive Evaluation**: A multidisciplinary team (developmental pediatrician, psychologist, speech therapist, occupational therapist) observes the child:\n   - Developmental history from parents\n   - Direct observation and play-based assessment\n   - Standardized diagnostic tools (ADOS, ADI-R, 3di, Vineland)\n   - Speech, motor, sensory, and cognitive assessment\n\n4. **Diagnosis**: Based on all information, the team determines if autism criteria are met (DSM-5)\n\n5. **Report & Recommendations**: A detailed report explains findings, support levels, and recommendations for therapy and school accommodations\n\n6. **Treatment Planning**: Recommendations for speech therapy, occupational therapy, ABA, educational support, etc.\n\nThe whole process typically takes a few weeks to a few months, depending on waiting times and complexity."
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "Autism tashkhees ke kadam aksar itne hote hain:\n\n1. **Shuru mein Dekhbhal**: Pediatrician, teacher ya parents ko development mein farq ya behavior patterns dikhen\n\n2. **Screening Tools**: Questionnaires jaise M-CHAT (18–30 mahine) ya CAST (school age) se pata chalta hai ke aur assessment zaroori hai\n\n3. **Poora Jaanch**: Ek team (developmental pediatrician, psychologist, speech therapist, OT) bacho ke\n   - Parents se development ki history\n   - Sidhe dekhbhal aur khel se assessment\n   - Standardized tools (ADOS, ADI-R, 3di, Vineland)\n   - Bolne, harekaton, sensory aur zehn ke imtihaan\n\n4. **Tashkhees**: Team sab kuch dekh kar faisla karti hai ke autism ke criteria poore hain (DSM-5)\n\n5. **Report aur Salaah**: Tafseeli report mein findings, support levels aur therapy aur school ke liye salaah likhi hoti hai\n\n6. **Treatment Plan**: Speech therapy, OT, ABA, school support ke liye salaah\n\nPoori process aksar kuch hafte se kuch mahine tak chalta hai, wait karne aur complexity par depend karti hai."
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_tests:
+    - text: "Several standardized tests and observation methods are used to diagnose autism:\n\n**Developmental Screening Tools** (quick identification):\n- M-CHAT (Modified Checklist for Autism in Toddlers): 18–30 months\n- CAST (Childhood Autism Spectrum Test): School-age children\n- SCQ (Social Communication Questionnaire): 4+ years\n\n**Diagnostic Assessment Tools** (comprehensive diagnosis):\n- ADOS-2 (Autism Diagnostic Observation Schedule): Gold standard — direct observation during semi-structured activities\n- ADI-R (Autism Diagnostic Interview–Revised): Detailed parent interview about developmental history\n- 3di (Developmental, Dimensional and Diagnostic Interview): Combines observation with parental information\n\n**Supporting Evaluations**:\n- Vineland Adaptive Behavior Scales: Daily living, socialization, motor skills\n- IQ and cognitive testing\n- Speech and language assessment\n- Occupational therapy evaluation (sensory and motor skills)\n- Hearing test: Rule out hearing loss\n- Medical evaluation: Rule out genetic syndromes (fragile X, etc.)\n\nNo single blood test or brain scan definitively diagnoses autism — diagnosis is based on observed behavior and developmental history."
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "Autism tashkhees ke liye kai standardized tests aur dekhbhal ke tareeke istemaal hote hain:\n\n**Screening Tools** (jaldi pata chalna):\n- M-CHAT: 18–30 mahine\n- CAST: School age\n- SCQ: 4+ saal\n\n**Diagnostic Tests** (poori tashkhees):\n- ADOS-2: Seedha dekhbhal — semi-structured khelon mein\n- ADI-R: Parents se detailed interview development ke barey mein\n- 3di: Dekhbhal + parent information\n\n**Aur Assessment**:\n- Vineland: Rozana zindagi, samaji, motor\n- IQ aur cognitive testing\n- Bolne-sunne ki jaanch\n- OT evaluation: Sensory aur motor\n- Hearing test: Deafness rule out\n- Medical test: Genetic syndrome rule out (Fragile X, etc.)\n\nKoi blood test ya brain scan autism ko seedha diagnose nahi karti — behavior aur development se decide hota hai."
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_cost:
+    - text: "The cost of autism diagnosis varies widely depending on location, the professionals involved, and the type of assessment:\n\n**In the USA:**\n- Comprehensive evaluation: $2,000–$5,000 or more\n- With insurance: Depends on coverage (many insurance plans cover diagnostic evaluations)\n- Without insurance: Full cost out-of-pocket\n\n**In Pakistan:**\n- Government hospitals/centers: Free or very low cost (Rs. 0–2,000)\n- Private clinics: Rs. 5,000–25,000+ depending on expertise and tests used\n- Teaching hospitals: Moderate cost (Rs. 2,000–10,000)\n\n**Ways to Reduce Cost:**\n- Use public health facilities (government hospitals, medical colleges)\n- Non-profit organizations offering subsidized assessments\n- Initial screening by a pediatrician before detailed evaluation\n- Many therapists and psychologists are trained to recognize autism and can guide early intervention\n\n**Important**: Delaying diagnosis to save money often costs more later — earlier intervention reduces therapy needs and improves long-term outcomes. Many communities have resources to help with costs."
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "Autism tashkhees ka kharcha alag-alag tha hota — location, doctors aur tests par depend karti hai:\n\n**Pakistan mein:**\n- Government hospital/center: Free ya bilkul kam (Rs. 0–2,000)\n- Private clinic: Rs. 5,000–25,000+ doctor aur tests par\n- Teaching hospital: Moderate (Rs. 2,000–10,000)\n\n**Kharcha kam karne ke tareeke:**\n- Government hospital ja karo\n- NGOs jo discount assessment karti hain\n- Pehle pediatrician se screening\n- Bohat se therapist aur psychologists autism pehchanate hain aur madad kar sakte hain\n\n**Yaad rakho**: Tashkhees mein der karne se baad mein zyada kharcha padta hai — jaldi madad se future ka kharcha kam aur bettar nateeje milte hain. Aksar communities resources fراham karti hain kharcha mein madad ke liye."
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_accuracy:
+    - text: "Autism diagnosis accuracy is very high when done by experienced professionals using standardized tools:\n\n**Accuracy Rates:**\n- ADOS-2 (gold standard test): 95–98% sensitivity and specificity\n- Experienced clinician observation: 90%+ accuracy\n- Combined assessment (ADOS + ADI-R + clinical observation): 95%+ accuracy\n\n**However, False Results Can Happen:**\n- **False Negatives** (missed diagnosis): More common in girls, high-functioning individuals, and those who 'mask' well\n- **False Positives** (incorrectly diagnosed): Rare but possible if evaluators confuse autism with anxiety, ADHD, language disorders, or social anxiety\n\n**How to Ensure Accuracy:**\n1. See an experienced developmental pediatrician or clinical psychologist (not just any doctor)\n2. Ask for detailed documentation and observation reports\n3. Use multiple assessment methods (not just one test)\n4. Get a second opinion if uncertain — it's your right and often recommended\n5. Look for professionals who follow DSM-5 criteria and use standardized tools\n\n**Remember**: A diagnosis can change over time as children grow and adapt. Re-assessment is always possible."
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "Autism diagnosis ki accuracy bohat high hoti hai jab experienced doctors standardized tools use karen:\n\n**Accuracy Daraje**:\n- ADOS-2 (best tool): 95–98% sahi\n- Experienced doctor ki dekhbhal: 90%+ sahi\n- Poori assessment (ADOS + ADI-R + observation): 95%+ sahi\n\n**Lekin Galat Ho Sakta Hai**:\n- **Missed diagnosis**: Aksar girls mein, halka autism waloono mein, jo behavior chhupate hain\n- **Galat diagnosis**: Rare lekin anxiety, ADHD, language disorder samajh baithe hain\n\n**Sahi Tashkhees ke liye**:\n1. Experienced doctor ke paas jao (koi bhi doctor nahi)\n2. Detailed report aur observation mangwao\n3. Multiple tools use karao (sirf ek nahi)\n4. Doosra opinion mangwao agar doubt ho — ye tumhara haq hai\n5. Jo doctors DSM-5 rules follow karain aur tools use karain\n\n**Yaad rakho**: Tashkhees time ke saath badal sakti hai — dubara assessment hamesha mumkin hai."
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_misdiagnosis:
+    - text: "Misdiagnosis can happen, but it's less common with proper evaluation. Here's what you should know:\n\n**Common Misdiagnosis Scenarios:**\n1. **Autism mistaken for ADHD**: Both affect attention and behavior, but causes and needs are different\n2. **Autism mistaken for language disorder**: Speech delay is a feature, not the whole picture\n3. **Autism mistaken for anxiety or social anxiety**: Both involve social avoidance, but autism is neurological difference\n4. **High-functioning autism missed**: Girls and those without obvious repetitive behaviors often go undiagnosed\n5. **Autism diagnosed when it's intellectual disability, hearing loss, or other condition**: Other conditions must be ruled out first\n\n**How to Prevent Misdiagnosis:**\n- See a specialist (developmental pediatrician, child psychiatrist, or clinical psychologist trained in autism)\n- Insist on comprehensive evaluation with multiple tools (ADOS-2 + ADI-R + IQ testing + hearing test)\n- Get details about what was observed and why criteria were met or not met\n- Ask for a second opinion — it's your right and often recommended\n- Take time — good diagnosis takes time, not rushed appointments\n\n**If You Disagree with Diagnosis:**\n- Get a second opinion from another experienced professional\n- Request detailed written reports and test scores\n- Ask specific questions about observed behaviors and criteria\n- Remember: A diagnosis is information to help, not a label to limit\n\nThe goal is getting the right support for the right condition — clarity helps everyone."
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "Galat diagnosis ho sakta hai, lekin proper jaanch se rare hota hai. Yeh samajhne wali baatein hain:\n\n**Aksar Galat Diagnosis**:\n1. **Autism samajh mein ADHD**: Dono attention aur behavior affect karti hain, lekin wajah aur zaroorat alag\n2. **Language disorder samajh mein**: Bolne mein der ek feature hai, poora nahi\n3. **Anxiety samajh mein**: Dono social avoid karti hain, lekin autism brain ka farq hai\n4. **Halka autism chhoot jana**: Girls aur jo obvious repetitive behavior na karain\n5. **Aur condition samajh lena**: Hearing loss, intellectual disability pehle rule out karna zaroori\n\n**Galat Diagnosis se Bachne ke liye**:\n- Specialist ke paas jao (autism trained doctor)\n- Poori assessment multiple tools ke saath (ADOS-2 + ADI-R + IQ + hearing)\n- Details maango — kya dekhbhala gaya aur kyon\n- Doosra opinion mangwao — ye tumhara haq hai\n- Vaqt lo — achhi tashkhees mein vaqt lagta hai\n\n**Agar Disagree Ho**:\n- Doosre experienced doctor se opinion lo\n- Detailed reports aur scores maango\n- Specific questions poocho jo dekhbhala gaya\n- Yaad rakho: Diagnosis help karne wali maloomat hai, limit karne wala label nahi\n\nMaqsad sahi support aur sahi condition — sab ke liye faida."
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_reassessment:
+    - text: "Yes, autism diagnosis can be reassessed, and sometimes it's a very good idea:\n\n**When Reassessment Might Be Needed:**\n1. **Child has developed significantly**: If a child has grown, learned new skills, or changed behaviors substantially, a new assessment may reflect current needs\n2. **Symptoms were mild and possibly missed**: Sometimes as children grow, clearer patterns emerge\n3. **Original assessment was rushed or incomplete**: Not all tools were used, or evaluator lacked experience\n4. **To rule out misdiagnosis**: If you suspect the original diagnosis was incorrect (e.g., anxiety was missed, or misdiagnosed as ADHD)\n5. **For a second opinion**: It's your right to get another experienced professional's perspective\n6. **Transition points**: School entry, high school, adulthood — needs change, and assessment may need updating\n\n**What to Expect in Reassessment:**\n- Similar tools (ADOS-2, ADI-R, IQ testing) used again\n- Comparison with original findings\n- Updated developmental and behavioral history\n- Sometimes results differ from first assessment — this is normal and helpful\n\n**Important Notes:**\n- Autism doesn't go away or improve to the point of being 'not autistic'\n- However, support needs, skill levels, and independence can change significantly\n- Each assessment captures a moment in time — reassessment shows growth and current reality\n- Cost varies (similar to initial assessment), and insurance or public services may cover it\n\nReassessment is not questioning your child — it's understanding them better."
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "Haan, autism tashkhees dubara ho sakti hai, aur aksar achcha hota hai:\n\n**Kab Dubara Assessment Zaroori Ho Sakta Hai**:\n1. **Bacha badal gaya ho**: Agar seekha, naye hunar, alag behavior — naya assessment aaj ke needs bata\n2. **Halka symptoms chhoot gaya**: Bahar hone ke saath clearer patterns ban jaate hain\n3. **Pehli tashkhees jaldi thi**: Sab tools nahi the, ya doctoor experienced nahi tha\n4. **Doosra faisla**: Agar doubt ho pehla galat tha (anxiety miss hui, ya ADHD samajha)\n5. **Doosra opinion**: Ye tumhara haq hai experienced doctor se\n6. **School, high school, badi umar**: Zaroortain badlti hain, assessment update chahiye\n\n**Dubara Assessment Mein**:\n- Same tools phir se (ADOS-2, ADI-R, IQ)\n- Pehli tashkhees se compare\n- Aaj ka history aur behavior\n- Sometimes alag result — ye normal aur helpful hota hai\n\n**Yaad Rakho**:\n- Autism nahi jata ya 'theek' nahi ho jata\n- Lekin zaroort, hunar, azadi bohat badal sakte hain\n- Har assessment us vaqt ki picture — dubara current reality dikhata hai\n- Kharcha (pehle jaisa), insurance cover kar sakta hai\n\nDubara assessment sawaal nahi hai — behtari samajhna hai."
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_pakistan:
+    - text: "In Pakistan, autism diagnosis is available but faces some challenges. Here's what you should know:\n\n**Where to Get Diagnosed in Pakistan:**\n1. **Government Medical Colleges**: Free or low-cost services\n   - AIMC (Islamabad), DUHS (Karachi), KIMS (Lahore), LUMHS (Hyderabad), etc.\n   - Pediatrics and psychiatry departments\n   - Often long waiting lists but expert evaluation\n\n2. **Military/Civil Hospitals**: KRL, GMMH (Lahore), CMH (major cities)\n   - Reasonable costs, experienced staff\n\n3. **Private Clinics and Child Development Centers**:\n   - Karachi: Autism Awareness Center, Child Development Center KBCC\n   - Lahore: Services for Autism Spectrum Disorder (SASD), various pediatric clinics\n   - Islamabad: PIMS Child Psychiatry Department, private clinics\n   - Cities: Look for child psychiatrists, developmental pediatricians, clinical psychologists\n\n4. **Non-Profit Organizations**:\n   - Autism Association Pakistan\n   - Human Development Foundation (HDF)\n   - Rozan (counseling and child support)\n   - Many offer free or subsidized assessments and support\n\n**Challenges:**\n- Awareness is improving but still low among some doctors\n- Few professionals trained in modern diagnostic criteria (DSM-5)\n- Stigma remains — many families prefer to keep diagnosis private\n- Urdu-translated assessment tools are limited\n\n**Tips for Finding Right Professional:**\n- Ask for credentials: Child psychiatrist, developmental pediatrician, or psychology degree + autism training\n- Ask if they use standardized tools (ADOS, ADI-R)\n- Ask about their experience with autism specifically\n- Connect with parent support groups — they often know trusted professionals\n\n**Cost in Pakistan**: Rs. 5,000–20,000+ depending on location and expertise (government cheaper, private more expensive)"
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "Pakistan mein autism tashkhees available hai lekin kuch challenges hain. Yeh jano:\n\n**Tashkhees Kahan le Sakte Ho**:\n1. **Government Medical Colleges**: Free ya kam kharcha\n   - AIMC, DUHS, KIMS, LUMHS, etc.\n   - Pediatrics aur psychiatry\n   - Long wait lekin achhi expertise\n\n2. **Military/Civil Hospitals**: KRL, GMMH, CMH\n   - Reasonable, experienced\n\n3. **Private Clinics**:\n   - Karachi: Autism Awareness Center, KBCC\n   - Lahore: SASD, pediatric clinics\n   - Islamabad: PIMS, private\n   - Har city mein child psychiatrist, developmental pediatrician, psychologist\n\n4. **NGOs**:\n   - Autism Association Pakistan\n   - HDF\n   - Rozan\n   - Free ya kam kharcha assessment aur support\n\n**Mushkil**:\n- Doctors mein awareness kam\n- Few modern DSM-5 trained\n- Shnach baqi hai — log private rakhte hain\n- Urdu tools limited\n\n**Sahi Doctor Dhund Ne**:\n- Credentials pocho: Child psychiatrist, developmental pediatrician, psychology + autism training\n- Standardized tools use karti hai (ADOS, ADI-R)\n- Autism experience pocho\n- Parent groups ko connect karo — wo suggest kar sakte hain\n\n**Kharcha Pakistan**: Rs. 5,000–20,000+ location aur expertise par"
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_school_assessment:
+    - text: "School assessment plays an important role in identifying autism, especially in school-age children:\n\n**What School Assessment Includes:**\n1. **Teacher Observation**: How does the child behave, interact, and perform in classroom and social settings compared to peers?\n   - Academic performance\n   - Social interactions with peers\n   - Communication and language\n   - Emotional regulation and behavior\n   - Following instructions and transitions\n\n2. **School Counselor or Psychologist** (if available):\n   - Behavioral assessment\n   - Psychoeducational testing\n   - Recommendations for support\n\n3. **Occupational Therapist** (in some schools):\n   - Sensory and motor assessment\n   - Fine and gross motor skills\n   - Self-care and independence in school routines\n\n**Strengths of School Assessment:**\n- Observes child in natural, peer-filled setting\n- Identifies social and academic challenges early\n- Provides recommendations for classroom accommodations\n- Often free or low-cost\n- Helps with early intervention eligibility\n\n**Limitations:**\n- Not a diagnostic assessment (cannot diagnose autism alone)\n- Teachers may miss signs in high-functioning students or those who mask well\n- Schools may lack resources or trained personnel\n- Recommendations depend on school capacity\n\n**How School Assessment Helps with Diagnosis:**\n- Teacher observations support formal diagnostic evaluation\n- Information contributes to clinical assessment\n- Identifies need for specialist referral\n- Helps create support plan even during diagnostic process\n\n**In Pakistan:**\n- Many schools lack formal assessment procedures\n- Some private schools have counselors who can provide initial screening\n- Government schools often refer to medical professionals\n- Parental advocacy is important to request assessment\n\n**Important**: School assessment is valuable but not sufficient for diagnosis. If you suspect autism, seek formal evaluation from a qualified professional."
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "School assessment autism pehchanane mein zaroori role kharti hai, khaskur school age mein:\n\n**School Assessment Mein Kya Hota Hai**:\n1. **Teacher Dekhbhal**: Bacha class aur friends ke saath kaise behave karta hai\n   - Parhne ka performance\n   - Friends ke saath samaji\n   - Bolna-sunna\n   - Emotion aur behavior\n   - Instruction follow karna\n\n2. **School Counselor/Psychologist** (agar ho):\n   - Behavior assessment\n   - Psychoeducational testing\n   - Support salaah\n\n3. **Occupational Therapist** (kuch schools mein):\n   - Sensory aur motor assessment\n   - Fine/gross motor\n   - Self-care\n\n**Faaye**:\n- Peer setting mein real observation\n- Jaldi social aur academic problem pata\n- Classroom accommodation salaah\n- Aksar free\n- Early intervention madad\n\n**Limitation**:\n- Diagnosis nahi kar sakta (sirf ek hissa)\n- Teachers miss kar sakte hain halka ya jo chhupate\n- Schools ko resources nahi\n- Recommendations school par depend\n\n**School Se Aage Diagnosis**:\n- Teacher input formal assessment ko support karti hai\n- Information clinical assessment mein\n- Specialist refer karwane mein madad\n- Assessment ke dauran support plan\n\n**Pakistan Mein**:\n- Aksar schools ke paas formal assessment nahi\n- Kuch private schools counselor hain\n- Government schools specialist refer karti hain\n- Parents ko demand karna zaroori\n\n**Yaad Rakho**: School helpful hai lekin diagnosis ke liye qualified professional zaroori hai."
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_cousin_marriage_autism_risk:
+    - text: "Cousin marriages do not directly cause autism, but they can increase the risk of certain genetic conditions (including some forms of autism) because recessive genes are more likely to pair up.\nStudies from Pakistan and India show the risk can be about 2–3 times higher compared to non-cousin marriages.\n\nHowever:\n- Autism is mostly polygenic (many genes) + environmental factors\n- Overall heritability is high (80–90%), but cousin marriage is just one contributing factor, not the main cause\n- Myths like vaccines or parenting style causing autism have been completely disproven\n\nIf you're planning a marriage or worried about family history, genetic counseling before marriage can give clear information and peace of mind. Knowledge helps make informed choices."
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "Cousin shadiyan autism ka seedha sabab nahi banti, lekin recessive genes ke milne ka chance zyada hone se kuch genetic masail (jin mein kuch ASD forms shaamil hain) ka risk 2–3 guna barh sakta hai.\nPakistan aur India ke mutalay ye dikhate hain.\n\nMagar:\n- Autism zyadatar bohat se genes + maholiati amal se hota hai\n- Kul verasat 80–90% hai, lekin cousin marriage sirf ek hissa hai, poora sabab nahi\n- Vaccines ya parenting style se hone wali baat puri tarah ghalat sabit ho chuki hai\n\nAgar shadi ki planning hai ya family history ki fikar hai to shadi se pehle genetic counseling karwa lena behtar hai — saaf maloomat aur tasalli milti hai. Ilm se sahi faisla karna asaan hota hai."
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_speech_therapy:
+    - text: "Speech therapy helps autistic children improve communication skills. Goals include expanding vocabulary, improving pronunciation, understanding language, using gestures, reducing echolalia (repeating words), and increasing social communication. Therapists use play-based activities, visual supports, and structured practice. Benefits: better understanding, clearer speech, more peer interaction, increased confidence, and improved social relationships. It's effective when started early and practiced consistently at home and school."
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "Speech therapy autism ke bachon ko bolna-samjna behtar banati hai. Nisaane hain: lafz badhana, pronunciation saaf karna, baat samjna, isharon se baat karna, ek hi lafz bar bar bolna kam karna, aur dosron se baat karna badhana. Therapist khel ke zariye, tasveerain, aur practice se kaam karte hain. Faide: behter samajh, saaf bolna, dosron se zyada milna, aatma-viswas, aur rishte behter hona. Jab jaldi shuru ho aur ghar aur school mein rozana practice ho to acha nateeja aata hai."
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_physical_therapy:
+    - text: "Physical therapy helps autistic children develop gross motor skills like walking, running, jumping, balance, and coordination. Goals include improving muscle strength, posture, motor planning, and reducing physical tension. Therapists use movement activities, play-based exercises, and adaptive equipment. Benefits: better body control, increased physical confidence, improved ability to participate in sports/play, reduced clumsiness, and better muscle tone. Early intervention leads to better long-term physical development and independence in daily activities."
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "Physical therapy autism ke bachon ko badi halke harkat sikhati hai jaise chalna, dorna, ukdna, balance, coordination. Nisaane hain: muscle ka tal, sahi posture, harkat ki planning, aur tanaao kam karna. Therapist halke harkat ke khel, exercise, aur tools se kaam karte hain. Faide: sharir par control behter, jismani aatma-viswas, khel/sports mein behter hissa, anbadhe pan kam, aur muscles mazboot hona. Jab jaldi shuru ho to lambi muddat ke vikas aur rozana kaam-kaaj mein azadi behter hoti hai."
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_play_therapy:
+    - text: "Play therapy uses play as a tool to help autistic children express emotions, develop social skills, and build confidence. Through play, children learn problem-solving, cooperation, imagination, and emotional regulation. Goals include improving social interaction, reducing anxiety, building friendships, and helping children process difficult emotions. Therapists guide play activities that are developmentally appropriate and match the child's interests. Benefits: better emotional expression, improved peer relationships, increased confidence, and learning through a natural, enjoyable method."
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "Play therapy khel ke zariye autistic bachon ko jazbaat behtar karne, samaji hunit seekhne, aur aatma-viswas badhane mein madad karte hain. Khel se balak masail hal karna, ek dusre ke saath kaam karna, kalakari, aur jazbaat sambhalna seekhte hain. Nisaane hain: samaji milna behter karna, bechain pan kam karna, dosron se dostee, aur muskil jazbaat ko samjna. Therapist khel ko bachche ke umar aur pasand ke mutabiq karwate hain. Faide: jazbaat behter, dosron se rishte achche, aatma-viswas, aur maza ke zariye seekhna."
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_behavior_therapy:
+    - text: "Behavior therapy (including Applied Behavior Analysis/ABA) uses positive reinforcement to teach new skills and reduce challenging behaviors. Goals include increasing desirable behaviors (communication, social skills, independence), decreasing unwanted behaviors (aggression, self-harm, repetition), and building coping strategies. Therapists break skills into small steps and reward progress. Benefits: rapid skill learning, reduced challenging behaviors, improved independence, better family functioning, and increased participation in school/community. It's evidence-based with the strongest research support for autism intervention."
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "Behavior therapy (ABA shamil) positive tasveeq se nayi hunit seekhati hai aur mushkil reways kam karti hai. Nisaane hain: achhay reways badhana (bolna, samaji, khud muhaar), bure reways kam karna (jhagra, khud ko nuqsan, ek hi baat), aur chhoop ke tareeqe seekhna. Therapist halki halki step mein seekhate hain aur progress ko reward dete hain. Faide: jaldi hunit, mushkil reways kam, khud muhaar behter, ghar mein aman, school/muhaale mein behter hissa. Ye sabse taqdeer ke saath saabit tareeqa hai."
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_social_skills_therapy:
+    - text: "Social skills therapy teaches autistic children how to interact with peers, understand social rules, read non-verbal cues (facial expressions, body language, tone), and build friendships. Goals include improving conversation skills, turn-taking, understanding emotions in others, initiating interactions, and managing social anxiety. Therapists use role-play, video modeling, social stories, and structured practice. Benefits: reduced social isolation, better peer relationships, increased confidence in social situations, improved emotional understanding, and better school/community participation."
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "Social skills therapy autistic bachon ko dosron ke saath kaise baat kare, samaji niyam samjhe, chehra ke ishare (chehre ki bhavinata, sharir ki chaal, awaaz ka ton) samjhe, aur dostee banaye. Nisaane hain: baat behter, ek dusre ke turn, doosaron ke jazbaat samjna, baat shuru karna, aur samaji bechain kam karna. Therapist role-play, videos, kahaniyan, aur practice se seekhate hain. Faide: akela na hona kam, dosron ke saath achche rishte, samaji halaat mein aatma-viswas, jazbaat samjna, school/muhaale mein behter hissa."
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_feeding_therapy:
+    - text: "Feeding/swallowing therapy addresses difficulties with eating, drinking, and oral motor skills (mouth, tongue, jaw control). Common issues include picky eating, choking risk, difficulty chewing, drooling, and sensory sensitivities to textures/tastes. Goals include expanding accepted foods, improving safety during eating, developing proper chewing/swallowing, and reducing feeding-related stress. Therapists use structured practice, sensory activities, and positive reinforcement. Benefits: better nutrition, reduced feeding time and stress, improved oral-motor function, safer eating, and increased food variety."
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "Feeding therapy khane-pine aur munh ki halki harkat (munh, zaban, halaq control) ke masail hal karti hai. Aam masail: sirf kuch khana pasand, guttna ka khatre, chbane mein mashkil, laar bah jana, texture ya swaad se naarazi. Nisaane hain: zyada kisme khana, khane ki suraksha, sahi chhbana/nigalna, aur khane se streess kam karna. Therapist practice, sensory khel, aur reward se seekhate hain. Faide: behter غذаivitamin, khane mein samay kam, munh ki hunit behter, suraksha, aur zyada qism ka khana."
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_medicine:
+    - text: "Medicines for autism don't cure the condition, but they can help manage co-occurring symptoms and behaviors. Common medications include:\n\n**For ADHD & Focus**: Stimulants (methylphenidate, amphetamines), atomoxetine\n\n**For Anxiety & Depression**: SSRIs (sertraline, fluoxetine), other antidepressants\n\n**For Aggression & Hyperactivity**: Atypical antipsychotics (risperidone, aripiprazole)\n\n**For Seizures**: Anticonvulsants (used if seizure disorder is present)\n\n**Important**: Each child's needs differ. Medication works best combined with therapy. Regular monitoring by a psychiatrist is essential. Side effects must be discussed. Not all autistic people need medication—many manage well with behavioral supports and accommodations."
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "Autism ke liye medicine ilaj nahi hai, lekin associated problems aur reways ko sambhalne mein madad karti hain. Aam davaiyaan:\n\n**ADHD aur Focus ke liye**: Stimulants (methylphenidate, amphetamines), atomoxetine\n\n**Anxiety aur Depression ke liye**: SSRIs (sertraline, fluoxetine), aur dusri davaiyaan\n\n**Jhagre aur Hyperactivity ke liye**: Atypical antipsychotics (risperidone, aripiprazole)\n\n**Seizures ke liye**: Anticonvulsants (agar seizure disorder ho)\n\n**Zaroori**: Har bachche ki zarurat alag. Davayi therapy ke saath kam karti hai. Psychiatrist ki nazar mein rehna zaroor. Side effects samjhna zaroori. Har autistic ko davayi ki zaroorat nahi—bohat se behavioral support aur arrangements se achche hote hain."
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_side_effects:
+    - text: "Medications used in autism management can have side effects, though many children tolerate them well. Common side effects include:\n\n**Stimulants**: Decreased appetite, sleep issues, increased heart rate, mood changes\n\n**SSRIs**: Nausea, headaches, sleep changes, emotional blunting, activation (unusual with SSRIs)\n\n**Antipsychotics**: Weight gain, movement disorders, metabolic changes, sedation\n\n**Anticonvulsants**: Drowsiness, dizziness, coordination issues\n\n**Managing Side Effects**:\n- Start low dose, increase gradually\n- Monitor weight, vital signs, mood\n- Take at optimal time (with/without food)\n- Regular psychiatrist follow-up\n- Behavioral changes tracking\n- Never stop abruptly—taper gradually\n\nBenefits often outweigh side effects when medication helps behavior/focus. Always discuss concerns with the prescribing doctor."
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "Autism ke liye davaiyoan side effects kar sakti hain, lekin bohat se bachche theek rahe hote hain. Aam side effects:\n\n**Stimulants**: Bhookh kam, neend mein dikkat, dil ki dopak tez, mood mein badlao\n\n**SSRIs**: Jee mein ghabrahat, sir dard, neend mein badlao, emotional dimag\n\n**Antipsychotics**: Wazn badhna, movement mein dikkat, metabolism, neend\n\n**Anticonvulsants**: Neend, chakkar, sambalane mein dikkat\n\n**Side Effects Ko Sambhalna**:\n- Halka dose, phir badhana\n- Wazn, dil, mood dekhna\n- Khaane ke saath ya bina\n- Doctor se milte rahna\n- Behavior par nazar\n- Davayi achanak band na kare\n\nAger davayi behavior/focus mein madad karti hai to side effects se zyada fayda hota hai. Doctor se hamesha baat kare."
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_future_research:
+    - text: "Autism research is advancing rapidly. Key areas of current and future research include:\n\n**Genetic Studies**: Identifying autism-related genes, gene therapy potential\n\n**Brain Imaging**: Understanding brain differences and connectivity patterns\n\n**Early Detection**: Better screening tools, possibly in infancy\n\n**Intervention Research**: Testing new therapy approaches, combined treatments\n\n**Neurotechnology**: Brain-computer interfaces, assistive technology development\n\n**Adult Autism**: Understanding aging, mental health, employment outcomes\n\n**Precision Medicine**: Tailoring treatments to individual genetic/neurological profiles\n\n**Prevention of Co-occurring Conditions**: Reducing anxiety, depression, seizures\n\n**Community-Based Research**: Including autistic voices in research design\n\nThe future looks promising with more resources, better understanding, and acceptance increasing. Research aims not to 'cure' but to support autistic people living fulfilling lives."
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "Autism ka research tez rafi-tar ho raha hai. Aaj kal ke research ke mukhya areas:\n\n**Genetic Studies**: Autism ke genes dhundna, gene therapy\n\n**Brain Imaging**: Brain mein farq aur connection samjna\n\n**Jaldi Pehchan**: Behter screening, shayyad babyhood mein\n\n**Therapy Research**: Naye tareeqe, mixed treatment\n\n**Brain Technology**: Brain-computer interface, madad ke tools\n\n**Bade Autistic**: Umar badhte samay, mental health, kaam\n\n**Special Medicine**: Har aadmi ke liye alag treatment\n\n**Saath Ke Masail**: Anxiety, depression, seizures kam karna\n\n**Jammat Se Research**: Autistic ki awaaz sunna\n\nAg achhay hasil dikhte hain zyada resources, samajh, aur qabooliyat se. Research 'ilaj' nahi, balke autistic ko khushhaal zindagi mein madad karna hai."
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_recovery:
+    - text: "Autism is not a disease, so there is no 'recovery' in the medical sense. Autism is a neurological difference—a different way of thinking, perceiving, and processing information. It's lifelong.\n\n**What Improves**:\n- With early intervention and support, children often develop better skills\n- Challenging behaviors decrease through therapy and strategies\n- Coping abilities and independence increase significantly\n- Quality of life and relationships improve with accommodations\n- Some symptoms appear to decrease as brain develops (especially hyperactivity in puberty)\n\n**What Doesn't Change**:\n- Core autism traits (sensory processing, social differences, focused interests)\n- Neurological wiring remains the same\n\n**Acceptance vs. 'Recovery'**:\nRecent autism advocacy emphasizes acceptance and support rather than 'recovery.' Many autistic people report better outcomes when society accepts them as they are, rather than pushing them to be neurotypical. With proper support, autistic individuals can thrive and contribute meaningfully to society."
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "Autism ek beemari nahi hai, isliye 'theek hona' nahi hota. Autism dimagi tarah-e-kari hai—alag sochne, dekhne, aur samjhne ka tareeka. Ye zindagi bhar rahta hai.\n\n**Kya Behter Hota Hai**:\n- Jaldi madad aur support se bacche behter hunit seekhte hain\n- Therapy aur tareeqon se mushkil reways kam hoti hain\n- Sambalane ki taqat aur khud-mukhtari badhti hai\n- Zindagi ke quality aur rishte behter hote hain\n- Kuch symptoms kam hote hain brain vikas ke saath (hyperactivity kum)\n\n**Kya Nahi Badlta**:\n- Autism ke mukhya gunn (sensory, social, focused interests)\n- Brain ka wiring same rahe hote\n\n**Qabool aur 'Theek Hona'**:\nAutistic logon ke naye paidavaaron ne qabool aur support par zor dia, 'theek hone' par nahi. Bohat se autistic ko tab behter nateeja milte hain jab samaj unhe apne rup mein qabool kare. Sahi support se autistic log kamyab hote hain aur samaj ko kuch de sakte hain."
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_examples:
+    - text: "Sensory sensitivities in autism vary widely. Common sensory examples include:\n\n**Tactile (Touch)**:\n- Discomfort with textures (tags, seams, specific fabrics)\n- Difficulty with light touch, prefer firm pressure\n- Sensitivity to certain materials\n- Difficulty with personal care (haircuts, nail trimming)\n\n**Auditory (Sound)**:\n- Sensitivity to loud noises (fire alarms, vacuum, crowds)\n- Difficulty filtering background sounds\n- Preference for quiet environments\n- Specific sounds that trigger distress\n\n**Visual**:\n- Sensitivity to bright lights or flickering\n- Difficulty with certain colors or patterns\n- Preference for dimmer lighting\n- Overwhelm in visually busy environments\n\n**Olfactory (Smell)**:\n- Strong reactions to certain smells\n- Avoidance of strong scents (perfume, cooking)\n- Heightened sensitivity to odors others don't notice\n\n**Gustatory (Taste)**:\n- Extreme pickiness with food textures\n- Preference for bland foods\n- Difficulty with mixed textures\n\n**Proprioceptive/Vestibular**:\n- Clumsiness, difficulty with coordination\n- Seeking deep pressure or rough play\n- Movement sensitivity (spinning, heights)\n\nThese sensitivities can change over time and vary by context."
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "Autism mein sensory sensitivity bohat faraaq hoti hai. Aam sensory examples:\n\n**Touch (Chune se)**:\n- Tag, seams, ya kuch kapre se bechain\n- Halka chune se dikkat, mazboot pasand\n- Kuch materials sa naarazi\n- Hair cut ya nail se masail\n\n**Sound (Awaaz se)**:\n- Tez awaz se (alarm, vacuum, bheed)\n- Background awaz filterkarna mushkil\n- Khaamoshi pasand\n- Kuch awaz se fikar\n\n**Light (Roshni)**:\n- Tez ya jhilmilati roshni se bechain\n- Kuch rang ya pattern se dikkat\n- Halki roshni pasand\n- Busy environment se overwhelm\n\n**Smell (Khushbu)**:\n- Kuch khushbu se alag reaction\n- Perfume ya pakne ki khushbu se katrahi\n- Khushbu bohat tez mahsoos\n\n**Taste (Swad)**:\n- Khana bohat selective\n- Bland khana pasand\n- Texture se dikkat\n\n**Harkat (Proprioceptive/Vestibular)**:\n- Clumsiness, balance dikkat\n- Mazboot dbaao ya khelna pasand\n- Spinning, height se sensitivity\n\nYe sensitivity wakt ke saath badl sakti hai."
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_management:
+    - text: "Managing sensory sensitivities involves creating accommodations and strategies:\n\n**At Home**:\n- Reduce sensory triggers: dim lights, quiet spaces\n- Use weighted blankets, pressure items\n- Provide sensory breaks and safe spaces\n- Modify clothing (remove tags, soft fabrics)\n- Control smells and sounds\n- Organize visually to reduce clutter\n\n**At School**:\n- Quiet workspace away from stimulation\n- Movement breaks and fidget tools\n- Advance warning for transitions\n- Noise-canceling headphones\n- Alternative seating options\n- Modified classroom schedule\n\n**General Strategies**:\n- Recognize sensory triggers for each child\n- Plan ahead to avoid overload\n- Provide sensory breaks before overstimulation\n- Use weighted items or compression clothing\n- Create predictable routines\n- Allow proprioceptive activities (heavy work)\n- Teach self-regulation techniques\n- Communicate needs to environment\n- Use visual supports and schedules\n- Accept stimming as regulation (if safe)\n\n**Self-Regulation Tools**:\n- Fidget toys, stress balls\n- Textured items (scarves, spinners)\n- Movement activities (jumping, swinging)\n- Music with predictable patterns\n- Deep breathing or pressure exercises\n- Alone time in safe spaces\n\nEvery child responds differently—individualized strategies work best."
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "Sensory sensitivity ko sambhalne ke liye accommodation aur strategies zaroori hain:\n\n**Ghar Mein**:\n- Trigger kam kare: halki roshni, khaamoshi\n- Weighted blankets, pressure items\n- Sensory break aur safe space\n- Kapron mein tag hatao, soft kapre\n- Khushbu aur awaz control karo\n- Clutter kam rakho\n\n**School Mein**:\n- Quiet work space\n- Movement break aur fidget tools\n- Agay se batao badlao ke baare mein\n- Noise headphones\n- Alag baithne ki jagah\n- Badle hue class schedule\n\n**Aam Strategies**:\n- Har bachche ke triggers samjho\n- Pehle se plan karo\n- Overload se pehle break do\n- Weighted ya compression items\n- Predictable routine\n- Heavy work (jumping, swinging)\n- Self-regulate seekhao\n- Zaroorat batana seekhao\n- Visual supports use karo\n- Stimming accept karo (surkhaif ho)\n\n**Self-Regulation Tools**:\n- Fidget toys, stress balls\n- Textured items\n- Harkat activities\n- Music with pattern\n- Deep breathing\n- Alone time\n\nHar bachche alag respond karta hai—individual strategy best hai."
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_school:
+    - text: "Managing sensory needs at school requires collaboration between parents, teachers, and school administrators:\n\n**Accommodations**:\n- Quiet workspace or sensory room for breaks\n- Preferential seating (away from triggers)\n- Permission to leave class for sensory breaks\n- Noise-canceling headphones during sensitive tasks\n- Modified schedule (shorter transitions, advance notice)\n- Fidget tools at desk\n- Sunglasses for fluorescent light sensitivity\n\n**Environmental Modifications**:\n- Reduce visual clutter in classroom\n- Control sound levels during activities\n- Allow movement breaks\n- Separate workspace from busy areas\n- Predictable daily routine\n- Visual schedules and timers\n\n**Communication Strategies**:\n- Use visual supports and written instructions\n- Provide advance notice of changes\n- Allow communication through AAC devices\n- Check in about sensory overload\n- Establish sensory signals\n\n**Transitions**:\n- Warn before changes (5-10 minutes notice)\n- Use visual or audio cues\n- Build in processing time\n- Offer sensory activity during waiting\n\n**Curriculum Adjustments**:\n- Modify activities causing sensory overload\n- Offer alternatives (written vs. verbal)\n- Allow breaks during high-sensory activities\n- Use preferred sensory inputs as rewards\n\n**IEP/Plan Inclusion**:\n- Document sensory needs in formal plans\n- Include specific accommodations\n- Monitor and adjust based on child feedback\n- Train all staff on sensory strategies"
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "School mein sensory zaroorat ke liye parents, teachers, school ke beech milna zaroori hai:\n\n**Accommodations**:\n- Quiet work space ya sensory room\n- Alag baithne ki jagah (triggers se dur)\n- Break lene ka ijaaza\n- Noise headphones\n- Badle schedule (jaldi transitions, pehle se notice)\n- Fidget tools\n- Sunglasses bright light se\n\n**Class Mein Badlao**:\n- Clutter kam karo\n- Sound control\n- Movement breaks\n- Busy area se dur\n- Predictable routine\n- Visual schedule\n\n**Baat Karne Ke Tareeqe**:\n- Visual supports\n- Advance notice\n- AAC devices se\n- Overload poochho\n- Sensory signals\n\n**Badlao (Transitions)**:\n- 5-10 minute pehle notice\n- Visual cues\n- Processing time\n- Sensory activity waiting mein\n\n**Class Mein Badlao**:\n- Sensory overload activities modify karo\n- Alternatives (likha ya bolna)\n- Break high-sensory activities mein\n- Sensory reward use karo\n\n**IEP/Plan Mein**:\n- Sensory needs likho\n- Specific accommodations\n- Monitor aur adjust karo\n- Sab staff ko seekhao"
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_home:
+    - text: "Creating a sensory-friendly home environment supports regulation and comfort:\n\n**Overall Environment**:\n- Reduce visual clutter; organize in zones\n- Use soft, indirect lighting (dimmers, lamps)\n- Control background sounds (minimize TV, music)\n- Maintain consistent, predictable routines\n- Create a safe, calm sanctuary space\n- Use calming colors (blues, greens, earth tones)\n\n**Sensory Spaces**:\n- Designated quiet corner with cushions\n- Weighted blankets, bean bags\n- Textured items (soft scarves, rubbing toys)\n- Aromatherapy (if child likes scents)\n- White noise machine\n- Low lighting with soft items\n\n**Tactile Accommodations**:\n- Remove clothing tags or use label-free clothes\n- Offer variety of textures (soft, bumpy, smooth)\n- Use weighted vest or lap pad\n- Provide deep pressure activities (hugs, rolling in blanket)\n- Gentle massage or brushing (if tolerated)\n\n**Food/Taste**:\n- Respect food preferences without forcing\n- Offer texture variety separately\n- Keep strong-smelling foods contained\n- Allow sniffing before eating new foods\n- Provide familiar comfort foods\n\n**Daily Activities**:\n- Use visual schedules for transitions\n- Give advance warning of changes\n- Allow movement breaks and active play\n- Create bath/shower routines that work\n- Respect sleep sensory needs (firmness, cooling, darkness)\n\n**Fidgeting & Movement**:\n- Provide fidget tools during sitting activities\n- Allow bouncing, swinging, jumping\n- Create movement circuit in home\n- Use exercise ball for seating\n- Encourage proprioceptive activities\n\n**Technology**:\n- Reduce screen brightness\n- Use blue light filters\n- Control volume on devices\n- Limit overstimulating content"
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "Ghar ko sensory-friendly banane se regulation aur comfort milta hai:\n\n**Overall Mein**:\n- Clutter kam, zones banao\n- Halki roshni (dimmers, lamps)\n- Sound kam karo (TV, music)\n- Routine consistent rakho\n- Safe, calm space banao\n- Calm rang (blue, green, earth)\n\n**Sensory Spaces**:\n- Quiet corner cushion ke saath\n- Weighted blankets, bean bags\n- Textured items (soft scarves)\n- Aromatherapy (ager pasand ho)\n- White noise machine\n- Halki roshni\n\n**Touch Mein**:\n- Kapron mein tag nikalo\n- Texture variety do\n- Weighted vest use karo\n- Deep pressure (hug, rolling)\n- Massage gentle (ager pasand ho)\n\n**Khana**:\n- Food preferences respect karo\n- Texture alag do\n- Strong food contained\n- Sniff karne do pehle\n- Familiar khana\n\n**Daily**:\n- Visual schedule use karo\n- Advance warning transitions ke liye\n- Movement break do\n- Bath routine jo ho\n- Sleep sensory (firm, cool, dark)\n\n**Harkat & Fidget**:\n- Fidget tools do\n- Bouncing, swinging, jumping\n- Movement circuit ghar mein\n- Exercise ball baithne ko\n- Proprioceptive activities\n\n**Technology**:\n- Screen brightness kam karo\n- Blue light filter\n- Volume control\n- Content not overstimulating"
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_reduce_stimming:
+    - text: "Stimming (self-stimulatory behavior) is a natural way autistic people self-regulate. Most stimming is harmless and helpful. The approach should focus on:\n\n**When Reduction is Needed** (only if):\n- Stimming causes physical harm (self-injury)\n- Severely interferes with learning/function\n- Results from distress/anxiety (not joyful)\n- Socially stigmatizing the child\n\n**Strategies Instead of Elimination**:\n1. **Understand the Function**:\n   - Is it regulating sensory input?\n   - Managing anxiety or emotion?\n   - Expressing joy or excitement?\n   - Maintaining focus?\n\n2. **Redirect, Not Eliminate**:\n   - Offer alternative stims less noticeable (fidget toy vs. hand flapping)\n   - Support preferred stims in accepting environments\n   - Add more stims child likes\n\n3. **Address Root Cause**:\n   - Reduce anxiety/triggers\n   - Provide sensory outlets\n   - Improve communication\n   - Meet regulation needs\n\n4. **Socially Acceptable Alternatives**:\n   - Fidgets, stress balls, spinners\n   - Occupational activities (crafts, sports)\n   - Rhythmic activities (music, dancing)\n   - Pressure/weighted items\n\n5. **Never Force Elimination**:\n   - Removing stims increases anxiety\n   - Can lead to masking and burnout\n   - Child loses coping mechanism\n   - Alternative stims will emerge anyway\n\n**Best Approach**: Accept stimming as healthy self-regulation. Support child in finding socially comfortable outlets if needed, but allow natural stims."
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "Stimming (self-stimulatory behavior) autistic logon ke regulation ka natural tareeka hai. Zyada-tar stimming harmless aur helpful hota hai. Approach hona chahiye:\n\n**Kab Kamana Zaroori** (sirf ager):\n- Stimming se physical harm (khud ko nuqsan)\n- Bohat zyada learning/function mein dikkat\n- Anxiety/distress se (khushi nahi)\n- Social stigma\n\n**Strategies Elimination Ki Jagah**:\n1. **Function Samjho**:\n   - Sensory regulation?\n   - Anxiety manage?\n   - Joy/excitement?\n   - Focus?\n\n2. **Redirect, Ban Na Karo**:\n   - Alternative stim (fidget toy vs. hand flapping)\n   - Pasand ke stim support karo\n   - Zyada stim jo pasand ho\n\n3. **Root Cause**:\n   - Anxiety kam karo\n   - Sensory outlets do\n   - Communication behter karo\n   - Regulation zaroorat do\n\n4. **Socially Acceptable**:\n   - Fidgets, stress balls\n   - Crafts, sports\n   - Music, dancing\n   - Weighted items\n\n5. **Kabhi Force Na Karo**:\n   - Stim hatane se anxiety\n   - Masking aur burnout\n   - Coping mechanism loss\n   - Alternative stim aayega\n\n**Best**: Stimming accept karo. Socially comfortable outlets dho ager zaroori ho, lekin natural stim allow karo."
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_how:
+    - text: "This refers to the 'how' for whatever sensory or stimming question you're asking about. Common 'how' questions include:\n\n- **How to manage stimming?** (strategies, alternatives, accommodations)\n- **How to handle sensory overload?** (reduce triggers, create calm space, regulation)\n- **How to teach coping skills?** (deep breathing, movement breaks, communication)\n- **How to modify environment?** (lighting, sound, clutter, space)\n- **How to understand stimming?** (what it means, why they do it, when to support)\n- **How to communicate about sensory needs?** (visual supports, signals, requesting breaks)\n- **How to balance acceptance with safety?** (when intervention is needed, when to allow)\n\nPlease ask your specific question, and I'll provide detailed strategies and information."
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "Yeh 'how' aapke sensory ya stimming ke liye specific question ke baare mein hai. Aam 'how' questions:\n\n- **Stimming ko kaun manage kare?** (strategies, alternatives, accommodations)\n- **Sensory overload ko kaun handle kare?** (triggers kam, calm space, regulation)\n- **Coping skills kaun seekhaye?** (breathing, movement, communication)\n- **Environment kaun modify kare?** (lighting, sound, clutter, space)\n- **Stimming samjna?** (kya hai, kyon karte ho, kub support karo)\n- **Sensory needs batana?** (visual supports, signals, break requests)\n- **Acceptance aur safety?** (kub intervention, kub allow)\n\nApna specific question poochho, main detailed strategies doonga."
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_when_to_stop:
+    - text: "Determining when to stop or reduce stimming requires careful consideration:\n\n**Stimming Should Continue If**:\n- It's harmless and self-soothing (hand flapping, rocking, spinning)\n- It helps with focus, learning, or emotional regulation\n- The child finds joy or comfort in it\n- It's not causing physical harm\n- Society's discomfort shouldn't outweigh child's wellbeing\n\n**Intervention May Be Needed If**:\n- Causes physical injury (skin picking until bleeding, head banging)\n- Severely disrupts learning or social participation\n- Results from extreme distress (compulsive, harmful)\n- Is dangerous to self or others\n- Prevents accessing educational opportunities\n\n**When to Reduce (Not Eliminate)**:\n- Offer safer alternatives that serve the same function\n- Address underlying anxiety or sensory need\n- Build skills to use socially acceptable versions\n- Support in low-stress environments first\n\n**Important Points**:\n- Never eliminate stimming completely—it serves a purpose\n- Focus on function, not appearance\n- Alternative stims will naturally emerge\n- Child may mask stims, leading to anxiety/burnout\n- Acceptance + skill-building is the best approach\n- Each child's needs are different\n\n**Red Flags for Professional Help**:\n- Self-injury (repetitive, escalating)\n- Inability to engage in other activities\n- Extreme distress when prevented from stimming\n- Stimming that's worsening over time\n\n**Bottom Line**: Most stimming is healthy. Support it unless it causes genuine harm. Focus on acceptance and helping the child thrive."
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "Stimming ko kub band karna chahiye, carefully sochna padta hai:\n\n**Stimming Chalti Rahe Agar**:\n- Harmless aur soothing (hand flapping, rocking, spinning)\n- Focus, learning, regulation mein madad\n- Bachche ko khushi ya comfort\n- Kuch harm nahi\n- Society ke liye child ke wellbeing zyada zaroori\n\n**Intervention Kab**:\n- Physical injury (skin picking, head banging)\n- Learning ya social mein severe dikkat\n- Extreme distress se (compulsive, harmful)\n- Danger self/others ko\n- Education opportunities block\n\n**Kub Reduce (Ban Na Karo)**:\n- Safe alternatives jo same function ho\n- Anxiety ya sensory address karo\n- Socially acceptable skill sikhao\n- Low-stress environment pehle\n\n**Zaroori**:\n- Stimming elimination na karo—purpose hai\n- Function dekho, appearance nahi\n- Alternative stim automatically aayega\n- Child masking se anxiety/burnout\n- Acceptance + skill-building best\n- Har bachche alag\n\n**Professional Help Kab**:\n- Self-injury (repetitive, escalating)\n- Dusre activities nahi kar sakte\n- Stimming roko to extreme distress\n- Stimming worse ho raha hai\n\n**Bottom Line**: Zyada-tar stimming healthy hota hai. Support karo jab tak harm na ho. Acceptance aur child ko thrive karne do."
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_routine:
+    - text: "Establishing consistent routines helps autistic children feel secure and reduces anxiety. Keys to successful routines:\n\n**Why Routines Matter**:\n- Predictability reduces anxiety and stress\n- Clear expectations minimize confusion\n- Helps brain organize information\n- Provides security and control\n- Improves behavior and cooperation\n\n**Elements of a Good Routine**:\n- **Visual Schedules**: Pictures/text showing sequence of activities\n- **Consistent Timing**: Same times for activities daily\n- **Clear Transitions**: Warning before changes (5-10 min notice)\n- **Step-by-Step Tasks**: Break complex activities into small steps\n- **Sensory Breaks**: Built-in breaks for regulation\n- **Preferred Activities**: Include things child enjoys\n\n**Daily Routine Structure**:\n1. Morning routine (wake, breakfast, getting ready)\n2. School/work with transitions\n3. After-school/work routine\n4. Evening routine (dinner, hygiene, bed)\n5. Bedtime routine (wind-down, sleep)\n\n**Making Routines Work**:\n- Use visual reminders (pictures, timers, checklists)\n- Keep transitions calm and organized\n- Prepare for changes ahead of time\n- Celebrate successful routine completion\n- Adjust based on child's needs\n- Allow some flexibility where possible\n\n**Challenges & Solutions**:\n- Resists transitions → Give more warning time, use visual timers\n- Won't follow steps → Use visual sequence cards\n- Gets anxious with changes → Introduce changes gradually\n- Needs more time → Build in extra time, reduce rushing\n\nConsistent routines are one of the most effective strategies for autistic children."
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "Consistent routine se autistic bachche secure aur kaam bechain hote hain. Successful routine ke key:\n\n**Routine Kyun Zaroori**:\n- Predictability anxiety kam karti hai\n- Clear expectations confusion kam\n- Brain organize karte\n- Security aur control\n- Behavior behter\n\n**Routine Elements**:\n- **Visual Schedule**: Pictures/text activity sequence\n- **Consistent Time**: Same time daily\n- **Transitions**: 5-10 min pehle warning\n- **Step-by-Step**: Complex ko chhotey steps\n- **Sensory Break**: Regulation break\n- **Pasand Activity**: Child ke pasand wale\n\n**Daily Structure**:\n1. Morning (wake, breakfast, ready)\n2. School/work transitions ke saath\n3. After-school routine\n4. Evening (dinner, hygiene, bed)\n5. Bedtime (wind-down, sleep)\n\n**Routine Successful Karna**:\n- Visual reminders (pictures, timers, checklists)\n- Transitions calm rahe\n- Changes pehle se tayyari\n- Success celebrate karo\n- Child ke zaroorat ke liye adjust\n- Flexibility explore karo\n\n**Problems & Fixes**:\n- Transitions resist → Zyada warning, visual timers\n- Steps nahi chalte → Visual cards\n- Changes se anxious → Gradually introduce\n- Zyada time → Extra time build, rush nahi\n\nConsistent routine autistic bachche ke liye sabse effective strategy hai."
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_communication:
+    - text: "Communication is crucial for autistic children. Every child communicates differently. Strategies:\n\n**Communication Styles**:\n- **Verbal**: Speaking words (fluent to minimal)\n- **Non-verbal/Minimally Verbal**: Using sounds, gestures, AAC devices\n- **Echolalia**: Repeating words/phrases (can be communicative)\n- **Alternative**: AAC devices, sign language, visual supports\n\n**Supporting Communication**:\n1. **Accept Their Style**: Don't force verbal speech if non-verbal works better\n2. **Use Visuals**:\n   - Picture cards (PECS)\n   - Visual schedules\n   - Written words alongside speech\n   - Symbols and signs\n\n3. **Reduce Pressure**:\n   - Don't demand eye contact\n   - Allow processing time (wait 5-10 seconds)\n   - Don't rush responses\n   - Accept alternative communication\n\n4. **Build Skills**:\n   - Start with functional communication (requesting, rejecting)\n   - Use motivating topics\n   - Expand vocabulary gradually\n   - Model language naturally\n\n5. **AAC Devices** (if needed):\n   - Speech-generating devices\n   - Apps and tablets\n   - Picture boards\n   - Low-tech options (cards)\n\n**Communication Differences (Not Deficits)**:\n- Literal thinking (understands exact words)\n- Difficulty with idioms/sarcasm\n- Preference for written vs. verbal\n- Need for clear, direct instructions\n- Difficulty reading social cues\n\n**At Home**:\n- Give choices (A or B, not open questions)\n- Use simple, clear language\n- Give time to respond\n- Celebrate communication attempts\n- Use their preferred communication method\n\n**Remember**: Non-speaking doesn't mean non-communicating. Many non-speaking autistic people understand everything and communicate through alternative means."
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "Communication autistic bachche ke liye bohat zaroori. Har bachche alag tarah bolte hain. Strategies:\n\n**Communication Styles**:\n- **Verbal**: Bolna (fluent ya halka)\n- **Non-verbal**: Awaz, gesture, AAC\n- **Echolalia**: Lafz/phrase repeat (communicative)\n- **Alternative**: AAC, sign, visual\n\n**Communication Support**:\n1. **Unka Style Accept**:\n   - Verbal force na karo\n   - Non-verbal ok hai\n\n2. **Visuals Use**:\n   - Picture cards\n   - Visual schedule\n   - Likha aur bolna dono\n   - Symbols\n\n3. **Pressure Kam**:\n   - Eye contact na chahiye\n   - 5-10 second processing time\n   - Rush na karo\n   - Alternative communication ok\n\n4. **Skills Build**:\n   - Requesting, rejecting\n   - Interesting topics\n   - Vocabulary slowly\n   - Language naturally\n\n5. **AAC Devices**:\n   - Speech devices\n   - Apps/tablets\n   - Picture boards\n   - Low-tech cards\n\n**Communication Difference (Defect Nahi)**:\n- Literal thinking\n- Idioms samajhna mushkil\n- Likha ya bola preference\n- Clear instruction\n- Social cues samajhna mushkil\n\n**Ghar Mein**:\n- Choices do (A ya B, na open)\n- Simple language\n- Response time\n- Communication celebrate\n- Preferred method use\n\n**Yaad Rakho**: Non-speaking matlab non-communicating nahi. Bohat se non-speaking autistic samjhte hain aur alternative se bolte hain."
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_sleep:
+    - text: "Sleep issues are common in autism. Many autistic children struggle with falling asleep, staying asleep, or having irregular sleep patterns. Strategies:\n\n**Common Sleep Problems**:\n- Difficulty falling asleep (racing thoughts, anxiety)\n- Frequent night waking\n- Early morning waking\n- Irregular sleep schedule\n- Nightmares or night terrors\n- Sleep-talking or sleep-walking\n\n**Why Sleep is Difficult**:\n- Anxiety and racing thoughts\n- Difficulty with transitions (awake→sleep)\n- Sensory sensitivities (light, sound, texture)\n- Irregular melatonin production\n- Co-occurring conditions (ADHD, anxiety)\n- Medication side effects\n\n**Sleep Hygiene Strategies**:\n1. **Environment**:\n   - Dark room (blackout curtains)\n   - Cool temperature (around 65-68°F)\n   - Quiet or white noise\n   - Comfortable bedding (preferred textures)\n   - No visual stimulation\n\n2. **Bedtime Routine** (start 30-60 min before):\n   - Consistent time every night\n   - Visual bedtime schedule\n   - Calming activities (bath, music, reading)\n   - NO screens 30+ minutes before\n   - Dim lights\n   - Wind-down activities\n\n3. **During Day**:\n   - Morning sunlight exposure\n   - Physical activity\n   - Regular meal times\n   - Avoid caffeine/stimulants\n   - Limit naps or schedule them early\n\n4. **Anxiety Management**:\n   - Relaxation exercises (deep breathing)\n   - Weighted blankets\n   - Body scan meditation\n   - Calming music or white noise\n   - Comfort items (stuffed animal, pillow)\n\n**When to Seek Help**:\n- Persistent sleep problems despite routines\n- Sleep deprivation affecting behavior/learning\n- Dangerous sleep behaviors (sleep-walking)\n- Doctor may recommend melatonin or other sleep aids\n\nSleep is essential for health and behavior. Addressing sleep issues can significantly improve daytime functioning."
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "Neend ki problems autism mein aam hain. Bohat se autistic bachche sone mein dikkat, ya neend mein, ya irregular patterns. Strategies:\n\n**Aam Neend Problems**:\n- Sone mein dikkat (racing thoughts, anxiety)\n- Raat ko awakening\n- Subah jaldi uthna\n- Irregular sleep\n- Nightmares/night terrors\n- Sleep-talking/sleep-walking\n\n**Kyon Neend Mushkil**:\n- Anxiety aur racing thoughts\n- Awake→sleep transition\n- Sensory sensitivities (light, sound, texture)\n- Irregular melatonin\n- Co-occurring (ADHD, anxiety)\n- Medicine side effect\n\n**Sleep Hygiene**:\n1. **Environment**:\n   - Dark room (blackout)\n   - Cool (65-68°F)\n   - Quiet ya white noise\n   - Comfortable bedding\n   - No visual stimulation\n\n2. **Bedtime Routine** (30-60 min pehle):\n   - Same time har raat\n   - Visual schedule\n   - Calm activities (bath, music)\n   - NO screens 30+ min\n   - Dim lights\n   - Wind-down\n\n3. **Din Mein**:\n   - Morning sunlight\n   - Physical activity\n   - Regular meals\n   - No caffeine\n   - Naps early ya avoid\n\n4. **Anxiety**:\n   - Relaxation (breathing)\n   - Weighted blankets\n   - Body scan\n   - Calm music\n   - Comfort items\n\n**Doctor Kab**:\n- Sleep routine ke baad bhi problem\n- Sleep deprivation behavior/learning affect\n- Dangerous behaviors (sleep-walking)\n- Melatonin ya medicine\n\nNeend zaroori hai. Sleep fix se din behter hota hai."
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_toilet_training:
+    - text: "Toilet training autistic children requires patience, understanding, and individualized approaches. Many autistic children learn later than neurotypical peers, which is normal.\n\n**Getting Ready (Signs of Readiness)**:\n- Stays dry for 2+ hours\n- Shows interest in bathroom habits\n- Can follow simple instructions\n- Communicates bathroom needs (verbally or non-verbally)\n- Can sit on toilet briefly\n- Shows discomfort with dirty diapers\n\n**Note**: Readiness timeline varies; late readiness is common and okay.\n\n**Approaches**:\n1. **Visual Supports**:\n   - Picture sequence of steps\n   - Social stories about using toilet\n   - Visual schedule showing bathroom time\n   - Symbols for bathroom, wiping, flushing\n\n2. **Sensory Considerations**:\n   - Try different toilet seats (child-sized, soft, regular)\n   - Reduce loud flushing (use quieter toilets or delay flushing)\n   - Allow hand-washing if sensory-seeking\n   - Use preferred toilet paper texture\n   - Privacy/partial privacy may help\n\n3. **Gradual Steps**:\n   - Sitting on toilet clothed first\n   - Then without diaper\n   - Then with attempts\n   - Build from there at child's pace\n\n4. **Positive Reinforcement**:\n   - Celebrate attempts, not just success\n   - Use preferred rewards\n   - Avoid pressure or punishment\n   - Acknowledge steps forward\n\n5. **Schedule-Based**:\n   - Routine bathroom times (after meals, before bed)\n   - Consistent schedule\n   - Visual timer showing when to go\n   - Predictability reduces anxiety\n\n**Common Challenges**:\n- Resists sitting on toilet → Gradual introduction, comfort modifications\n- Afraid of flushing → Don't flush during use, flush later\n- Constipation → Common in autism, consult doctor\n- Regression → Common; be patient, don't punish\n- Takes months/years → Completely normal\n\n**Remember**: Every child is different. Night training often comes later than day training. Patience and positive approach are key."
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "Toilet training autistic bachche ko sabar, samajh, aur individual approach chahiye. Bohat se autistic jaldi train nahi hote, jo normal hai.\n\n**Ready Signs**:\n- 2+ hours dry\n- Bathroom interest\n- Simple instructions follow\n- Bathroom communicate (verbal/non-verbal)\n- Toilet sit kar sakte\n- Dirty diaper discomfort\n\n**Note**: Late readiness normal aur ok hai.\n\n**Approaches**:\n1. **Visual Supports**:\n   - Picture steps\n   - Social stories\n   - Visual schedule\n   - Symbols\n\n2. **Sensory**:\n   - Different toilet seats\n   - Quiet flush (ya later)\n   - Hand-washing ok\n   - Preferred tissue\n   - Privacy help kar sakti hai\n\n3. **Gradual**:\n   - Clothed baithna pehle\n   - Diaper bina\n   - Attempts\n   - Child ke pace par\n\n4. **Positive**:\n   - Attempts celebrate (success nahi)\n   - Preferred rewards\n   - Pressure/punishment nahi\n   - Steps acknowledge\n\n5. **Schedule**:\n   - Routine times (meals, bed)\n   - Consistent\n   - Visual timer\n   - Predictability\n\n**Challenges**:\n- Toilet resist → Gradual, comfort changes\n- Flush fear → Later flush\n- Constipation → Common, doctor check\n- Regression → Common, sabar\n- Months/years → Normal\n\n**Yaad Rakho**: Har bachcha alag. Night training late. Sabar aur positive zaroori."
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_screen_time:
+    - text: "Managing screen time for autistic children requires balance. Technology can be helpful, but excessive use can impact development and behavior.\n\n**Screen Time Guidelines**:\n- **Under 2 years**: Avoid screens; prioritize face-to-face interaction\n- **2-5 years**: Maximum 1 hour per day of quality programming\n- **6+ years**: Set consistent limits; balance with other activities\n- **Quality matters more than quantity**: Educational vs. passive content differs\n\n**Benefits of Technology**:\n- AAC apps for communication\n- Educational programs (matched to level)\n- Skill-building apps (games, learning)\n- Social connection (video calls, online communities)\n- Regulation tool (calming videos, music)\n- Special interests exploration\n\n**Risks of Excessive Screen Time**:\n- Reduced physical activity\n- Sleep disruption\n- Eye strain and vision issues\n- Reduced social interaction\n- Over-reliance on screens for regulation\n- Behavioral issues from overstimulation\n- Addiction-like patterns\n\n**Healthy Screen Time Practices**:\n1. **Set Limits**:\n   - Clear daily limits\n   - Visual timer showing when time ends\n   - Advance warning before ending\n   - Consistent rules\n\n2. **Choose Quality Content**:\n   - Educational programs\n   - Apps aligned with interests\n   - AAC and skill-building tools\n   - Appropriate for child's level\n\n3. **Reduce Eye Strain**:\n   - 20-20-20 rule (every 20 min, look 20 ft away, 20 seconds)\n   - Screen brightness adjustment\n   - Blue light filters\n   - Appropriate distance\n\n4. **Balanced Day**:\n   - Physical activity (30+ min)\n   - Outdoor time\n   - Social interaction\n   - Creative play\n   - Sleep priority\n\n5. **NO Screens Before Bed**:\n   - Avoid 30-60 minutes before sleep\n   - Disrupts sleep quality\n   - Blue light affects melatonin\n   - Calming activities instead\n\n**Alternative Activities**:\n- Outdoor play and exercise\n- Creative activities (art, music, building)\n- Social interaction (structured or free)\n- Reading (books, visual stories)\n- Hands-on learning\n- Physical therapy activities\n\n**When Screens are Helpful**:\n- Communication (AAC apps)\n- Learning (educational, matched to level)\n- Regulation (calming content, limited)\n- Connection (video calls with loved ones)\n- Special interests (exploration, learning)\n\nModeration and intentional use is key. Technology can be a tool, not a replacement for interaction and development."
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "Screen time manage karna autistic bachche ke liye zaroori. Technology help kar sakti hai, lekin zyada use development aur behavior affect karti hai.\n\n**Screen Time Guidelines**:\n- **2 saal se pehle**: Screens avoid, face-to-face priority\n- **2-5 saal**: 1 hour quality programming\n- **6+ saal**: Consistent limits, balanced activities\n- **Quality important**: Educational vs. passive farq\n\n**Technology Benefits**:\n- AAC apps\n- Educational programs\n- Skill-building apps\n- Social connection\n- Regulation tool\n- Special interests\n\n**Excessive Risks**:\n- Physical activity kam\n- Sleep disruption\n- Eye strain\n- Social interaction kam\n- Screen par depend\n- Overstimulation behavior\n- Addiction pattern\n\n**Healthy Practices**:\n1. **Limits Set**:\n   - Daily limits clear\n   - Visual timer\n   - Warning pehle\n   - Consistent\n\n2. **Quality Content**:\n   - Educational\n   - Interest-aligned\n   - AAC tools\n   - Appropriate level\n\n3. **Eye Care**:\n   - 20-20-20 rule\n   - Brightness adjust\n   - Blue light filter\n   - Distance\n\n4. **Balanced Day**:\n   - Physical activity\n   - Outdoor time\n   - Social time\n   - Creative play\n   - Sleep priority\n\n5. **NO Screens Before Bed**:\n   - 30-60 min pehle avoid\n   - Sleep affect\n   - Melatonin issue\n   - Calm activities instead\n\n**Alternative Activities**:\n- Outdoor play\n- Creative (art, music, building)\n- Social interaction\n- Reading\n- Hands-on learning\n- Physical activities\n\n**Screen Help Kab**:\n- Communication (AAC)\n- Learning (educational)\n- Regulation (calm, limited)\n- Connection (video calls)\n- Special interests\n\nModeration zaroori. Tool, replacement nahi."
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_meltdowns:
+    - text: "Meltdowns are intense emotional/behavioral responses to overwhelming situations. Different from tantrums, they're not attention-seeking but a sign of distress/overload.\n\n**Meltdown vs. Tantrum**:\n- **Meltdown**: Response to overload (sensory, emotional, social); involuntary; genuine distress\n- **Tantrum**: Attention-seeking; manipulative; can stop when getting attention\n\n**Common Triggers**:\n- Sensory overload (loud, crowded, bright)\n- Unexpected changes to routine\n- Difficulty communicating needs\n- Fatigue or low blood sugar\n- Social stress or misunderstanding\n- Transition between activities\n- Too many demands at once\n\n**Warning Signs**:\n- Increased stimming\n- Pacing or restlessness\n- Covering ears\n- Avoiding eye contact\n- Verbal hints (\"too loud\", \"can't do it\")\n- Physical tension\n- Withdrawal or shutdown\n\n**Prevention Strategies**:\n1. **Reduce Triggers**:\n   - Limit sensory overload\n   - Maintain predictable routines\n   - Give advance warning of changes\n   - Allow breaks\n   - Meet communication needs\n\n2. **Recognize Early Signs**:\n   - Watch for warning behaviors\n   - Act early when possible\n   - Remove child from triggering situation\n   - Offer calming strategies\n\n3. **Stress Management**:\n   - Teach self-regulation techniques\n   - Provide calm-down tools\n   - Schedule sensory breaks\n   - Build in downtime\n\n**During a Meltdown**:\n- **Safety First**: Ensure child and others are safe\n- **Remove Triggers**: Get away from overwhelming situation if possible\n- **Don't Force Interaction**: Give space; forced comfort may escalate\n- **Stay Calm**: Your calmness helps them regulate\n- **Use Calm Language**: Quiet, slow, simple statements\n- **Offer Options**: \"Quiet corner?\", \"Fidget?\", \"Water?\" (if child is receptive)\n- **Let it Pass**: Meltdowns end; forcing it doesn't help\n- **Avoid Punishment**: Not a behavior choice; child is not in control\n\n**After the Meltdown**:\n- **Stay Calm**: No lectures or punishment\n- **Comfort if Welcomed**: Some need comfort, others need space\n- **Reflect Later**: When calm, discuss what triggered it\n- **Plan Prevention**: Adjust routines/strategies to prevent similar situations\n- **Normalize**: Reassure child that meltdowns happen\n\n**Long-Term Strategies**:\n- Identify specific triggers\n- Develop sensory toolbox\n- Teach communication of needs\n- Create safe spaces\n- Build coping skills\n- Address underlying anxiety/sensory issues\n\n**Remember**: Meltdowns are not behavior problems. They're signs your child is overwhelmed and needs support, not punishment."
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "Meltdown intense emotional/behavioral response overwhelming situation ko. Tantrum se alag, ye attention-seeking nahi, distress/overload ka sign hai.\n\n**Meltdown vs. Tantrum**:\n- **Meltdown**: Overload response (sensory, emotional, social); involuntary; genuine distress\n- **Tantrum**: Attention-seeking; manipulative; attention se ruk sakte\n\n**Triggers**:\n- Sensory overload (loud, crowded, bright)\n- Unexpected change\n- Communication difficulty\n- Fatigue/low blood sugar\n- Social stress\n- Transition\n- Zyada demands\n\n**Warning Signs**:\n- Increased stimming\n- Pacing/restlessness\n- Ears cover\n- Eye contact avoid\n- Verbal hints\n- Physical tension\n- Withdrawal/shutdown\n\n**Prevention**:\n1. **Triggers Kam**:\n   - Sensory limit\n   - Routine predictable\n   - Changes warning de\n   - Breaks allow\n   - Communication meet\n\n2. **Early Signs**:\n   - Warning behaviors dekho\n   - Early action\n   - Overload situation se door\n   - Calm strategies\n\n3. **Stress**:\n   - Self-regulation teach\n   - Calm tools\n   - Sensory breaks\n   - Downtime\n\n**Meltdown Ke Dauran**:\n- **Safety**: Safe ensure\n- **Triggers Nikalo**: Overwhelming se dur\n- **Force Interaction Na**: Space do\n- **Calm Rahe**: Tumhara calm help karti hai\n- **Calm Language**: Quiet, slow, simple\n- **Options**: \"Quiet corner?\", \"Fidget?\"\n- **Let Pass**: Meltdown ends, force nahi\n- **Punishment Na**: Behavior choice nahi\n\n**Baad Mein**:\n- **Calm**: No lectures/punishment\n- **Comfort**: Space ya comfort, dono\n- **Reflect**: Calm hone par discuss\n- **Plan**: Similar situations prevent\n- **Normalize**: Reassure meltdowns happen\n\n**Long-Term**:\n- Triggers identify\n- Sensory toolbox\n- Communication needs\n- Safe spaces\n- Coping skills\n- Anxiety/sensory address\n\n**Yaad Rakho**: Meltdown behavior problem nahi. Overload aur support ki zaroorat ka sign. Punishment nahi."
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_parents:
+    - text: "Parents of autistic children often face unique challenges and need support. Key information for parents:\n\n**Understanding Your Role**:\n- You are advocates for your child\n- Self-care is essential for sustainable parenting\n- Every autistic child is unique; what works varies\n- Progress looks different; celebrate small wins\n- Your feelings (grief, frustration, hope) are valid\n\n**Parenting Challenges**:\n- Continuous advocacy and care\n- Emotional exhaustion and burnout\n- Financial stress (therapy costs, accommodations)\n- Social isolation (fewer friends, support networks)\n- Balancing needs of other children\n- Grief about lost expectations\n- Feeling blamed or misunderstood by society\n\n**Core Parenting Strategies**:\n1. **Accept Your Child**: Embrace autism as part of them; don't fight the diagnosis\n2. **Learn Their Communication Style**: Every child communicates differently\n3. **Reduce Demands**: Quality over quantity; focus on functional skills\n4. **Create Predictability**: Routines reduce anxiety for everyone\n5. **Celebrate Differences**: Autism brings unique perspectives and gifts\n6. **Build Your Support Network**: Other parents, professionals, community resources\n7. **Take Care of Yourself**: Burned-out parents can't care effectively\n8. **Set Realistic Expectations**: Progress is individual; avoid comparisons\n\n**Resources for Parents**:\n- Other parent support groups\n- Professional counseling\n- Respite care\n- Educational resources\n- Online communities\n- Local special education services\n- Financial assistance programs\n\n**Remember**: You don't need to be perfect. You need to be present, patient, and willing to learn alongside your child. Many parents thrive and raise thriving autistic children with the right support."
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "Autistic bachche ke parents ko unique challenges aur support zaroori hoti hai. Key information:\n\n**Apka Role**:\n- Aap advocate ho apke bachche ke liye\n- Self-care essential hai sustainable parenting ke liye\n- Har autistic alag; kya ho sakta hai varies\n- Progress alag tarah dikhti hai; small wins celebrate\n- Apke feelings (grief, frustration, hope) valid hain\n\n**Parenting Challenges**:\n- Continuous advocacy aur care\n- Emotional exhaustion aur burnout\n- Financial stress (therapy, accommodations)\n- Social isolation\n- Other children ke needs\n- Grief expectations ka\n- Society se blame\n\n**Core Strategies**:\n1. **Accept**: Autism accept, fight nahi\n2. **Communication Learn**: Alag tarah bolte\n3. **Demands Kam**: Quality over quantity\n4. **Routine**: Predictability anxiety kam\n5. **Differences Celebrate**: Unique perspectives\n6. **Support Network**: Parents, professionals\n7. **Self-Care**: Burnout stop karna zaroori\n8. **Realistic Expectations**: Individual progress\n\n**Resources**:\n- Parent support groups\n- Counseling\n- Respite care\n- Educational resources\n- Online communities\n- Special education services\n- Financial assistance\n\n**Yaad Rakho**: Perfect hone ki zaroorat nahi. Present, patient, aur learn karte rahe. Bohat se parents thrive karte hain apne autistic bachche ke saath."
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_coping:
+    - text: "Coping with autism diagnosis and daily challenges requires strategies and support:\n\n**Healthy Coping Strategies**:\n1. **Acceptance**:\n   - Grieve what you expected, then accept what is\n   - Separating your child from the diagnosis\n   - Recognizing autism as neurological difference, not tragedy\n   - Finding meaning in the journey\n\n2. **Stress Management**:\n   - Regular breaks and respite care\n   - Exercise and physical activity\n   - Mindfulness or meditation\n   - Sleep and nutrition\n   - Hobbies and personal interests\n   - Time away from caregiving\n\n3. **Social Support**:\n   - Connect with other parents\n   - Support groups (in-person and online)\n   - Family therapy or counseling\n   - Professional mental health support\n   - Friends who understand\n   - Community resources\n\n4. **Practical Solutions**:\n   - Breaking tasks into manageable pieces\n   - Creating systems and routines\n   - Delegating when possible\n   - Using technology and apps\n   - Seeking professional help\n   - Accessing accommodations/services\n\n5. **Mindset Shifts**:\n   - Focus on abilities, not limitations\n   - Celebrate small progress\n   - Reframe challenges as opportunities\n   - Find joy in unexpected places\n   - Practice gratitude\n   - Release perfectionism\n\n**Avoiding Unhealthy Coping**:\n- Substance abuse\n- Isolation from support\n- Ignoring your own health\n- Comparing your child to others\n- Blaming yourself\n- Giving up on support\n\n**When to Seek Professional Help**:\n- Persistent depression or anxiety\n- Feeling overwhelmed constantly\n- Thoughts of self-harm\n- Family relationships deteriorating\n- Unable to function in daily life\n\n**Long-Term Resilience**:\n- Building a sustainable routine\n- Maintaining physical/mental health\n- Nurturing relationships\n- Continuing to learn and adapt\n- Finding community and connection\n- Allowing yourself to feel all emotions\n\nCoping is an ongoing process, not a destination. With proper support, families can not only survive but thrive."
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "Autism diagnosis aur daily challenges se coping ke liye strategies aur support zaroori hai:\n\n**Healthy Coping**:\n1. **Acceptance**:\n   - Grieve expected, accept actual\n   - Child aur diagnosis alag\n   - Autism neurological difference, tragedy nahi\n   - Journey mein meaning\n\n2. **Stress Management**:\n   - Regular breaks\n   - Exercise\n   - Meditation\n   - Sleep aur nutrition\n   - Hobbies\n   - Personal time\n\n3. **Social Support**:\n   - Other parents\n   - Support groups\n   - Family therapy\n   - Mental health support\n   - Understanding friends\n   - Community\n\n4. **Practical**:\n   - Tasks break\n   - Systems banao\n   - Delegate karo\n   - Technology use\n   - Professional help\n   - Accommodations\n\n5. **Mindset**:\n   - Abilities focus\n   - Progress celebrate\n   - Challenges opportunities\n   - Joy find\n   - Gratitude\n   - Perfectionism release\n\n**Unhealthy Avoid**:\n- Substance abuse\n- Isolation\n- Own health ignore\n- Comparison\n- Self-blame\n- Support abandon\n\n**Professional Help Kab**:\n- Depression/anxiety\n- Overwhelmed constant\n- Self-harm thoughts\n- Family relationships\n- Daily life difficult\n\n**Long-Term Resilience**:\n- Sustainable routine\n- Physical/mental health\n- Relationships nurture\n- Learn aur adapt\n- Community\n- Emotions allow\n\nCoping ongoing process, destination nahi. Proper support se families thrive kar sakte."
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_family:
+    - text: "Autism affects the whole family, not just the diagnosed child. Understanding family dynamics helps everyone cope:\n\n**Impact on Family**:\n1. **Parents**: Stress, grief, advocacy burden, financial pressure, emotional exhaustion\n2. **Siblings**: Jealousy, resentment, feeling neglected, pride, empathy, caregiving responsibility\n3. **Extended Family**: Confusion, judgment, lack of understanding, varying levels of support\n4. **Relationships**: Strain on marriage, sibling relationships, extended family connections\n5. **Finances**: Therapy costs, special needs accommodations, lost income from caregiving\n\n**Family Strategies**:\n1. **Communication**:\n   - Explain autism to all family members\n   - Set expectations clearly\n   - Allow all members to express feelings\n   - Family meetings for problem-solving\n\n2. **Balance**:\n   - Don't neglect other children's needs\n   - Allocate quality time for each relationship\n   - Include autistic child in family activities\n   - Create meaningful traditions\n\n3. **Support**:\n   - Family counseling/therapy\n   - Sibling support groups\n   - Respite care for parents\n   - Extended family education\n   - Professional resources\n\n4. **Acceptance**:\n   - Help family understand autism\n   - Combat myths and stigma\n   - Celebrate autistic family member\n   - Model acceptance for children\n\n5. **Coping**:\n   - Individual support for each member\n   - Stress management activities\n   - Celebrating wins together\n   - Normalizing challenges\n\n**For Siblings**:\n- Acknowledge their sacrifice\n- Provide separate quality time\n- Allow caregiving to be voluntary\n- Include them in decision-making\n- Validate their feelings\n- Support their friendships\n\n**Extended Family**:\n- Educate about autism\n- Invite appropriate participation\n- Set boundaries on criticism\n- Accept they may not understand\n- Find roles where they can help\n\n**Marriage/Partner Relationship**:\n- Regular communication\n- Parenting partnership\n- Maintain connection\n- Individual/couples therapy\n- Shared decision-making\n- Supporting each other's wellbeing\n\nAutism is a family journey, not individual. When all members are supported, the whole family can thrive."
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "Autism pura family ko affect karti hai, sirf diagnosed child nahi. Family dynamics samjhna sabko help karti hai:\n\n**Impact**:\n1. **Parents**: Stress, grief, advocacy, financial, exhaustion\n2. **Siblings**: Jealousy, resentment, neglect feel, pride, empathy, care responsibility\n3. **Extended**: Confusion, judgment, lack understanding, varying support\n4. **Relationships**: Marriage strain, sibling, family connections\n5. **Finances**: Therapy, accommodations, lost income\n\n**Family Strategies**:\n1. **Communication**:\n   - Autism explain\n   - Expectations clear\n   - Feelings express\n   - Family meetings\n\n2. **Balance**:\n   - Other children's needs\n   - Quality time sabko\n   - Autistic child family activities\n   - Family traditions\n\n3. **Support**:\n   - Family counseling\n   - Sibling groups\n   - Respite care\n   - Family education\n   - Resources\n\n4. **Acceptance**:\n   - Autism understand\n   - Myths combat\n   - Celebrate member\n   - Model acceptance\n\n5. **Coping**:\n   - Individual support\n   - Stress management\n   - Wins celebrate\n   - Challenges normalize\n\n**Siblings**:\n- Sacrifice acknowledge\n- Quality time separate\n- Care voluntary\n- Decision-making include\n- Feelings validate\n- Friendships support\n\n**Extended Family**:\n- Autism educate\n- Participation invite\n- Criticism boundaries\n- Accept understanding nahi\n- Help roles\n\n**Marriage/Partner**:\n- Communication regular\n- Parenting partnership\n- Connection maintain\n- Therapy individual/couples\n- Decision-making shared\n- Wellbeing support\n\nAutism family journey, individual nahi. Sab members supported ho to family thrive kar sakte."
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_stress_management:
+    - text: "Managing stress related to autism is essential for parent wellbeing and family health. Strategies:\n\n**Understanding Autism-Related Stress**:\n- Continuous advocacy and problem-solving\n- Financial pressures\n- Social stigma and judgment\n- Uncertainty about the future\n- Grief and loss of expectations\n- Sleep deprivation from caregiving\n- Isolation from social life\n- Constant decision-making\n\n**Daily Stress Management**:\n1. **Physical**:\n   - Exercise (30+ minutes daily)\n   - Sleep (prioritize 7-9 hours)\n   - Nutrition (regular meals, balanced diet)\n   - Reduce caffeine/alcohol\n   - Regular breaks\n\n2. **Mental/Emotional**:\n   - Meditation or mindfulness\n   - Deep breathing exercises\n   - Journaling\n   - Therapy or counseling\n   - Cognitive reframing\n   - Gratitude practice\n\n3. **Social**:\n   - Connect with other parents\n   - Maintain friendships\n   - Support groups\n   - Professional help\n   - Family communication\n   - Community involvement\n\n4. **Practical**:\n   - Create realistic routines\n   - Delegate tasks\n   - Use respite care\n   - Simplify systems\n   - Seek professional help\n   - Set boundaries\n\n5. **Personal**:\n   - Hobbies and interests\n   - Alone time\n   - Self-compassion\n   - Celebrate wins\n   - Release perfectionism\n   - Do what brings joy\n\n**Stress Reduction Techniques**:\n- **5-Minute Breaks**: Step away, breathe, reset\n- **Movement**: Walking, yoga, dancing, stretching\n- **Creativity**: Art, music, writing, crafts\n- **Nature**: Outdoor time, gardening, plants\n- **Connection**: Calls with friends, pets, family\n- **Laughter**: Comedy, funny videos, humor\n- **Mindfulness**: Meditation, breathing, body scan\n\n**Warning Signs of Burnout**:\n- Constant exhaustion\n- Irritability or anger\n- Withdrawal from others\n- Neglecting own health\n- Loss of joy/motivation\n- Difficulty concentrating\n- Physical symptoms (headaches, sleep issues)\n- Thoughts of giving up\n\n**When to Get Professional Help**:\n- Persistent anxiety or depression\n- Unable to manage daily stress\n- Thoughts of self-harm\n- Substance abuse developing\n- Family relationships breaking down\n- Unable to function\n\n**Long-Term Stress Prevention**:\n- Build sustainable routines\n- Maintain social connections\n- Regular self-care\n- Professional support when needed\n- Realistic expectations\n- Strong support network\n- Finding meaning in caregiving\n- Celebrating progress\n\n**Remember**: Stress management is not selfish; it's essential. When you take care of yourself, you can better care for your child and family. Seeking help is a sign of strength, not weakness."
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "Autism se related stress manage karna essential hai parent wellbeing aur family health ke liye. Strategies:\n\n**Autism-Related Stress**:\n- Continuous advocacy\n- Financial pressure\n- Social stigma\n- Future uncertainty\n- Grief aur loss\n- Sleep deprivation\n- Isolation\n- Constant decisions\n\n**Daily Stress Management**:\n1. **Physical**:\n   - Exercise (30+ min)\n   - Sleep (7-9 hours)\n   - Nutrition (balanced)\n   - Caffeine/alcohol kam\n   - Regular breaks\n\n2. **Mental/Emotional**:\n   - Meditation\n   - Breathing exercises\n   - Journaling\n   - Therapy\n   - Reframing\n   - Gratitude\n\n3. **Social**:\n   - Other parents\n   - Friendships maintain\n   - Support groups\n   - Professional help\n   - Family communication\n   - Community\n\n4. **Practical**:\n   - Realistic routines\n   - Delegate\n   - Respite care\n   - Simplify\n   - Professional help\n   - Boundaries\n\n5. **Personal**:\n   - Hobbies\n   - Alone time\n   - Self-compassion\n   - Wins celebrate\n   - Perfectionism release\n   - Joy do\n\n**Stress Reduction**:\n- **5-Minute Breaks**: Away, breathe, reset\n- **Movement**: Walking, yoga, dancing\n- **Creativity**: Art, music, writing\n- **Nature**: Outdoor, gardening\n- **Connection**: Friends, pets, family\n- **Laughter**: Comedy, funny videos\n- **Mindfulness**: Meditation, breathing\n\n**Burnout Signs**:\n- Constant exhaustion\n- Irritability\n- Withdrawal\n- Own health neglect\n- Joy loss\n- Concentration difficulty\n- Physical symptoms\n- Giving up thoughts\n\n**Professional Help Kab**:\n- Anxiety/depression\n- Daily stress manage nahi kar sakte\n- Self-harm thoughts\n- Substance abuse\n- Family relationships\n- Daily function difficulty\n\n**Long-Term Prevention**:\n- Sustainable routines\n- Social connections\n- Regular self-care\n- Professional support\n- Realistic expectations\n- Strong network\n- Meaning finding\n- Progress celebrating\n\n**Yaad Rakho**: Stress management selfish nahi; essential hai. Apne care se aap apne bachche ko better care de sakte. Help lena strength hai, weakness nahi."
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_friendship:
+    - text: "Friendship is important for social development and emotional wellbeing in autistic individuals:\n\n**Understanding Friendship in Autism**:\n- Autistic individuals often struggle with unwritten social rules\n- May prefer deep, focused interests over surface-level socializing\n- Can have intense, loyal friendships once established\n- Often face isolation or exclusion from peers\n- May have difficulty initiating social interaction\n- Can struggle with reciprocity (give-and-take in relationships)\n- May find unstructured social situations overwhelming\n\n**Challenges with Friendships**:\n- Difficulty reading social cues and body language\n- Trouble understanding friendship expectations\n- Anxiety in social situations\n- Difficulty with turn-taking in conversations\n- Misinterpreting peers' intentions\n- Sensory sensitivities affecting social participation\n- Difficulty maintaining friendships over time\n- Peer rejection or bullying\n\n**Building Friendships**:\n1. **Finding Like-Minded Peers**:\n   - Look for people with shared interests\n   - Join clubs or groups (sports, gaming, academics, hobbies)\n   - Online communities with shared interests\n   - School activities or classes\n   - Structured social groups\n   - Autism support communities\n\n2. **Initiating Friendship**:\n   - Start with shared activities\n   - Be direct about your interest in friendship\n   - Prepare conversation topics\n   - Ask questions about their interests\n   - Use scripts or templates initially\n   - Accept that friendships develop differently\n\n3. **Maintaining Friendships**:\n   - Schedule regular contact\n   - Show genuine interest\n   - Be loyal and reliable\n   - Communicate expectations clearly\n   - Set reasonable boundaries\n   - Be honest and direct\n   - Make effort consistently\n\n**Social Support**:\n- Friends who understand and accept autism\n- Mentors or buddy systems\n- Social skills groups\n- Online friendships as alternatives\n- Professional support for social anxiety\n- Family support for social development\n\n**Healthy Friendships for Autistic People**:\n- Based on genuine shared interests\n- Clear, direct communication\n- Acceptance of differences\n- Mutual respect and support\n- Low-pressure environments\n- Opportunities for one-on-one interaction\n- Respect for sensory needs\n\nMany autistic individuals develop meaningful, lasting friendships when they find accepting communities and people who value their loyalty and authenticity."
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "Friendship autistic individuals ke liye important hai social development aur emotional wellbeing ke liye:\n\n**Understanding Friendship in Autism**:\n- Autistic log unwritten rules se struggle karte\n- Deep, focused interests prefer kar sakte\n- Intense, loyal friendships develop kar sakte\n- Aksar isolation ya exclusion face karte\n- Social interaction initiate karna mushkil\n- Reciprocity mein difficulty\n- Unstructured situations overwhelming\n\n**Friendship Challenges**:\n- Social cues samajhna\n- Friendship expectations\n- Social anxiety\n- Turn-taking conversations\n- Intentions misinterpret\n- Sensory sensitivities\n- Friendship maintain karna\n- Peer rejection/bullying\n\n**Friendships Building**:\n1. **Like-Minded Peers Find**:\n   - Shared interests\n   - Clubs/groups join\n   - Online communities\n   - School activities\n   - Structured social groups\n   - Autism communities\n\n2. **Friendship Initiate**:\n   - Shared activities start\n   - Direct hona\n   - Topics prepare\n   - Questions pucho\n   - Scripts use initially\n   - Different development accept\n\n3. **Maintain Friendships**:\n   - Regular contact schedule\n   - Genuine interest show\n   - Loyal aur reliable\n   - Clear expectations\n   - Boundaries set\n   - Honest aur direct\n   - Consistent effort\n\n**Social Support**:\n- Understanding friends\n- Mentors/buddy systems\n- Social skills groups\n- Online friendships\n- Anxiety professional support\n- Family support\n\n**Healthy Friendships**:\n- Genuine shared interests\n- Clear, direct communication\n- Acceptance of differences\n- Mutual respect\n- Low-pressure\n- One-on-one interaction\n- Sensory respect\n\nBohat se autistic individuals meaningful, lasting friendships develop karte hain accepting communities mein."
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_social_skills:
+    - text: "Social skills development is important for autistic individuals of all ages:\n\n**Understanding Social Skills in Autism**:\n- Social interaction doesn't come naturally to many autistic people\n- Social skills are learned behaviors, not instincts\n- Can be taught explicitly and practiced\n- Masking (pretending to be neurotypical) is exhausting\n- Authentic autistic social skills may differ from neurotypical norms\n- Technology can support social skill development\n\n**Common Social Challenges**:\n- Eye contact and nonverbal communication\n- Understanding others' emotions and intentions\n- Taking turns in conversation\n- Initiating and maintaining conversations\n- Understanding social hierarchies and dynamics\n- Responding appropriately to social cues\n- Managing anxiety in social situations\n- Understanding jokes, sarcasm, idioms\n\n**Teaching Social Skills**:\n1. **Explicit Instruction**:\n   - Break down social interactions into steps\n   - Use direct teaching methods\n   - Provide examples and counterexamples\n   - Practice specific situations\n   - Video modeling\n   - Role-playing practice\n\n2. **Practical Strategies**:\n   - Social stories and scripts\n   - Visual supports and cue cards\n   - Conversation starters and templates\n   - Scheduled social practice\n   - Comfortable, familiar settings\n   - Gradual exposure to new situations\n\n3. **Structured Practice**:\n   - One-on-one coaching\n   - Small group activities\n   - Organized clubs with shared interests\n   - Peer modeling\n   - Professional social skills training\n   - Therapy with autism-informed therapists\n\n**Acceptance-Based Approach**:\n- Recognize autistic social styles are valid\n- Don't force neurotypical social norms\n- Build on natural strengths\n- Support authentic self-expression\n- Reduce pressure to \"fit in\"\n- Create accepting environments\n\n**Helpful Tools**:\n- Social skills groups and programs\n- Therapy (speech, occupational, psychology)\n- Online social practice platforms\n- Books and guides on social understanding\n- Mentorship and peer support\n- Technology and communication apps\n\n**Real-World Application**:\n- Practice in actual social settings\n- Generalize skills across contexts\n- Adjust for different social situations\n- Build confidence gradually\n- Celebrate progress\n- Provide consistent support\n\nSocial skills can be developed and improved with appropriate support, practice, and acceptance of autistic communication styles."
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "Social skills development autistic individuals ke liye important hai sabhi ages mein:\n\n**Understanding Social Skills**:\n- Autistic log naturally social interaction nahi karte\n- Social skills learned behaviors hain\n- Explicitly teach aur practice kar sakte\n- Masking exhausting hai\n- Autistic social styles valid hain\n- Technology help kar sakti hai\n\n**Common Challenges**:\n- Eye contact aur nonverbal\n- Others emotions samjhna\n- Turn-taking conversations\n- Conversations initiate/maintain\n- Social hierarchies\n- Social cues respond\n- Social anxiety\n- Jokes, sarcasm, idioms\n\n**Teaching Social Skills**:\n1. **Explicit Instruction**:\n   - Interactions break down\n   - Direct teaching\n   - Examples provide\n   - Situations practice\n   - Video modeling\n   - Role-playing\n\n2. **Practical Strategies**:\n   - Social stories/scripts\n   - Visual supports\n   - Conversation templates\n   - Scheduled practice\n   - Comfortable settings\n   - Gradual exposure\n\n3. **Structured Practice**:\n   - One-on-one coaching\n   - Small group activities\n   - Clubs shared interests\n   - Peer modeling\n   - Professional training\n   - Autism-informed therapy\n\n**Acceptance-Based**:\n- Autistic styles valid\n- Neurotypical forcing mat karo\n- Natural strengths build\n- Authentic expression\n- Fit in pressure reduce\n- Accepting environments\n\n**Helpful Tools**:\n- Social skills groups\n- Therapy (speech, OT, psychology)\n- Online platforms\n- Books aur guides\n- Mentorship\n- Technology apps\n\n**Real-World**:\n- Actual settings practice\n- Skills generalize\n- Different contexts adjust\n- Confidence gradually\n- Progress celebrate\n- Consistent support\n\nSocial skills develop kar sakte hain appropriate support aur autistic styles se."
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_emotions:
+    - text: "Understanding and managing emotions is crucial for autistic individuals:\n\n**Emotional Experiences in Autism**:\n- Autistic people experience emotions intensely\n- May have difficulty identifying emotions (alexithymia)\n- Can feel emotions before conscious recognition\n- May struggle to communicate emotional needs\n- Often misunderstood as emotionally detached (they're not)\n- Sensory input affects emotional state\n- Meltdowns are emotional overload, not tantrums\n- Need support identifying and expressing feelings\n\n**Understanding Emotions**:\n1. **Emotional Identification**:\n   - Learning to recognize emotion signals\n   - Understanding the physical symptoms\n   - Identifying triggers\n   - Recognizing patterns\n   - Building emotional vocabulary\n   - Using emotion charts/scales\n\n2. **Emotional Regulation**:\n   - Recognizing when overwhelmed\n   - Using coping strategies\n   - Taking sensory breaks\n   - Deep breathing exercises\n   - Movement and physical activity\n   - Safe spaces for decompression\n   - Asking for support\n\n3. **Common Emotional Challenges**:\n   - Intense anxiety and worry\n   - Rapid mood shifts\n   - Emotional flooding\n   - Difficulty with transitions\n   - Sensitive to criticism\n   - Fear of failure or perfectionism\n   - Social anxiety\n\n**Managing Emotions**:\n- **Sensory Strategies**: Quiet spaces, music, fidgets, weighted items\n- **Movement**: Exercise, dancing, stretching, yoga\n- **Creativity**: Art, writing, music as emotional expression\n- **Routine**: Predictability reduces emotional stress\n- **Communication**: Clear, direct conversations about feelings\n- **Support**: Understanding family, friends, therapists\n- **Validation**: Recognize emotions are real and valid\n\n**Supporting Emotional Health**:\n- Therapy with autism-informed professionals\n- Emotion regulation skills training\n- Mindfulness and meditation practices\n- Identifying safe people and places\n- Building coping skill toolkit\n- Regular self-care activities\n- Professional mental health support when needed\n\nEmotions are valid and manageable with proper support and self-understanding."
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "Understanding aur managing emotions autistic individuals ke liye crucial hai:\n\n**Emotional Experiences**:\n- Autistic log intensely feel karte\n- Emotions identify karna mushkil (alexithymia)\n- Feel karte hain conscious recognition se pehle\n- Emotional needs communicate karna tough\n- Emotionally detached nahi hote\n- Sensory input affect karti hai emotions\n- Meltdowns emotional overload\n- Feelings identify/express support chahiye\n\n**Understanding Emotions**:\n1. **Identification**:\n   - Emotion signals recognize\n   - Physical symptoms samjho\n   - Triggers identify\n   - Patterns recognize\n   - Emotional vocabulary build\n   - Emotion charts use\n\n2. **Regulation**:\n   - Overwhelm recognize\n   - Coping strategies\n   - Sensory breaks\n   - Breathing exercises\n   - Movement/exercise\n   - Safe spaces\n   - Support ask\n\n3. **Challenges**:\n   - Intense anxiety\n   - Mood shifts\n   - Emotional flooding\n   - Transitions\n   - Criticism sensitive\n   - Perfectionism/fear\n   - Social anxiety\n\n**Managing Emotions**:\n- **Sensory**: Quiet spaces, music, fidgets\n- **Movement**: Exercise, yoga, stretching\n- **Creativity**: Art, writing, music\n- **Routine**: Predictability\n- **Communication**: Clear talks\n- **Support**: Understanding people\n- **Validation**: Emotions real aur valid\n\n**Emotional Health Support**:\n- Autism-informed therapy\n- Skills training\n- Meditation practices\n- Safe people/places\n- Coping toolkit\n- Self-care activities\n- Professional support\n\nEmotions valid hain aur manageable proper support se."
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_empathy:
+    - text: "Understanding empathy in autism is important because autistic people often experience it differently:\n\n**Empathy in Autism**:\n- Autistic people ARE empathetic - they feel others' emotions strongly\n- Often struggle with cognitive empathy (understanding others' perspectives)\n- May experience empathy differently than neurotypical people\n- Can seem cold or uncaring due to communication differences, not lack of emotion\n- Often highly sensitive to others' distress\n- May need explicit teaching about social perspective-taking\n- Can develop strong emotional connections with people and animals\n\n**Types of Empathy**:\n1. **Emotional Empathy**:\n   - Feeling what others feel\n   - Often strong in autistic people\n   - Can lead to emotional overwhelm\n   - Sensitive to others' pain\n   - May need boundaries to protect emotional health\n\n2. **Cognitive Empathy**:\n   - Understanding others' perspectives\n   - Can be challenging for autistic people\n   - Requires explicit teaching\n   - Practice improves ability\n   - Isn't about caring, but understanding different viewpoints\n\n**Challenges with Empathy Expression**:\n- Difficulty recognizing distress cues\n- Struggling to know how to respond helpfully\n- Communicating support in ways others understand\n- Taking on others' emotions too strongly\n- Difficulty with \"reading the room\"\n- Missing unspoken emotional signals\n\n**Developing Empathy Skills**:\n- **Perspective-Taking**: Practice understanding different viewpoints\n- **Emotional Labeling**: Learn to identify others' emotions\n- **Response Planning**: Prepare helpful responses to common situations\n- **Communication Skills**: Express care and support clearly\n- **Boundary Setting**: Protect own emotional health\n- **Self-Care**: Manage secondary emotional stress\n\n**Supporting Empathy Development**:\n- Explicit teaching about emotions and perspectives\n- Social stories about responding to others' needs\n- Discussing different viewpoints respectfully\n- Recognizing and validating the empathy autistic people show\n- Providing models of empathetic responses\n- Therapy focused on perspective-taking\n\n**Recognizing Autistic Empathy**:\n- May show care through actions rather than words\n- Remembering details about important people\n- Showing loyalty and consistency\n- Making significant effort for people they care about\n- Intense concern for causes they believe in\n- Strong connection to animals and nature\n\nAutistic people are deeply empathetic; they may just express and understand it differently."
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "Understanding empathy in autism important hai kyunke autistic log differently experience karte:\n\n**Empathy in Autism**:\n- Autistic log empathetic HAIN - strongly feel karte\n- Cognitive empathy struggle karte\n- Differently experience\n- Cold lag sakte ho communication se, emotion se nahi\n- Highly sensitive dusre ke pain ko\n- Explicit teaching chahiye\n- Strong emotional connections ban sakte\n\n**Types of Empathy**:\n1. **Emotional Empathy**:\n   - Feel karte jo dusre feel karte\n   - Strong autistic log mein\n   - Emotional overwhelm\n   - Sensitive pain ko\n   - Boundaries protect karne ke liye\n\n2. **Cognitive Empathy**:\n   - Dusre ke perspective samjhna\n   - Challenging autistic ke liye\n   - Explicit teaching\n   - Practice improves\n   - Caring nahi, understanding\n\n**Challenges**:\n- Distress recognize karna\n- Help respond kaise\n- Support communicate\n- Others emotions lena\n- Room reading\n- Emotional signals\n\n**Developing Empathy**:\n- **Perspective-Taking**: Different viewpoints practice\n- **Emotional Labeling**: Emotions identify\n- **Response Planning**: Prepare responses\n- **Communication**: Support express\n- **Boundaries**: Emotional health protect\n- **Self-Care**: Manage stress\n\n**Support Development**:\n- Explicit teaching\n- Social stories\n- Viewpoints discuss\n- Empathy validate\n- Models provide\n- Therapy perspective-taking\n\n**Recognizing Autistic Empathy**:\n- Actions through care\n- Details remember\n- Loyalty aur consistency\n- Effort significant people ke liye\n- Intense concern\n- Animals/nature connection\n\nAutistic log deeply empathetic; bas differently express aur understand karte."
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_anxiety:
+    - text: "Anxiety is common in autistic individuals and can be effectively managed:\n\n**Anxiety in Autism**:\n- Autism and anxiety often co-occur\n- Can manifest differently than in neurotypical people\n- Often related to sensory sensitivities and uncertainty\n- Unpredictable situations trigger anxiety\n- Changes in routine cause significant stress\n- Fear of social judgment is common\n- Anxiety can lead to avoidance behaviors\n- Untreated anxiety significantly impacts quality of life\n\n**Common Anxiety Triggers**:\n- Sensory overload (sounds, lights, textures, crowds)\n- Unpredictable situations or changes\n- Social interactions and eye contact demands\n- Transitions between activities\n- New environments or people\n- Uncertainty about expectations\n- Performance pressure\n- Feeling misunderstood\n\n**Anxiety Symptoms**:\n- Physical: Rapid heartbeat, sweating, trembling, stomach upset\n- Mental: Racing thoughts, catastrophizing, difficulty concentrating\n- Behavioral: Avoidance, restlessness, stimming increases\n- Emotional: Irritability, fear, panic\n\n**Managing Anxiety**:\n1. **Environmental Modifications**:\n   - Reduce sensory triggers\n   - Maintain predictable routines\n   - Provide advance warnings about changes\n   - Create calm, safe spaces\n   - Control lighting and sound\n   - Allow breaks and downtime\n\n2. **Coping Strategies**:\n   - Deep breathing exercises\n   - Progressive muscle relaxation\n   - Grounding techniques\n   - Mindfulness and meditation\n   - Physical exercise\n   - Creative outlets\n   - Structured routines\n\n3. **Professional Support**:\n   - Therapy with anxiety expertise\n   - Cognitive behavioral therapy (CBT) adapted for autism\n   - Medication when appropriate\n   - Anxiety management skills training\n   - Exposure therapy carefully done\n\n**Prevention Strategies**:\n- Predictability and routine\n- Clear communication and expectations\n- Sensory accommodations\n- Social support and acceptance\n- Regular self-care\n- Adequate sleep and nutrition\n- Physical activity\n\n**When to Seek Help**:\n- Anxiety interferes with daily activities\n- Avoidance is limiting life opportunities\n- Physical anxiety symptoms are severe\n- Anxiety is worsening over time\n- Self-harm thoughts appear\n- Professional support is strongly recommended\n\nAnxiety is treatable, and many autistic people successfully manage it with the right support."
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "Anxiety autistic individuals mein common hai aur effectively manage kar sakte:\n\n**Anxiety in Autism**:\n- Autism aur anxiety aksar together\n- Differently manifest ho sakte\n- Sensory sensitivities aur uncertainty se\n- Unpredictable situations trigger\n- Changes stress cause\n- Social judgment fear\n- Avoidance behaviors\n- Quality of life impact\n\n**Anxiety Triggers**:\n- Sensory overload\n- Unpredictable situations\n- Social interactions\n- Transitions\n- New environments\n- Uncertainty\n- Performance pressure\n- Misunderstood feeling\n\n**Symptoms**:\n- Physical: Heart racing, sweating, stomach upset\n- Mental: Racing thoughts, catastrophizing\n- Behavioral: Avoidance, restlessness\n- Emotional: Irritability, fear, panic\n\n**Managing Anxiety**:\n1. **Environmental**:\n   - Sensory triggers reduce\n   - Routine maintain\n   - Changes warn\n   - Calm spaces\n   - Control lighting/sound\n   - Breaks allow\n\n2. **Coping**:\n   - Breathing exercises\n   - Muscle relaxation\n   - Grounding\n   - Meditation\n   - Exercise\n   - Creative outlets\n   - Routines\n\n3. **Professional Support**:\n   - Therapy with anxiety\n   - CBT adapted\n   - Medication when needed\n   - Skills training\n   - Exposure therapy\n\n**Prevention**:\n- Predictability\n- Clear communication\n- Sensory accommodations\n- Social support\n- Self-care\n- Sleep/nutrition\n- Exercise\n\n**Help Kab Leni**:\n- Daily activities affect\n- Avoidance limiting\n- Severe physical symptoms\n- Worsening anxiety\n- Self-harm thoughts\n- Professional support recommended\n\nAnxiety treatable, aur bohat se autistic log successfully manage karte right support se."
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_depression:
+    - text: "Depression can affect autistic individuals and requires professional support:\n\n**Depression in Autism**:\n- Autistic people experience depression at higher rates\n- May present differently than typical depression\n- Often related to chronic stress and social isolation\n- Unmet support needs contribute to depression\n- Sensory issues and anxiety can worsen depression\n- May be masked or not recognized\n- Suicidal thoughts require immediate professional help\n- Depression is treatable with proper support\n\n**Signs of Depression in Autistic People**:\n- Loss of interest in special interests\n- Social withdrawal even from supportive people\n- Changes in sleep patterns (too much or too little)\n- Loss of appetite or significant changes\n- Difficulty with daily activities and self-care\n- Persistent sadness or emptiness\n- Feelings of hopelessness\n- Increased irritability or anger\n- Difficulty concentrating\n- Physical complaints (headaches, body aches)\n- Self-harm or self-injurious behaviors\n\n**Contributing Factors**:\n- Chronic stress from masking/adaptation\n- Social rejection or bullying\n- Unmet support needs\n- Lack of community and connection\n- Uncertainty about the future\n- Discrimination and stigma\n- Difficult life circumstances\n- Medical comorbidities\n- Medication side effects\n\n**Depression Support and Treatment**:\n1. **Professional Help**:\n   - Therapy with autism-informed therapists\n   - Psychiatry for medication if needed\n   - Crisis support when thoughts of self-harm appear\n   - Regular monitoring and support\n\n2. **Lifestyle Changes**:\n   - Increase physical activity\n   - Maintain routine and structure\n   - Social connection (even brief)\n   - Sensory accommodations\n   - Sleep and nutrition support\n   - Reduce stressors where possible\n\n3. **Support Network**:\n   - Understanding family and friends\n   - Support groups for autistic people\n   - Online communities\n   - Peer support\n   - Professional counseling\n\n4. **Safety**:\n   - Suicide hotline: National Suicide Prevention Lifeline\n   - Emergency services if in acute crisis\n   - Trusted people to confide in\n   - Safety planning with professionals\n\n**When to Seek Help**:\n- Persistent sadness lasting weeks\n- Thoughts of self-harm or suicide\n- Inability to manage daily tasks\n- Significant changes in functioning\n- Depression worsening despite self-care\n- Any suicidal ideation (IMMEDIATE professional help needed)\n\nDepression is serious but treatable. Seeking professional help is essential."
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "Depression autistic individuals ko affect kar sakta aur professional support chahiye:\n\n**Depression in Autism**:\n- Autistic log higher rates mein depression experience karte\n- Differently present ho sakte\n- Chronic stress aur isolation se\n- Unmet support depression contribute karte\n- Sensory issues/anxiety worsen karte\n- Masked ho sakte\n- Suicidal thoughts immediate help chahiye\n- Treatable proper support se\n\n**Signs of Depression**:\n- Special interests interest loss\n- Social withdrawal\n- Sleep changes\n- Appetite loss\n- Daily activities difficulty\n- Persistent sadness\n- Hopelessness\n- Irritability/anger\n- Concentration difficulty\n- Physical complaints\n- Self-harm\n\n**Contributing Factors**:\n- Chronic stress masking\n- Social rejection\n- Unmet needs\n- Community lack\n- Future uncertainty\n- Discrimination\n- Difficult circumstances\n- Medical comorbidities\n\n**Depression Support**:\n1. **Professional Help**:\n   - Autism-informed therapy\n   - Psychiatry/medication\n   - Crisis support\n   - Regular monitoring\n\n2. **Lifestyle**:\n   - Physical activity\n   - Routine maintain\n   - Social connection\n   - Sensory accommodations\n   - Sleep/nutrition\n   - Stress reduce\n\n3. **Support Network**:\n   - Family/friends understanding\n   - Autistic support groups\n   - Online communities\n   - Peer support\n   - Counseling\n\n4. **Safety**:\n   - Suicide hotline\n   - Emergency services\n   - Trusted people\n   - Safety planning\n\n**Help Kab Leni**:\n- Sadness persistent weeks\n- Self-harm/suicide thoughts\n- Daily tasks manage nahi kar sakte\n- Significant functioning changes\n- Depression worsening\n- IMMEDIATE help SUICIDAL thoughts par\n\nDepression serious lekin treatable. Professional help essential."
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_self_harm:
+    - text: "Self-harm in autistic individuals requires understanding and professional support:\n\n**Understanding Self-Harm in Autism**:\n- Self-injurious behaviors (SIB) are more common in autistic individuals\n- May be a coping mechanism for overwhelming emotions or sensory input\n- Different from suicidal behavior (though both need professional help)\n- Can manifest as picking, hitting, scratching, head-banging, etc.\n- Often increases during stress, transitions, or sensory overload\n- May not cause pain due to sensory differences\n- Requires compassionate, non-punitive support\n- Underlying causes must be addressed\n\n**Why Autistic People Self-Harm**:\n1. **Emotional Regulation**:\n   - Overwhelmed by intense emotions\n   - Need release for emotional pressure\n   - Way to \"reset\" after meltdown\n   - Control when feeling out of control\n\n2. **Sensory Reasons**:\n   - Redirect overwhelming sensory input\n   - Create predictable sensory experience\n   - Stimulation through pain perception\n   - Escape from painful sensations\n\n3. **Communication**:\n   - Express distress when words fail\n   - Signal need for help\n   - Communicate pain or overwhelming needs\n   - Get attention or support\n\n4. **Coping**:\n   - Manage anxiety and stress\n   - Deal with sensory overload\n   - Handle transitions or changes\n   - Escape overwhelming situations\n\n**Addressing Self-Harm**:\n1. **Identify Triggers**:\n   - Sensory issues\n   - Emotional situations\n   - Times of day\n   - Transitions or changes\n   - Social stress\n   - Unmet needs\n\n2. **Alternative Strategies**:\n   - Safe sensory outlets (fidgets, ice, weighted items)\n   - Emotional regulation techniques\n   - Intense exercise\n   - Cold water on face\n   - Breathing exercises\n   - Creative expression\n   - Professional support for skills\n\n3. **Environmental Changes**:\n   - Reduce sensory triggers\n   - Provide predictability\n   - Allow escape/breaks\n   - Create safe spaces\n   - Modify expectations\n   - Increase support\n\n4. **Professional Support**:\n   - Therapy (behavioral, dialectical, trauma-informed)\n   - Psychiatry for medication if needed\n   - Sensory integration approaches\n   - Crisis planning and support\n   - School/work accommodations\n\n**CRITICAL: Suicidal Ideation**:\n- If self-harm includes suicidal thoughts: IMMEDIATE professional help\n- Call emergency services or suicide hotline\n- Tell a trusted adult immediately\n- This is NOT shameful; it's a medical crisis\n- Recovery is possible with proper support\n\n**Supporting Someone Who Self-Harms**:\n- Listen without judgment\n- Don't punish or shame\n- Help identify underlying causes\n- Provide alternatives and support\n- Professional help is essential\n- Recovery takes time\n- Celebrate small progress\n\nSelf-harm is a sign of distress, not defiance. Compassionate, professional support is crucial."
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "Self-harm autistic individuals mein understanding aur professional support chahiye:\n\n**Understanding Self-Harm**:\n- Self-injurious behaviors (SIB) autistic log mein common\n- Coping mechanism overwhelming emotions/sensory se\n- Suicidal behavior se different (dono help chahiye)\n- Picking, hitting, scratching, head-banging, etc.\n- Stress/transitions/overload mein increase\n- Pain nahi feel ho sakte sensory differences se\n- Compassionate, non-punitive support\n- Underlying causes address karna zaroori\n\n**Why Self-Harm**:\n1. **Emotional Regulation**:\n   - Intense emotions overwhelmed\n   - Emotional pressure release\n   - Reset meltdown ke baad\n   - Control when out of control\n\n2. **Sensory**:\n   - Overwhelming input redirect\n   - Predictable sensory\n   - Pain stimulation\n   - Escape painful sensations\n\n3. **Communication**:\n   - Distress express when words fail\n   - Help signal\n   - Pain communicate\n   - Attention/support get\n\n4. **Coping**:\n   - Anxiety/stress manage\n   - Sensory overload deal\n   - Transitions handle\n   - Situations escape\n\n**Addressing Self-Harm**:\n1. **Identify Triggers**:\n   - Sensory issues\n   - Emotional situations\n   - Times\n   - Transitions\n   - Social stress\n   - Unmet needs\n\n2. **Alternatives**:\n   - Safe sensory outlets\n   - Regulation techniques\n   - Exercise intense\n   - Cold water\n   - Breathing\n   - Creative expression\n   - Professional skills\n\n3. **Environmental**:\n   - Sensory triggers reduce\n   - Predictability provide\n   - Escape/breaks allow\n   - Safe spaces\n   - Expectations modify\n   - Support increase\n\n4. **Professional**:\n   - Therapy\n   - Psychiatry/medication\n   - Sensory approaches\n   - Crisis planning\n   - Accommodations\n\n**CRITICAL: Suicidal Ideation**:\n- Suicidal thoughts: IMMEDIATE help\n- Emergency services/hotline\n- Trusted adult batao\n- Shame nahi, medical crisis\n- Recovery possible\n\n**Supporting**:\n- Listen without judgment\n- Punish/shame mat karo\n- Causes identify\n- Alternatives provide\n- Professional help essential\n- Time lage recovery\n- Progress celebrate\n\nSelf-harm distress signal, defiance nahi. Compassionate professional support crucial."
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_autism_awareness_pakistan:
+    - text: "Autism awareness in Pakistan is growing, but there's still much work to be done:\n\n**Current State of Awareness in Pakistan**:\n- Limited public understanding of autism\n- Many families don't know signs of autism\n- Significant stigma and misconceptions\n- Diagnosis rates are increasing but still underdiagnosed\n- More research and public education needed\n- Media representation is improving slowly\n- Government awareness campaigns exist but need expansion\n\n**Common Misconceptions in Pakistan**:\n- Autism is caused by bad parenting\n- It's a curse or supernatural affliction\n- Vaccines cause autism (debunked globally)\n- Autism can be cured with prayer alone\n- Only children act like this; it's not a real disorder\n- Autism only affects boys\n- Autistic people cannot be educated\n- Autism is rare in Pakistan\n\n**Organizations Doing Awareness Work**:\n1. **Pakistan Autism Society**: Educational programs, awareness campaigns\n2. **Autism Society Karachi**: Community support and awareness\n3. **ACRO (Autism Consortium of Rehabilitation Organisations)**: Research and training\n4. **Centre for Down Syndrome & Associated Disabilities**: Educational programs\n5. **Special Education Department (Government)**: Limited but growing awareness\n\n**Spread Awareness About Autism**:\n- Talk to friends and family\n- Share information on social media\n- Support local organizations\n- Advocate for better diagnosis and services\n- Support inclusive education\n- Challenge misconceptions you hear\n- Celebrate autism acceptance\n- Encourage early screening\n\n**Why Awareness Matters**:\n- Early diagnosis leads to early intervention\n- Reduces stigma and discrimination\n- Increases access to services\n- Helps families get support\n- Improves quality of life\n- Leads to better inclusive policies\n- Saves families time and money\n\n**What Needs to Happen**:\n- More government funding for awareness\n- Training for teachers and healthcare providers\n- Media campaigns about acceptance\n- Inclusion of autism in school curricula\n- Mental health awareness linking to autism\n- Community education programs\n- Support for families\n\nEvery conversation about autism awareness helps reduce stigma and supports Pakistani families."
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "Autism awareness Pakistan mein growing hai, lekin bohat kaam baki hai:\n\n**Current State Pakistan Mein**:\n- Limited public understanding\n- Families ko signs nahi pata\n- Significant stigma\n- Diagnosis rates increase ho rahe\n- Research aur education zaroori\n- Media representation improve ho raha\n- Government campaigns hain lekin expand karna chahiye\n\n**Common Misconceptions**:\n- Bad parenting se autism\n- Curse ya supernatural\n- Vaccines se (galat)\n- Prayer se cure\n- Sirf children aise hote (real nahi)\n- Sirf boys mein\n- Education nahi de sakte\n- Rare hai Pakistan mein\n\n**Organizations**:\n1. **Pakistan Autism Society**: Education, awareness\n2. **Autism Society Karachi**: Community support\n3. **ACRO**: Research aur training\n4. **Centre for Down Syndrome**: Programs\n5. **Special Education Dept**: Government efforts\n\n**Awareness Spread Karo**:\n- Dost/family ko batao\n- Social media share karo\n- Local organizations support karo\n- Advocacy karo\n- Inclusive education support\n- Misconceptions challenge\n- Acceptance celebrate\n- Early screening encourage\n\n**Kyon Zaroori**:\n- Early diagnosis → early intervention\n- Stigma reduce\n- Services access\n- Family support\n- Quality of life better\n- Inclusive policies\n- Time/money save\n\n**Zaroorat**:\n- Government funding\n- Teachers/doctors training\n- Media campaigns\n- School curriculum mein\n- Mental health awareness\n- Community programs\n- Family support\n\nHar baat autism awareness ke baare mein stigma kam karti hai aur Pakistani families ko support deti hai."
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_resources_pakistan:
+    - text: "Pakistan has growing resources for autism support, though they vary by city:\n\n**Major Centers and Organizations**:\n1. **Karachi**:\n   - Autism Society Karachi (assessment, therapy, training)\n   - ACRO (Autism Consortium of Rehabilitation Organisations) - research and services\n   - Pakistan Centre for Autism (3 branches) - comprehensive services\n   - Psychological Services - private counseling\n\n2. **Lahore**:\n   - SAC (Special Assessment Centre) - diagnosis and therapy\n   - Rising Sun Institute - special education\n   - Punjab Institute of Mental Health - psychiatric services\n   - Umm-e-Aiman Trust - therapy programs\n\n3. **Islamabad**:\n   - Pakistan Institute of Medical Sciences (PIMS) - government healthcare\n   - Private clinics offering autism services\n   - Psychology departments at universities\n\n4. **Other Cities**:\n   - Government special education centers\n   - Private therapists and psychologists\n   - Community health centers\n\n**Free/Subsidized Services**:\n- Government schools offer special education\n- Government hospitals provide assessment (limited)\n- Some NGOs offer free screening camps\n- Zakat and charity programs for poor families\n- School-based services in public schools\n\n**Private Services** (fee-based):\n- Comprehensive assessments (Rs. 5000-20000)\n- Speech therapy (Rs. 500-2000 per session)\n- Occupational therapy (Rs. 500-2000 per session)\n- Psychological counseling (Rs. 1000-3000 per session)\n- Educational support (Rs. 2000-10000 per month)\n\n**Online Resources**:\n- Pakistan Autism Society website\n- WhatsApp groups for parents\n- Facebook groups for autism families\n- YouTube channels with autism information\n- Websites of major centers\n\n**How to Access**:\n1. Contact organizations directly (phone/WhatsApp)\n2. Get referral from pediatrician\n3. Join parent support groups\n4. Ask for financial assistance programs\n5. Look for scholarship opportunities\n\n**Finding Services**:\n- Ask your doctor for referrals\n- Connect with other families\n- Contact autism organizations\n- Search online for local providers\n- Check government health departments\n\nMany organizations have waiting lists, so register early. Most offer flexible payment options including scholarships."
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "Pakistan mein autism support ke resources grow kar rahe, lekin city se vary karte:\n\n**Major Centers**:\n1. **Karachi**:\n   - Autism Society Karachi - assessment, therapy\n   - ACRO - research aur services\n   - Pakistan Centre for Autism (3 branches) - comprehensive\n   - Private counseling available\n\n2. **Lahore**:\n   - SAC - diagnosis aur therapy\n   - Rising Sun - special education\n   - PIMS - psychiatric\n   - Umm-e-Aiman Trust - therapy\n\n3. **Islamabad**:\n   - PIMS - government healthcare\n   - Private clinics\n   - University psychology depts\n\n4. **Other Cities**:\n   - Government special education\n   - Private therapists\n   - Community health centers\n\n**Free/Subsidized**:\n- Government schools special education\n- Government hospitals assessment (limited)\n- NGO free screening camps\n- Zakat programs poor families ke\n- School-based services\n\n**Private Services** (fees):\n- Assessments (Rs. 5000-20000)\n- Speech therapy (Rs. 500-2000 per session)\n- Occupational therapy (Rs. 500-2000)\n- Counseling (Rs. 1000-3000)\n- Educational support (Rs. 2000-10000/month)\n\n**Online Resources**:\n- Organization websites\n- Parent WhatsApp groups\n- Facebook groups\n- YouTube channels\n- Center websites\n\n**Kaise Access**:\n1. Direct contact (phone/WhatsApp)\n2. Doctor se referral\n3. Parent groups join\n4. Financial assistance ask\n5. Scholarships look\n\n**Services Find**:\n- Doctor referral\n- Other families connect\n- Organizations contact\n- Online search\n- Government departments\n\nBohat organizations ke paas waiting list hote, to jaldi register karo. Flexible payment options aur scholarships available hain."
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_therapy_centers_pakistan:
+    - text: "Therapy centers in Pakistan offer various services for autistic individuals:\n\n**Types of Therapy Centers**:\n1. **Comprehensive Centers** (offer all services):\n   - Autism Society Karachi - assessment, speech, occupational, behavioral therapy\n   - ACRO Karachi - services and training\n   - Pakistan Centre for Autism - multiple therapies\n   - SAC Lahore - assessment and multiple therapies\n\n2. **Specialized Centers**:\n   - Speech therapy clinics\n   - Occupational therapy centers\n   - Psychological counseling centers\n   - Educational support centers\n   - Behavior modification centers\n\n**Services Available**:\n- **Speech Therapy**: Language development, communication skills\n- **Occupational Therapy**: Daily living skills, sensory integration\n- **Behavioral Therapy**: Behavior management, skill development\n- **Psychological Counseling**: Mental health, family support\n- **Educational Support**: Tutoring, academic skills\n- **Sensory Integration**: Sensory processing support\n- **Early Intervention**: For children under 5\n\n**Finding a Therapy Center**:\n1. Ask your doctor for referrals\n2. Contact major organizations\n3. Ask other parents in support groups\n4. Check online reviews and ratings\n5. Visit centers to assess quality\n\n**What to Expect**:\n- Initial assessment (1-2 sessions)\n- Customized therapy plan\n- Weekly or bi-weekly sessions\n- Progress monitoring\n- Regular feedback to parents\n- Collaboration with schools\n- Flexibility in timing\n\n**Costs**:\n- Assessment: Rs. 5,000-20,000\n- Individual therapy: Rs. 500-2,000 per session\n- Group therapy: Rs. 300-1,000 per session\n- Monthly packages available\n- Discounts for multiple sessions\n- Financial aid for low-income families\n\n**Tips for Choosing**:\n- Check therapist qualifications\n- Ask about experience with autism\n- Look at available services\n- Assess center environment\n- Read parent testimonials\n- Compare costs\n- Check accessibility\n\n**Getting Started**:\n1. Book initial assessment\n2. Discuss goals with therapist\n3. Get a customized plan\n4. Start with 1-2 sessions/week\n5. Monitor progress regularly\n6. Adjust plan as needed\n\nMany centers offer trial sessions. Start with assessment to understand your child's needs."
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "Therapy centers Pakistan mein various services deti hain autistic individuals ke liye:\n\n**Types of Centers**:\n1. **Comprehensive** (sab services):\n   - Autism Society Karachi - assessment, speech, OT, behavior\n   - ACRO - services aur training\n   - Pakistan Centre for Autism - multiple\n   - SAC Lahore - assessment aur therapies\n\n2. **Specialized**:\n   - Speech therapy clinics\n   - Occupational therapy\n   - Psychological counseling\n   - Educational support\n   - Behavior modification\n\n**Services**:\n- **Speech**: Language, communication\n- **Occupational**: Daily skills, sensory\n- **Behavioral**: Behavior, skill development\n- **Psychological**: Mental health, family\n- **Educational**: Tutoring, academics\n- **Sensory**: Sensory processing\n- **Early Intervention**: Children under 5\n\n**Center Find**:\n1. Doctor referral\n2. Organizations contact\n3. Parent groups\n4. Online reviews\n5. Centers visit\n\n**Expect Kya**:\n- Assessment (1-2 sessions)\n- Customized plan\n- Weekly/bi-weekly sessions\n- Progress tracking\n- Parent feedback\n- School collaboration\n- Flexible timing\n\n**Costs**:\n- Assessment: Rs. 5,000-20,000\n- Individual: Rs. 500-2,000/session\n- Group: Rs. 300-1,000/session\n- Packages available\n- Discounts multiple sessions\n- Poor families ke liye aid\n\n**Choosing Tips**:\n- Therapist qualifications\n- Autism experience\n- Available services\n- Center environment\n- Parent testimonials\n- Costs compare\n- Accessibility check\n\n**Starting**:\n1. Assessment book\n2. Therapist se goals discuss\n3. Customized plan get\n4. 1-2 sessions/week start\n5. Progress regularly monitor\n6. Plan adjust\n\nBohat centers trial sessions deti. Assessment se apne child ki needs samjho pehle."
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_government_support_pakistan:
+    - text: "Pakistan's government provides some support for autistic individuals, though it varies by province:\n\n**Government Services Available**:\n1. **Special Education**:\n   - Government schools with special education departments\n   - Free education for disabled children\n   - Resource rooms for support\n   - Special teachers trained in special education\n   - Available in most cities\n\n2. **Healthcare**:\n   - Free assessment at government hospitals (limited)\n   - Subsidized therapy in some centers\n   - Mental health services\n   - Often long waiting lists\n   - Quality varies by hospital\n\n3. **Financial Support**:\n   - Zakat (Islamic charity) funds\n   - Bait-ul-Mal programs\n   - Government scholarships for education\n   - Pension programs for disabled\n   - Income support for poor families\n\n4. **Disability Allowance**:\n   - Monthly stipend for people with disabilities\n   - Amount: Rs. 500-1,500/month (varies by province)\n   - Requirements: Registration, assessment, proof of disability\n   - Apply through: Local government or NADRA\n\n5. **Education Support**:\n   - Free schooling in government institutions\n   - Scholarships for higher education\n   - Vocational training programs\n   - Inclusive education initiatives\n   - Teacher training in special education\n\n**Provincial Variations**:\n- **Punjab**: Most developed services, Maryam Nawaz Autism Centre\n- **Sindh**: Growing services, Karachi organizations leading\n- **KP**: Limited but improving services\n- **Balochistan**: Very limited services\n\n**How to Access Government Support**:\n1. Get official diagnosis from government hospital\n2. Register child with local government\n3. Apply for disability allowance\n4. Enroll in government school\n5. Access school special education services\n6. Apply for scholarships\n7. Connect with Zakat committees\n\n**Disability Card**:\n- Provides official recognition of disability\n- Opens access to many government benefits\n- Required for disability allowance\n- Required for school accommodations\n- Helpful for transportation discounts\n- Useful for accessing government services\n\n**NGO-Government Partnerships**:\n- NGOs often supplement government services\n- Government funding for NGO programs\n- Collaborative training programs\n- Joint awareness campaigns\n- Combined services in some areas\n\n**Challenges**:\n- Limited funding overall\n- Long waiting lists\n- Unequal distribution across provinces\n- Quality inconsistency\n- Need for more awareness\n- Gaps in services\n\n**Advocacy for Better Support**:\n- Join parent advocacy groups\n- Participate in awareness campaigns\n- Contact elected representatives\n- Support organizations improving services\n- Demand better funding and services\n- Share your story\n\nWhile government support exists, many families also use private services and NGO support to ensure comprehensive care."
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "Pakistan government kuch support deta hai autistic individuals ke liye, lekin province se vary karti:\n\n**Government Services**:\n1. **Special Education**:\n   - Government schools mein special departments\n   - Free education disabled children ke liye\n   - Resource rooms\n   - Trained special teachers\n   - Most cities mein available\n\n2. **Healthcare**:\n   - Free assessment government hospitals mein (limited)\n   - Subsidized therapy\n   - Mental health services\n   - Long waiting lists aksar\n   - Quality vary karti\n\n3. **Financial Support**:\n   - Zakat funds\n   - Bait-ul-Mal programs\n   - Scholarships\n   - Pension programs\n   - Income support poor families\n\n4. **Disability Allowance**:\n   - Monthly stipend disabled people ke liye\n   - Amount: Rs. 500-1,500/month (province vary)\n   - Requirements: Registration, assessment\n   - Apply: Local govt ya NADRA\n\n5. **Education Support**:\n   - Free government schools\n   - Higher education scholarships\n   - Vocational training\n   - Inclusive education\n   - Teacher training\n\n**Provincial Variations**:\n- **Punjab**: Best services, Maryam Nawaz Centre\n- **Sindh**: Growing, Karachi leading\n- **KP**: Limited, improving\n- **Balochistan**: Very limited\n\n**Kaise Access Kare**:\n1. Government hospital diagnosis\n2. Local government mein register\n3. Disability allowance apply\n4. Government school enroll\n5. School special education\n6. Scholarships apply\n7. Zakat committees connect\n\n**Disability Card**:\n- Official disability recognition\n- Government benefits access\n- Allowance requirement\n- School accommodations\n- Transportation discounts\n- Services access\n\n**NGO-Government Partnership**:\n- NGOs supplement\n- Government funding NGOs\n- Training programs\n- Awareness campaigns\n- Combined services\n\n**Challenges**:\n- Limited funding\n- Long waiting lists\n- Unequal distribution\n- Quality inconsistent\n- More awareness zaroori\n- Services mein gaps\n\n**Advocacy**:\n- Parent groups join\n- Campaigns participate\n- Representatives contact\n- Organizations support\n- Better funding demand\n- Aapni story share\n\nGovernment support exist karti, lekin bohat families private aur NGO services bhi use karte comprehensive care ke liye."
+      condition:
+        - type: slot
+          name: language
+          value: roman_urdu
+
+  utter_ask_disability_card:
+    - text: "The disability card (disability certificate) is an important document in Pakistan:\n\n**What is a Disability Card?**\n- Official government-issued document\n- Certifies that a person has a disability\n- Also called disability certificate or PWD card\n- Valid for a specified period (usually 5 years)\n- Can be renewed when expired\n\n**Benefits of Having a Disability Card**:\n1. **Financial**:\n   - Access to disability allowance (Rs. 500-1,500/month)\n   - Tax benefits in some cases\n   - Zakat assistance\n   - Scholarship access\n\n2. **Educational**:\n   - School accommodations\n   - Special education access\n   - Inclusive education support\n   - Exam accommodations\n   - Scholarship benefits\n\n3. **Social**:\n   - Transportation discounts\n   - Utility bill exemptions\n   - Bank account benefits\n   - Government service priority\n   - Community support access\n\n4. **Healthcare**:\n   - Reduced medication costs\n   - Free/subsidized therapy\n   - Hospital discounts\n   - Mental health services\n\n**How to Get a Disability Card**:\n1. **Get Assessment**:\n   - Visit government hospital or authorized center\n   - Get formal diagnosis\n   - Undergo assessment by qualified professionals\n\n2. **Collect Documents**:\n   - Medical assessment report\n   - CNIC (national ID) copy\n   - Birth certificate\n   - School/educational certificates\n   - Photographs (4 passport-size)\n\n3. **Apply with Government**:\n   - Visit local government office or NADRA\n   - Submit forms and documents\n   - Pay small application fee (Rs. 100-500)\n   - Get receipt\n\n4. **Receive Card**:\n   - Card issued (usually within 2-4 weeks)\n   - Card valid for 5 years\n   - Must renew when expired\n\n**Where to Apply**:\n- Local government office (Union Council)\n- NADRA office\n- Government hospital (some provide service)\n- Special Education Department\n- Zakat committees (can help with process)\n\n**Required Documents**:\n- Medical assessment report\n- CNIC (parent's CNIC if child)\n- Birth certificate\n- Educational certificates\n- 2-4 passport photos\n- Previous disability card (if renewal)\n\n**Important Notes**:\n- Disability card is necessary for disability allowance\n- Required for school accommodations\n- Helpful for accessing government services\n- Must be renewed every 5 years\n- Card should be carried at official meetings\n- Can be used for transportation discounts\n\n**Tips**:\n- Apply early (before starting school)\n- Keep copies of card\n- Update information when needed\n- Use card for all applicable benefits\n- Renew on time to avoid gaps\n- Ask about all available benefits\n\n**Cost**:\n- Application: Rs. 100-500\n- Assessment (if needed): Rs. 1,000-5,000\n- Usually subsidized for poor families\n\nHaving a disability card opens access to many government benefits and services for your child."
+      condition:
+        - type: slot
+          name: language
+          value: english
+    - text: "Disability card (disability certificate) Pakistan mein important document hai:\n\n**Disability Card Kya Hai?**\n- Government-issued official document\n- Certifies person ke disability\n- PWD card bhi kehte\n- Valid specified period (usually 5 years)\n- Renewal possible when expire\n\n**Benefits**:\n1. **Financial**:\n   - Disability allowance access (Rs. 500-1,500/month)\n   - Tax benefits\n   - Zakat assistance\n   - Scholarship access\n\n2. **Educational**:\n   - School accommodations\n   - Special education\n   - Inclusive education\n   - Exam accommodations\n   - Scholarships\n\n3. **Social**:\n   - Transportation discounts\n   - Utility exemptions\n   - Bank benefits\n   - Government priority\n   - Community support\n\n4. **Healthcare**:\n   - Medicine costs reduce\n   - Free/subsidized therapy\n   - Hospital discounts\n   - Mental health services\n\n**Kaise Get Kare**:\n1. **Assessment**:\n   - Government hospital ya authorized center\n   - Formal diagnosis\n   - Professional assessment\n\n2. **Documents Collect**:\n   - Medical report\n   - CNIC copy\n   - Birth certificate\n   - School certificates\n   - Photos (4 passport-size)\n\n3. **Government Apply**:\n   - Local government office ya NADRA\n   - Forms submit\n   - Fee pay (Rs. 100-500)\n   - Receipt get\n\n4. **Card Receive**:\n   - Card issued (2-4 weeks)\n   - 5 years valid\n   - Renewal needed when expire\n\n**Kahan Apply**:\n- Local government (Union Council)\n- NADRA office\n- Government hospital (some)\n- Special Education Dept\n- Zakat committees (help kar sakte)\n\n**Documents Zaroori**:\n- Medical report\n- CNIC\n- Birth certificate\n- School certificates\n- Photos 2-4 passport size\n- Purana card (renewal ke liye)\n\n**Important**:\n- Disability allowance ke liye zaroori\n- School accommodations ke liye\n- Government services access\n- 5 years mein renew\n- Official meetings mein carry\n- Transportation discounts\n\n**Tips**:\n- Jaldi apply karo (school se pehle)\n- Card copies rakhoo\n- Information update\n- Sab benefits use karo\n- Time par renew\n- Sab benefits poocho\n\n**Cost**:\n- Application: Rs. 100-500\n- Assessment (zaroori ho): Rs. 1,000-5,000\n- Poor families ke liye subsidized\n\nDisability card se bohat government benefits aur services access ho jati hai apke child ke liye."
       condition:
         - type: slot
           name: language

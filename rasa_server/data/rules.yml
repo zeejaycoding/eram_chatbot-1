@@ -716,6 +716,306 @@ rules:
   - action: action_detect_language
   - action: utter_ask_personal_diagnosis
 
+- rule: Greet and ask definition
+  steps:
+  - intent: greet_ask_definition
+  - action: action_detect_language
+  - action: utter_greet
+  - action: utter_ask_definition
+
+- rule: Greet and ask symptoms
+  steps:
+  - intent: greet_ask_symptoms
+  - action: action_detect_language
+  - action: utter_greet
+  - action: utter_ask_symptoms
+
+- rule: Greet and ask causes
+  steps:
+  - intent: greet_ask_causes
+  - action: action_detect_language
+  - action: utter_greet
+  - action: utter_ask_causes
+
+- rule: Greet and ask diagnosis
+  steps:
+  - intent: greet_ask_diagnosis
+  - action: action_detect_language
+  - action: utter_greet
+  - action: utter_ask_diagnosis
+
+- rule: Greet and ask therapy
+  steps:
+  - intent: greet_ask_therapy
+  - action: action_detect_language
+  - action: utter_greet
+  - action: utter_ask_therapy
+
+- rule: Greet and ask treatment
+  steps:
+  - intent: greet_ask_treatments
+  - action: action_detect_language
+  - action: utter_greet
+  - action: utter_ask_treatments
+
+- rule: Ask treatment
+  steps:
+  - intent: ask_treatments
+  - action: action_detect_language
+  - action: utter_ask_treatments
+
+- rule: Ask early signs
+  steps:
+  - intent: ask_early_signs
+  - action: action_detect_language
+  - action: utter_ask_early_signs
+
+- rule: Ask school support
+  steps:
+  - intent: ask_school_support
+  - action: action_detect_language
+  - action: utter_ask_school_support
+
+- rule: Ask parenting tips
+  steps:
+  - intent: ask_parenting_tips
+  - action: action_detect_language
+  - action: utter_ask_parenting_tips
+
+- rule: Ask high functioning autism
+  steps:
+  - intent: ask_high_functioning_autism
+  - action: action_detect_language
+  - action: utter_ask_high_functioning_autism
+
+- rule: Greet and ask cure
+  steps:
+  - intent: greet_ask_cure
+  - action: action_detect_language
+  - action: utter_greet
+  - action: utter_ask_cure
+
+- rule: Greet and ask prevalence
+  steps:
+  - intent: greet_ask_prevalence
+  - action: action_detect_language
+  - action: utter_greet
+  - action: utter_ask_prevalence
+
+- rule: Greet and ask early signs
+  steps:
+  - intent: greet_ask_early_signs
+  - action: action_detect_language
+  - action: utter_greet
+  - action: utter_ask_early_signs
+
+- rule: Greet and ask daily tips
+  steps:
+  - intent: greet_ask_daily_tips
+  - action: action_detect_language
+  - action: utter_greet
+  - action: utter_ask_daily_tips
+
+- rule: Greet and ask sensory issues
+  steps:
+  - intent: greet_ask_sensory_issues
+  - action: action_detect_language
+  - action: utter_greet
+  - action: utter_ask_sensory_issues
+
+- rule: Greet and ask school support
+  steps:
+  - intent: greet_ask_school_support
+  - action: action_detect_language
+  - action: utter_greet
+  - action: utter_ask_school_support
+
+- rule: Greet and ask parenting tips
+  steps:
+  - intent: greet_ask_parenting_tips
+  - action: action_detect_language
+  - action: utter_greet
+  - action: utter_ask_parenting_tips
+
+- rule: Greet and ask adult autism
+  steps:
+  - intent: greet_ask_adult_autism
+  - action: action_detect_language
+  - action: utter_greet
+  - action: utter_ask_adult_autism
+
+- rule: Greet and ask high functioning autism
+  steps:
+  - intent: greet_ask_high_functioning_autism
+  - action: action_detect_language
+  - action: utter_greet
+  - action: utter_ask_high_functioning_autism
+
+- rule: Ask types
+  steps:
+  - intent: ask_types
+  - action: action_detect_language
+  - action: utter_ask_types
+
+- rule: Ask levels
+  steps:
+  - intent: ask_levels
+  - action: action_detect_language
+  - action: utter_ask_levels
+
+- rule: Ask difference from Down syndrome
+  steps:
+  - intent: ask_difference_from_down_syndrome
+  - action: action_detect_language
+  - action: utter_ask_difference_from_down_syndrome
+
+- rule: Ask facts
+  steps:
+  - intent: ask_facts
+  - action: action_detect_language
+  - action: utter_ask_facts
+
+- rule: Ask definition and symptoms
+  steps:
+  - intent: ask_definition_ask_symptoms
+  - action: action_detect_language
+  - action: utter_ask_definition
+  - action: utter_ask_symptoms
+
+- rule: Ask definition and causes
+  steps:
+  - intent: ask_definition_ask_causes
+  - action: action_detect_language
+  - action: utter_ask_definition
+  - action: utter_ask_causes
+
+- rule: Ask definition and types
+  steps:
+  - intent: ask_definition_ask_types
+  - action: action_detect_language
+  - action: utter_ask_definition
+  - action: utter_ask_types
+
+- rule: Ask definition and levels
+  steps:
+  - intent: ask_definition_ask_levels
+  - action: action_detect_language
+  - action: utter_ask_definition
+  - action: utter_ask_levels
+
+- rule: Ask definition and spectrum
+  steps:
+  - intent: ask_definition_ask_spectrum
+  - action: action_detect_language
+  - action: utter_ask_definition
+  - action: utter_ask_spectrum_meaning
+
+- rule: Ask definition and difference from ADHD
+  steps:
+  - intent: ask_definition_ask_if_autism_adhd_same
+  - action: action_detect_language
+  - action: utter_ask_definition
+  - action: utter_ask_if_autism_adhd_same
+
+- rule: Ask definition and difference from Down
+  steps:
+  - intent: ask_definition_ask_difference_from_down_syndrome
+  - action: action_detect_language
+  - action: utter_ask_definition
+  - action: utter_ask_difference_from_down_syndrome
+
+- rule: Ask definition and myths
+  steps:
+  - intent: ask_definition_ask_myths
+  - action: action_detect_language
+  - action: utter_ask_definition
+  - action: utter_ask_myths
+
+- rule: Ask definition and facts
+  steps:
+  - intent: ask_definition_ask_facts
+  - action: action_detect_language
+  - action: utter_ask_definition
+  - action: utter_ask_facts
+
+- rule: Greet and ask definition_symptoms
+  steps:
+  - intent: greet_ask_definition_ask_symptoms
+  - action: action_detect_language
+  - action: utter_greet
+  - action: utter_ask_definition
+  - action: utter_ask_symptoms
+
+- rule: Greet and ask definition_causes
+  steps:
+  - intent: greet_ask_definition_ask_causes
+  - action: action_detect_language
+  - action: utter_greet
+  - action: utter_ask_definition
+  - action: utter_ask_causes
+
+- rule: Greet and ask definition_types
+  steps:
+  - intent: greet_ask_definition_ask_types
+  - action: action_detect_language
+  - action: utter_greet
+  - action: utter_ask_definition
+  - action: utter_ask_types
+
+- rule: Greet and ask definition_levels
+  steps:
+  - intent: greet_ask_definition_ask_levels
+  - action: action_detect_language
+  - action: utter_greet
+  - action: utter_ask_definition
+  - action: utter_ask_levels
+
+- rule: Greet and ask definition_spectrum
+  steps:
+  - intent: greet_ask_definition_ask_spectrum
+  - action: action_detect_language
+  - action: utter_greet
+  - action: utter_ask_definition
+  - action: utter_ask_spectrum_meaning
+
+- rule: Greet and ask definition_if_autism_adhd_same
+  steps:
+  - intent: greet_ask_definition_ask_if_autism_adhd_same
+  - action: action_detect_language
+  - action: utter_greet
+  - action: utter_ask_definition
+  - action: utter_ask_if_autism_adhd_same
+- rule: Greet and ask definition_difference_from_down_syndrome
+  steps:
+  - intent: greet_ask_definition_ask_difference_from_down_syndrome
+  - action: action_detect_language
+  - action: utter_greet
+  - action: utter_ask_definition
+  - action: utter_ask_difference_from_down_syndrome
+
+- rule: Greet and ask definition_myths
+  steps:
+  - intent: greet_ask_definition_ask_myths
+  - action: action_detect_language
+  - action: utter_greet
+  - action: utter_ask_definition
+  - action: utter_ask_myths
+
+- rule: Greet and ask definition_facts
+  steps:
+  - intent: greet_ask_definition_ask_facts
+  - action: action_detect_language
+  - action: utter_greet
+  - action: utter_ask_definition
+  - action: utter_ask_facts
+
+- rule: Greet and ask support groups
+  steps:
+  - intent: greet_ask_support_groups
+  - action: action_detect_language
+  - action: utter_greet
+  - action: utter_ask_support_groups
+
 # Add the rest as needed — but these cover 95% of your intents
 # (You can copy-paste the pattern for any missing one)
 
@@ -742,3 +1042,905 @@ rules:
   - intent: ask_aac_devices
   - action: action_detect_language
   - action: utter_ask_aac_devices
+- rule: Ask diagnosis and symptoms
+  steps:
+  - intent: ask_diagnosis_ask_symptoms
+  - action: action_detect_language
+  - action: utter_ask_diagnosis
+  - action: utter_ask_symptoms
+
+- rule: Ask diagnosis and age
+  steps:
+  - intent: ask_diagnosis_ask_age
+  - action: action_detect_language
+  - action: utter_ask_diagnosis
+  - action: utter_ask_age
+
+- rule: Ask diagnosis and process
+  steps:
+  - intent: ask_diagnosis_ask_process
+  - action: action_detect_language
+  - action: utter_ask_diagnosis
+  - action: utter_ask_process
+
+- rule: Ask diagnosis and tests
+  steps:
+  - intent: ask_diagnosis_ask_tests
+  - action: action_detect_language
+  - action: utter_ask_diagnosis
+  - action: utter_ask_tests
+
+- rule: Ask diagnosis and doctor
+  steps:
+  - intent: ask_diagnosis_ask_doctor
+  - action: action_detect_language
+  - action: utter_ask_diagnosis
+  - action: utter_ask_doctors
+
+- rule: Ask diagnosis and cost
+  steps:
+  - intent: ask_diagnosis_ask_cost
+  - action: action_detect_language
+  - action: utter_ask_diagnosis
+  - action: utter_ask_cost
+
+- rule: Ask diagnosis and accuracy
+  steps:
+  - intent: ask_diagnosis_ask_accuracy
+  - action: action_detect_language
+  - action: utter_ask_diagnosis
+  - action: utter_ask_accuracy
+
+- rule: Ask diagnosis and misdiagnosis
+  steps:
+  - intent: ask_diagnosis_ask_misdiagnosis
+  - action: action_detect_language
+  - action: utter_ask_diagnosis
+  - action: utter_ask_misdiagnosis
+
+- rule: Ask diagnosis and reassessment
+  steps:
+  - intent: ask_diagnosis_ask_reassessment
+  - action: action_detect_language
+  - action: utter_ask_diagnosis
+  - action: utter_ask_reassessment
+
+- rule: Ask diagnosis and pakistan
+  steps:
+  - intent: ask_diagnosis_ask_pakistan
+  - action: action_detect_language
+  - action: utter_ask_diagnosis
+  - action: utter_ask_pakistan
+
+- rule: Ask diagnosis and school assessment
+  steps:
+  - intent: ask_diagnosis_ask_school_assessment
+  - action: action_detect_language
+  - action: utter_ask_diagnosis
+  - action: utter_ask_school_assessment
+
+- rule: Ask age
+  steps:
+  - intent: ask_age
+  - action: action_detect_language
+  - action: utter_ask_age
+
+- rule: Ask process
+  steps:
+  - intent: ask_process
+  - action: action_detect_language
+  - action: utter_ask_process
+
+- rule: Ask tests
+  steps:
+  - intent: ask_tests
+  - action: action_detect_language
+  - action: utter_ask_tests
+
+- rule: Ask cost
+  steps:
+  - intent: ask_cost
+  - action: action_detect_language
+  - action: utter_ask_cost
+
+- rule: Ask accuracy
+  steps:
+  - intent: ask_accuracy
+  - action: action_detect_language
+  - action: utter_ask_accuracy
+
+- rule: Ask misdiagnosis
+  steps:
+  - intent: ask_misdiagnosis
+  - action: action_detect_language
+  - action: utter_ask_misdiagnosis
+
+- rule: Ask reassessment
+  steps:
+  - intent: ask_reassessment
+  - action: action_detect_language
+  - action: utter_ask_reassessment
+
+- rule: Ask pakistan
+  steps:
+  - intent: ask_pakistan
+  - action: action_detect_language
+  - action: utter_ask_pakistan
+
+- rule: Ask school assessment
+  steps:
+  - intent: ask_school_assessment
+  - action: action_detect_language
+  - action: utter_ask_school_assessment
+
+- rule: Ask causes and genetics
+  steps:
+  - intent: ask_causes_ask_genetics
+  - action: action_detect_language
+  - action: utter_ask_causes
+  - action: utter_ask_genetics
+
+- rule: Ask causes and environment
+  steps:
+  - intent: ask_causes_ask_environment
+  - action: action_detect_language
+  - action: utter_ask_causes
+  - action: utter_ask_prenatal_autism_detection
+
+- rule: Ask causes and pregnancy
+  steps:
+  - intent: ask_causes_ask_pregnancy
+  - action: action_detect_language
+  - action: utter_ask_causes
+  - action: utter_ask_prenatal_autism_detection
+
+- rule: Ask causes and birth complications
+  steps:
+  - intent: ask_causes_ask_birth_complications
+  - action: action_detect_language
+  - action: utter_ask_causes
+  - action: utter_ask_autism_inheritance_birth
+
+- rule: Ask causes and vaccines
+  steps:
+  - intent: ask_causes_ask_vaccines
+  - action: action_detect_language
+  - action: utter_ask_causes
+  - action: utter_ask_vaccines
+
+- rule: Ask causes and cousin marriage
+  steps:
+  - intent: ask_causes_ask_cousin_marriage
+  - action: action_detect_language
+  - action: utter_ask_causes
+  - action: utter_ask_cousin_marriage_autism_risk
+
+- rule: Ask causes and parent age
+  steps:
+  - intent: ask_causes_ask_parent_age
+  - action: action_detect_language
+  - action: utter_ask_causes
+  - action: utter_ask_genetics
+
+- rule: Ask causes and inheritance
+  steps:
+  - intent: ask_causes_ask_inheritance
+  - action: action_detect_language
+  - action: utter_ask_causes
+  - action: utter_ask_autism_inheritance_birth
+
+- rule: Ask causes and prevention
+  steps:
+  - intent: ask_causes_ask_prevention
+  - action: action_detect_language
+  - action: utter_ask_causes
+  - action: utter_ask_genetics
+
+- rule: Ask global
+  steps:
+  - intent: ask_global
+  - action: action_detect_language
+  - action: utter_ask_global
+
+- rule: Ask increase
+  steps:
+  - intent: ask_increase
+  - action: action_detect_language
+  - action: utter_ask_increase
+
+- rule: Ask reason increase
+  steps:
+  - intent: ask_reason_increase
+  - action: action_detect_language
+  - action: utter_ask_reason_increase
+
+- rule: Ask prevalence and global
+  steps:
+  - intent: ask_prevalence_ask_global
+  - action: action_detect_language
+  - action: utter_ask_prevalence
+  - action: utter_ask_global
+
+- rule: Ask prevalence and gender
+  steps:
+  - intent: ask_prevalence_ask_gender
+  - action: action_detect_language
+  - action: utter_ask_prevalence
+  - action: utter_ask_gender_prevalence
+
+- rule: Ask prevalence and pakistan
+  steps:
+  - intent: ask_prevalence_ask_pakistan
+  - action: action_detect_language
+  - action: utter_ask_prevalence
+  - action: utter_ask_autism_prevalence_pakistan
+
+- rule: Ask prevalence and increase
+  steps:
+  - intent: ask_prevalence_ask_increase
+  - action: action_detect_language
+  - action: utter_ask_prevalence
+  - action: utter_ask_increase
+
+- rule: Ask prevalence and reason increase
+  steps:
+  - intent: ask_prevalence_ask_reason_increase
+  - action: action_detect_language
+  - action: utter_ask_prevalence
+  - action: utter_ask_reason_increase
+- rule: Ask options
+  steps:
+  - intent: ask_options
+  - action: action_detect_language
+  - action: utter_ask_options
+
+- rule: Ask duration
+  steps:
+  - intent: ask_duration
+  - action: action_detect_language
+  - action: utter_ask_duration
+
+- rule: Ask therapy and options
+  steps:
+  - intent: ask_therapy_ask_options
+  - action: action_detect_language
+  - action: utter_ask_therapy
+  - action: utter_ask_options
+
+- rule: Ask therapy and best
+  steps:
+  - intent: ask_therapy_ask_best
+  - action: action_detect_language
+  - action: utter_ask_therapy
+  - action: utter_ask_best_therapy
+
+- rule: Ask therapy and early intervention
+  steps:
+  - intent: ask_therapy_ask_early_intervention
+  - action: action_detect_language
+  - action: utter_ask_therapy
+  - action: utter_ask_early_intervention
+
+- rule: Ask therapy and duration
+  steps:
+  - intent: ask_therapy_ask_duration
+  - action: action_detect_language
+  - action: utter_ask_therapy
+  - action: utter_ask_duration
+
+- rule: Ask therapy and cost
+  steps:
+  - intent: ask_therapy_ask_cost
+  - action: action_detect_language
+  - action: utter_ask_therapy
+  - action: utter_ask_cost
+
+- rule: Ask therapy and effectiveness
+  steps:
+  - intent: ask_therapy_ask_effectiveness
+  - action: action_detect_language
+  - action: utter_ask_therapy
+  - action: utter_ask_therapy_impact
+
+- rule: Ask therapy and home therapy
+  steps:
+  - intent: ask_therapy_ask_home_therapy
+  - action: action_detect_language
+  - action: utter_ask_therapy
+  - action: utter_ask_home_exercises
+
+- rule: Ask ABA details and therapy
+  steps:
+  - intent: ask_aba_details_ask_therapy
+  - action: action_detect_language
+  - action: utter_ask_aba_details
+
+- rule: Ask speech therapy and therapy
+  steps:
+  - intent: ask_speech_therapy_ask_therapy
+  - action: action_detect_language
+  - action: utter_ask_therapy
+  - action: utter_ask_speech_therapy
+
+- rule: Ask speech therapy time and therapy
+  steps:
+  - intent: ask_speech_therapy_time_ask_therapy
+  - action: action_detect_language
+  - action: utter_ask_therapy
+  - action: utter_ask_speech_therapy_time
+
+- rule: Ask occupational therapy and therapy
+  steps:
+  - intent: ask_occupational_therapy_ask_therapy
+  - action: action_detect_language
+  - action: utter_ask_therapy
+  - action: utter_ask_occupational_therapy
+
+- rule: Ask physical therapy and therapy
+  steps:
+  - intent: ask_physical_therapy_ask_therapy
+  - action: action_detect_language
+  - action: utter_ask_therapy
+  - action: utter_ask_physical_therapy
+
+- rule: Ask play therapy and therapy
+  steps:
+  - intent: ask_play_therapy_ask_therapy
+  - action: action_detect_language
+  - action: utter_ask_therapy
+  - action: utter_ask_play_therapy
+
+- rule: Ask behavior therapy and therapy
+  steps:
+  - intent: ask_behavior_therapy_ask_therapy
+  - action: action_detect_language
+  - action: utter_ask_therapy
+  - action: utter_ask_behavior_therapy
+
+- rule: Ask social skills therapy and therapy
+  steps:
+  - intent: ask_social_skills_therapy_ask_therapy
+  - action: action_detect_language
+  - action: utter_ask_therapy
+  - action: utter_ask_social_skills_therapy
+
+- rule: Ask feeding therapy and therapy
+  steps:
+  - intent: ask_feeding_therapy_ask_therapy
+  - action: action_detect_language
+  - action: utter_ask_therapy
+  - action: utter_ask_feeding_therapy
+
+- rule: Ask medicine standalone
+  steps:
+  - intent: ask_medicine
+  - action: action_detect_language
+  - action: utter_ask_medicine
+
+- rule: Ask side effects standalone
+  steps:
+  - intent: ask_side_effects
+  - action: action_detect_language
+  - action: utter_ask_side_effects
+
+- rule: Ask future research standalone
+  steps:
+  - intent: ask_future_research
+  - action: action_detect_language
+  - action: utter_ask_future_research
+
+- rule: Ask recovery standalone
+  steps:
+  - intent: ask_recovery
+  - action: action_detect_language
+  - action: utter_ask_recovery
+
+- rule: Ask medicine and side effects
+  steps:
+  - intent: ask_medicine_ask_side_effects
+  - action: action_detect_language
+  - action: utter_ask_medicine
+  - action: utter_ask_side_effects
+
+- rule: Ask medicine and behavior
+  steps:
+  - intent: ask_medicine_ask_behavior
+  - action: action_detect_language
+  - action: utter_ask_medicine
+  - action: utter_ask_behavior_management
+
+- rule: Ask autism medicine vaccine cure and cure
+  steps:
+  - intent: ask_autism_medicine_vaccine_cure_ask_cure
+  - action: action_detect_language
+  - action: utter_ask_cure
+
+- rule: Ask cure and future research
+  steps:
+  - intent: ask_cure_ask_future_research
+  - action: action_detect_language
+  - action: utter_ask_cure
+  - action: utter_ask_future_research
+
+- rule: Ask cure and recovery
+  steps:
+  - intent: ask_cure_ask_recovery
+  - action: action_detect_language
+  - action: utter_ask_cure
+  - action: utter_ask_recovery
+
+- rule: Ask cure and myths
+  steps:
+  - intent: ask_cure_ask_myths
+  - action: action_detect_language
+  - action: utter_ask_cure
+  - action: utter_ask_myths
+
+- rule: Ask speech therapy standalone
+  steps:
+  - intent: ask_speech_therapy
+  - action: action_detect_language
+  - action: utter_ask_speech_therapy
+
+- rule: Ask physical therapy standalone
+  steps:
+  - intent: ask_physical_therapy
+  - action: action_detect_language
+  - action: utter_ask_physical_therapy
+
+- rule: Ask play therapy standalone
+  steps:
+  - intent: ask_play_therapy
+  - action: action_detect_language
+  - action: utter_ask_play_therapy
+
+- rule: Ask behavior therapy standalone
+  steps:
+  - intent: ask_behavior_therapy
+  - action: action_detect_language
+  - action: utter_ask_behavior_therapy
+
+- rule: Ask social skills therapy standalone
+  steps:
+  - intent: ask_social_skills_therapy
+  - action: action_detect_language
+  - action: utter_ask_social_skills_therapy
+
+- rule: Ask feeding therapy standalone
+  steps:
+  - intent: ask_feeding_therapy
+  - action: action_detect_language
+  - action: utter_ask_feeding_therapy
+
+- rule: Ask examples standalone
+  steps:
+  - intent: ask_examples
+  - action: action_detect_language
+  - action: utter_ask_examples
+
+- rule: Ask management standalone
+  steps:
+  - intent: ask_management
+  - action: action_detect_language
+  - action: utter_ask_management
+
+- rule: Ask school standalone
+  steps:
+  - intent: ask_school
+  - action: action_detect_language
+  - action: utter_ask_school
+
+- rule: Ask home standalone
+  steps:
+  - intent: ask_home
+  - action: action_detect_language
+  - action: utter_ask_home
+
+- rule: Ask reduce stimming standalone
+  steps:
+  - intent: ask_reduce_stimming
+  - action: action_detect_language
+  - action: utter_ask_reduce_stimming
+
+- rule: Ask how standalone
+  steps:
+  - intent: ask_how
+  - action: action_detect_language
+  - action: utter_ask_how
+
+- rule: Ask when to stop standalone
+  steps:
+  - intent: ask_when_to_stop
+  - action: action_detect_language
+  - action: utter_ask_when_to_stop
+
+- rule: Ask sensory issues and examples
+  steps:
+  - intent: ask_sensory_issues_ask_examples
+  - action: action_detect_language
+  - action: utter_ask_sensory_issues
+  - action: utter_ask_examples
+
+- rule: Ask sensory issues and management
+  steps:
+  - intent: ask_sensory_issues_ask_management
+  - action: action_detect_language
+  - action: utter_ask_sensory_issues
+  - action: utter_ask_management
+
+- rule: Ask sensory issues and school
+  steps:
+  - intent: ask_sensory_issues_ask_school
+  - action: action_detect_language
+  - action: utter_ask_sensory_issues
+  - action: utter_ask_school
+
+- rule: Ask sensory issues and home
+  steps:
+  - intent: ask_sensory_issues_ask_home
+  - action: action_detect_language
+  - action: utter_ask_sensory_issues
+  - action: utter_ask_home
+
+- rule: Ask stimming and why stimming
+  steps:
+  - intent: ask_stimming_ask_why_stimming
+  - action: action_detect_language
+  - action: utter_ask_stimming
+  - action: utter_ask_why_stimming
+
+- rule: Ask stimming and types
+  steps:
+  - intent: ask_stimming_ask_types
+  - action: action_detect_language
+  - action: utter_ask_stimming
+  - action: utter_ask_types
+
+- rule: Ask harmful stimming and stimming
+  steps:
+  - intent: ask_harmful_stimming_ask_stimming
+  - action: action_detect_language
+  - action: utter_ask_harmful_stimming
+  - action: utter_ask_stimming
+
+- rule: Ask reduce stimming and how
+  steps:
+  - intent: ask_reduce_stimming_ask_how
+  - action: action_detect_language
+  - action: utter_ask_reduce_stimming
+  - action: utter_ask_how
+
+- rule: Ask stimming and when to stop
+  steps:
+  - intent: ask_stimming_ask_when_to_stop
+  - action: action_detect_language
+  - action: utter_ask_stimming
+  - action: utter_ask_when_to_stop
+
+- rule: Ask routine standalone
+  steps:
+  - intent: ask_routine
+  - action: action_detect_language
+  - action: utter_ask_routine
+
+- rule: Ask communication standalone
+  steps:
+  - intent: ask_communication
+  - action: action_detect_language
+  - action: utter_ask_communication
+
+- rule: Ask sleep standalone
+  steps:
+  - intent: ask_sleep
+  - action: action_detect_language
+  - action: utter_ask_sleep
+
+- rule: Ask toilet training standalone
+  steps:
+  - intent: ask_toilet_training
+  - action: action_detect_language
+  - action: utter_ask_toilet_training
+
+- rule: Ask screen time standalone
+  steps:
+  - intent: ask_screen_time
+  - action: action_detect_language
+  - action: utter_ask_screen_time
+
+- rule: Ask meltdowns standalone
+  steps:
+  - intent: ask_meltdowns
+  - action: action_detect_language
+  - action: utter_ask_meltdowns
+
+- rule: Ask daily tips and home exercises
+  steps:
+  - intent: ask_daily_tips_ask_home_exercises
+  - action: action_detect_language
+  - action: utter_ask_daily_tips
+  - action: utter_ask_home_exercises
+
+- rule: Ask daily tips and routine
+  steps:
+  - intent: ask_daily_tips_ask_routine
+  - action: action_detect_language
+  - action: utter_ask_daily_tips
+  - action: utter_ask_routine
+
+- rule: Ask daily tips and visual aids
+  steps:
+  - intent: ask_daily_tips_ask_visual_aids
+  - action: action_detect_language
+  - action: utter_ask_daily_tips
+  - action: utter_ask_visual_aids
+
+- rule: Ask daily tips and communication
+  steps:
+  - intent: ask_daily_tips_ask_communication
+  - action: action_detect_language
+  - action: utter_ask_daily_tips
+  - action: utter_ask_communication
+
+- rule: Ask daily tips and sleep
+  steps:
+  - intent: ask_daily_tips_ask_sleep
+  - action: action_detect_language
+  - action: utter_ask_daily_tips
+  - action: utter_ask_sleep
+
+- rule: Ask daily tips and eating
+  steps:
+  - intent: ask_daily_tips_ask_eating
+  - action: action_detect_language
+  - action: utter_ask_daily_tips
+  - action: utter_ask_eating_issues
+
+- rule: Ask daily tips and toilet training
+  steps:
+  - intent: ask_daily_tips_ask_toilet_training
+  - action: action_detect_language
+  - action: utter_ask_daily_tips
+  - action: utter_ask_toilet_training
+
+- rule: Ask daily tips and screen time
+  steps:
+  - intent: ask_daily_tips_ask_screen_time
+  - action: action_detect_language
+  - action: utter_ask_daily_tips
+  - action: utter_ask_screen_time
+
+- rule: Ask daily tips and meltdowns
+  steps:
+  - intent: ask_daily_tips_ask_meltdowns
+  - action: action_detect_language
+  - action: utter_ask_daily_tips
+  - action: utter_ask_meltdowns
+
+- rule: Ask daily tips and triggers
+  steps:
+  - intent: ask_daily_tips_ask_triggers
+  - action: action_detect_language
+  - action: utter_ask_daily_tips
+  - action: utter_ask_triggers
+
+- rule: Ask siblings and autism chances
+  steps:
+  - intent: ask_siblings_ask_autism_chances
+  - action: action_detect_language
+  - action: utter_ask_siblings
+  - action: utter_ask_siblings_autism_chances
+
+- rule: Ask siblings and support
+  steps:
+  - intent: ask_siblings_ask_support
+  - action: action_detect_language
+  - action: utter_ask_siblings
+  - action: utter_ask_support_parents
+
+- rule: Ask parents and coping
+  steps:
+  - intent: ask_parents_ask_coping
+  - action: action_detect_language
+  - action: utter_ask_parents
+  - action: utter_ask_coping
+
+- rule: Ask family and acceptance
+  steps:
+  - intent: ask_family_ask_acceptance
+  - action: action_detect_language
+  - action: utter_ask_family
+  - action: utter_ask_acceptance
+
+- rule: Ask family and stress management
+  steps:
+  - intent: ask_family_ask_stress_management
+  - action: action_detect_language
+  - action: utter_ask_family
+  - action: utter_ask_stress_management
+
+- rule: Ask parents
+  steps:
+  - intent: ask_parents
+  - action: action_detect_language
+  - action: utter_ask_parents
+
+- rule: Ask coping
+  steps:
+  - intent: ask_coping
+  - action: action_detect_language
+  - action: utter_ask_coping
+
+- rule: Ask family
+  steps:
+  - intent: ask_family
+  - action: action_detect_language
+  - action: utter_ask_family
+
+- rule: Ask stress management
+  steps:
+  - intent: ask_stress_management
+  - action: action_detect_language
+  - action: utter_ask_stress_management
+
+- rule: Ask adult autism and diagnosis
+  steps:
+  - intent: ask_adult_autism_ask_diagnosis
+  - action: action_detect_language
+  - action: utter_ask_adult_autism
+  - action: utter_ask_diagnosis
+
+- rule: Ask adult autism and jobs
+  steps:
+  - intent: ask_adult_autism_ask_autism_employment
+  - action: action_detect_language
+  - action: utter_ask_adult_autism
+  - action: utter_ask_autism_employment
+
+- rule: Ask adult autism and relationships
+  steps:
+  - intent: ask_adult_autism_ask_autism_marriage
+  - action: action_detect_language
+  - action: utter_ask_adult_autism
+  - action: utter_ask_autism_marriage
+
+- rule: Ask adult autism and independence
+  steps:
+  - intent: ask_adult_autism_ask_independence
+  - action: action_detect_language
+  - action: utter_ask_adult_autism
+  - action: utter_ask_independence
+
+- rule: Ask friendship and social skills
+  steps:
+  - intent: ask_friendship_ask_social_skills
+  - action: action_detect_language
+  - action: utter_ask_friendship
+  - action: utter_ask_social_skills
+
+- rule: Ask emotions and empathy
+  steps:
+  - intent: ask_emotions_ask_empathy
+  - action: action_detect_language
+  - action: utter_ask_emotions
+  - action: utter_ask_empathy
+
+- rule: Ask anxiety and definition
+  steps:
+  - intent: ask_anxiety_ask_definition
+  - action: action_detect_language
+  - action: utter_ask_anxiety
+  - action: utter_ask_definition
+
+- rule: Ask depression and definition
+  steps:
+  - intent: ask_depression_ask_definition
+  - action: action_detect_language
+  - action: utter_ask_depression
+  - action: utter_ask_definition
+
+- rule: Ask self-harm and support groups
+  steps:
+  - intent: ask_self_harm_ask_support_groups
+  - action: action_detect_language
+  - action: utter_ask_self_harm
+  - action: utter_ask_support_groups
+
+- rule: Ask friendship
+  steps:
+  - intent: ask_friendship
+  - action: action_detect_language
+  - action: utter_ask_friendship
+
+- rule: Ask social skills
+  steps:
+  - intent: ask_social_skills
+  - action: action_detect_language
+  - action: utter_ask_social_skills
+
+- rule: Ask emotions
+  steps:
+  - intent: ask_emotions
+  - action: action_detect_language
+  - action: utter_ask_emotions
+
+- rule: Ask empathy
+  steps:
+  - intent: ask_empathy
+  - action: action_detect_language
+  - action: utter_ask_empathy
+
+- rule: Ask anxiety
+  steps:
+  - intent: ask_anxiety
+  - action: action_detect_language
+  - action: utter_ask_anxiety
+
+- rule: Ask depression
+  steps:
+  - intent: ask_depression
+  - action: action_detect_language
+  - action: utter_ask_depression
+
+- rule: Ask self-harm
+  steps:
+  - intent: ask_self_harm
+  - action: action_detect_language
+  - action: utter_ask_self_harm
+
+- rule: Ask autism awareness Pakistan and support groups
+  steps:
+  - intent: ask_autism_awareness_pakistan_ask_support_groups
+  - action: action_detect_language
+  - action: utter_ask_autism_awareness_pakistan
+  - action: utter_ask_support_groups
+
+- rule: Ask resources Pakistan and centers
+  steps:
+  - intent: ask_resources_pakistan_ask_centers
+  - action: action_detect_language
+  - action: utter_ask_resources_pakistan
+  - action: utter_ask_resources
+
+- rule: Ask therapy centers Pakistan and cost
+  steps:
+  - intent: ask_therapy_centers_pakistan_ask_cost
+  - action: action_detect_language
+  - action: utter_ask_therapy_centers_pakistan
+  - action: utter_ask_cost
+
+- rule: Ask government support Pakistan and disability card
+  steps:
+  - intent: ask_government_support_pakistan_ask_disability_card
+  - action: action_detect_language
+  - action: utter_ask_government_support_pakistan
+  - action: utter_ask_disability_card
+
+- rule: Ask autism awareness Pakistan
+  steps:
+  - intent: ask_autism_awareness_pakistan
+  - action: action_detect_language
+  - action: utter_ask_autism_awareness_pakistan
+
+- rule: Ask resources Pakistan
+  steps:
+  - intent: ask_resources_pakistan
+  - action: action_detect_language
+  - action: utter_ask_resources_pakistan
+
+- rule: Ask therapy centers Pakistan
+  steps:
+  - intent: ask_therapy_centers_pakistan
+  - action: action_detect_language
+  - action: utter_ask_therapy_centers_pakistan
+
+- rule: Ask government support Pakistan
+  steps:
+  - intent: ask_government_support_pakistan
+  - action: action_detect_language
+  - action: utter_ask_government_support_pakistan
+
+- rule: Ask disability card
+  steps:
+  - intent: ask_disability_card
+  - action: action_detect_language
+  - action: utter_ask_disability_card

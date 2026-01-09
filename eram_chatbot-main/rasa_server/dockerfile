@@ -8,11 +8,7 @@ COPY . .
 # Copy the pre-trained model as latest.tar.gz (overwriting if needed)
 COPY models/20251209-223435-ivory-ayu.tar.gz models/latest.tar.gz
 
-# Optimized for Render free tier: reduced memory footprint
-# Disable unused features for free tier constraints
-ENV PYTHONUNBUFFERED=1
-ENV RASA_LOG_LEVEL=WARNING
+EXPOSE 5005
 
 # Correct CMD: starts with "run" (the subcommand), not "rasa run"
-# Reduced resource allocation for free tier
 CMD ["run", "--model", "models/latest.tar.gz", "--enable-api", "--cors", "*", "--port", "5005"]
