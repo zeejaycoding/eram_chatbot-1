@@ -6,7 +6,8 @@ WORKDIR /app
 COPY . .
 
 # Copy the pre-trained model as latest.tar.gz (overwriting if needed)
-COPY models/20260110-021006-raw-mobile.tar.gz models/latest.tar.gz
+COPY models/20260110-010725-silver-bark.tar.gz models/latest.tar.gz
+
 # Optimized for Render free tier: reduced memory footprint
 # Disable unused features for free tier constraints
 ENV PYTHONUNBUFFERED=1

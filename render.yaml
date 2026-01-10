@@ -17,12 +17,22 @@ services:
       - key: RASA_TELEMETRY_ENABLED
         value: "false"
     
-    # Health check - Render's free tier needs reliable health check
-    healthCheckPath: /
+    healthCheckPath: /status
     healthCheckInterval: 30
+
+  - type: web
+    name: autism-chatbot-actions
+    env: docker
+    dockerfilePath: ./actions_server/dockerfile
+    port: 5055
+    memoryMB: 512
+    cpus: 0.5
+    plan: free
+    region: oregon
     
-    # Auto-deploy from Git (if using Git)
-    # autoDeploy: true
+    envVars:
+      - key: PYTHONUNBUFFERED
+        value: "1"
     
-    # Keep alive to prevent auto-sleep (limited on free tier)
-    preDeployCommand: "echo 'Building model for Render deployment...'"
+    healthCheckPath: /health
+    healthCheckInterval: 30
