@@ -11,8 +11,9 @@
 # https://rasa.com/docs/rasa/custom-actions
 
 action_endpoint:
-  url: "https://eram-chatbot.onrender.com/webhook"
-# Tracker store which is used to store the conversations.
+  url: "http://actions:5055/webhook"   
+  
+  # ← Internal name! Use 'actions' as service name# Tracker store which is used to store the conversations.
 # By default the conversations are stored in memory.
 # https://rasa.com/docs/rasa/tracker-stores
 
