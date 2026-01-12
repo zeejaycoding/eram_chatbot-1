@@ -1,0 +1,96 @@
+version: "3.1"
+
+stories:
+
+- story: Greeting and ask definition
+  steps:
+  - intent: greet
+  - action: action_detect_language
+  - action: utter_greet
+  - intent: ask_definition
+  - action: action_detect_language  # Handles switch if user changes language
+  - action: utter_ask_definition
+
+- story: Ask symptoms and follow up with affirm
+  steps:
+  - intent: ask_symptoms
+  - action: action_detect_language
+  - action: utter_ask_symptoms
+  - intent: affirm  # User confirms understanding
+  - action: action_detect_language
+  - action: utter_affirm
+  - intent: ask_therapy  # Follow-up to symptoms
+  - action: action_detect_language
+  - action: utter_ask_therapy
+
+- story: Ask therapy and deny follow-up
+  steps:
+  - intent: ask_therapy
+  - action: action_detect_language
+  - action: utter_ask_therapy
+  - intent: deny  # User denies needing more details
+  - action: action_detect_language
+  - action: utter_deny
+  - intent: thanks
+  - action: action_detect_language
+  - action: utter_thanks
+
+- story: Ask stimming and why stimming follow-up
+  steps:
+  - intent: ask_stimming
+  - action: action_detect_language
+  - action: utter_ask_stimming
+  - intent: ask_why_stimming
+  - action: action_detect_language
+  - action: utter_ask_why_stimming
+
+- story: Ask daily tips and affirm
+  steps:
+  - intent: ask_daily_tips
+  - action: action_detect_language
+  - action: utter_ask_daily_tips
+  - intent: affirm
+  - action: action_detect_language
+  - action: utter_affirm
+
+- story: Language switch mid-conversation
+  steps:
+  - intent: greet  # English start
+  - action: action_detect_language  # Sets to english
+  - action: utter_greet  # English response
+  - intent: ask_symptoms  # User switches to Roman Urdu input
+  - action: action_detect_language  # Detects and sets to roman_urdu
+  - action: utter_ask_symptoms  # Roman Urdu response
+  - intent: thanks  # Back to English
+  - action: action_detect_language  # Switches back
+  - action: utter_thanks
+
+- story: Fallback and recover
+  steps:
+  - intent: nlu_fallback
+  - action: action_detect_language
+  - action: utter_nlu_fallback
+  - intent: ask_definition  # User recovers with valid intent
+  - action: action_detect_language
+  - action: utter_ask_definition
+
+- story: Therapy sequence 
+  steps:
+  - intent: ask_therapy
+  - action: action_detect_language
+  - action: utter_ask_therapy
+  - intent: ask_aba_details  # Assuming follow-up intent from domain
+  - action: action_detect_language
+  - action: utter_ask_aba_details  # Add to domain if needed
+
+- story: Causes and genetics follow-up
+  steps:
+  - intent: ask_causes
+  - action: action_detect_language
+  - action: utter_ask_causes
+  - intent: ask_genetics
+  - action: action_detect_language
+  - action: utter_ask_genetics
+  - intent: goodbye
+  - action: action_detect_language
+  - action: utter_goodbye

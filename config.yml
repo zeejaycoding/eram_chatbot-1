@@ -1,0 +1,26 @@
+recipe: default.v1
+
+language: en
+
+# Optimized lightweight config for Render free tier (512MB)
+# Balanced between accuracy and memory footprint
+pipeline:
+  - name: WhitespaceTokenizer
+  - name: RegexFeaturizer
+  - name: CountVectorsFeaturizer
+    max_features: 1500
+  - name: CountVectorsFeaturizer
+    analyzer: char_wb
+    min_ngram: 1
+    max_ngram: 3
+  - name: DIETClassifier
+    epochs: 50
+  - name: EntitySynonymMapper
+  - name: FallbackClassifier
+    threshold: 0.3
+    ambiguity_threshold: 0.15
+
+policies:
+  - name: MemoizationPolicy
+  - name: RulePolicy
+
