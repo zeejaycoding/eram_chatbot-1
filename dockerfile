@@ -9,12 +9,9 @@ COPY . /app
 # Install any extra Python deps for actions FIRST
 RUN pip install --no-cache-dir -r actions_server/actions/requirements.txt || true
 
-# Ensure models directory exists
+# Ensure models directory exists and copy model tar.gz
 RUN mkdir -p models
-
-# Copy and extract the pre-trained model
-COPY rasa_server/models/20260110-010725-silver-bark.tar.gz /tmp/model.tar.gz
-RUN cd /tmp && tar -xzf model.tar.gz -C /app/models && rm model.tar.gz
+COPY rasa_server/models/20260110-010725-silver-bark.tar.gz models/
 
 # Switch user back to non-root for security
 USER 1001
@@ -22,8 +19,8 @@ USER 1001
 # Expose ports
 EXPOSE 8080 5055
 
-# Run BOTH servers
+# Run BOTH servers - Rasa can load from tar.gz directly
 CMD ["sh", "-c", "\
   rasa run actions --actions actions_server.actions --port 5055 & \
-  rasa run --model models --enable-api --cors '*' --port 8080 \
+  rasa run --model models/20260110-010725-silver-bark.tar.gz --enable-api --cors '*' --port 8080 \
 "]
