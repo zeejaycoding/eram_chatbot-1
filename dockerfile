@@ -6,9 +6,9 @@ WORKDIR /app
 # Copy ALL project files
 COPY . /app
 
-# Copy your pre-trained model
+# Copy your pre-trained model from rasa_server
 RUN mkdir -p models
-COPY models/20260110-010725-silver-bark.tar.gz models/latest.tar.gz
+COPY rasa_server/models/20260110-010725-silver-bark.tar.gz models/latest.tar.gz
 
 # Install any extra Python deps for actions
 RUN pip install --no-cache-dir -r actions/requirements.txt || true
