@@ -8,13 +8,13 @@ pipeline:
   - name: WhitespaceTokenizer
   - name: RegexFeaturizer
   - name: CountVectorsFeaturizer
-    max_features: 1500
+    max_features: 500
   - name: CountVectorsFeaturizer
     analyzer: char_wb
     min_ngram: 1
     max_ngram: 3
   - name: DIETClassifier
-    epochs: 50
+    epochs: 45
   - name: EntitySynonymMapper
   - name: FallbackClassifier
     threshold: 0.3

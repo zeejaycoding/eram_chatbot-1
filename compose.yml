@@ -1,0 +1,6 @@
+services:
+  rasa-bot:
+    build: .   # Points to your Dockerfile in root
+    ports:
+      - "8080:8080"   # Your core port (actions internal on 5055)
+    restart: always
