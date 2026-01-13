@@ -1,0 +1,28 @@
+# .dockerignore - Exclude unnecessary files from build context
+
+# Rasa caches (biggest culprit - training temp files)
+.rasa/
+rasa_server/.rasa/
+.rasa/cache/
+rasa_server/models/*.tar.gz  # Optional: exclude model if you COPY it in Dockerfile (but keep if needed)
+
+# General ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+.git
+.gitignore
+*.log
+*.tmp
+node_modules/
+dist/
+build/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
